@@ -1,29 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
 import HeroImage from "../../assets/images/dr-zainab-vora.png";
 
 function Header() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    pauseOnHover: false,
-  };
+  const textList = [
+    "Motivational Speaker",
+    "Bestselling Author of Medical PG Books",
+    "Medical Teacher",
+    "BTR Founder",
+  ];
 
-  const [text] = useTypewriter({
-    words: [
-      "Motivational Speaker",
-      "Bestselling Author of Medical PG Books",
-      "Medical Teacher",
-      "BTR Founder",
-    ],
-    loop: {},
-  });
+  const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false);
+
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % textList.length);
+        setFade(true);
+      }, 1500);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentText = textList[index];
 
   return (
     <div className="header-container">
@@ -51,14 +54,16 @@ function Header() {
               refined her expertise as a Senior Resident in Radiodiagnosis at
               AIIMS.
             </p>
-            <h5 className="header-typeWriter">
-              {text}
-              <Cursor />
+
+            <h5 className={`header-rotator ${fade ? "fade-in" : "fade-out"}`}>
+              {currentText}
             </h5>
+
             <button>Know More</button>
           </div>
+
           <div className="header-image">
-            <img src={HeroImage} alt="" />
+            <img src={HeroImage} alt="Dr. Zainab Vora" />
           </div>
         </div>
       </div>
