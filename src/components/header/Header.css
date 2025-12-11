@@ -26,6 +26,7 @@
 .upper-header h1 {
   font-size: 28px;
   line-height: 36px;
+  margin-bottom: 2rem;
 }
 
 .lower-header {
@@ -50,11 +51,11 @@
 .header-content h3 {
   font-size: 22px;
   color: #006eff;
+  margin-bottom: 1rem;
 }
 
 .header-content h1 {
   font-size: 48px;
-  margin: -1rem 0 -1.5rem 0;
 }
 
 .header-content h2 {
@@ -64,12 +65,13 @@
 .header-content p {
   font-size: 20px;
   line-height: 28px;
+  margin: 1.5rem 0;
 }
 
 .header-typeWriter {
   font-size: 24px;
   color: #006eff;
-  margin: 0 0 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .header-image {
