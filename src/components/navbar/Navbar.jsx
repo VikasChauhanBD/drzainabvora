@@ -79,7 +79,7 @@ function Navbar() {
                     <div className="card-image cr-bg">
                       <span className="card-badge">CR</span>
                     </div>
-                    <h3>Clinical Radiology</h3>
+                    <h3>Conceptual Radiology</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
