@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import IntroVideo from "./components/introVideo/IntroVideo";
+import StudentsPage from "./pages/StudentsPage";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
@@ -33,6 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUsPage />} />
+            <Route path="/students" element={<StudentsPage />} />
           </Routes>
         </BrowserRouter>
       )}
