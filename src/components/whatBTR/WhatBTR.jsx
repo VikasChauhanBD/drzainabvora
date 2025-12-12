@@ -47,10 +47,10 @@
 import React, { useEffect, useRef } from "react";
 import "./WhatBTR.css";
 import { BiBrain } from "react-icons/bi";
-import { BrainIcon } from "lucide-react";
+import { BiBoltCircle } from "react-icons/bi";
+import { BiBook } from "react-icons/bi";
+import { BiTrophy } from "react-icons/bi";
 import { Zap } from "lucide-react";
-import { BookAIcon } from "lucide-react";
-import { TrophyIcon } from "lucide-react";
 
 function WhatBTR() {
   const sectionRef = useRef(null);
@@ -101,25 +101,25 @@ function WhatBTR() {
   const coreData = [
     {
       id: 1,
-      icon: BrainIcon,
+      icon: BiBrain,
       title: "Memory Techniques",
       desp: "Proven mnemonics and memory strategies that make retention effortless",
     },
     {
       id: 2,
-      icon: Zap,
+      icon: BiBoltCircle,
       title: "Squick Revision",
       desp: "Streamlined content designed for effective last-minute preparation",
     },
     {
       id: 3,
-      icon: BookAIcon,
+      icon: BiBook,
       title: "Comprehensive Coverage",
       desp: "All 19 subjects covered with exam-focused precision",
     },
     {
       id: 4,
-      icon: TrophyIcon,
+      icon: BiTrophy,
       title: "Exam-Oriented",
       desp: "Content aligned with NEET PG and INICET patterns",
     },

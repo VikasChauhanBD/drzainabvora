@@ -1,6 +1,6 @@
 .subjects-container {
   width: 100%;
-  height: 80vh;
+  padding: 5rem 0;
   background-image: url("../../assets/images/subjects.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -62,4 +62,55 @@
 .subjects-btn:hover {
   color: #ffffff;
   background-color: #e35336;
+}
+
+/* -------------------------- Responsive Style -------------------------- */
+
+@media (max-width: 1440px) {
+  .subjects-card {
+    width: 85%;
+    padding: 2rem;
+  }
+
+  .subjects-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .subjects-card {
+    width: 95%;
+  }
+
+  .subjects-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .subjects-container {
+    padding: 2.5rem 0;
+  }
+
+  .subjects-card {
+    padding: 2rem 1rem;
+  }
+
+  .subjects-card h1 {
+    font-size: 40px;
+  }
+
+  .subjects-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .subjects-card h1 {
+    font-size: 32px;
+  }
+
+  .subjects-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

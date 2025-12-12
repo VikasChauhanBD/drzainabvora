@@ -5,31 +5,6 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import HeroImage from "../../assets/images/dr-zainab-vora.png";
 
 function Header() {
-  // const textList = [
-  //   "Motivational Speaker",
-  //   "Bestselling Author of Medical PG Books",
-  //   "Medical Teacher",
-  //   "BTR Founder",
-  // ];
-
-  // const [index, setIndex] = useState(0);
-  // const [fade, setFade] = useState(true);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setFade(false);
-
-  //     setTimeout(() => {
-  //       setIndex((prev) => (prev + 1) % textList.length);
-  //       setFade(true);
-  //     }, 1500);
-  //   }, 5000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  // const currentText = textList[index];
-
   const settings = {
     dots: true,
     infinite: true,

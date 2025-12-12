@@ -111,7 +111,7 @@
 }
 
 .what-btr-icon {
-  font-size: 80px;
+  font-size: 50px;
   color: #27187e;
   transition: color 0.3s ease;
 }
@@ -172,17 +172,31 @@
 
 /* ----------------------- Responsive --------------- */
 @media (max-width: 1440px) {
+  .what-btr-header {
+    width: 80%;
+  }
+
   .what-btr-cards {
     width: 85%;
   }
 }
 
 @media (max-width: 1024px) {
+  .what-btr-header {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .what-btr-header h1 {
+    font-size: 40px;
+  }
+
   .what-btr-cards {
-    width: 90%;
+    width: 95%;
   }
 
   .what-btr-card {
+    margin-top: 1rem;
     padding: 2rem 1rem;
   }
 
@@ -195,12 +209,8 @@
   }
 }
 
-@media (max-width: 768px) {
-  .what-btr-header {
-    width: 95%;
-  }
+@media (max-width: 800px) {
   .what-btr-cards {
-    width: 95%;
     flex-wrap: wrap;
   }
 
@@ -220,12 +230,8 @@
 }
 
 @media (max-width: 500px) {
-  .what-btr-header h4 {
-    font-size: 1.5rem;
-  }
-
   .what-btr-header h1 {
-    font-size: 2rem;
+    font-size: 36px;
   }
 
   .what-btr-card {

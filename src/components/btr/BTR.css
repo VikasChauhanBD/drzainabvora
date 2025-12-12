@@ -1,6 +1,6 @@
 .btr-container {
   width: 100%;
-  height: 100vh;
+  padding: 5rem 0;
   align-content: center;
 }
 
@@ -37,4 +37,51 @@
   font-size: 20px;
   line-height: 28px;
   margin: 1.5rem 0;
+}
+
+/* -------------------------- Responsive Style -------------------------- */
+
+@media (max-width: 1440px) {
+  .btr-cards {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btr-cards {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .btr-container {
+    padding: 2.5rem 0;
+  }
+
+  .btr-heading {
+    font-size: 40px;
+  }
+
+  .btr-cards {
+    flex-wrap: wrap;
+  }
+
+  .btr-image {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .btr-content {
+    width: 100%;
+  }
+
+  .btr-content p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .btr-heading {
+    font-size: 32px;
+  }
 }

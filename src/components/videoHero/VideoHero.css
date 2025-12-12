@@ -46,7 +46,7 @@
 }
 
 .hero-title {
-  font-size: clamp(3rem, 8vw, 6rem);
+  font-size: 5rem;
   font-weight: 400;
   color: white;
   line-height: 1.2;
@@ -73,19 +73,21 @@
   z-index: -1;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* ------------------------ Responsive Style ------------------- */
+@media (max-width: 1024px) {
   .hero-title {
-    font-size: clamp(2rem, 10vw, 3.5rem);
-  }
-
-  .hero-content {
-    padding: 0 1rem;
+    font-size: 4.5rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .hero-title {
-    font-size: clamp(1.8rem, 10vw, 2.5rem);
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-title {
+    font-size: 2.5rem;
   }
 }

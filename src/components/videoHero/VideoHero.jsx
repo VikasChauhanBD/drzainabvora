@@ -17,10 +17,8 @@ function VideoHero() {
 
       <div className="hero-content">
         <h1 className="hero-title">
-          Simplifying the journey so every story has a
-          <br />
-          chance to become extraordinary.
-          {/* <span className="highlight">Love</span> */}
+          Simplifying the Journey so Every Story has a Chance to Become
+          Extraordinary.
         </h1>
       </div>
     </section>
