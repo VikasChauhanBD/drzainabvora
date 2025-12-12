@@ -12,3 +12,7 @@
   height: 100vh;
   object-fit: cover;
 }
+
+.intro-video {
+  object-fit: contain;
+}
