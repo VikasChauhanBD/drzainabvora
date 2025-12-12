@@ -15,8 +15,8 @@ function HomePage() {
       <BTR />
       <WhatBTR />
       <Subjects />
-      <TopDestinations />
-      <Adventures />
+      {/* <TopDestinations /> */}
+      {/* <Adventures /> */}
     </>
   );
 }

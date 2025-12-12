@@ -13,6 +13,10 @@
   object-fit: cover;
 }
 
-.intro-video {
-  object-fit: contain;
+/* -------------------------- Responsive Style -------------------------- */
+
+@media (max-width: 500px) {
+  .intro-video {
+    object-fit: contain;
+  }
 }
