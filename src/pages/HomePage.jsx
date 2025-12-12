@@ -6,6 +6,7 @@ import Subjects from "../components/subjects/Subjects";
 import TopDestinations from "../components/topDestinations/TopDestinations";
 import Adventures from "../components/adventures/Adventures";
 import WhatBTR from "../components/whatBTR/WhatBTR";
+import Schedule from "../components/schedule/Schedule";
 
 function HomePage() {
   return (
@@ -15,8 +16,9 @@ function HomePage() {
       <BTR />
       <WhatBTR />
       <Subjects />
-      {/* <TopDestinations /> */}
       {/* <Adventures /> */}
+      <Schedule />
+      {/* <TopDestinations /> */}
     </>
   );
 }
