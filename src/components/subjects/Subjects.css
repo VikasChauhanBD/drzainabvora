@@ -1,0 +1,33 @@
+.subjects-container {
+  width: 100%;
+  height: 120vh;
+  background-image: url("../../assets/images/subjects.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subjects-image-1,
+.subjects-image-2 {
+  width: 100%;
+}
+
+.subjects-image-1 img {
+  width: 100%;
+}
+
+.subjects-image-2 img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.subjects-card {
+  width: 80%;
+  height: 100%;
+  margin: 2rem auto;
+  border: 10px solid #ffffff;
+}

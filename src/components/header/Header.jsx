@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 import HeroImage from "../../assets/images/dr-zainab-vora.png";
 
 function Header() {
@@ -36,7 +37,7 @@ function Header() {
           medical students across India, guiding them in Radiology for FMGE,
           NEET PG, INICET, and MBBS training.
         </h1>
-        <button>Click Here</button>
+        <NavLink>Click Here</NavLink>
       </div>
 
       <div className="lower-header">
@@ -59,7 +60,7 @@ function Header() {
               {currentText}
             </h5>
 
-            <button>Know More</button>
+            <NavLink to="/about">Know More</NavLink>
           </div>
 
           <div className="header-image">

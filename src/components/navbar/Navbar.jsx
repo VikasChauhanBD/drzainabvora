@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/images/ZV-logo.jpeg";
+import Logo from "../../assets/images/ZV-logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDown } from "react-icons/io";
 

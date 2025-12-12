@@ -1,0 +1,40 @@
+.btr-container {
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+}
+
+.btr-heading {
+  font-size: 48px;
+  text-align: center;
+}
+
+.btr-cards {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btr-image {
+  width: 48%;
+}
+
+.btr-image img {
+  width: 100%;
+}
+
+.btr-content {
+  width: 48%;
+  align-content: center;
+}
+
+.btr-content h2 {
+  font-size: 24px;
+}
+
+.btr-content p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 1.5rem 0;
+}
