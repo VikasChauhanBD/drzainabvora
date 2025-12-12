@@ -90,6 +90,7 @@
 
 .header-rotator {
   font-size: 24px;
+  color: #00dada;
   /* color: #006eff; */
   margin-bottom: 2rem;
   transition: opacity 1s ease-in-out, transform 1s ease; /* slow animation */

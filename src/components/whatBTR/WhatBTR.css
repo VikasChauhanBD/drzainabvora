@@ -1,0 +1,45 @@
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-question {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-question span {
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.star-icon {
+  font-size: 2rem;
+  color: #800020;
+  margin: 0 2rem;
+}
+
+.marquee-answer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0 4rem 0;
+}
+
+.marquee-answer p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 1.5rem 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
