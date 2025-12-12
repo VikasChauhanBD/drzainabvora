@@ -11,23 +11,10 @@
   justify-content: space-between;
 }
 
-.subjects-image-1,
-.subjects-image-2 {
-  width: 100%;
-}
-
-.subjects-image-1 img {
-  width: 100%;
-}
-
-.subjects-image-2 img {
-  width: 100%;
-  margin-bottom: -10px;
-}
-
 .subjects-card {
   width: 80%;
   height: 100%;
-  margin: 2rem auto;
+  margin: 4rem auto;
   border: 10px solid #ffffff;
+  color: #ffffff;
 }
