@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonialHeader from "../components/testimonialHeader/testimonialHeader";
+import TestimonialHeader from "../components/testimonialHeader/TestimonialHeader";
 import Testimonials from "../components/testimonials/Testimonials";
 
 function StudentsPage() {
