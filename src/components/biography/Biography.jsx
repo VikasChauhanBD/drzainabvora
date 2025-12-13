@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
-import "./TopDestinations.css";
+import "./Biography.css";
 import Goa from "../../assets/images/goa.jpg";
 import Jaipur from "../../assets/images/jaipur.jpg";
 import Kashmir from "../../assets/images/kashmir.jpg";
 import TajMahal from "../../assets/images/taj-mahal.jpg";
 
-const TopDestinations = () => {
+const Biography = () => {
   const slideRef = useRef(null);
 
   const handleNext = () => {
@@ -47,9 +47,9 @@ const TopDestinations = () => {
   return (
     <div className="td-container">
       <div className="td-header">
-        <h4>Top Destinations</h4>
         <h1>
-          Explore <span>Top Destinations</span>
+          Professional Biography – Highlighting her qualifications,
+          achievements, and medical expertise.
         </h1>
         <p>
           India is a land of unmatched beauty and profound history. Dive into
@@ -97,4 +97,4 @@ const TopDestinations = () => {
   );
 };
 
-export default TopDestinations;
+export default Biography;

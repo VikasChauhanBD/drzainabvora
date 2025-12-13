@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
-import "./Adventures.css";
+import "./Story.css";
 import Image1 from "../../assets/images/adventures-1.png";
 import Image2 from "../../assets/images/adventures-2.png";
 import Image3 from "../../assets/images/adventures-3.png";
 
-const Adventures = () => {
+const Story = () => {
   const cardsContainerRef = useRef(null);
   const cardsRef = useRef([]);
 
@@ -154,9 +154,9 @@ const Adventures = () => {
   return (
     <div className="adventures-container">
       <div className="adventures-header">
-        <h4>About Us</h4>
         <h1>
-          Exploring New <span>Adventures And Discoveries</span>
+          Personal Story & Philosophy – Sharing her values, inspirations, and
+          teaching approach.
         </h1>
       </div>
 
@@ -193,4 +193,4 @@ const Adventures = () => {
   );
 };
 
-export default Adventures;
+export default Story;
