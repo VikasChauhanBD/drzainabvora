@@ -7,6 +7,7 @@ import TopDestinations from "../components/topDestinations/TopDestinations";
 import Adventures from "../components/adventures/Adventures";
 import WhatBTR from "../components/whatBTR/WhatBTR";
 import Schedule from "../components/schedule/Schedule";
+import Feedback from "../components/feedback/Feedback";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       {/* <Adventures /> */}
       <Schedule />
       {/* <TopDestinations /> */}
+      <Feedback />
     </>
   );
 }

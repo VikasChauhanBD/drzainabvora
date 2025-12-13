@@ -1,10 +1,10 @@
-.testimonials-section {
+.feedback-section {
   padding: 80px 20px;
   background: #f8f9fa;
   overflow: hidden;
 }
 
-.testimonials-title {
+.feedback-title {
   text-align: center;
   font-size: 48px;
   font-weight: 700;
@@ -12,27 +12,27 @@
   color: #1a1a1a;
 }
 
-.testimonials-title .highlight {
+.feedback-title .highlight {
   color: #5b7cff;
 }
 
-.testimonials-container {
+.feedback-container {
   position: relative;
   display: flex;
   gap: 24px;
   max-width: 1400px;
   margin: 0 auto;
-  height: 150vh;
+  height: 60vh;
   overflow: hidden;
 }
 
-.testimonials-column {
+.feedback-column {
   flex: 1;
   overflow: hidden;
   position: relative;
 }
 
-.testimonials-track {
+.feedback-track {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -40,14 +40,14 @@
   animation-iteration-count: infinite;
 }
 
-.track-up {
+.feedback-track-up {
   animation-name: slideUp;
-  animation-duration: 60s;
+  animation-duration: 30s;
 }
 
-.track-down {
+.feedback-track-down {
   animation-name: slideDown;
-  animation-duration: 65s;
+  animation-duration: 35s;
 }
 
 @keyframes slideUp {
@@ -68,7 +68,7 @@
   }
 }
 
-.testimonials-card {
+.feedback-card {
   background: white;
   border-radius: 16px;
   padding: 28px;
@@ -81,19 +81,19 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.testimonials-card:hover {
+.feedback-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-.testimonials-text {
+.feedback-text {
   color: #666;
   line-height: 1.7;
   font-size: 15px;
   margin-bottom: 24px;
 }
 
-.testimonials-author {
+.feedback-author {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -101,32 +101,32 @@
   border-top: 3px solid #5b7cff;
 }
 
-.testimonials-author-image {
+.feedback-author-image {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.testimonials-author-info {
+.feedback-author-info {
   display: flex;
   flex-direction: column;
 }
 
-.testimonials-author-name {
+.feedback-author-name {
   color: #5b7cff;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 4px;
 }
 
-.testimonials-author-handle {
+.feedback-author-handle {
   color: #999;
   font-size: 14px;
 }
 
 /* Fog/Blur overlay effect */
-.fog-overlay {
+.feedback-fog-overlay {
   position: absolute;
   left: 0;
   right: 0;
@@ -135,7 +135,7 @@
   z-index: 10;
 }
 
-.fog-top {
+.feedback-fog-top {
   top: 0;
   background: linear-gradient(
     to bottom,
@@ -146,7 +146,7 @@
   );
 }
 
-.fog-bottom {
+.feedback-fog-bottom {
   bottom: 0;
   background: linear-gradient(
     to top,
@@ -157,57 +157,78 @@
   );
 }
 
+.feedback-btn {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.feedback-btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #e35336;
+  border: 2px solid #e35336;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.feedback-btn a:hover {
+  color: #ffffff;
+  background-color: #e35336;
+}
+
 /* --------------------------- Responsive style ------------------- */
 @media (max-width: 1024px) {
-  .testimonials-title {
+  .feedback-title {
     font-size: 36px;
   }
 
-  .testimonials-card {
+  .feedback-card {
     min-height: 240px;
     padding: 24px;
   }
 }
 
 @media (max-width: 800px) {
-  .testimonials-container {
+  .feedback-container {
     flex-direction: column;
     gap: 16px;
   }
 
-  .testimonials-column {
+  .feedback-column {
     display: none;
   }
 
-  .testimonials-column:first-child {
+  .feedback-column:first-child {
     display: block;
   }
 
-  .testimonials-title {
+  .feedback-title {
     font-size: 32px;
   }
 
-  .testimonials-card {
+  .feedback-card {
     min-height: 220px;
   }
 }
 
 @media (max-width: 480px) {
-  .testimonials-section {
+  .feedback-section {
     padding: 60px 16px;
   }
 
-  .testimonials-title {
+  .feedback-title {
     font-size: 28px;
     margin-bottom: 40px;
   }
 
-  .testimonials-card {
+  .feedback-card {
     padding: 20px;
     min-height: 200px;
   }
 
-  .testimonials-text {
+  .feedback-text {
     font-size: 14px;
   }
 }
