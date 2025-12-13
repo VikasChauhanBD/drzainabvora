@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import IntroVideo from "./components/introVideo/IntroVideo";
 import StudentsPage from "./pages/StudentsPage";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
@@ -36,6 +37,7 @@ function App() {
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/students" element={<StudentsPage />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       )}
     </>
