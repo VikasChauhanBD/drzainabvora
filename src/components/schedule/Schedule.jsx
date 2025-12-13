@@ -64,10 +64,7 @@ export default function Schedule() {
         {/* Header */}
         <div className="schedule-header">
           <div className="schedule-subtitle">CLASS SCHEDULE</div>
-          <h1 className="schedule-title">
-            Your Weekly{" "}
-            <span className="schedule-title-highlight">Learning Journey</span>
-          </h1>
+          <h1 className="schedule-title">Your Weekly Learning Journey</h1>
           <p className="schedule-description">
             A structured approach to mastering all subjects with live
             interactive sessions and dedicated revision time.
@@ -76,7 +73,7 @@ export default function Schedule() {
 
         {/* Feature Cards */}
         <div className="feature-cards">
-          <div className="feature-card feature-card-red">
+          <div className="feature-card feature-card-orange">
             <div className="feature-icon">
               <svg
                 className="icon"
@@ -127,7 +124,7 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="feature-card feature-card-red">
+          <div className="feature-card feature-card-orange">
             <div className="feature-icon">
               <svg
                 className="icon"

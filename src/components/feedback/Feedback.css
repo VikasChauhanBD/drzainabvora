@@ -12,10 +12,6 @@
   color: #1a1a1a;
 }
 
-.feedback-title .highlight {
-  color: #5b7cff;
-}
-
 .feedback-container {
   position: relative;
   display: flex;
