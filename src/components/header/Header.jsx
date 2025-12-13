@@ -2,19 +2,30 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import HeroImage from "../../assets/images/dr-zainab-vora.png";
+import HeroImage1 from "../../assets/images/dr-zainab-vora.png";
+import HeroImage2 from "../../assets/images/dr-zainab-vora2.png";
+import HeroImage3 from "../../assets/images/dr-zainab-vora3.png";
 
 function Header() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    pauseOnHover: false,
-  };
+  const heroImages = [HeroImage1, HeroImage2, HeroImage3];
+  const [currentImage, setCurrentImage] = useState(0);
+
+  // Image rotation logic
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentImage((prev) => (prev + 1) % heroImages.length);
+  //   }, 4000); // change image every 4 seconds
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % heroImages.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   const [text] = useTypewriter({
     words: ["“Kahani tumhaari hai. Ho sake toh kamaal likhna.”"],
@@ -29,7 +40,7 @@ function Header() {
           medical students across India, guiding them in Radiology for FMGE,
           NEET PG, INICET, and MBBS training.
         </h1>
-        <NavLink>Click Here</NavLink>
+        <NavLink to="/about">Click Here</NavLink>
       </div>
 
       <div className="lower-header">
@@ -45,23 +56,9 @@ function Header() {
               A teacher who studies with you, a doctor who understands the
               pressure you carry, and a mentor who believes that every student’s
               journey deserves clarity, strategy, and hope. From earning Rank 1
-              in Radiology at AIIMS to simplifying the NEET PG and INI-CET
-              preparation for lakhs of students across India, Dr. Zainab has
-              built a teaching style rooted in honesty, hard work, and empathy.
-              She believes that exams are won not by shortcuts, but by
-              consistency, structure, and learning how to handle pressure, and
-              that’s exactly what her classes deliver: clarity, confidence, and
-              a sense of “you’re not alone in this”.
+              in Radiology at AIIMS to simplifying exam preparation for lakhs of
+              students across India.
             </p>
-
-            <h5>
-              Welcome to her world - where complex concepts become doable, fear
-              turns into strategy, and every student learns to believe,
-            </h5>
-
-            {/* <h5 className={`header-rotator ${fade ? "fade-in" : "fade-out"}`}>
-              {currentText}
-            </h5> */}
 
             <h6 className="header-typeWriter">
               {text}
@@ -72,7 +69,19 @@ function Header() {
           </div>
 
           <div className="header-image">
-            <img src={HeroImage} alt="Dr. Zainab Vora" />
+            {heroImages.map((img, index) => (
+              // <img
+              //   key={index}
+              //   src={img}
+              //   alt="Dr. Zainab Vora"
+              //   className={`hero-img ${index === currentImage ? "active" : ""}`}
+              // />
+              <img
+                src={img}
+                alt="Hero"
+                className={`hero-img ${index === currentImage ? "active" : ""}`}
+              />
+            ))}
           </div>
         </div>
       </div>
