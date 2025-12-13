@@ -77,34 +77,35 @@
 /* Mega Menu Styles */
 .mega-menu {
   position: absolute;
-  top: 60%;
+  top: 100%;
   left: 50%;
-  transform: translateX(-50%);
-  margin-top: 1rem;
+  margin-left: -300px;
+  margin-top: 0;
+  padding-top: 1rem;
+  background: transparent;
+  z-index: 1000;
+  width: 600px;
+  animation: slideDown 0.3s ease;
+}
+
+.mega-menu-content {
   background: white;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-  padding: 2rem;
-  z-index: 1000;
-  min-width: 600px;
-  animation: slideDown 0.3s ease;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @keyframes slideDown {
   from {
     opacity: 0;
-    transform: translateX(-50%) translateY(-10px);
+    padding-top: 0.5rem;
   }
   to {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    padding-top: 1rem;
   }
-}
-
-.mega-menu-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
 }
 
 .mega-menu-item {
@@ -197,7 +198,7 @@
     position: absolute;
     width: 100%;
     background-color: white;
-    top: 9.5rem;
+    top: 5.25rem;
     left: 0;
     z-index: 10;
     padding: 1rem 0;
@@ -221,6 +222,8 @@
     padding: 1rem;
     min-width: auto;
     animation: none;
+    margin-left: 0;
+    width: 480px;
   }
 
   .mega-menu-content {
@@ -250,5 +253,9 @@
 
   .hamburger {
     padding-right: 1rem;
+  }
+
+  .mega-menu {
+    width: 100%;
   }
 }
