@@ -66,16 +66,16 @@ const TestimonialHeader = () => {
 
   // Fixed positions for avatars
   const avatarPositions = [
-    { top: "15%", left: "15%" },
-    { top: "20%", left: "50%" },
-    { top: "10%", left: "75%" },
-    { top: "45%", left: "10%" },
-    { top: "50%", left: "40%" },
-    { top: "45%", left: "80%" },
-    { top: "75%", left: "20%" },
-    { top: "70%", left: "60%" },
-    { top: "80%", left: "85%" },
-    { top: "35%", left: "65%" },
+    { top: "5%", left: "5%" },
+    { top: "15%", left: "25%" },
+    { top: "5%", left: "60%" },
+    { top: "10%", left: "90%" },
+    { top: "50%", left: "15%" },
+    { top: "45%", left: "90%" },
+    { top: "70%", left: "5%" },
+    { top: "75%", left: "30%" },
+    { top: "75%", left: "75%" },
+    { top: "35%", left: "70%" },
   ];
 
   // Certificate images
@@ -140,55 +140,57 @@ const TestimonialHeader = () => {
   }, []);
 
   return (
-    <div className="testimonial-section">
-      <h2 className="testimonial-title">
-        From Our Students
-        <br />
-        Across <span className="highlight">12 Courses</span>
-      </h2>
+    <div className="tsm-header-section">
+      <h2 className="tsm-header-title">From Our Students</h2>
 
-      <div className="testimonial-grid">
+      <div className="tsm-header-grid">
         {/* Left Box - Slider */}
-        <div className="testimonial-card slider-card">
-          <div className="impressions-badge">
+        <div className="tsm-header-card tsm-header-slider-card">
+          <div className="tsm-header-impressions-badge">
             <h3>1M</h3>
             <p>Monthly Impressions</p>
           </div>
 
-          <div className="testimonial-content">
-            <p className="quote">"{testimonials[currentSlide].quote}"</p>
-            <p className="author">{testimonials[currentSlide].author}</p>
-            <p className="course">{testimonials[currentSlide].course}</p>
+          <div className="tsm-header-content">
+            <p className="tsm-header-quote">
+              "{testimonials[currentSlide].quote}"
+            </p>
+            <p className="tsm-header-author">
+              {testimonials[currentSlide].author}
+            </p>
+            <p className="tsm-header-course">
+              {testimonials[currentSlide].course}
+            </p>
           </div>
 
-          <div className="testimonial-image">
+          <div className="tsm-header-image">
             <img
               src={testimonials[currentSlide].image}
               alt={testimonials[currentSlide].author}
             />
           </div>
 
-          <div className="slider-controls">
-            <button onClick={prevSlide} className="slider-btn">
+          <div className="tsm-header-slider-controls">
+            <button onClick={prevSlide} className="tsm-header-slider-btn">
               ‹
             </button>
-            <button onClick={nextSlide} className="slider-btn">
+            <button onClick={nextSlide} className="tsm-header-slider-btn">
               ›
             </button>
           </div>
         </div>
 
         {/* Right Side Container */}
-        <div className="right-container">
+        <div className="tsm-header-right-container">
           {/* Top Right Box - Student Count with Changing Images at Fixed Positions */}
-          <div className="testimonial-card students-card">
-            <div className="floating-images">
+          <div className="tsm-header-card tsm-header-students-card">
+            <div className="tsm-header-floating-images">
               {visibleProfiles.map((profileIdx, index) => (
                 <img
                   key={index}
                   src={profileImages[profileIdx]}
                   alt={`Student ${index + 1}`}
-                  className="floating-avatar"
+                  className="tsm-header-floating-avatar"
                   style={{
                     top: avatarPositions[index].top,
                     left: avatarPositions[index].left,
@@ -196,30 +198,30 @@ const TestimonialHeader = () => {
                 />
               ))}
             </div>
-            <h2 className="student-count">467,546</h2>
-            <p className="student-text">students and counting!</p>
+            <h2 className="tsm-header-student-count">467,546</h2>
+            <p className="tsm-header-student-text">students and counting!</p>
           </div>
 
           {/* Bottom Row */}
-          <div className="bottom-row">
+          <div className="tsm-header-bottom-row">
             {/* Bottom Left Box - Rotating Text */}
-            <div className="testimonial-card quote-card">
-              <div className="rotating-text">
-                <p className="rotating-quote">
+            <div className="tsm-header-card tsm-header-quote-card">
+              <div className="tsm-header-rotating-text">
+                <p className="tsm-header-rotating-quote">
                   {rotatingTexts[currentTextIndex].text}
                 </p>
-                <p className="rotating-author">
+                <p className="tsm-header-rotating-author">
                   {rotatingTexts[currentTextIndex].author}
                 </p>
               </div>
             </div>
 
             {/* Bottom Right Box - Rotating Certificate Images */}
-            <div className="testimonial-card certificate-card">
+            <div className="tsm-header-card tsm-header-certificate-card">
               <img
                 src={certificateImages[currentImageIndex]}
                 alt="Certificate"
-                className="certificate-image"
+                className="tsm-header-certificate-image"
               />
             </div>
           </div>

@@ -1,12 +1,13 @@
-.testimonial-section {
-  min-height: 100vh;
+.tsm-header-section {
+  width: 100%;
   background: #f5f5f5;
-  padding: 60px 40px;
+  align-content: center;
+  padding: 4rem 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     sans-serif;
 }
 
-.testimonial-title {
+.tsm-header-title {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
@@ -15,112 +16,84 @@
   line-height: 1.3;
 }
 
-.highlight {
-  color: #5b7bf8;
-}
-
-.testimonial-grid {
-  max-width: 1400px;
+.tsm-header-grid {
+  width: 80%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: stretch;
-}
-
-/* Right Container - holds the 3 boxes */
-.right-container {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.bottom-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.testimonial-card {
-  background: white;
-  border-radius: 24px;
-  padding: 40px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  justify-content: space-between;
 }
 
 /* Slider Card (Left Side - Full Height) */
-.slider-card {
-  background: linear-gradient(135deg, #1a2332 0%, #2d4175 100%);
+.tsm-header-slider-card {
+  width: 39%;
+  background: linear-gradient(135deg, #1a2332 0%, #2d4175 100%) !important;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 600px;
 }
 
-.impressions-badge h3 {
+.tsm-header-impressions-badge h3 {
   font-size: 64px;
   font-weight: 700;
   color: #5b7bf8;
   margin-bottom: 5px;
 }
 
-.impressions-badge p {
+.tsm-header-impressions-badge p {
   font-size: 18px;
   color: #a8b3d0;
 }
 
-.testimonial-content {
+.tsm-header-content {
   margin: 40px 0;
   flex-grow: 1;
   transition: opacity 0.5s ease-in-out;
 }
 
-.quote {
+.tsm-header-quote {
   font-size: 20px;
   line-height: 1.6;
   margin-bottom: 30px;
   color: #e8ebf2;
 }
 
-.author {
+.tsm-header-author {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.course {
+.tsm-header-course {
   font-size: 14px;
   color: #a8b3d0;
 }
 
-.testimonial-image {
+.tsm-header-image {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 280px;
-  height: 350px;
+  width: 220px;
+  height: 220px;
   border-radius: 24px 0 24px 0;
   overflow: hidden;
 }
 
-.testimonial-image img {
+.tsm-header-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: opacity 0.5s ease-in-out;
 }
 
-.slider-controls {
+.tsm-header-slider-controls {
   display: flex;
   gap: 15px;
   position: relative;
   z-index: 10;
 }
 
-.slider-btn {
+.tsm-header-slider-btn {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -136,15 +109,42 @@
   backdrop-filter: blur(10px);
 }
 
-.slider-btn:hover {
+.tsm-header-slider-btn:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: scale(1.1);
 }
 
-/* Students Card (Top Right) */
-.students-card {
+/* Right Container - holds the 3 boxes */
+.tsm-header-right-container {
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tsm-header-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tsm-header-card {
   background: white;
-  border: 2px solid #e8ebf2;
+  border-radius: 24px;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Students Card (Top Right) */
+.tsm-header-students-card {
+  /* background: white; */
+  background-image: url(../../assets/images/paper-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #5b7bf8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,7 +153,7 @@
   min-height: 300px;
 }
 
-.floating-images {
+.tsm-header-floating-images {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -161,13 +161,13 @@
   left: 0;
 }
 
-.floating-avatar {
+.tsm-header-floating-avatar {
   position: absolute;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid white;
+  border: 2px solid #5b7bf8;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: opacity 0.6s ease-in-out;
   animation: pulse 2s ease-in-out infinite;
@@ -183,7 +183,7 @@
   }
 }
 
-.student-count {
+.tsm-header-student-count {
   font-size: 64px;
   font-weight: 700;
   color: #5b7bf8;
@@ -192,7 +192,7 @@
   position: relative;
 }
 
-.student-text {
+.tsm-header-student-text {
   font-size: 18px;
   color: #1a1a1a;
   font-weight: 500;
@@ -201,8 +201,9 @@
 }
 
 /* Quote Card (Bottom Left) */
-.quote-card {
-  background: linear-gradient(135deg, #5b7bf8 0%, #7b94ff 100%);
+.tsm-header-quote-card {
+  background: url("../../assets/images/shape.png") no-repeat bottom right,
+    linear-gradient(135deg, #5b7bf8 0%, #7b94ff 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -211,7 +212,7 @@
   overflow: hidden;
 }
 
-.rotating-text {
+.tsm-header-rotating-text {
   text-align: center;
   animation: slideUp 0.5s ease-in-out;
 }
@@ -227,26 +228,26 @@
   }
 }
 
-.rotating-quote {
+.tsm-header-rotating-quote {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 20px;
   font-weight: 500;
 }
 
-.rotating-author {
+.tsm-header-rotating-author {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* Certificate Card (Bottom Right) */
-.certificate-card {
+.tsm-header-certificate-card {
   padding: 0;
   overflow: hidden;
   min-height: 280px;
 }
 
-.certificate-image {
+.tsm-header-certificate-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -263,41 +264,67 @@
   }
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .testimonial-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .testimonial-image {
-    width: 200px;
-    height: 250px;
+/* -------------------------- Responsive Style --------------------- */
+@media (max-width: 1440px) {
+  .tsm-header-grid {
+    width: 90%;
   }
 }
 
-@media (max-width: 768px) {
-  .testimonial-title {
+@media (max-width: 1024px) {
+  .tsm-header-grid {
+    width: 95%;
+  }
+
+  .tsm-header-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tsm-header-title {
     font-size: 36px;
   }
 
-  .testimonial-card {
-    padding: 30px;
+  .tsm-header-grid {
+    flex-wrap: wrap-reverse;
   }
 
-  .impressions-badge h3 {
+  .tsm-header-slider-card {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .tsm-header-right-container {
+    width: 100%;
+  }
+
+  .tsm-header-impressions-badge h3 {
     font-size: 48px;
   }
 
-  .student-count {
+  .tsm-header-student-count {
     font-size: 48px;
   }
+}
 
-  .floating-avatar {
-    width: 45px;
-    height: 45px;
+@media (max-width: 500px) {
+  .tsm-header-student-count {
+    font-size: 32px;
   }
 
-  .bottom-row {
+  .tsm-header-floating-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tsm-header-bottom-row {
     grid-template-columns: 1fr;
+  }
+
+  .tsm-header-image {
+    width: 120px;
+    height: 120px;
   }
 }
