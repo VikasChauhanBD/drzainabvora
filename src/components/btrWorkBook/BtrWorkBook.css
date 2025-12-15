@@ -1,0 +1,121 @@
+.workbook-container {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.workbook-container h1 {
+  font-size: 48px;
+  color: #27187e;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.workbook-cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.workbook-card {
+  width: 48%;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+    inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
+    inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
+    inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
+    inset 0 1.602px 1.602px -2.5px hsla(0, 0%, 100%, 0.16),
+    inset 0 7px 7px -3.75px hsla(0, 0%, 100%, 0.06),
+    0 0.652px 0.652px -0.2px rgba(0, 0, 0, 0.02),
+    0 1.776px 1.776px -0.4px rgba(0, 0, 0, 0.02),
+    0 3.899px 3.899px -0.6px rgba(0, 0, 0, 0.03),
+    0 8.655px 8.655px -0.8px rgba(0, 0, 0, 0.04),
+    0 22px 22px -1px rgba(0, 0, 0, 0.08);
+}
+
+.workbook-card h2 {
+  font-size: 32px;
+  color: #27187e;
+}
+
+.workbook-card p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 1rem 0 2rem 0;
+  color: #27187e;
+}
+
+.workbook-card a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #e35336;
+  border: 2px solid #e35336;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.workbook-card a:hover {
+  color: #f1f2f6;
+  background-color: #e35336;
+}
+
+/* -------------------------- Responsive Styles -------------------------- */
+
+@media (max-width: 1440px) {
+  .workbook-cards {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .workbook-cards {
+    width: 95%;
+  }
+
+  .workbook-container h1 {
+    font-size: 40px;
+  }
+
+  .workbook-card h2 {
+    font-size: 28px;
+  }
+
+  .workbook-card p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .workbook-container h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+
+  .workbook-card {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .workbook-card h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .workbook-card {
+    padding: 2rem 1rem;
+  }
+
+  .workbook-card p {
+    font-size: 16px;
+  }
+
+  .workbook-card a {
+    padding: 8px;
+  }
+}

@@ -8,6 +8,7 @@ import IntroVideo from "./components/introVideo/IntroVideo";
 import StudentsPage from "./pages/StudentsPage";
 import CRPage from "./pages/CRPage";
 import CRBooksPage from "./components/crBooksPage/CRBooksPage";
+import OnlineBtrPage from "./pages/OnlineBtrPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
               path="/conceptual-radiology-books"
               element={<CRBooksPage />}
             />
+            <Route path="/online-btr" element={<OnlineBtrPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

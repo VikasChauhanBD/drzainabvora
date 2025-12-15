@@ -67,7 +67,7 @@ function Footer() {
           <h3 className="footer-title">Online Programs</h3>
           <ul className="footer-links">
             <li>
-              <NavLink to="/online-programs/btr">Online BTR</NavLink>
+              <NavLink to="/online-btr">Online BTR</NavLink>
             </li>
             <li>
               <NavLink to="/conceptual-radiology">Conceptual Radiology</NavLink>

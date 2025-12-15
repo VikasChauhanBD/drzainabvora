@@ -54,7 +54,7 @@ function Navbar() {
             <div className="mega-menu">
               <div className="mega-menu-content">
                 <NavLink
-                  to="/online-programs/btr"
+                  to="/online-btr"
                   onClick={handleCloseNav}
                   className="mega-menu-item"
                 >
