@@ -1,0 +1,127 @@
+.tv-main-container {
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: rgb(252, 250, 250);
+}
+
+.tv-main-container h1 {
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #333333;
+}
+
+.tv-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tv-cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  overflow-x: auto;
+  align-items: flex-start;
+  gap: 20px;
+  scroll-behavior: smooth;
+}
+
+.tv-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.tv-card {
+  position: relative;
+  min-width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tv-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.tv-card img:hover {
+  transform: scale(1.05);
+}
+
+.tv-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+}
+
+.tv-btn {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.tv-btn.left {
+  left: 10px;
+}
+
+.tv-btn.right {
+  right: 10px;
+}
+
+.tv-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1024px) {
+  .tv-card {
+    min-width: 300px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tv-main-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .tv-card {
+    min-width: 250px;
+    height: 420px;
+  }
+}
+
+@media (max-width: 468px) {
+  .tv-main-container {
+    padding: 2rem 1rem;
+  }
+
+  .tv-card {
+    min-width: 200px;
+    height: 320px;
+  }
+
+  .tv-play-icon {
+    font-size: 2.5rem;
+  }
+}

@@ -6,6 +6,9 @@ const TestimonialHeader = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [visibleProfiles, setVisibleProfiles] = useState([]);
+  const [count, setCount] = useState(0);
+  const target = 100000; // 1,00,000
+  const duration = 2000; // animation duration in ms (2 sec)
 
   // Testimonial data for slider
   const testimonials = [
@@ -139,6 +142,29 @@ const TestimonialHeader = () => {
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    let start = 0;
+    let startTime = null;
+
+    const animate = (timestamp) => {
+      if (!startTime) startTime = timestamp;
+      const progress = timestamp - startTime;
+
+      const value = Math.min(
+        Math.floor((progress / duration) * target),
+        target
+      );
+
+      setCount(value);
+
+      if (progress < duration) {
+        requestAnimationFrame(animate);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  }, []);
+
   return (
     <div className="tsm-header-section">
       <h2 className="tsm-header-title">From Our Students</h2>
@@ -183,7 +209,7 @@ const TestimonialHeader = () => {
         {/* Right Side Container */}
         <div className="tsm-header-right-container">
           {/* Top Right Box - Student Count with Changing Images at Fixed Positions */}
-          <div className="tsm-header-card tsm-header-students-card">
+          {/* <div className="tsm-header-card tsm-header-students-card">
             <div className="tsm-header-floating-images">
               {visibleProfiles.map((profileIdx, index) => (
                 <img
@@ -199,6 +225,29 @@ const TestimonialHeader = () => {
               ))}
             </div>
             <h2 className="tsm-header-student-count">467,546</h2>
+            <p className="tsm-header-student-text">students and counting!</p>
+          </div> */}
+
+          <div className="tsm-header-card tsm-header-students-card">
+            <div className="tsm-header-floating-images">
+              {visibleProfiles.map((profileIdx, index) => (
+                <img
+                  key={index}
+                  src={profileImages[profileIdx]}
+                  alt={`Student ${index + 1}`}
+                  className="tsm-header-floating-avatar"
+                  style={{
+                    top: avatarPositions[index].top,
+                    left: avatarPositions[index].left,
+                  }}
+                />
+              ))}
+            </div>
+
+            <h2 className="tsm-header-student-count">
+              {count.toLocaleString()}+
+            </h2>
+
             <p className="tsm-header-student-text">students and counting!</p>
           </div>
 
