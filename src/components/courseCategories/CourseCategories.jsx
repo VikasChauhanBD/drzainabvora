@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./CourseCategories.css";
+
 import CourseImage1 from "../../assets/images/course-image1.png";
 import CourseImage2 from "../../assets/images/course-image2.png";
 import CourseImage3 from "../../assets/images/course-image3.png";
@@ -13,37 +14,43 @@ function CourseCategories() {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries, obs) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // Animate header
-            if (headerRef.current) {
-              headerRef.current.classList.add("animate");
-            }
+            headerRef.current?.classList.add("animate");
 
-            // Animate cards with delay
+            // Animate cards with stagger
             cardRefs.current.forEach((card, index) => {
-              if (card) {
-                setTimeout(() => {
-                  card.classList.add("animate");
-                }, index * 150);
-              }
+              setTimeout(() => {
+                card?.classList.add("animate");
+              }, index * 150);
             });
+
+            // Stop observing after first trigger (iOS fix)
+            obs.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.3, rootMargin: "-50px" }
+      {
+        threshold: 0.1, // iOS friendly
+        rootMargin: "0px",
+      }
     );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
 
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
+    return () => observer.disconnect();
+  }, []);
+
+  // iOS Safari fallback (prevents invisible content)
+  useEffect(() => {
+    setTimeout(() => {
+      headerRef.current?.classList.add("animate");
+      cardRefs.current.forEach((card) => card?.classList.add("animate"));
+    }, 600);
   }, []);
 
   const addToCardRefs = (el) => {
@@ -86,23 +93,21 @@ function CourseCategories() {
   ];
 
   return (
-    <div className="course-container" ref={sectionRef}>
+    <section className="course-container" ref={sectionRef}>
       <div className="course-header" ref={headerRef}>
         <h1>Course Categories</h1>
       </div>
 
       <div className="course-cards">
-        {coreData.map((data, index) => {
-          return (
-            <div key={data.id} className="course-card" ref={addToCardRefs}>
-              <img src={data.image} alt="" />
-              <h4>{data.title}</h4>
-              <p>{data.desp}</p>
-            </div>
-          );
-        })}
+        {coreData.map((data) => (
+          <div key={data.id} className="course-card" ref={addToCardRefs}>
+            <img src={data.image} alt={data.title} />
+            <h4>{data.title}</h4>
+            <p>{data.desp}</p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 }
 
