@@ -118,49 +118,32 @@
   text-align: justify;
 }
 
-@media (max-width: 1200px) {
-  .main-heading {
+/* -------------------------- Responsive Style -------------------------- */
+
+@media (max-width: 1440px) {
+  .about-header-text h1 {
     font-size: 4rem;
   }
-
-  .content {
-    padding: 60px 40px;
-  }
 }
 
-@media (max-width: 768px) {
-  .main-heading {
+@media (max-width: 1024px) {
+  .about-header-text h1 {
     font-size: 3rem;
   }
+}
 
-  .section-label {
-    font-size: 1.5rem;
-  }
-
-  .about-header-description p {
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  .content {
-    padding: 40px 20px;
-  }
-
-  .header-text {
-    margin-bottom: 40px;
+@media (max-width: 800px) {
+  .about-header-text h1 {
+    font-size: 2.5rem;
   }
 }
 
-@media (max-width: 480px) {
-  .main-heading {
-    font-size: 2.2rem;
+@media (max-width: 500px) {
+  .about-header-text h1 {
+    font-size: 2rem;
   }
 
-  .section-label {
-    font-size: 1.2rem;
-  }
-
-  .about-header-description p {
-    font-size: 0.95rem;
+  .about-header-text h2 {
+    font-size: 1.5rem;
   }
 }
