@@ -60,7 +60,7 @@ function Navbar() {
                 >
                   <div className="mega-menu-card">
                     <div className="card-image btr-bg">
-                      <span className="card-badge">BTR</span>
+                      <span className="card-badge">Online BTR</span>
                     </div>
                     <h3>Belief Toh Rakho</h3>
                     <p>

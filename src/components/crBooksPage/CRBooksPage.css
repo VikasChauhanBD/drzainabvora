@@ -24,12 +24,12 @@
 }
 
 .crbookspage-price h2 {
+  font-size: 24px;
   color: #f1f2f6;
   margin-bottom: 2rem;
 }
 
 .crbookspage-price-btn {
-  width: 200px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -99,12 +99,6 @@
 
 .crbookspage-card__title {
   font-size: 32px;
-  padding: 1rem 0;
-}
-
-.crbookspage-card__sub_title {
-  font-size: 24px;
-  font-weight: 500;
 }
 
 .crbookspage-card__description {
@@ -137,31 +131,57 @@
   }
 }
 
-@media (max-width: 768px) {
-  .crbookspage-shape-image {
-    margin-bottom: 0px;
-  }
-
-  .crbookspage-header {
-    width: 90%;
-  }
-
+@media (max-width: 1024px) {
+  .crbookspage-banner,
+  .crbookspage-price,
   .crbookspage-cards {
-    width: 90%;
+    width: 95%;
+  }
+
+  .crbookspage-price h2 {
+    font-size: 20px;
+  }
+
+  .crbookspage-card__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 800px) {
+  .crbookspage-card__inner {
+    margin-top: 0;
+  }
+
+  .crbookspage-card__content {
+    padding: 1rem;
+  }
+
+  .crbookspage-card__title {
+    font-size: 24px;
+  }
+
+  .crbookspage-card__description {
+    font-size: 16px;
+  }
+
+  .crbookspage-card__btn {
+    width: 180px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 500px) {
-  .crbookspage-header h4 {
-    font-size: 1.5rem;
+  .crbookspage-banner {
+    width: 100%;
   }
 
-  .crbookspage-header h1 {
-    font-size: 2rem;
+  .crbookspage-banner img {
+    margin-top: 0;
+    border-radius: 0;
   }
 
-  .crbookspage-cards {
-    width: 95%;
+  .crbookspage-card {
+    position: static;
   }
 
   .crbookspage-card__inner {
