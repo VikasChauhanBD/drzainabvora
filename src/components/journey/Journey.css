@@ -1,6 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap");
+
+.journey-section {
+  width: 100%;
+  color: black;
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+
+.journey-section-heading {
+  text-align: center;
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.journey-section-heading h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
 .journey-container {
   width: 100%;
-  height: 80vh;
-  text-align: center;
-  align-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Desktop Layout (Default - for largest screens) */
+.journey-desktop {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2.5rem;
+  min-height: 300vh;
+  position: relative;
+}
+
+.journey-images-container {
+  position: relative;
+  width: 100%;
+}
+
+.journey-images-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.journey-image-wrapper {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+  transition: opacity 0.1s ease, transform 0.1s ease;
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+/* Z-index layering - first image on top */
+.journey-image-first {
+  z-index: 3;
+  transform: rotate(8deg);
+  opacity: 1;
+}
+
+.journey-image-second {
+  z-index: 2;
+  transform: rotate(-5deg);
+  opacity: 1;
+}
+
+.journey-image-third {
+  z-index: 1;
+  transform: rotate(20deg);
+  opacity: 1;
+}
+
+.journey-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.journey-content {
+  padding: 0 2rem 0 0;
+  position: relative;
+}
+
+.journey-content-item {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.journey-content-item.active {
+  opacity: 1;
+}
+
+.journey-content-item h3 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  max-width: 13ch;
+}
+
+.journey-subhead {
+  color: oklch(0.65 0.24 16.93);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  max-width: 45ch;
+  line-height: 1.5;
+}
+
+.journey-content-item p {
+  font-size: 1.125rem;
+  margin: 0;
+  max-width: 60ch;
+  line-height: 1.6;
+}
+
+/* Mobile Layout */
+.journey-mobile {
+  display: none;
+}
+
+/* Extra Large Desktop */
+@media (max-width: 1599px) {
+  .journey-image-wrapper {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* Large Desktop */
+@media (max-width: 1439px) {
+  .journey-image-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Medium Desktop */
+@media (max-width: 1023px) {
+  .journey-desktop {
+    display: none;
+  }
+
+  .journey-mobile {
+    display: block;
+    padding: 2rem 1rem;
+  }
+
+  .journey-mobile-item {
+    margin-bottom: 4rem;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .journey-mobile-content {
+    padding: 2.5rem 2rem;
+  }
+
+  .journey-mobile-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 1rem 0;
+    color: black;
+  }
+
+  .journey-mobile-subhead {
+    color: oklch(0.65 0.24 16.93);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+  }
+
+  .journey-mobile-content p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+  }
+
+  .journey-mobile-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .journey-mobile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .journey-content-item h3 {
+    font-size: 2.25rem;
+  }
+
+  .journey-subhead {
+    font-size: 1.25rem;
+  }
+
+  .journey-image-wrapper {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Mobile Only */
+@media (max-width: 767px) {
+  .journey-mobile-item {
+    margin-bottom: 3rem;
+  }
+
+  .journey-mobile-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .journey-mobile-content h3 {
+    font-size: 1.75rem;
+  }
+
+  .journey-mobile-subhead {
+    font-size: 1.125rem;
+  }
+
+  .journey-mobile-content p {
+    font-size: 1rem;
+  }
+
+  .journey-mobile-image {
+    height: 300px;
+  }
 }
