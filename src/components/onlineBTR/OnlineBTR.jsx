@@ -32,7 +32,7 @@ function OnlineBTR() {
           to="https://dashboard.cerebellumacademy.com/plans"
           target="_blank"
         >
-          Check BTR Unannotated Workbook
+          Book Your Plan Online
         </NavLink>
       </div>
 

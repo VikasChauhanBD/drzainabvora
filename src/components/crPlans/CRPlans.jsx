@@ -80,7 +80,9 @@ function CRPlans() {
           >
             <h2>{data.id}</h2>
             <h4>{data.name}</h4>
-            <NavLink to="https://app.econceptual.com/">Buy Now</NavLink>
+            <NavLink to="https://app.econceptual.com/" target="_blank">
+              Buy Now
+            </NavLink>
           </div>
         ))}
       </div>
@@ -108,7 +110,9 @@ function CRPlans() {
           >
             <h2>{data.id}</h2>
             <h4>{data.name}</h4>
-            <NavLink to="https://app.econceptual.com/">Buy Now</NavLink>
+            <NavLink to="https://app.econceptual.com/" target="_blank">
+              Buy Now
+            </NavLink>
           </div>
         ))}
       </div>

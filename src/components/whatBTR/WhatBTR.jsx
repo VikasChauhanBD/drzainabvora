@@ -50,7 +50,6 @@ import { BiBrain } from "react-icons/bi";
 import { BiBoltCircle } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
 import { BiTrophy } from "react-icons/bi";
-import { Zap } from "lucide-react";
 
 function WhatBTR() {
   const sectionRef = useRef(null);
@@ -130,7 +129,8 @@ function WhatBTR() {
       <div className="what-btr-header" ref={headerRef}>
         <h3>THE BTR METHOD</h3>
         <h1>
-          Buri Tarah Ratto <br />
+          Belief Toh Rakho
+          <br />
           The Revolutionary Approach
         </h1>
         <p>

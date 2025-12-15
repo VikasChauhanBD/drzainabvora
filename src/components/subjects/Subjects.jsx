@@ -72,7 +72,9 @@ function Subjects() {
           </NavLink>
         </div>
 
-        <NavLink className="subjects-btn">Start Your BTR Journey</NavLink>
+        <NavLink to="/online-btr" className="subjects-btn">
+          Start Your BTR Journey
+        </NavLink>
       </div>
     </div>
   );

@@ -18,7 +18,9 @@ function CRHeader() {
             you grow into a confident radiologist.
           </p>
 
-          <NavLink to="https://conceptualradiology.com/">Know More</NavLink>
+          <NavLink to="https://conceptualradiology.com/" target="_blank">
+            Know More
+          </NavLink>
         </div>
 
         <div className="crheader-image">

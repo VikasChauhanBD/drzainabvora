@@ -28,10 +28,16 @@ function CRApp() {
           </ul>
 
           <div className="crapp-stores">
-            <NavLink to="https://play.google.com/store/apps/details?id=com.conceptual.orthopedics&hl=en_IN&gl=US">
+            <NavLink
+              to="https://play.google.com/store/apps/details?id=com.conceptual.orthopedics&hl=en_IN&gl=US"
+              target="_blank"
+            >
               <img src={PlayStore} alt="" />
             </NavLink>
-            <NavLink to="https://apps.apple.com/in/app/econceptual-ms-md-dnb-ss-exam/id1533947249">
+            <NavLink
+              to="https://apps.apple.com/in/app/econceptual-ms-md-dnb-ss-exam/id1533947249"
+              target="_blank"
+            >
               <img src={AppStore} alt="" />
             </NavLink>
           </div>
