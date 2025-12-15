@@ -71,7 +71,7 @@ function Navbar() {
                   </div>
                 </NavLink>
                 <NavLink
-                  to="/online-programs/cr"
+                  to="/conceptual-radiology"
                   onClick={handleCloseNav}
                   className="mega-menu-item"
                 >

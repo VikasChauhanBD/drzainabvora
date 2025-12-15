@@ -1,0 +1,69 @@
+.crbooks-container {
+  width: 100%;
+  background-color: #f1f2f6;
+}
+
+.crbooks-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.crbooks-content h1 {
+  font-size: 48px;
+  color: #27187e;
+}
+
+.crbooks-content p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 1.5rem 0;
+  color: #27187e;
+}
+
+.crbooks-content a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #e35336;
+  border: 2px solid #e35336;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.crbooks-content a:hover {
+  color: #f1f2f6;
+  background-color: #e35336;
+}
+
+/* -------------------------- Responsive Style -------------------------- */
+
+@media (max-width: 1440px) {
+  .crbooks-content {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .crbooks-content {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .crbooks-content {
+    padding: 2rem 1rem;
+  }
+
+  .crbooks-content h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .crbooks-content h1 {
+    font-size: 28px;
+  }
+}

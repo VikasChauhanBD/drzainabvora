@@ -1,0 +1,138 @@
+.crplans-container {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: #27187e;
+}
+
+.crplans-header {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.crplans-header.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.crplans-header {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.crplans-header h1 {
+  font-size: 48px;
+  color: #f1f2f6;
+}
+
+.crplans-header p {
+  font-size: 20px;
+  margin: 2rem 0;
+  color: #f1f2f6;
+}
+
+.crplans-cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.crplans-card {
+  width: 19%;
+  padding: 2rem;
+  background-color: #f1f2f6;
+  border-radius: 22px;
+  box-shadow: 0 22px 22px -1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+
+.crplans-card.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.crplans-card h2 {
+  font-size: 32px;
+  color: #27187e;
+}
+
+.crplans-card h4 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  color: #27187e;
+}
+
+.crplans-card a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #ff8600;
+  border: 2px solid #ff8600;
+  display: inline-block;
+}
+
+.crplans-card a:hover {
+  color: #f1f2f6;
+  background-color: #ff8600;
+}
+
+/* ----------------------- Responsive --------------- */
+@media (max-width: 1440px) {
+  .crplans-header,
+  .crplans-cards {
+    width: 85%;
+  }
+}
+@media (max-width: 1024px) {
+  .crplans-header,
+  .crplans-cards {
+    width: 95%;
+  }
+
+  .crplans-header h1 {
+    font-size: 40px;
+  }
+
+  .crplans-card {
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .crplans-card h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .crplans-cards {
+    flex-wrap: wrap;
+  }
+
+  .crplans-card {
+    width: 32%;
+  }
+
+  .crplans-icon {
+    font-size: 40px;
+  }
+
+  .crplans-card p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .crplans-header h1 {
+    font-size: 36px;
+  }
+
+  .crplans-card {
+    width: 48%;
+  }
+}

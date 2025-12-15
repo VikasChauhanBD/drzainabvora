@@ -6,6 +6,8 @@ import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import IntroVideo from "./components/introVideo/IntroVideo";
 import StudentsPage from "./pages/StudentsPage";
+import CRPage from "./pages/CRPage";
+import CRBooksPage from "./components/crBooksPage/CRBooksPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -36,6 +38,11 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/students" element={<StudentsPage />} />
+            <Route path="/conceptual-radiology" element={<CRPage />} />
+            <Route
+              path="/conceptual-radiology-books"
+              element={<CRBooksPage />}
+            />
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -1,0 +1,174 @@
+.crbookspage-container {
+  width: 100%;
+  background-color: #f1f2f6;
+}
+
+.crbookspage-banner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.crbookspage-banner img {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 16px;
+}
+
+.crbookspage-price {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #27187e;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.crbookspage-price h2 {
+  color: #f1f2f6;
+  margin-bottom: 2rem;
+}
+
+.crbookspage-price-btn {
+  width: 200px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #ff8600;
+  border: 2px solid #ff8600;
+}
+
+.crbookspage-price-btn:hover {
+  color: #f1f2f6;
+  background-color: #ff8600;
+}
+
+.crbookspage-cards {
+  width: 80%;
+  margin: 0 auto;
+  gap: 40px 0;
+  padding-bottom: 5rem;
+}
+
+.crbookspage-card {
+  position: sticky;
+  top: 0;
+}
+
+.crbookspage-card__inner {
+  will-change: transform;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+    inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
+    inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
+    inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
+    inset 0 1.602px 1.602px -2.5px hsla(0, 0%, 100%, 0.16),
+    inset 0 7px 7px -3.75px hsla(0, 0%, 100%, 0.06),
+    0 0.652px 0.652px -0.2px rgba(0, 0, 0, 0.02),
+    0 1.776px 1.776px -0.4px rgba(0, 0, 0, 0.02),
+    0 3.899px 3.899px -0.6px rgba(0, 0, 0, 0.03),
+    0 8.655px 8.655px -0.8px rgba(0, 0, 0, 0.04),
+    0 22px 22px -1px rgba(0, 0, 0, 0.08);
+  transform-origin: center top;
+  margin-top: 2.5rem;
+}
+
+.crbookspage-card__image-container {
+  display: flex;
+  width: 40%;
+  flex-shrink: 0;
+}
+
+.crbookspage-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.crbookspage-card__content {
+  padding-left: 2rem;
+  color: #27187e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.crbookspage-card__title {
+  font-size: 32px;
+  padding: 1rem 0;
+}
+
+.crbookspage-card__sub_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.crbookspage-card__description {
+  line-height: 1.4;
+  font-size: 18px;
+  padding: 1rem 0;
+}
+
+.crbookspage-card__btn {
+  width: 200px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #ff8600;
+  border: 2px solid #ff8600;
+}
+
+.crbookspage-card__btn:hover {
+  color: #f1f2f6;
+  background-color: #ff8600;
+}
+
+/* --------------------------- Responsive Style -------------------- */
+@media (max-width: 1440px) {
+  .crbookspage-banner,
+  .crbookspage-price,
+  .crbookspage-cards {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .crbookspage-shape-image {
+    margin-bottom: 0px;
+  }
+
+  .crbookspage-header {
+    width: 90%;
+  }
+
+  .crbookspage-cards {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .crbookspage-header h4 {
+    font-size: 1.5rem;
+  }
+
+  .crbookspage-header h1 {
+    font-size: 2rem;
+  }
+
+  .crbookspage-cards {
+    width: 95%;
+  }
+
+  .crbookspage-card__inner {
+    flex-wrap: wrap;
+  }
+
+  .crbookspage-card__image-container {
+    width: 100%;
+  }
+}
