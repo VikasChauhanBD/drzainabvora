@@ -7,7 +7,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
-  const [showMegaMenu, setShowMegaMenu] = useState(false);
+  const [showOnlineMegaMenu, setShowOnlineMegaMenu] = useState(false);
+  const [showOfflineMegaMenu, setShowOfflineMegaMenu] = useState(false);
 
   const handleButtonToggle = () => {
     setShowNav(!showNav);
@@ -15,11 +16,16 @@ function Navbar() {
 
   const handleCloseNav = () => {
     setShowNav(false);
-    setShowMegaMenu(false);
+    setShowOnlineMegaMenu(false);
+    setShowOfflineMegaMenu(false);
   };
 
-  const toggleMegaMenu = () => {
-    setShowMegaMenu(!showMegaMenu);
+  const toggleOnlineMegaMenu = () => {
+    setShowOnlineMegaMenu(!showOnlineMegaMenu);
+  };
+
+  const toggleOfflineMegaMenu = () => {
+    setShowOfflineMegaMenu(!showOfflineMegaMenu);
   };
 
   return (
@@ -36,21 +42,22 @@ function Navbar() {
         <NavLink to="/about" onClick={handleCloseNav}>
           About
         </NavLink>
+
         <div
           className="dropdown-container"
-          onMouseEnter={() => !showNav && setShowMegaMenu(true)}
-          onMouseLeave={() => !showNav && setShowMegaMenu(false)}
+          onMouseEnter={() => !showNav && setShowOnlineMegaMenu(true)}
+          onMouseLeave={() => !showNav && setShowOnlineMegaMenu(false)}
         >
           <button
             className="dropdown-trigger"
-            onClick={() => showNav && toggleMegaMenu()}
+            onClick={() => showNav && toggleOnlineMegaMenu()}
           >
             Online Programs
             <IoIosArrowDown
-              className={`arrow-icon ${showMegaMenu ? "rotate" : ""}`}
+              className={`arrow-icon ${showOnlineMegaMenu ? "rotate" : ""}`}
             />
           </button>
-          {showMegaMenu && (
+          {showOnlineMegaMenu && (
             <div className="mega-menu">
               <div className="mega-menu-content">
                 <NavLink
@@ -63,11 +70,6 @@ function Navbar() {
                       <span className="card-badge">Online BTR</span>
                     </div>
                     <h3>Belief Toh Rakho</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo.
-                    </p>
                   </div>
                 </NavLink>
                 <NavLink
@@ -80,20 +82,71 @@ function Navbar() {
                       <span className="card-badge">CR</span>
                     </div>
                     <h3>Conceptual Radiology</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo.
-                    </p>
                   </div>
                 </NavLink>
               </div>
             </div>
           )}
         </div>
-        <NavLink to="/offline-events" onClick={handleCloseNav}>
-          Offline Events
-        </NavLink>
+
+        <div
+          className="dropdown-container"
+          onMouseEnter={() => !showNav && setShowOfflineMegaMenu(true)}
+          onMouseLeave={() => !showNav && setShowOfflineMegaMenu(false)}
+        >
+          <button
+            className="dropdown-trigger"
+            onClick={() => showNav && toggleOfflineMegaMenu()}
+          >
+            Offline Events
+            <IoIosArrowDown
+              className={`arrow-icon ${showOfflineMegaMenu ? "rotate" : ""}`}
+            />
+          </button>
+          {showOfflineMegaMenu && (
+            <div className="mega-menu-2">
+              <div className="mega-menu-content">
+                <NavLink
+                  to="/btr-bootcamp"
+                  onClick={handleCloseNav}
+                  className="mega-menu-item"
+                >
+                  <div className="mega-menu-card">
+                    <div className="card-image btr-bg">
+                      <span className="card-badge">Offline BTR</span>
+                    </div>
+                    <h3>BTR Bootcamp</h3>
+                  </div>
+                </NavLink>
+                <NavLink
+                  to="/btr-3-4-days"
+                  onClick={handleCloseNav}
+                  className="mega-menu-item"
+                >
+                  <div className="mega-menu-card">
+                    <div className="card-image btr-bg">
+                      <span className="card-badge">BTR (3-4 Days)</span>
+                    </div>
+                    <h3>BTR (3-4 Days) Program</h3>
+                  </div>
+                </NavLink>
+                <NavLink
+                  to="/crisp"
+                  onClick={handleCloseNav}
+                  className="mega-menu-item"
+                >
+                  <div className="mega-menu-card">
+                    <div className="card-image cr-bg">
+                      <span className="card-badge">CRISP</span>
+                    </div>
+                    <h3>Conceptual Radiology Imaging Skills Program</h3>
+                  </div>
+                </NavLink>
+              </div>
+            </div>
+          )}
+        </div>
+
         <NavLink to="/students" onClick={handleCloseNav}>
           Students
         </NavLink>
