@@ -9,8 +9,9 @@ import StudentsPage from "./pages/StudentsPage";
 import CRPage from "./pages/CRPage";
 import CRBooksPage from "./components/crBooksPage/CRBooksPage";
 import OnlineBtrPage from "./pages/OnlineBtrPage";
-import OfflineBTR from "./components/offlineBTR/OfflineBTR";
+import OfflineBtrPage from "./pages/OfflineBtrPage";
 import CrispPage from "./pages/CrispPage";
+import CrashCoursePage from "./pages/CrashCoursePage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
               element={<CRBooksPage />}
             />
             <Route path="/online-btr" element={<OnlineBtrPage />} />
-            <Route path="/neet-pg-bootcamp" element={<OfflineBTR />} />
+            <Route path="/neet-pg-bootcamp" element={<OfflineBtrPage />} />
+            <Route path="/crash-course" element={<CrashCoursePage />} />
             <Route path="/crisp" element={<CrispPage />} />
           </Routes>
           <Footer />

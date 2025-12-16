@@ -16,7 +16,7 @@ function OnlineBTR() {
         <p>
           <b>
             BTR Online is a one-of-its-kind 19-subject complete revision
-            program,
+            program,{" "}
           </b>
           designed specifically for the final phase of medical entrance exam
           preparation. It focuses on <b>high-yield, exam-relevant concepts</b>{" "}

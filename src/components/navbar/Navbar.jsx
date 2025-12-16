@@ -66,7 +66,7 @@ function Navbar() {
                   className="mega-menu-item"
                 >
                   <div className="mega-menu-card">
-                    <div className="card-image btr-bg">
+                    <div className="card-image online-btr-bg">
                       <span className="card-badge">Online BTR</span>
                     </div>
                     <h3>Belief Toh Rakho</h3>
@@ -112,22 +112,22 @@ function Navbar() {
                   className="mega-menu-item"
                 >
                   <div className="mega-menu-card">
-                    <div className="card-image btr-bg">
+                    <div className="card-image offline-btr-bg">
                       <span className="card-badge">Offline BTR</span>
                     </div>
                     <h3>NEET PG Bootcamp</h3>
                   </div>
                 </NavLink>
                 <NavLink
-                  to="/btr-3-4-days"
+                  to="/crash-course"
                   onClick={handleCloseNav}
                   className="mega-menu-item"
                 >
                   <div className="mega-menu-card">
-                    <div className="card-image btr-bg">
-                      <span className="card-badge">BTR (3-4 Days)</span>
+                    <div className="card-image cc-bg">
+                      <span className="card-badge">Crash Course</span>
                     </div>
-                    <h3>BTR (3-4 Days) Program</h3>
+                    <h3>4 Days Offline Crash Course</h3>
                   </div>
                 </NavLink>
                 <NavLink
@@ -136,7 +136,7 @@ function Navbar() {
                   className="mega-menu-item"
                 >
                   <div className="mega-menu-card">
-                    <div className="card-image cr-bg">
+                    <div className="card-image crisp-bg">
                       <span className="card-badge">CRISP</span>
                     </div>
                     <h3>Conceptual Radiology Imaging Skills Program</h3>
