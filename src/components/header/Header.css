@@ -12,6 +12,7 @@
   font-size: 28px;
   line-height: 36px;
   margin-bottom: 2rem;
+  color: #27187e;
 }
 
 .upper-header a {
@@ -19,20 +20,20 @@
   font-size: 18px;
   font-weight: 600;
   padding: 8px 16px;
-  color: #e35336;
-  border: 2px solid #e35336;
+  color: #ff8600;
+  border: 2px solid #ff8600;
   background-color: transparent;
   cursor: pointer;
 }
 
 .upper-header a:hover {
   color: #ffffff;
-  background-color: #e35336;
+  background-color: #ff8600;
 }
 
 .lower-header {
   width: 100%;
-  background-color: #aeb8fe;
+  background-color: #27187e;
 }
 
 .header-main {
@@ -46,11 +47,11 @@
   width: 50%;
   align-content: center;
   padding-right: 2rem;
+  color: #f1f2f6;
 }
 
 .header-content h3 {
   font-size: 22px;
-  color: #27187e;
   margin-bottom: 1rem;
 }
 
@@ -73,15 +74,15 @@
   font-size: 18px;
   font-weight: 600;
   padding: 8px 16px;
-  color: #e35336;
-  border: 2px solid #e35336;
+  color: #ff8600;
+  border: 2px solid #ff8600;
   background-color: transparent;
   cursor: pointer;
 }
 
 .header-content a:hover {
   color: #ffffff;
-  background-color: #e35336;
+  background-color: #ff8600;
 }
 
 .header-content h5 {
@@ -91,7 +92,7 @@
 
 .header-typeWriter {
   font-size: 24px;
-  color: #27187e;
+  color: #f1f2f6;
   margin-bottom: 2rem;
   transition: opacity 1s ease-in-out, transform 1s ease; /* slow animation */
   opacity: 1;

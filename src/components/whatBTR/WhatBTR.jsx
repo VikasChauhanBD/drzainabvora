@@ -107,7 +107,7 @@ function WhatBTR() {
     {
       id: 2,
       icon: BiBoltCircle,
-      title: "Squick Revision",
+      title: "Quick Revision",
       desp: "Streamlined content designed for effective last-minute preparation",
     },
     {

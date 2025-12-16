@@ -9,7 +9,7 @@
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 60px;
-  color: #1a1a1a;
+  color: #27187e;
 }
 
 .feedback-container {
@@ -163,15 +163,15 @@
   font-size: 18px;
   font-weight: 600;
   padding: 8px 16px;
-  color: #e35336;
-  border: 2px solid #e35336;
+  color: #ff8600;
+  border: 2px solid #ff8600;
   background-color: transparent;
   cursor: pointer;
 }
 
 .feedback-btn a:hover {
   color: #ffffff;
-  background-color: #e35336;
+  background-color: #ff8600;
 }
 
 /* --------------------------- Responsive style ------------------- */

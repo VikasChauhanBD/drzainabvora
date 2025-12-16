@@ -15,14 +15,14 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  background-color: #ffffff;
+  color: #27187e;
+  background-color: #f1f2f6;
   padding: 4rem 2rem;
   border-radius: 10px;
 }
 
 .subjects-card h1 {
   font-size: 48px;
-  color: #27187e;
 }
 
 .subjects-card p {
@@ -42,8 +42,8 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  color: #27187e;
-  background-color: #c5cdff;
+  color: #f1f2f6;
+  background-color: #27187e;
   padding: 8px 16px;
   border-radius: 10px;
 }
@@ -53,15 +53,15 @@
   font-size: 18px;
   font-weight: 600;
   padding: 8px 16px;
-  color: #e35336;
-  border: 2px solid #e35336;
+  color: #ff8600;
+  border: 2px solid #ff8600;
   background-color: transparent;
   cursor: pointer;
 }
 
 .subjects-btn:hover {
-  color: #ffffff;
-  background-color: #e35336;
+  color: #f1f2f6;
+  background-color: #ff8600;
 }
 
 /* -------------------------- Responsive Style -------------------------- */

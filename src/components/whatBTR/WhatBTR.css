@@ -47,7 +47,7 @@
 .what-btr-container {
   width: 100%;
   padding: 5rem 0;
-  background: #aeb8fe;
+  background: #27187e;
 }
 
 .what-btr-header {
@@ -55,11 +55,11 @@
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
+  color: #f1f2f6;
 }
 
 .what-btr-header h3 {
   font-size: 22px;
-  color: #27187e;
   margin-bottom: 1rem;
 }
 
@@ -88,8 +88,8 @@
   width: 23%;
   padding: 2rem;
   margin-top: 2.5rem;
-  /* background: linear-gradient(180deg, #f9fafb, #fff); */
-  background-color: #b7bfff;
+  color: #27187e;
+  background-color: #f1f2f6;
   border: 1px solid rgba(33, 33, 33, 0.07);
   border-radius: 22px;
   box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
@@ -112,7 +112,6 @@
 
 .what-btr-icon {
   font-size: 50px;
-  color: #27187e;
   transition: color 0.3s ease;
 }
 
