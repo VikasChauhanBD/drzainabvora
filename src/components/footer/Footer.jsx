@@ -15,7 +15,6 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-content">
-        {/* Company Info Section */}
         <div className="footer-section footer-about">
           <div className="footer-logo">
             <img src={Logo} alt="website logo" />
@@ -43,7 +42,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-section">
           <h3 className="footer-title">Quick Links</h3>
           <ul className="footer-links">
@@ -54,15 +52,11 @@ function Footer() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/offline-events">Offline Events</NavLink>
-            </li>
-            <li>
               <NavLink to="/students">Students</NavLink>
             </li>
           </ul>
         </div>
 
-        {/* Online Programs */}
         <div className="footer-section">
           <h3 className="footer-title">Online Programs</h3>
           <ul className="footer-links">
@@ -75,7 +69,21 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        <div className="footer-section">
+          <h3 className="footer-title">Offline Events</h3>
+          <ul className="footer-links">
+            <li>
+              <NavLink to="/neet-pg-bootcamp">Offline BTR</NavLink>
+            </li>
+            <li>
+              <NavLink to="/crash-course">Crash Course</NavLink>
+            </li>
+            <li>
+              <NavLink to="/crisp">CRISP</NavLink>
+            </li>
+          </ul>
+        </div>
+
         <div className="footer-section">
           <h3 className="footer-title">Contact Us</h3>
           <ul className="footer-contact">
@@ -95,7 +103,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="footer-bottom">
         <div className="footer-bottom-content">
           <p>
