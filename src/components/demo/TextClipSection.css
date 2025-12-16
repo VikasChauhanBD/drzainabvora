@@ -6,20 +6,35 @@
   justify-content: center;
   background-color: rgb(245, 245, 245);
 }
+
+@keyframes scroll-background {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0% 0;
+  }
+}
+
 .clipped-text {
   font-size: 150px;
   font-weight: 900;
+  text-align: center;
   text-transform: uppercase;
   margin: 0;
-  background-image: url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200");
-  background-size: cover;
+  background-image: url("../../assets/images/crash-course-image1.jpg");
+  background-size: 150% auto;
   background-position: center;
+  /* background-attachment: fixed; */
+  animation: scroll-background 15s linear infinite;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.1);
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1);
+  line-height: 1;
 }
-/* Responsive design */
+
+/* ------------------------ Responsive style ------------------- */
 @media (max-width: 768px) {
   .clipped-text {
     font-size: 4rem;
