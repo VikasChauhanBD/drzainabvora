@@ -9,6 +9,7 @@ import StudentsPage from "./pages/StudentsPage";
 import CRPage from "./pages/CRPage";
 import CRBooksPage from "./components/crBooksPage/CRBooksPage";
 import OnlineBtrPage from "./pages/OnlineBtrPage";
+import CrispPage from "./pages/CrispPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
               element={<CRBooksPage />}
             />
             <Route path="/online-btr" element={<OnlineBtrPage />} />
+            <Route path="/crisp" element={<CrispPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>
