@@ -107,7 +107,7 @@ function Navbar() {
             <div className="mega-menu-2">
               <div className="mega-menu-content">
                 <NavLink
-                  to="/btr-bootcamp"
+                  to="/neet-pg-bootcamp"
                   onClick={handleCloseNav}
                   className="mega-menu-item"
                 >
@@ -115,7 +115,7 @@ function Navbar() {
                     <div className="card-image btr-bg">
                       <span className="card-badge">Offline BTR</span>
                     </div>
-                    <h3>BTR Bootcamp</h3>
+                    <h3>NEET PG Bootcamp</h3>
                   </div>
                 </NavLink>
                 <NavLink
