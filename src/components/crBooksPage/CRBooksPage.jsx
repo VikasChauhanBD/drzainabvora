@@ -221,6 +221,7 @@ const CRBooksPage = () => {
         <NavLink
           className="crbookspage-price-btn"
           to="https://app.econceptual.com/books/order-7-conceptual-radiology-books/"
+          target="_blank"
         >
           Book Now
         </NavLink>
@@ -247,7 +248,11 @@ const CRBooksPage = () => {
                 <p className="crbookspage-card__description">
                   {card.description}
                 </p>
-                <NavLink className="crbookspage-card__btn" to={card.link}>
+                <NavLink
+                  className="crbookspage-card__btn"
+                  to={card.link}
+                  target="_blank"
+                >
                   Check Sample Pages
                 </NavLink>
               </div>
