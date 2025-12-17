@@ -1,7 +1,7 @@
 import React from "react";
 import "./OfflineBTR.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpg";
+import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpeg";
 import Image from "../../assets/images/neet-pg-bootcamp.webp";
 
 function OfflineBTR() {

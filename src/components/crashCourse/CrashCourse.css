@@ -4,14 +4,11 @@
 }
 
 .crash-course-banner {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .crash-course-banner img {
   width: 100%;
-  border-radius: 16px;
-  margin-top: 1rem;
 }
 
 .crash-course-header {
@@ -118,7 +115,6 @@
 /* -------------------------- Responsive Styles -------------------------- */
 
 @media (max-width: 1440px) {
-  .crash-course-banner,
   .crash-course-header,
   .crash-course-high {
     width: 85%;
@@ -126,7 +122,6 @@
 }
 
 @media (max-width: 1024px) {
-  .crash-course-banner,
   .crash-course-header,
   .crash-course-high {
     width: 95%;
@@ -186,15 +181,6 @@
 }
 
 @media (max-width: 500px) {
-  .crash-course-banner {
-    width: 100%;
-  }
-
-  .crash-course-banner img {
-    border-radius: 0;
-    margin-top: 0;
-  }
-
   .crash-course-header {
     padding: 2rem 0;
   }

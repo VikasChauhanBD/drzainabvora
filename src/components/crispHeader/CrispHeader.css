@@ -3,13 +3,12 @@
 }
 
 .crisp-header-banner {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .crisp-header-banner img {
   width: 100%;
-  margin-top: 1rem;
 }
 
 .crisp-header-content {
@@ -26,17 +25,17 @@
 
 /* ----------------------- Responsive --------------- */
 @media (max-width: 1440px) {
-  .crisp-header-banner,
   .crisp-header-content {
     width: 85%;
   }
 }
+
 @media (max-width: 1024px) {
-  .crisp-header-banner,
   .crisp-header-content {
     width: 95%;
   }
 }
+
 @media (max-width: 800px) {
   .crisp-header-content {
     margin: 2rem auto;
@@ -47,12 +46,6 @@
     line-height: 24px;
   }
 }
-@media (max-width: 500px) {
-  .crisp-header-banner {
-    width: 100%;
-  }
 
-  .crisp-header-banner img {
-    margin-top: 0;
-  }
+@media (max-width: 500px) {
 }

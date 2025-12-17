@@ -2,9 +2,8 @@ import React, { useEffect } from "react";
 import "./CrashCourse.css";
 import { NavLink } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Banner from "../../assets/images/crash-course-banner.webp";
+import Banner from "../../assets/images/crash-course-banner.jpeg";
 import Image1 from "../../assets/images/crash-course-image1.jpg";
-import Image2 from "../../assets/images/crash-course-image2.jpg";
 
 function CrashCourse() {
   useEffect(() => {

@@ -3,14 +3,11 @@
 }
 
 .online-btr-banner {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .online-btr-banner img {
   width: 100%;
-  border-radius: 16px;
-  margin-top: 1rem;
 }
 
 .online-btr-header {
@@ -105,7 +102,6 @@
 /* -------------------------- Responsive Styles -------------------------- */
 
 @media (max-width: 1440px) {
-  .online-btr-banner,
   .online-btr-header,
   .online-btr-high {
     width: 85%;
@@ -113,7 +109,6 @@
 }
 
 @media (max-width: 1024px) {
-  .online-btr-banner,
   .online-btr-header,
   .online-btr-high {
     width: 95%;
@@ -152,15 +147,6 @@
 }
 
 @media (max-width: 500px) {
-  .online-btr-banner {
-    width: 100%;
-  }
-
-  .online-btr-banner img {
-    border-radius: 0;
-    margin-top: 0;
-  }
-
   .online-btr-header {
     padding: 2rem 0;
   }

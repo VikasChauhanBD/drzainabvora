@@ -3,14 +3,11 @@
 }
 
 .offline-btr-banner {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .offline-btr-banner img {
   width: 100%;
-  border-radius: 16px;
-  margin-top: 1rem;
 }
 
 .offline-btr-header {
@@ -147,7 +144,6 @@
 /* -------------------------- Responsive Styles -------------------------- */
 
 @media (max-width: 1440px) {
-  .offline-btr-banner,
   .offline-btr-header,
   .offline-btr-high,
   .offline-btr-points {
@@ -156,7 +152,6 @@
 }
 
 @media (max-width: 1024px) {
-  .offline-btr-banner,
   .offline-btr-header,
   .offline-btr-high,
   .offline-btr-points {
@@ -223,15 +218,6 @@
 }
 
 @media (max-width: 500px) {
-  .offline-btr-banner {
-    width: 100%;
-  }
-
-  .offline-btr-banner img {
-    border-radius: 0;
-    margin-top: 0;
-  }
-
   .offline-btr-header {
     padding: 2rem 0;
   }

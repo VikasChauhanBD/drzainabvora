@@ -1,6 +1,6 @@
 import React from "react";
 import "./CrispHeader.css";
-import BannerImage from "../../assets/images/crisp-banner.webp";
+import BannerImage from "../../assets/images/crisp-banner.jpeg";
 
 function CrispHeader() {
   return (
