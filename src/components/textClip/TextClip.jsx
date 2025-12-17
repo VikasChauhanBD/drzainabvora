@@ -1,6 +1,7 @@
 import React from "react";
-import "./TextClipSection.css";
-const TextClipSection = () => {
+import "./TextClip.css";
+
+const TextClip = () => {
   return (
     <section className="text-clip-section">
       <h1 className="clipped-text">
@@ -10,4 +11,4 @@ const TextClipSection = () => {
     </section>
   );
 };
-export default TextClipSection;
+export default TextClip;

@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(245, 245, 245);
 }
 
 @keyframes scroll-background {
@@ -35,13 +34,20 @@
 }
 
 /* ------------------------ Responsive style ------------------- */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .clipped-text {
-    font-size: 4rem;
+    font-size: 120px;
   }
 }
-@media (max-width: 480px) {
+
+@media (max-width: 800px) {
   .clipped-text {
-    font-size: 2.5rem;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .clipped-text {
+    font-size: 50px;
   }
 }

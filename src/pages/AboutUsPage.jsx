@@ -1,16 +1,16 @@
 import React from "react";
 import AboutHeader from "../components/aboutHeader/AboutHeader";
-import TextClipSection from "../components/demo/TextClipSection";
-import Journey from "../components/journey/Journey";
+import TextClip from "../components/textClip/TextClip";
 import Biography from "../components/biography/Biography";
+import Story from "../components/story/Story";
 
 function AboutUsPage() {
   return (
     <div>
       <AboutHeader />
-      <TextClipSection />
-      <Journey />
+      <TextClip />
       <Biography />
+      <Story />
     </div>
   );
 }
