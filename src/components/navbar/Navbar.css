@@ -240,6 +240,7 @@
   }
 
   .mega-menu {
+    width: 700px;
     position: static;
     transform: none;
     margin-top: 0;
@@ -251,6 +252,7 @@
   }
 
   .mega-menu-2 {
+    width: 700px;
     position: static;
     transform: none;
     margin-top: 0;
@@ -263,6 +265,10 @@
 
   .card-image {
     height: 150px;
+  }
+
+  .mega-menu-card {
+    width: 100%;
   }
 }
 
@@ -277,7 +283,7 @@
 
   .mega-menu,
   .mega-menu-2 {
-    width: 400px;
+    width: 450px;
   }
 
   .mega-menu-content {
