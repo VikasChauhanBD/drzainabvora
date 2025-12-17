@@ -266,6 +266,10 @@
   }
 
   .story-item .story-content {
+    width: 300px;
+  }
+
+  .story-item .story-content {
     top: 50%;
   }
 
