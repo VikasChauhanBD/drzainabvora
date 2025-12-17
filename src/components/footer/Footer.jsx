@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/ZV-logo.png";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
@@ -19,16 +18,13 @@ function Footer() {
           <div className="footer-logo">
             <img src={Logo} alt="website logo" />
           </div>
-          <p className="footer-description">
+          {/* <p className="footer-description">
             Empowering medical professionals with innovative online programs and
             comprehensive learning solutions for career excellence.
-          </p>
+          </p> */}
           <div className="footer-social">
             <a href="#" className="social-icon" aria-label="Facebook">
               <FaFacebookF />
-            </a>
-            <a href="#" className="social-icon" aria-label="Twitter">
-              <FaTwitter />
             </a>
             <a href="#" className="social-icon" aria-label="Instagram">
               <FaInstagram />
@@ -104,17 +100,13 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div className="footer-bottom-content">
-          <p>
-            &copy; 2025 Dr. Zainab Vora. All rights reserved. | Designed &
-            Managed By: <NavLink>Believers Destination Pvt Ltd</NavLink>
-          </p>
-          <div className="footer-bottom-links">
-            <NavLink to="/privacy-policy">Privacy Policy</NavLink>
-            <span className="separator">|</span>
-            <NavLink to="/terms-conditions">Terms & Conditions</NavLink>
-          </div>
-        </div>
+        <p>
+          &copy; 2025 Dr. Zainab Vora, All rights reserved. | Designed & Managed
+          By:{" "}
+          <NavLink to="https://believersdestination.com/">
+            Believers Destination Pvt Ltd
+          </NavLink>
+        </p>
       </div>
     </footer>
   );
