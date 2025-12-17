@@ -3,6 +3,7 @@ import AboutHeader from "../components/aboutHeader/AboutHeader";
 import TextClip from "../components/textClip/TextClip";
 import Biography from "../components/biography/Biography";
 import Story from "../components/story/Story";
+import CareerTimeline from "../components/careerTimeline/CareerTimeline";
 
 function AboutUsPage() {
   return (
@@ -11,6 +12,7 @@ function AboutUsPage() {
       <TextClip />
       <Biography />
       <Story />
+      <CareerTimeline />
     </div>
   );
 }
