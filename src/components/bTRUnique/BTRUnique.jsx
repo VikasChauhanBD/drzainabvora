@@ -3,16 +3,32 @@ import "./BTRUnique.css";
 
 const BTRUnique = () => {
   return (
-    <div className="why-btr-container">
+    <div className="btr-unique-container">
+      {/* Animated Background Elements */}
+      <div className="bg-gradient-orb orb-1"></div>
+      <div className="bg-gradient-orb orb-2"></div>
+      <div className="bg-gradient-orb orb-3"></div>
+
       {/* Main Content */}
       <section className="content-section">
-        <h2 className="section-title">
-          What makes BTR unique (from someone who actually used it)
-        </h2>
+        <div className="section-header">
+          <div className="header-accent"></div>
+          <h2 className="section-title">
+            What makes BTR unique
+            <span className="title-highlight">
+              {" "}
+              (from someone who actually used it)
+            </span>
+          </h2>
+          <div className="header-accent"></div>
+        </div>
 
         {/* Feature 1 */}
         <div className="feature-card">
-          <div className="feature-number">1</div>
+          <div className="feature-number-wrapper">
+            <div className="feature-number">1</div>
+            <div className="number-glow"></div>
+          </div>
           <div className="feature-content">
             <h3 className="feature-title">
               She simplifies stuff that everyone else overcomplicates
@@ -22,6 +38,7 @@ const BTRUnique = () => {
               still feel dumb?
             </p>
             <p className="feature-highlight">
+              <span className="highlight-icon">💡</span>
               With Dr. Zainab it's like — "Oh, this was actually simple?? Why
               did I waste 3 days on it?"
             </p>
@@ -34,7 +51,10 @@ const BTRUnique = () => {
 
         {/* Feature 2 */}
         <div className="feature-card">
-          <div className="feature-number">2</div>
+          <div className="feature-number-wrapper">
+            <div className="feature-number">2</div>
+            <div className="number-glow"></div>
+          </div>
           <div className="feature-content">
             <h3 className="feature-title">
               BTR is literally life-saving during revision
@@ -61,7 +81,10 @@ const BTRUnique = () => {
 
         {/* Feature 3 */}
         <div className="feature-card">
-          <div className="feature-number">3</div>
+          <div className="feature-number-wrapper">
+            <div className="feature-number">3</div>
+            <div className="number-glow"></div>
+          </div>
           <div className="feature-content">
             <h3 className="feature-title">
               Dr. Zainab teaches like she knows your pain
@@ -87,7 +110,10 @@ const BTRUnique = () => {
 
         {/* Feature 4 */}
         <div className="feature-card">
-          <div className="feature-number">4</div>
+          <div className="feature-number-wrapper">
+            <div className="feature-number">4</div>
+            <div className="number-glow"></div>
+          </div>
           <div className="feature-content">
             <h3 className="feature-title">
               Her vibe makes you actually WANT to study
@@ -96,9 +122,18 @@ const BTRUnique = () => {
               Her sessions feel like someone is studying with you, not at you.
             </p>
             <div className="benefits-grid">
-              <div className="benefit-item">You won't zone out.</div>
-              <div className="benefit-item">You won't feel stupid.</div>
-              <div className="benefit-item">You won't feel alone.</div>
+              <div className="benefit-item">
+                <span className="benefit-icon">✨</span>
+                You won't zone out.
+              </div>
+              <div className="benefit-item">
+                <span className="benefit-icon">🧠</span>
+                You won't feel stupid.
+              </div>
+              <div className="benefit-item">
+                <span className="benefit-icon">🤝</span>
+                You won't feel alone.
+              </div>
             </div>
             <p className="feature-emphasis">
               That alone is half the battle in exam prep.
@@ -108,7 +143,10 @@ const BTRUnique = () => {
 
         {/* Feature 5 */}
         <div className="feature-card">
-          <div className="feature-number">5</div>
+          <div className="feature-number-wrapper">
+            <div className="feature-number">5</div>
+            <div className="number-glow"></div>
+          </div>
           <div className="feature-content">
             <h3 className="feature-title">BTR tells you what NOT to study</h3>
             <p className="feature-text">
@@ -119,6 +157,7 @@ const BTRUnique = () => {
               dumping.
             </p>
             <p className="feature-highlight">
+              <span className="highlight-icon">✂️</span>
               Zainab ma'am just cuts it off: "Ye sab exam mein nahi aayega.
               Next."
             </p>
@@ -129,6 +168,7 @@ const BTRUnique = () => {
 
       {/* Important Note Section */}
       <section className="note-section">
+        <div className="note-background-pattern"></div>
         <div className="note-card">
           <h3 className="note-title">BTR is not your main textbook</h3>
           <p className="note-text">
@@ -137,10 +177,18 @@ const BTRUnique = () => {
           </p>
           <div className="study-formula">
             <h4>Use BTR like this:</h4>
-            <p className="formula-text">
-              Concepts → QBank → BTR revision → Repeat
+            <div className="formula-flow">
+              <span className="formula-step">Concepts</span>
+              <span className="formula-arrow">→</span>
+              <span className="formula-step">QBank</span>
+              <span className="formula-arrow">→</span>
+              <span className="formula-step">BTR revision</span>
+              <span className="formula-arrow">→</span>
+              <span className="formula-step">Repeat</span>
+            </div>
+            <p className="formula-highlight">
+              That's when the magic happens. ✨
             </p>
-            <p className="formula-highlight">That's when the magic happens.</p>
           </div>
         </div>
       </section>
@@ -151,15 +199,19 @@ const BTRUnique = () => {
           <h3 className="testimonial-title">
             What it felt like studying with her
           </h3>
-          <p className="testimonial-text">
-            It's like having a senior who's cracked the exam telling you:
+          <div className="testimonial-card">
+            <div className="quote-mark">"</div>
+            <p className="testimonial-text">
+              It's like having a senior who's cracked the exam telling you:
+            </p>
             <span className="quote">
-              "Chill. I know what matters. Just follow this, you'll be fine."
+              Chill. I know what matters. Just follow this, you'll be fine.
             </span>
-          </p>
-          <p className="testimonial-text">
-            That assurance… that calmness… Honestly, it reduces half the stress.
-          </p>
+            <p className="testimonial-text">
+              That assurance… that calmness… Honestly, it reduces half the
+              stress.
+            </p>
+          </div>
 
           <div className="qualities-box">
             <p className="testimonial-text">
@@ -179,6 +231,7 @@ const BTRUnique = () => {
 
       {/* Conclusion Section */}
       <section className="conclusion-section">
+        <div className="conclusion-background"></div>
         <div className="conclusion-content">
           <h2 className="conclusion-title">
             BTR isn't just unique because of the notes.
@@ -188,11 +241,12 @@ const BTRUnique = () => {
           </p>
           <div className="formula-box">
             <p className="formula">
-              Her clarity + empathy + exam sense = killer combination
+              Her clarity + empathy + exam sense ={" "}
+              <span className="formula-result"> killer combination</span>
             </p>
           </div>
           <p className="conclusion-final">
-            If you use it right, it'll make your prep 10x smoother.
+            If you use it right, it'll make your prep 10x smoother. 🚀
           </p>
         </div>
       </section>
