@@ -2,7 +2,6 @@
 .btr-unique-container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   position: relative;
   overflow: hidden;
 }
@@ -479,7 +478,6 @@
   font-size: 6rem;
   color: #667eea;
   opacity: 0.2;
-  font-family: Georgia, serif;
   line-height: 1;
 }
 
@@ -667,8 +665,8 @@
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
+/* -------------------------- Responsive Style ------------------------- */
+@media (max-width: 1440px) {
   .content-section,
   .note-card,
   .testimonial-content,
@@ -677,7 +675,16 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .content-section,
+  .note-card,
+  .testimonial-content,
+  .conclusion-content {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
   .section-title {
     font-size: 1.8rem;
   }
@@ -716,7 +723,8 @@
   }
 
   .feature-highlight {
-    font-size: 1.05rem;
+    font-size: 1rem;
+    line-height: 24px;
     padding: 18px 20px;
   }
 
@@ -749,19 +757,12 @@
     padding: 60px 20px;
   }
 
-  .content-section,
-  .note-card,
-  .testimonial-content,
-  .conclusion-content {
-    width: 90%;
-  }
-
   .bg-gradient-orb {
     filter: blur(60px);
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .section-title {
     font-size: 1.5rem;
   }
