@@ -18,9 +18,9 @@ import Footer from "./components/footer/Footer";
 function App() {
   const [showIntro, setShowIntro] = useState(false);
 
-  // Check sessionStorage to decide whether to show intro video
+  // Check localStorage to decide whether to show intro video
   useEffect(() => {
-    const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
+    const hasSeenVideo = localStorage.getItem("hasSeenIntro");
 
     if (!hasSeenVideo) {
       setShowIntro(true);
@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   const handleVideoEnd = () => {
-    sessionStorage.setItem("hasSeenIntro", "true");
+    localStorage.setItem("hasSeenIntro", "true");
     setShowIntro(false);
   };
 
