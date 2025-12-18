@@ -11,14 +11,14 @@
 }
 
 .btr-cards {
-  width: 80%;
-  margin: 2rem auto;
+  width: 90%;
+  margin: 2rem 0;
   display: flex;
   justify-content: space-between;
 }
 
 .btr-image {
-  width: 48%;
+  width: 58%;
 }
 
 .btr-image img {
@@ -26,7 +26,7 @@
 }
 
 .btr-content {
-  width: 48%;
+  width: 38%;
   align-content: center;
   color: #27187e;
 }

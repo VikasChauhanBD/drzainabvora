@@ -1,0 +1,365 @@
+.why-btr-container {
+  width: 100%;
+}
+
+/* Content Section */
+.content-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(33, 33, 33, 0.07);
+  border-radius: 16px;
+  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+    inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
+    inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
+    inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
+    inset 0 1.602px 1.602px -2.5px hsla(0, 0%, 100%, 0.16),
+    inset 0 7px 7px -3.75px hsla(0, 0%, 100%, 0.06),
+    0 0.652px 0.652px -0.2px rgba(0, 0, 0, 0.02),
+    0 1.776px 1.776px -0.4px rgba(0, 0, 0, 0.02),
+    0 3.899px 3.899px -0.6px rgba(0, 0, 0, 0.03),
+    0 8.655px 8.655px -0.8px rgba(0, 0, 0, 0.04),
+    0 22px 22px -1px rgba(0, 0, 0, 0.08);
+  display: flex;
+  gap: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-number {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.feature-content {
+  flex: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.feature-text {
+  font-size: 1.05rem;
+  color: #5a6c7d;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.feature-highlight {
+  font-size: 1.1rem;
+  color: #667eea;
+  font-weight: 600;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f0f4ff;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+}
+
+.feature-emphasis {
+  font-size: 1.1rem;
+  color: #764ba2;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.feature-list {
+  list-style: none;
+  margin: 20px 0;
+  padding-left: 0;
+}
+
+.feature-list li {
+  font-size: 1.05rem;
+  color: #5a6c7d;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.feature-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.benefit-item {
+  background-color: #f0f4ff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 500;
+  border: 2px solid #e0e7ff;
+}
+
+/* Note Section */
+.note-section {
+  background-color: #27187e;
+  padding: 60px 20px;
+  margin-top: 40px;
+}
+
+.note-card {
+  width: 70%;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+  font-size: 1.8rem;
+  color: #d63031;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.note-text {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.study-formula {
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 5px solid #667eea;
+  margin-top: 20px;
+}
+
+.study-formula h4 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.formula-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 15px;
+  background: white;
+  border-radius: 6px;
+}
+
+.formula-highlight {
+  font-size: 1.1rem;
+  color: #764ba2;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  background: white;
+  padding: 60px 20px;
+}
+
+.testimonial-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.testimonial-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.testimonial-text {
+  font-size: 1.15rem;
+  color: #5a6c7d;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.quote {
+  display: block;
+  font-size: 1.2rem;
+  color: #667eea;
+  font-weight: 600;
+  font-style: italic;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f4ff;
+  border-left: 4px solid #667eea;
+  border-radius: 4px;
+}
+
+.qualities-box {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.qualities-list {
+  list-style: none;
+  margin: 20px 0;
+  padding-left: 0;
+}
+
+.qualities-list li {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 35px;
+  position: relative;
+  font-weight: 500;
+}
+
+.qualities-list li::before {
+  content: "♥";
+  position: absolute;
+  left: 0;
+  color: #e74c3c;
+  font-size: 1.3rem;
+}
+
+.testimonial-emphasis {
+  font-size: 1.15rem;
+  color: #764ba2;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Conclusion Section */
+.conclusion-section {
+  background-color: #27187e;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.conclusion-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.conclusion-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.conclusion-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+.formula-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 12px;
+  margin: 30px 0;
+  backdrop-filter: blur(10px);
+}
+
+.formula {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.conclusion-final {
+  font-size: 1.3rem;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .feature-card {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .feature-number {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .feature-title {
+    font-size: 1.3rem;
+  }
+
+  .section-title,
+  .testimonial-title,
+  .conclusion-title {
+    font-size: 1.6rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .note-card {
+    padding: 25px;
+  }
+
+  .conclusion-section {
+    padding: 50px 20px;
+  }
+}

@@ -12,6 +12,7 @@ import OnlineBtrPage from "./pages/OnlineBtrPage";
 import OfflineBtrPage from "./pages/OfflineBtrPage";
 import CrispPage from "./pages/CrispPage";
 import CrashCoursePage from "./pages/CrashCoursePage";
+import WhyBtrPage from "./pages/WhyBtrPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
             <Route path="/neet-pg-bootcamp" element={<OfflineBtrPage />} />
             <Route path="/crash-course" element={<CrashCoursePage />} />
             <Route path="/crisp" element={<CrispPage />} />
+            <Route path="/why-btr" element={<WhyBtrPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

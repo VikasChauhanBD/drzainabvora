@@ -42,6 +42,9 @@ function Navbar() {
         <NavLink to="/about" onClick={handleCloseNav}>
           About
         </NavLink>
+        <NavLink to="/why-btr" onClick={handleCloseNav}>
+          Why BTR
+        </NavLink>
 
         <div
           className="dropdown-container"

@@ -48,6 +48,9 @@ function Footer() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
+              <NavLink to="/why-btr">Why BTR</NavLink>
+            </li>
+            <li>
               <NavLink to="/students">Students</NavLink>
             </li>
           </ul>
