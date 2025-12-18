@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AboutHeader.css";
 
 const AboutHeader = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleVideoLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <section className="about-header">
       {/* Background Video */}
       <div className="about-header-video-wrapper">
-        <iframe
+        {isLoading && (
+          <div className="about-video-loading">
+            <div className="about-spinner"></div>
+            <p className="about-loading-text">Loading...</p>
+          </div>
+        )}
+        <video
           className="about-header-background-video"
-          src="https://www.youtube.com/embed/VVuGLeCiu-w?autoplay=1&mute=1&loop=1&playlist=VVuGLeCiu-w&controls=0&showinfo=0&modestbranding=1&rel=0"
-          title="About Background Video"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-        ></iframe>
+          autoPlay
+          muted
+          loop
+          playsInline
+          onLoadedData={handleVideoLoad}
+          preload="auto"
+        >
+          <source
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/about-video_eevrpx.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/about-video_eevrpx.webm"
+            type="video/webm"
+          />
+        </video>
       </div>
 
       {/* Overlay */}
@@ -35,7 +57,7 @@ const AboutHeader = () => {
         <div className="about-header-description">
           <p>
             A teacher who studies with you, a doctor who understands the
-            pressure you carry, and a mentor who believes that every student’s
+            pressure you carry, and a mentor who believes that every student's
             journey deserves clarity, strategy, and hope. From earning Rank 1 in
             Radiology at AIIMS to simplifying exam preparation for lakhs of
             students across India.

@@ -1,18 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "./VideoHero.css";
 
 function VideoHero() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleVideoLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <section className="video-hero-section">
       <div className="video-background">
-        <iframe
+        {isLoading && (
+          <div className="video-loading">
+            <div className="spinner"></div>
+            <p className="loading-text">Loading...</p>
+          </div>
+        )}
+        <video
           className="background-video"
-          src="https://www.youtube.com/embed/0EppvOQWhYQ?autoplay=1&mute=1&loop=1&playlist=0EppvOQWhYQ&controls=0&showinfo=0&modestbranding=1&rel=0"
-          title="Background Video"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-        ></iframe>
+          autoPlay
+          muted
+          loop
+          playsInline
+          onLoadedData={handleVideoLoad}
+          preload="auto"
+        >
+          <source
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.webm"
+            type="video/webm"
+          />
+        </video>
         <div className="video-overlay"></div>
       </div>
       <div className="hero-content">
