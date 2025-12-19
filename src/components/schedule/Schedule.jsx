@@ -2,59 +2,170 @@ import React from "react";
 import "./Schedule.css";
 
 export default function Schedule() {
+  // const scheduleData = [
+  //   {
+  //     day: "Monday",
+  //     sessions: [
+  //       { time: "9:00 AM - 12:00 PM", subject: "Radiology", badge: "Live" },
+  //       { time: "2:00 PM - 5:00 PM", subject: "Physiology", badge: "Live" },
+  //     ],
+  //   },
+  //   {
+  //     day: "Tuesday",
+  //     sessions: [
+  //       { time: "9:00 AM - 12:00 PM", subject: "Biochemistry", badge: "Live" },
+  //       { time: "2:00 PM - 5:00 PM", subject: "Pathology", badge: "Live" },
+  //     ],
+  //   },
+  //   {
+  //     day: "Wednesday",
+  //     sessions: [
+  //       { time: "9:00 AM - 12:00 PM", subject: "Pharmacology", badge: "Live" },
+  //       { time: "2:00 PM - 5:00 PM", subject: "Microbiology", badge: "Live" },
+  //     ],
+  //   },
+  //   {
+  //     day: "Thursday",
+  //     sessions: [
+  //       { time: "9:00 AM - 12:00 PM", subject: "Medicine", badge: "Live" },
+  //       { time: "2:00 PM - 5:00 PM", subject: "Surgery", badge: "Live" },
+  //     ],
+  //   },
+  //   {
+  //     day: "Friday",
+  //     sessions: [
+  //       {
+  //         time: "9:00 AM - 12:00 PM",
+  //         subject: "OBG & Pediatrics",
+  //         badge: "Live",
+  //       },
+  //       {
+  //         time: "2:00 PM - 5:00 PM",
+  //         subject: "Orthopedics",
+  //         badge: "Live",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     day: "Saturday",
+  //     sessions: [
+  //       {
+  //         time: "9:00 AM - 1:00 PM",
+  //         subject: "Weekly Revision & MCQs",
+  //         badge: "Interactive",
+  //       },
+  //     ],
+  //   },
+  // ];
+
   const scheduleData = [
     {
-      day: "Monday",
-      sessions: [
-        { time: "9:00 AM - 12:00 PM", subject: "Radiology", badge: "Live" },
-        { time: "2:00 PM - 5:00 PM", subject: "Physiology", badge: "Live" },
-      ],
-    },
-    {
-      day: "Tuesday",
-      sessions: [
-        { time: "9:00 AM - 12:00 PM", subject: "Biochemistry", badge: "Live" },
-        { time: "2:00 PM - 5:00 PM", subject: "Pathology", badge: "Live" },
-      ],
-    },
-    {
-      day: "Wednesday",
-      sessions: [
-        { time: "9:00 AM - 12:00 PM", subject: "Pharmacology", badge: "Live" },
-        { time: "2:00 PM - 5:00 PM", subject: "Microbiology", badge: "Live" },
-      ],
-    },
-    {
-      day: "Thursday",
-      sessions: [
-        { time: "9:00 AM - 12:00 PM", subject: "Medicine", badge: "Live" },
-        { time: "2:00 PM - 5:00 PM", subject: "Surgery", badge: "Live" },
-      ],
-    },
-    {
-      day: "Friday",
+      day: "22nd Nov 2025 (Saturday)",
       sessions: [
         {
-          time: "9:00 AM - 12:00 PM",
-          subject: "OBG & Pediatrics",
-          badge: "Live",
-        },
-        {
-          time: "2:00 PM - 5:00 PM",
-          subject: "Orthopedics",
-          badge: "Live",
+          time: "",
+          subject: "Surgery-Ortho-Radio Tricky Concepts",
+          badge: "Tricky Concepts",
         },
       ],
     },
     {
-      day: "Saturday",
+      day: "1st Dec 2025 (Monday)",
+      sessions: [
+        { time: "", subject: "Surgery-Ortho-Radio E&D", badge: "E&D" },
+      ],
+    },
+    {
+      day: "4th Dec 2025 (Thursday)",
       sessions: [
         {
-          time: "9:00 AM - 1:00 PM",
-          subject: "Weekly Revision & MCQs",
-          badge: "Interactive",
+          time: "",
+          subject: "Biochem-FMT Tricky Concepts",
+          badge: "Tricky Concepts",
         },
       ],
+    },
+    {
+      day: "9th Dec 2025 (Tuesday)",
+      sessions: [{ time: "", subject: "Biochem-FMT E&D", badge: "E&D" }],
+    },
+    {
+      day: "13th Dec 2025 (Saturday)",
+      sessions: [
+        {
+          time: "",
+          subject: "Micro-Anat Tricky Concepts",
+          badge: "Tricky Concepts",
+        },
+      ],
+    },
+    {
+      day: "19th Dec 2025 (Friday)",
+      sessions: [{ time: "", subject: "Micro-Anat E&D", badge: "E&D" }],
+    },
+    {
+      day: "23rd Dec 2025 (Tuesday)",
+      sessions: [
+        {
+          time: "",
+          subject: "Psychi-ENT-Ophthal Tricky Concepts",
+          badge: "Tricky Concepts",
+        },
+      ],
+    },
+    {
+      day: "2nd Jan 2026 (Friday)",
+      sessions: [{ time: "", subject: "Psychi-ENT-Ophthal E&D", badge: "E&D" }],
+    },
+    {
+      day: "14th Jan 2026 (Wednesday)",
+      sessions: [
+        {
+          time: "",
+          subject: "Integrated Systems Tricky Concepts",
+          badge: "Tricky Concepts",
+        },
+      ],
+    },
+    {
+      day: "20th Jan 2026 (Tuesday)",
+      sessions: [
+        {
+          time: "",
+          subject: "Integrated Systems E&D (200 MCQs)",
+          badge: "E&D",
+        },
+      ],
+    },
+    {
+      day: "25th Jan 2026 (Sunday)",
+      sessions: [
+        {
+          time: "",
+          subject: "PSM-Derma-Anesthesia Tricky Concepts",
+          badge: "Tricky Concepts",
+        },
+      ],
+    },
+    {
+      day: "1st Feb 2026 (Sunday)",
+      sessions: [
+        { time: "", subject: "PSM-Derma-Anesthesia E&D", badge: "E&D" },
+      ],
+    },
+    {
+      day: "8th Feb 2026 (Sunday)",
+      sessions: [
+        {
+          time: "",
+          subject: "OBG-Pedia Tricky Concepts",
+          badge: "Tricky Concepts",
+        },
+      ],
+    },
+    {
+      day: "13th Feb 2026 (Thursday)",
+      sessions: [{ time: "", subject: "OBG-Pedia E&D", badge: "E&D" }],
     },
   ];
 
