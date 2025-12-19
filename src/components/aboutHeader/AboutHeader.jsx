@@ -28,11 +28,11 @@ const AboutHeader = () => {
           preload="auto"
         >
           <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/about-video_eevrpx.mp4"
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.mp4"
             type="video/mp4"
           />
           <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/about-video_eevrpx.webm"
+            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.webm"
             type="video/webm"
           />
         </video>
