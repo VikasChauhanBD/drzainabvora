@@ -54,8 +54,8 @@
 }
 
 @media (max-width: 800px) {
-  .btr-container {
-    padding: 2.5rem 0;
+  .btr-cards {
+    width: 100%;
   }
 
   .btr-heading {
@@ -68,11 +68,11 @@
 
   .btr-image {
     width: 100%;
-    margin-bottom: 2rem;
   }
 
   .btr-content {
     width: 100%;
+    padding: 2rem 1rem;
   }
 
   .btr-content p {

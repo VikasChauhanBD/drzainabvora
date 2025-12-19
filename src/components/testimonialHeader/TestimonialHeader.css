@@ -88,7 +88,6 @@
   display: flex;
   gap: 15px;
   position: relative;
-  z-index: 10;
 }
 
 .tsm-header-slider-btn {
@@ -187,7 +186,6 @@
   font-weight: 700;
   color: #5b7bf8;
   margin-bottom: 10px;
-  z-index: 10;
   position: relative;
 }
 
@@ -195,7 +193,6 @@
   font-size: 18px;
   color: #1a1a1a;
   font-weight: 500;
-  z-index: 10;
   position: relative;
 }
 
