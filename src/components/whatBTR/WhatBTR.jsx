@@ -134,9 +134,9 @@ function WhatBTR() {
           The Revolutionary Approach
         </h1>
         <p>
-          A comprehensive teaching methodology that transforms how you learn
-          medicine. Master all subjects with techniques designed for maximum
-          retention and exam success.
+          A complete teaching methodology that changes how you learn medicine,
+          helping you master all subjects with techniques for better persistence
+          and success.
         </p>
       </div>
 

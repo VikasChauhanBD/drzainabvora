@@ -38,9 +38,9 @@
   text-align: left;
 }
 
-.subjects-list a {
+.subjects-list span {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #f1f2f6;
   background-color: #27187e;

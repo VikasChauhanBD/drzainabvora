@@ -1,18 +1,15 @@
 .btr-container {
   width: 100%;
-  padding: 5rem 0;
   align-content: center;
 }
 
 .btr-heading {
-  font-size: 48px;
-  text-align: center;
+  font-size: 40px;
   color: #27187e;
 }
 
 .btr-cards {
   width: 90%;
-  margin: 2rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -23,6 +20,7 @@
 
 .btr-image img {
   width: 100%;
+  margin-bottom: -5px;
 }
 
 .btr-content {
@@ -61,7 +59,7 @@
   }
 
   .btr-heading {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .btr-cards {
@@ -84,6 +82,6 @@
 
 @media (max-width: 500px) {
   .btr-heading {
-    font-size: 32px;
+    font-size: 24px;
   }
 }

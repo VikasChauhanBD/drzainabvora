@@ -13,63 +13,63 @@ function Subjects() {
           coverage of every subject you need to master.
         </p>
         <div className="subjects-list">
-          <NavLink>
-            <BiCheckCircle /> Anatomy
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Physiology
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Biochemistry
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Pathology
-          </NavLink>
-          <NavLink>
+          <span>
             <BiCheckCircle /> Pharmacology
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Microbiology
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Forensic Medicine
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> ENT
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Ophthalmology
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Community Medicine
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Medicine
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Surgery
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Obstetrics
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Gynecology
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Pediatrics
-          </NavLink>
-          <NavLink>
-            <BiCheckCircle /> Orthopedics
-          </NavLink>
-          <NavLink>
+          </span>
+          <span>
+            <BiCheckCircle /> PSM
+          </span>
+          <span>
             <BiCheckCircle /> Radiology
-          </NavLink>
-          <NavLink>
+          </span>
+          <span>
+            <BiCheckCircle /> Pathology
+          </span>
+          <span>
             <BiCheckCircle /> Psychiatry
-          </NavLink>
-          <NavLink>
+          </span>
+          <span>
+            <BiCheckCircle /> Medicine
+          </span>
+          <span>
+            <BiCheckCircle /> Surgery
+          </span>
+          <span>
+            <BiCheckCircle /> OBG
+          </span>
+          <span>
+            <BiCheckCircle /> Pediatrics
+          </span>
+          <span>
+            <BiCheckCircle /> Anatomy
+          </span>
+          <span>
+            <BiCheckCircle /> Anesthesia
+          </span>
+          <span>
+            <BiCheckCircle /> ENT
+          </span>
+          <span>
+            <BiCheckCircle /> Forensic
+          </span>
+          <span>
+            <BiCheckCircle /> Ophthalmology
+          </span>
+          <span>
             <BiCheckCircle /> Dermatology
-          </NavLink>
+          </span>
+          <span>
+            <BiCheckCircle /> Physiology
+          </span>
+          <span>
+            <BiCheckCircle /> Biochemistry
+          </span>
+          <span>
+            <BiCheckCircle /> Microbiology
+          </span>
+          <span>
+            <BiCheckCircle /> Orthopedics
+          </span>
         </div>
 
         <NavLink to="/online-btr" className="subjects-btn">

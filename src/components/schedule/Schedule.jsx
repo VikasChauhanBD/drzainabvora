@@ -6,7 +6,7 @@ export default function Schedule() {
     {
       day: "Monday",
       sessions: [
-        { time: "9:00 AM - 12:00 PM", subject: "Anatomy", badge: "Live" },
+        { time: "9:00 AM - 12:00 PM", subject: "Radiology", badge: "Live" },
         { time: "2:00 PM - 5:00 PM", subject: "Physiology", badge: "Live" },
       ],
     },
@@ -41,7 +41,7 @@ export default function Schedule() {
         },
         {
           time: "2:00 PM - 5:00 PM",
-          subject: "Community Medicine",
+          subject: "Orthopedics",
           badge: "Live",
         },
       ],
@@ -59,102 +59,87 @@ export default function Schedule() {
   ];
 
   return (
-    <div className="schedule-container">
-      <div className="schedule-wrapper">
+    <div className="btr-schedule-container">
+      <div className="btr-schedule-wrapper">
         {/* Header */}
-        <div className="schedule-header">
-          <div className="schedule-subtitle">CLASS SCHEDULE</div>
-          <h1 className="schedule-title">Your Weekly Learning Journey</h1>
-          <p className="schedule-description">
-            A structured approach to mastering all subjects with live
-            interactive sessions and dedicated revision time.
+        <div className="btr-schedule-header">
+          <div className="btr-schedule-subtitle">CLASS SCHEDULE</div>
+          <h1 className="btr-schedule-title">Your Weekly Learning Journey</h1>
+          <p className="btr-schedule-description">
+            A well-organized approach that helps you master all subjects through
+            live interactive sessions and dedicated revision.
           </p>
         </div>
 
         {/* Feature Cards */}
-        <div className="feature-cards">
-          <div className="feature-card feature-card-orange">
-            <div className="feature-icon">
-              <svg
-                className="icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <rect
-                  x="2"
-                  y="2"
-                  width="20"
-                  height="20"
-                  rx="2.18"
-                  ry="2.18"
-                ></rect>
-                <line x1="7" y1="2" x2="7" y2="22"></line>
-                <line x1="17" y1="2" x2="17" y2="22"></line>
-                <line x1="2" y1="12" x2="22" y2="12"></line>
-                <line x1="2" y1="7" x2="7" y2="7"></line>
-                <line x1="2" y1="17" x2="7" y2="17"></line>
-                <line x1="17" y1="17" x2="22" y2="17"></line>
-                <line x1="17" y1="7" x2="22" y2="7"></line>
-              </svg>
-            </div>
-            <div>
-              <h3 className="feature-title">Live Sessions</h3>
-              <p className="feature-text">Interactive classes</p>
-            </div>
+        <div className="btr-schedule-feature-cards">
+          <div className="btr-schedule-feature-card">
+            <svg
+              className="btr-schedule-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <rect
+                x="2"
+                y="2"
+                width="20"
+                height="20"
+                rx="2.18"
+                ry="2.18"
+              ></rect>
+              <line x1="7" y1="2" x2="7" y2="22"></line>
+              <line x1="17" y1="2" x2="17" y2="22"></line>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <line x1="2" y1="7" x2="7" y2="7"></line>
+              <line x1="2" y1="17" x2="7" y2="17"></line>
+              <line x1="17" y1="17" x2="22" y2="17"></line>
+              <line x1="17" y1="7" x2="22" y2="7"></line>
+            </svg>
+            <h3 className="btr-schedule-feature-title">Live Sessions</h3>
           </div>
 
-          <div className="feature-card feature-card-orange">
-            <div className="feature-icon">
-              <svg
-                className="icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-              </svg>
-            </div>
-            <div>
-              <h3 className="feature-title">Flexible Timing</h3>
-              <p className="feature-text">Recordings available</p>
-            </div>
+          <div className="btr-schedule-feature-card">
+            <svg
+              className="btr-schedule-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <h3 className="btr-schedule-feature-title">Flexible Timing</h3>
           </div>
 
-          <div className="feature-card feature-card-orange">
-            <div className="feature-icon">
-              <svg
-                className="icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="9" cy="7" r="4"></circle>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-              </svg>
-            </div>
-            <div>
-              <h3 className="feature-title">Doubt Sessions</h3>
-              <p className="feature-text">Personalized support</p>
-            </div>
+          <div className="btr-schedule-feature-card">
+            <svg
+              className="btr-schedule-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <h3 className="btr-schedule-feature-title">Doubt Sessions</h3>
           </div>
         </div>
 
         {/* Schedule */}
-        <div className="schedule-list">
+        <div className="btr-schedule-list">
           {scheduleData.map((day, index) => (
-            <div key={index} className="schedule-day">
-              <div className="schedule-day-content">
+            <div key={index} className="btr-schedule-day">
+              <div className="btr-schedule-day-content">
                 {/* Day */}
-                <div className="day-name">
+                <div className="btr-schedule-day-name">
                   <svg
-                    className="icon-small"
+                    className="btr-schedule-icon-small"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -172,16 +157,16 @@ export default function Schedule() {
                     <line x1="8" y1="2" x2="8" y2="6"></line>
                     <line x1="3" y1="10" x2="21" y2="10"></line>
                   </svg>
-                  <span className="day-text">{day.day}</span>
+                  <span className="btr-schedule-day-text">{day.day}</span>
                 </div>
 
                 {/* Sessions */}
-                <div className="sessions-grid">
+                <div className="btr-sessions-grid">
                   {day.sessions.map((session, sessionIndex) => (
-                    <div key={sessionIndex} className="session-item">
-                      <div className="session-time">
+                    <div key={sessionIndex} className="btr-session-item">
+                      <div className="btr-session-time">
                         <svg
-                          className="icon-tiny"
+                          className="btr-session-icon-tiny"
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
@@ -192,13 +177,15 @@ export default function Schedule() {
                         </svg>
                         <span>{session.time}</span>
                       </div>
-                      <div className="session-subject">
-                        <span className="subject-name">{session.subject}</span>
+                      <div className="btr-session-subject">
+                        <span className="btr-session-subject-name">
+                          {session.subject}
+                        </span>
                         <span
-                          className={`badge ${
+                          className={`btr-session-badge ${
                             session.badge === "Interactive"
-                              ? "badge-interactive"
-                              : "badge-live"
+                              ? "btr-session-badge-interactive"
+                              : "btr-session-badge-live"
                           }`}
                         >
                           {session.badge}

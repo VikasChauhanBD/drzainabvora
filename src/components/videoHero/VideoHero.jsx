@@ -40,7 +40,7 @@ function VideoHero() {
       <div className="hero-content">
         <h1 className="hero-title">
           Simplifying the Journey so Every Story has a Chance to Become
-          Extraordinary!
+          Extraordinar
         </h1>
       </div>
     </section>

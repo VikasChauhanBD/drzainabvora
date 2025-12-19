@@ -7,7 +7,10 @@ import HeroImage2 from "../../assets/images/dr-zainab-vora2.png";
 import HeroImage3 from "../../assets/images/dr-zainab-vora3.png";
 
 function Header() {
-  const heroImages = [HeroImage1, HeroImage2, HeroImage3];
+  const heroImages = [
+    "https://cdn.dribbble.com/userupload/46111694/file/20b7938841258aa0636802dde8b915d2.png",
+    "https://cdn.dribbble.com/userupload/46111695/file/05931a6957b75963092ac31654b56934.png",
+  ];
   const [currentImage, setCurrentImage] = useState(0);
 
   // Image rotation logic
@@ -22,25 +25,24 @@ function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % heroImages.length);
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
 
-  const [text] = useTypewriter({
-    words: ["“Kahani tumhaari hai. Ho sake toh kamaal likhna.”"],
-    loop: {},
-  });
+  // const [text] = useTypewriter({
+  //   words: ["“Kahani tumhaari hai. Ho sake toh kamaal likhna.”"],
+  //   loop: {},
+  // });
 
   return (
     <div className="header-container">
       <div className="upper-header">
         <h1>
-          A respected radiologist, renowned educator, and mentor to thousands of
-          medical students across India, guiding them in Radiology for FMGE,
-          NEET PG, INICET, and MBBS training.
+          A respected radiologist and renowned educator, mentoring thousands of
+          medical students across India through BTR for FMGE, NEET PG, INICET
         </h1>
-        <NavLink to="/about">Click Here</NavLink>
+        {/* <NavLink to="/about">Click Here</NavLink> */}
       </div>
 
       <div className="lower-header">
@@ -83,10 +85,12 @@ function Header() {
               this is not how my story ends”
             </p>
 
-            <h6 className="header-typeWriter">
+            {/* <h6 className="header-typeWriter">
               {text}
               <Cursor />
-            </h6>
+            </h6> */}
+
+            <h6>“Kahani tumhaari hai. Ho sake toh kamaal likhna.”</h6>
 
             <NavLink to="/about">Know More</NavLink>
           </div>
