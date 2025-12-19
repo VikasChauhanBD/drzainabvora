@@ -10,11 +10,10 @@
 
 .navbar-logo {
   width: 20%;
-  padding-left: 5rem;
 }
 
 .navbar-logo img {
-  width: 200px;
+  width: 280px;
 }
 
 .web-nav {
@@ -202,6 +201,16 @@
 
 /* -------------------------- Responsive Style -------------------------- */
 
+@media (max-width: 1440px) {
+  .navbar-logo img {
+    width: 260px;
+  }
+
+  .web-nav {
+    padding-right: 4rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .web-nav {
     display: none;
@@ -209,7 +218,7 @@
 
   .hamburger {
     display: inline-block;
-    padding-right: 5rem;
+    padding-right: 2.5rem;
   }
 
   .hamburger-btn {
@@ -273,12 +282,8 @@
 }
 
 @media (max-width: 800px) {
-  .navbar-logo {
-    padding-left: 2.5rem;
-  }
-
-  .hamburger {
-    padding-right: 2.5rem;
+  .navbar-logo img {
+    width: 260px;
   }
 
   .mega-menu,
@@ -292,12 +297,12 @@
 }
 
 @media (max-width: 500px) {
-  .navbar-logo {
-    padding-left: 1rem;
+  .navbar-logo img {
+    width: 240px;
   }
 
   .hamburger {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
   }
 
   .mega-menu,
