@@ -124,7 +124,7 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials-section">
-      <h2 className="feedback-title">Students Feedback</h2>
+      <h2>Students Feedback</h2>
 
       <div className="testimonials-container">
         <div className="testimonials-column column-1">

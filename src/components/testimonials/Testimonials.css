@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.testimonials-title {
+.testimonials-section h2 {
   text-align: center;
   font-size: 48px;
   font-weight: 700;
@@ -155,7 +155,7 @@
 
 /* --------------------------- Responsive style ------------------- */
 @media (max-width: 1024px) {
-  .testimonials-title {
+  .testimonials-section h2 {
     font-size: 36px;
   }
 
@@ -179,7 +179,7 @@
     display: block;
   }
 
-  .testimonials-title {
+  .testimonials-section h2 {
     font-size: 32px;
   }
 
@@ -193,7 +193,7 @@
     padding: 60px 16px;
   }
 
-  .testimonials-title {
+  .testimonials-section h2 {
     font-size: 28px;
     margin-bottom: 40px;
   }
