@@ -17,20 +17,73 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
+  const [isChecking, setIsChecking] = useState(true);
 
-  // Check localStorage to decide whether to show intro video
   useEffect(() => {
-    const hasSeenVideo = localStorage.getItem("hasSeenIntro");
+    const CHANNEL_NAME = "intro_video_channel";
+    let channel;
 
-    if (!hasSeenVideo) {
-      setShowIntro(true);
+    try {
+      channel = new BroadcastChannel(CHANNEL_NAME);
+      let otherTabExists = false;
+
+      // Listen for messages from other tabs
+      const handleMessage = (event) => {
+        if (event.data.type === "tab_exists") {
+          // Another tab exists, don't show video
+          otherTabExists = true;
+          setShowIntro(false);
+          setIsChecking(false);
+        } else if (event.data.type === "checking") {
+          // Another tab is checking, respond that we exist
+          channel.postMessage({ type: "tab_exists" });
+        }
+      };
+
+      channel.addEventListener("message", handleMessage);
+
+      // Ask if any other tab is already open
+      channel.postMessage({ type: "checking" });
+
+      // Wait briefly for responses
+      const timeoutId = setTimeout(() => {
+        if (!otherTabExists) {
+          // No other tabs exist, check if video should play
+          const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
+          if (!hasSeenVideo) {
+            setShowIntro(true);
+          }
+        }
+        setIsChecking(false);
+      }, 100);
+
+      // Cleanup
+      return () => {
+        clearTimeout(timeoutId);
+        if (channel) {
+          channel.removeEventListener("message", handleMessage);
+          channel.close();
+        }
+      };
+    } catch (error) {
+      // BroadcastChannel not supported, just check sessionStorage
+      const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
+      if (!hasSeenVideo) {
+        setShowIntro(true);
+      }
+      setIsChecking(false);
     }
   }, []);
 
   const handleVideoEnd = () => {
-    localStorage.setItem("hasSeenIntro", "true");
+    sessionStorage.setItem("hasSeenIntro", "true");
     setShowIntro(false);
   };
+
+  // Show nothing while checking for other tabs
+  if (isChecking) {
+    return null;
+  }
 
   return (
     <>
