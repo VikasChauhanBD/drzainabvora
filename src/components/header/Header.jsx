@@ -55,34 +55,13 @@ function Header() {
               BTR.
             </h2>
             <p>
-              Dr. Zainab Vora is not merely a name in medical education — she is
-              a feeling, a source of strength, and a quiet reassurance for
-              thousands of PG aspirants standing at the crossroads of fear and
-              hope. An alumnus of AIIMS, New Delhi, and the proud achiever of
-              AIR 1 in INI-CET, her journey reminds students that even the
-              biggest dreams are achievable with faith, consistency, and
-              courage. students across India.
-              <br />
-              But what makes Dr. Zainab Vora extraordinary goes far beyond ranks
-              and degrees. She teaches with compassion, understanding the
-              sleepless nights, the self-doubt, and the emotional exhaustion
-              that every aspirant carries. In her voice, students find calm. In
-              her words, they find direction. She doesn’t just teach subjects —
-              she heals broken confidence and rebuilds belief.
-              <br />
-              Affectionately crowned the “BTR Queen,” she has changed countless
-              lives through the BTR course. For many students, BTR arrived when
-              they were at their lowest — confused, tired, and ready to give up.
-              Under her guidance, chaos turned into clarity, fear turned into
-              confidence, and dreams that once felt impossible began to feel
-              within reach. Today, many of those students proudly step into
-              their dream postgraduate branches, carrying her teachings in their
-              hearts.
-              <br />
-              To her students, Dr. Zainab Vora is more than a mentor. She is
-              hope on difficult days, strength during silent breakdowns, and the
-              belief that whispers, “At any moment you have the power to say,
-              this is not how my story ends”
+              An AIIMS New Delhi alumnus and AIR 1 in INI-CET, Dr. Zainab Vora
+              is more than an educator—she is a pillar of hope for PG aspirants
+              across India. With compassion and clarity, she has transformed
+              countless journeys through the BTR course—turning confusion into
+              confidence and dreams into reality which is why she known as the
+              “BTR Queen,” To her students, she is not just a mentor but a
+              belief that says, "Your story can still change."
             </p>
 
             {/* <h6 className="header-typeWriter">
