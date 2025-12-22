@@ -19,9 +19,8 @@ const CareerTimeline = () => {
       const timelineHeight = timelineRect.height;
       const windowHeight = window.innerHeight;
 
-      // Calculate how much of the timeline is visible
-      const startOffset = windowHeight * 0.8; // Start filling when timeline is 80% down the screen
-      const endOffset = windowHeight * 0.2; // Complete when timeline top is 20% from top
+      const startOffset = windowHeight * 0.8;
+      const endOffset = windowHeight * 0.2;
 
       let progress = 0;
 
@@ -36,52 +35,12 @@ const CareerTimeline = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Call once on mount
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const timelineData = [
-    {
-      year: "2008",
-      title: "Bachelor of Medicine",
-      institution: "Harvard Medical School",
-      description:
-        "Graduated with honors, specializing in Internal Medicine. Awarded the Dean's Excellence Award for outstanding academic performance.",
-      type: "education",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop",
-    },
-    {
-      year: "2010",
-      title: "Junior Resident",
-      institution: "Massachusetts General Hospital",
-      description:
-        "Completed residency program in Internal Medicine, gaining extensive clinical experience in patient care and diagnosis.",
-      type: "experience",
-      image:
-        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop",
-    },
-    {
-      year: "2012",
-      title: "First Research Publication",
-      institution: "Journal of Internal Medicine",
-      description:
-        "Published groundbreaking research on diabetes management in elderly patients, cited over 200 times.",
-      type: "achievement",
-      image:
-        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=300&fit=crop",
-    },
-    {
-      year: "2014",
-      title: "Assistant Professor",
-      institution: "Johns Hopkins University",
-      description:
-        "Joined the faculty as Assistant Professor of Medicine, teaching medical students and residents.",
-      type: "experience",
-      image:
-        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop",
-    },
     {
       year: "2016",
       title: "Outstanding Educator Award",
@@ -162,8 +121,8 @@ const CareerTimeline = () => {
 
   return (
     <section className="career-timeline-section">
-      <div className="timeline-container">
-        <div className="timeline-header">
+      <div className="career-timeline-container">
+        <div className="career-timeline-header">
           <h2>Career Timeline</h2>
           <p>
             - A chronological display of her milestones, accomplishments, and
@@ -171,10 +130,10 @@ const CareerTimeline = () => {
           </p>
         </div>
 
-        <div className="timeline" ref={timelineRef}>
-          <div className="timeline-line-bg"></div>
+        <div className="career-timeline-main" ref={timelineRef}>
+          <div className="career-timeline-line-bg"></div>
           <div
-            className="timeline-line-fill"
+            className="career-timeline-line-fill"
             ref={timelineLineRef}
             style={{ height: `${scrollProgress}%` }}
           ></div>
@@ -182,32 +141,40 @@ const CareerTimeline = () => {
           {timelineData.map((item, index) => (
             <div
               key={index}
-              className={`timeline-item ${index % 2 === 0 ? "left" : "right"} ${
-                selectedYear === item.year ? "active" : ""
-              }`}
+              className={`career-timeline-item ${
+                index % 2 === 0 ? "left" : "right"
+              } ${selectedYear === item.year ? "active" : ""}`}
               onClick={() =>
                 setSelectedYear(selectedYear === item.year ? null : item.year)
               }
             >
-              <div className="timeline-content">
-                <div className="timeline-image">
+              <div className="career-timeline-content">
+                <div className="career-timeline-image">
                   <img src={item.image} alt={item.title} />
-                  <div className="timeline-type-badge">
-                    <span className="type-icon">{getTypeIcon(item.type)}</span>
+                  <div className="career-timeline-type-badge">
+                    <span className="career-timeline-type-icon">
+                      {getTypeIcon(item.type)}
+                    </span>
                   </div>
                 </div>
 
-                <div className="timeline-details">
-                  <div className="timeline-year">{item.year}</div>
-                  <div className="timeline-type">{getTypeLabel(item.type)}</div>
+                <div className="career-timeline-details">
+                  <div className="career-timeline-year">{item.year}</div>
+                  <div className="career-timeline-type">
+                    {getTypeLabel(item.type)}
+                  </div>
                   <h3>{item.title}</h3>
-                  <p className="institution">{item.institution}</p>
-                  <p className="description">{item.description}</p>
+                  <p className="career-timeline-institution">
+                    {item.institution}
+                  </p>
+                  <p className="career-timeline-description">
+                    {item.description}
+                  </p>
                 </div>
               </div>
 
-              <div className="timeline-marker">
-                <div className="marker-dot"></div>
+              <div className="career-timeline-marker">
+                <div className="career-timeline-marker-dot"></div>
               </div>
             </div>
           ))}

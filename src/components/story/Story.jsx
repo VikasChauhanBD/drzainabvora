@@ -20,32 +20,8 @@ const Story = () => {
     slide.prepend(items[items.length - 1]);
   };
 
-  const slides = [
-    {
-      name: "Sharing her Values",
-      tagLine:
-        "Personal Story & Philosophy – Sharing her Values, Inspirations, and Teaching Approach.",
-      img: Image1,
-    },
-    {
-      name: "Inspirations",
-      tagLine:
-        "Personal Story & Philosophy – Sharing her Values, Inspirations, and Teaching Approach.",
-      img: Image2,
-    },
-    {
-      name: "Teaching Approach",
-      tagLine:
-        "Personal Story & Philosophy – Sharing her Values, Inspirations, and Teaching Approach.",
-      img: Image3,
-    },
-    {
-      name: "Sharing her Values",
-      tagLine:
-        "Personal Story & Philosophy – Sharing her Values, Inspirations, and Teaching Approach.",
-      img: Image4,
-    },
-  ];
+  // Array of images only
+  const slides = [Image1, Image2, Image3, Image4];
 
   return (
     <div className="story-container">
@@ -54,39 +30,17 @@ const Story = () => {
           Personal Story & Philosophy – Sharing her Values, Inspirations, and
           Teaching Approach.
         </h1>
-        {/* <p>
-          India is a land of unmatched beauty and profound history. Dive into
-          our hand-picked collection of the nation's most-visited and culturally
-          significant locations. From the iconic architectural wonders and
-          bustling metropolitan hubs to the tranquil Himalayan retreats, explore
-          in-depth guides, historical context, and essential visitor details for
-          every must-see place.
-        </p> */}
       </div>
-
       <div className="story-card">
         <div className="story-slide" ref={slideRef}>
-          {slides.map((slide, index) => (
+          {slides.map((image, index) => (
             <div
               key={index}
               className="story-item"
-              style={{ backgroundImage: `url(${slide.img})` }}
-            >
-              <div className="story-content">
-                <div className="story-name">{slide.name}</div>
-                <div className="story-des">{slide.tagLine}</div>
-                {/* <a
-                  className="story-seeMore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button>See More</button>
-                </a> */}
-              </div>
-            </div>
+              style={{ backgroundImage: `url(${image})` }}
+            ></div>
           ))}
         </div>
-
         <div className="story-button">
           <button className="prev" onClick={handlePrev}>
             ◁

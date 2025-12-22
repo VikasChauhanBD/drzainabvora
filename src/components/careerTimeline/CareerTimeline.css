@@ -1,42 +1,36 @@
 /* Career Timeline Styles */
 .career-timeline-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  min-height: 100vh;
+  width: 100%;
+  background-color: #27187e;
+  padding: 4rem 0 6rem 0;
 }
 
-.timeline-container {
-  max-width: 1200px;
+.career-timeline-container {
+  width: 70%;
   margin: 0 auto;
 }
 
-.timeline-header {
+.career-timeline-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 2.5rem;
 }
 
-.timeline-header h2 {
-  font-size: 3rem;
-  color: #2c3e50;
-  margin-bottom: 15px;
-  font-weight: 700;
+.career-timeline-header h2 {
+  font-size: 48px;
+  color: #f1f2f6;
 }
 
-.timeline-header p {
-  font-size: 1.2rem;
-  color: #546e7a;
-  max-width: 600px;
-  margin: 0 auto;
+.career-timeline-header p {
+  font-size: 20px;
+  color: #f1f2f6;
 }
 
-/* Timeline Structure */
-.timeline {
+.career-timeline-main {
   position: relative;
   padding: 40px 0;
 }
 
-/* Timeline Line - Background (unfilled) */
-.timeline-line-bg {
+.career-timeline-line-bg {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -47,8 +41,7 @@
   z-index: 1;
 }
 
-/* Timeline Line - Fill (animated) */
-.timeline-line-fill {
+.career-timeline-line-fill {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -61,8 +54,7 @@
   box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
 }
 
-/* Timeline Items */
-.timeline-item {
+.career-timeline-item {
   display: flex;
   margin-bottom: 80px;
   position: relative;
@@ -71,28 +63,27 @@
   z-index: 3;
 }
 
-.timeline-item.left {
+.career-timeline-item.left {
   justify-content: flex-start;
   padding-right: 55%;
 }
 
-.timeline-item.right {
+.career-timeline-item.right {
   justify-content: flex-end;
   padding-left: 55%;
 }
 
-.timeline-item:hover .timeline-content {
+.career-timeline-item:hover .career-timeline-content {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.timeline-item.active .timeline-content {
+.career-timeline-item.active .career-timeline-content {
   transform: scale(1.05);
   box-shadow: 0 25px 50px rgba(52, 152, 219, 0.3);
 }
 
-/* Timeline Content */
-.timeline-content {
+.career-timeline-content {
   background: white;
   border-radius: 15px;
   overflow: hidden;
@@ -101,25 +92,25 @@
   width: 100%;
 }
 
-.timeline-image {
+.career-timeline-image {
   position: relative;
   width: 100%;
   height: 220px;
   overflow: hidden;
 }
 
-.timeline-image img {
+.career-timeline-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-.timeline-item:hover .timeline-image img {
+.career-timeline-item:hover .career-timeline-image img {
   transform: scale(1.1);
 }
 
-.timeline-type-badge {
+.career-timeline-type-badge {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -129,16 +120,15 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.type-icon {
+.career-timeline-type-icon {
   font-size: 1.5rem;
 }
 
-/* Timeline Details */
-.timeline-details {
+.career-timeline-details {
   padding: 25px;
 }
 
-.timeline-year {
+.career-timeline-year {
   display: inline-block;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -149,7 +139,7 @@
   margin-bottom: 12px;
 }
 
-.timeline-type {
+.career-timeline-type {
   color: #7f8c8d;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -158,28 +148,27 @@
   font-weight: 600;
 }
 
-.timeline-details h3 {
+.career-timeline-details h3 {
   font-size: 1.5rem;
   color: #2c3e50;
   margin-bottom: 8px;
   font-weight: 700;
 }
 
-.institution {
+.career-timeline-institution {
   color: #3498db;
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 12px;
 }
 
-.description {
+.career-timeline-description {
   color: #546e7a;
   line-height: 1.7;
   font-size: 0.95rem;
 }
 
-/* Timeline Marker */
-.timeline-marker {
+.career-timeline-marker {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -187,7 +176,7 @@
   z-index: 10;
 }
 
-.marker-dot {
+.career-timeline-marker-dot {
   width: 24px;
   height: 24px;
   background: white;
@@ -197,72 +186,84 @@
   transition: all 0.3s ease;
 }
 
-.timeline-item:hover .marker-dot {
+.career-timeline-item:hover .career-timeline-marker-dot {
   width: 32px;
   height: 32px;
   border-width: 5px;
   box-shadow: 0 0 0 12px rgba(52, 152, 219, 0.3);
 }
 
-.timeline-item.active .marker-dot {
+.career-timeline-item.active .career-timeline-marker-dot {
   background: #3498db;
   border-color: white;
   box-shadow: 0 0 0 15px rgba(52, 152, 219, 0.4);
 }
 
-/* Responsive Design */
-@media (max-width: 968px) {
-  .timeline-line-bg,
-  .timeline-line-fill {
+/* ------------------------ Responsive Style ----------------- */
+@media (max-width: 1440px) {
+  .career-timeline-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .career-timeline-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .career-timeline-line-bg,
+  .career-timeline-line-fill,
+  .career-timeline-marker {
     left: 30px;
   }
 
-  .timeline-item.left,
-  .timeline-item.right {
+  .career-timeline-item.left,
+  .career-timeline-item.right {
     padding-left: 80px;
     padding-right: 0;
     justify-content: flex-start;
   }
 
-  .timeline-marker {
-    left: 30px;
+  .career-timeline-header h2 {
+    font-size: 40px;
   }
 
-  .timeline-header h2 {
-    font-size: 2.2rem;
-  }
-
-  .timeline-header p {
+  .career-timeline-header p {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 576px) {
-  .career-timeline-section {
-    padding: 50px 15px;
+@media (max-width: 500px) {
+  .career-timeline-header h2 {
+    font-size: 32px;
   }
 
-  .timeline-header h2 {
-    font-size: 1.8rem;
-  }
-
-  .timeline-header p {
-    font-size: 0.9rem;
-  }
-
-  .timeline-item {
+  .career-timeline-item {
     margin-bottom: 50px;
   }
 
-  .timeline-image {
+  .career-timeline-line-bg,
+  .career-timeline-line-fill,
+  .career-timeline-marker {
+    left: 20px;
+  }
+
+  .career-timeline-item.left,
+  .career-timeline-item.right {
+    padding-left: 50px;
+  }
+
+  .career-timeline-image {
     height: 180px;
   }
 
-  .timeline-details {
+  .career-timeline-details {
     padding: 20px;
   }
 
-  .timeline-details h3 {
+  .career-timeline-details h3 {
     font-size: 1.2rem;
   }
 }
