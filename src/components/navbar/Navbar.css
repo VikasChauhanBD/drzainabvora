@@ -21,8 +21,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-right: 5rem;
-  /* gap: 1rem; */
+  padding-right: 1.5rem;
 }
 
 .navbar-container a {
@@ -80,7 +79,6 @@
   transform: rotate(180deg);
 }
 
-/* Dropdown Menu Styles - Level 1 (Courses Offered) */
 .dropdown-menu.level-1 {
   position: absolute;
   top: 100%;
@@ -102,10 +100,15 @@
   background: transparent;
 }
 
-.dropdown-menu.level-1 > * {
+.dropdown-menu.level-1 > .dropdown-container {
   background: white;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   padding: 0.5rem 0;
+}
+
+.dropdown-menu.level-1 > .dropdown-link {
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* Dropdown Menu Styles - Level 2 (BTR submenu) */
@@ -114,8 +117,10 @@
   top: 0;
   left: 100%;
   margin-left: 0;
-  background: transparent;
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   min-width: 180px;
+  padding: 0.5rem 0;
   z-index: 10;
 }
 
@@ -127,11 +132,6 @@
   width: 0.5rem;
   bottom: 0;
   background: transparent;
-}
-
-.dropdown-menu.level-2 > * {
-  background: white;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 
 @keyframes slideDown {
@@ -180,20 +180,20 @@
   .navbar-logo img {
     width: 260px;
   }
-
-  .web-nav {
-    padding-right: 4rem;
-  }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1140px) {
+  .navbar-container {
+    box-shadow: none;
+  }
+
   .web-nav {
     display: none;
   }
 
   .hamburger {
     display: inline-block;
-    padding-right: 2.5rem;
+    padding-right: 2rem;
   }
 
   .hamburger-btn {
@@ -234,6 +234,15 @@
     border-radius: 0;
   }
 
+  /* Add these two rules */
+  .dropdown-menu.level-1 > .dropdown-container {
+    box-shadow: none;
+  }
+
+  .dropdown-menu.level-1 > .dropdown-link {
+    box-shadow: none;
+  }
+
   .dropdown-menu.level-2 {
     position: static;
     margin-left: 0;
@@ -262,7 +271,6 @@
     padding: 0.75rem 0.5rem;
   }
 }
-
 @media (max-width: 800px) {
   .navbar-logo img {
     width: 260px;

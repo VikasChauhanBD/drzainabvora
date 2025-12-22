@@ -42,6 +42,18 @@ function Navbar() {
     }
   };
 
+  const handleCRClick = (e) => {
+    if (showNav) {
+      // Mobile: toggle dropdown
+      e.stopPropagation();
+      setShowCRMenu(!showCRMenu);
+    } else {
+      // Desktop: navigate to Conceptual Radiology page
+      navigate("/conceptual-radiology");
+      handleCloseNav();
+    }
+  };
+
   const toggleCRMenu = () => {
     setShowCRMenu(!showCRMenu);
   };
@@ -141,11 +153,8 @@ function Navbar() {
           onMouseEnter={() => !showNav && setShowCRMenu(true)}
           onMouseLeave={() => !showNav && setShowCRMenu(false)}
         >
-          <button
-            className="dropdown-trigger"
-            onClick={() => showNav && toggleCRMenu()}
-          >
-            <NavLink to="/conceptual-radiology">Conceptual Radiology</NavLink>
+          <button className="dropdown-trigger" onClick={handleCRClick}>
+            Conceptual Radiology
             <IoIosArrowDown
               className={`arrow-icon ${showCRMenu ? "rotate" : ""}`}
             />
