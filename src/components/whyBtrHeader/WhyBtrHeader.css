@@ -53,8 +53,8 @@
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.5) 50%,
-    rgba(0, 0, 0, 0.3) 100%
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.7) 100%
   );
   z-index: 2;
 }
@@ -95,12 +95,13 @@
 }
 
 .why-btr-header-text p {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 700;
   margin: 1rem auto;
 }
 
 .why-btr-header-text span {
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
 }
 
@@ -136,6 +137,6 @@
 
   .why-btr-header-text p,
   .why-btr-header-text span {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

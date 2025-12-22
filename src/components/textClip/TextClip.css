@@ -48,6 +48,12 @@
 
 @media (max-width: 500px) {
   .clipped-text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 380px) {
+  .clipped-text {
     font-size: 50px;
   }
 }

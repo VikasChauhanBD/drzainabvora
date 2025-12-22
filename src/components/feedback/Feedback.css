@@ -15,52 +15,50 @@
 .feedback-container {
   position: relative;
   display: flex;
+  flex-direction: column;
   gap: 24px;
   max-width: 1400px;
   margin: 0 auto;
-  height: 60vh;
   overflow: hidden;
 }
 
-.feedback-column {
-  flex: 1;
+.feedback-row {
   overflow: hidden;
   position: relative;
 }
 
 .feedback-track {
   display: flex;
-  flex-direction: column;
   gap: 20px;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-.feedback-track-up {
-  animation-name: slideUp;
-  animation-duration: 30s;
+.feedback-track-left {
+  animation-name: slideLeft;
+  animation-duration: 40s;
 }
 
-.feedback-track-down {
-  animation-name: slideDown;
+.feedback-track-right {
+  animation-name: slideRight;
   animation-duration: 35s;
 }
 
-@keyframes slideUp {
+@keyframes slideLeft {
   0% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   100% {
-    transform: translateY(-50%);
+    transform: translateX(-50%);
   }
 }
 
-@keyframes slideDown {
+@keyframes slideRight {
   0% {
-    transform: translateY(-50%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -70,11 +68,14 @@
   padding: 28px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   border: 1px solid #e8e8e8;
+  min-width: 380px;
+  max-width: 380px;
   min-height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
 }
 
 .feedback-card:hover {
@@ -121,20 +122,19 @@
   font-size: 14px;
 }
 
-/* Fog/Blur overlay effect */
 .feedback-fog-overlay {
   position: absolute;
-  left: 0;
-  right: 0;
-  height: 150px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
   pointer-events: none;
   z-index: 10;
 }
 
-.feedback-fog-top {
-  top: 0;
+.feedback-fog-left {
+  left: 0;
   background: linear-gradient(
-    to bottom,
+    to right,
     rgba(248, 249, 250, 1) 0%,
     rgba(248, 249, 250, 0.95) 20%,
     rgba(248, 249, 250, 0.7) 50%,
@@ -142,10 +142,10 @@
   );
 }
 
-.feedback-fog-bottom {
-  bottom: 0;
+.feedback-fog-right {
+  right: 0;
   background: linear-gradient(
-    to top,
+    to left,
     rgba(248, 249, 250, 1) 0%,
     rgba(248, 249, 250, 0.95) 20%,
     rgba(248, 249, 250, 0.7) 50%,
@@ -167,6 +167,7 @@
   border: 2px solid #ff8600;
   background-color: transparent;
   cursor: pointer;
+  display: inline-block;
 }
 
 .feedback-btn a:hover {
@@ -174,42 +175,42 @@
   background-color: #ff8600;
 }
 
-/* --------------------------- Responsive style ------------------- */
+/* -------------------------- Responsive Style ---------------------------- */
+
 @media (max-width: 1024px) {
   .feedback-title {
     font-size: 36px;
   }
 
   .feedback-card {
+    min-width: 320px;
+    max-width: 320px;
     min-height: 240px;
     padding: 24px;
   }
 }
 
 @media (max-width: 800px) {
-  .feedback-container {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .feedback-column {
-    display: none;
-  }
-
-  .feedback-column:first-child {
-    display: block;
-  }
-
   .feedback-title {
     font-size: 32px;
   }
 
   .feedback-card {
+    min-width: 280px;
+    max-width: 280px;
     min-height: 220px;
+  }
+
+  .feedback-row:nth-child(2) {
+    display: none;
+  }
+
+  .feedback-fog-overlay {
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .feedback-section {
     padding: 60px 16px;
   }
@@ -220,6 +221,8 @@
   }
 
   .feedback-card {
+    min-width: 260px;
+    max-width: 260px;
     padding: 20px;
     min-height: 200px;
   }

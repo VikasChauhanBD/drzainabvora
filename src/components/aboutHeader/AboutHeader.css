@@ -100,17 +100,8 @@
   padding: 40px 20px;
 }
 
-/* Text Section */
-.about-header-text h2 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-  text-transform: lowercase;
-  letter-spacing: 2px;
-}
-
 .about-header-text h1 {
-  font-size: 3.5rem;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 40px;
@@ -122,25 +113,11 @@
 }
 
 .about-header-description p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 /* ---------------------- Responsive Style ------------------ */
-@media (max-width: 1024px) {
-  .about-header-text h1 {
-    font-size: 2.8rem;
-  }
-
-  .about-header-text h2 {
-    font-size: 1rem;
-  }
-
-  .about-header-description p {
-    font-size: 1rem;
-  }
-}
 
 @media (max-width: 800px) {
   .about-header {
@@ -153,27 +130,17 @@
   }
 
   .about-header-text h1 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-  }
-
-  .about-header-text h2 {
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-  }
-
-  .about-header-description p {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 500px) {
   .about-header-text h1 {
-    font-size: 1.6rem;
+    font-size: 32px;
   }
 
   .about-header-description p {
-    font-size: 0.9rem;
+    font-size: 20px;
+    line-height: 1.5;
   }
 }

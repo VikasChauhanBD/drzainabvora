@@ -4,23 +4,13 @@ import "./BTRUnique.css";
 const BTRUnique = () => {
   return (
     <div className="btr-unique-container">
-      {/* Animated Background Elements */}
-      <div className="bg-gradient-orb orb-1"></div>
-      <div className="bg-gradient-orb orb-2"></div>
-      <div className="bg-gradient-orb orb-3"></div>
-
       {/* Main Content */}
       <section className="content-section">
         <div className="section-header">
-          <div className="header-accent"></div>
-          <h2 className="section-title">
-            What makes BTR unique
-            <span className="title-highlight">
-              {" "}
-              (from someone who actually used it)
-            </span>
-          </h2>
-          <div className="header-accent"></div>
+          <h2 className="section-title">What makes BTR unique</h2>
+          <span className="title-highlight">
+            (from someone who actually used it)
+          </span>
         </div>
 
         {/* Feature 1 */}
@@ -200,7 +190,6 @@ const BTRUnique = () => {
             What it felt like studying with her
           </h3>
           <div className="testimonial-card">
-            <div className="quote-mark">"</div>
             <p className="testimonial-text">
               It's like having a senior who's cracked the exam telling you:
             </p>
@@ -231,7 +220,6 @@ const BTRUnique = () => {
 
       {/* Conclusion Section */}
       <section className="conclusion-section">
-        <div className="conclusion-background"></div>
         <div className="conclusion-content">
           <h2 className="conclusion-title">
             BTR isn't just unique because of the notes.

@@ -44,14 +44,7 @@ const AboutHeader = () => {
       {/* Content */}
       <div className="about-header-content">
         <div className="about-header-text">
-          <h2>about us.</h2>
-          <h1>
-            ELEVATING
-            <br />
-            BHARAT ONE CONTENT
-            <br />
-            AT A TIME.
-          </h1>
+          <h1>About Dr. Zainab Vora</h1>
         </div>
 
         <div className="about-header-description">
