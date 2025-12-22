@@ -2,7 +2,7 @@ import React from "react";
 import WhyBtrHeader from "../components/whyBtrHeader/WhyBtrHeader";
 import BTRUnique from "../components/bTRUnique/BTRUnique";
 
-function WhyBtrPage() {
+function BtrPage() {
   return (
     <div>
       <WhyBtrHeader />
@@ -11,4 +11,4 @@ function WhyBtrPage() {
   );
 }
 
-export default WhyBtrPage;
+export default BtrPage;

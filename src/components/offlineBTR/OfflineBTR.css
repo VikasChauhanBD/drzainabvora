@@ -1,5 +1,6 @@
 .offline-btr-container {
   width: 100%;
+  padding-bottom: 2rem;
 }
 
 .offline-btr-banner {
@@ -14,7 +15,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
   color: #27187e;
 }
 
@@ -33,7 +34,20 @@
   margin: 1rem 0 2rem 0;
 }
 
-.offline-btr-header a {
+.offline-btr-header h6 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+/* .offline-btr-typeWriter {
+  font-size: 24px;
+  color: #e35336;
+  margin-bottom: 2rem;
+  transition: opacity 1s ease-in-out, transform 1s ease; 
+  opacity: 1;
+} */
+
+/* .offline-btr-header a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -47,25 +61,15 @@
 .offline-btr-header a:hover {
   color: #f1f2f6;
   background-color: #e35336;
-}
+} */
 
 .offline-btr-high {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   padding: 2rem 1rem;
   background-color: #27187e;
-  border-radius: 16px;
-}
-
-.offline-btr-high-image {
-  width: 50%;
-  text-align: center;
-}
-
-.offline-btr-high-image img {
-  width: 80%;
   border-radius: 16px;
 }
 
@@ -104,57 +108,27 @@
   font-size: 18px;
 }
 
-.offline-btr-points {
-  width: 80%;
-  margin: 2.5rem auto;
-  align-content: center;
-  padding: 2rem 1rem;
+.offline-btr-high-image {
+  width: 50%;
+}
+
+.offline-btr-high-image img {
+  width: 100%;
   border-radius: 16px;
-}
-
-.offline-btr-points h1 {
-  font-size: 40px;
-  color: #27187e;
-}
-
-.offline-btr-points ul {
-  font-size: 20px;
-  line-height: 28px;
-  margin: 1rem;
-  list-style: none;
-  padding: 0;
-}
-
-.offline-btr-points ul li {
-  position: relative;
-  padding-left: 28px;
-  margin-bottom: 8px;
-  color: #27187e;
-}
-
-.offline-btr-points ul li::before {
-  content: "★";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #28a745;
-  font-size: 22px;
 }
 
 /* -------------------------- Responsive Styles -------------------------- */
 
 @media (max-width: 1440px) {
   .offline-btr-header,
-  .offline-btr-high,
-  .offline-btr-points {
+  .offline-btr-high {
     width: 85%;
   }
 }
 
 @media (max-width: 1024px) {
   .offline-btr-header,
-  .offline-btr-high,
-  .offline-btr-points {
+  .offline-btr-high {
     width: 95%;
   }
 
@@ -170,15 +144,13 @@
     font-size: 18px;
   }
 
-  .offline-btr-high-content h1,
-  .offline-btr-points h1 {
+  .offline-btr-high-content h1 {
     font-size: 32px;
   }
 }
 
 @media (max-width: 800px) {
-  .offline-btr-header h1,
-  .offline-btr-points h1 {
+  .offline-btr-header h1 {
     font-size: 32px;
   }
 
@@ -211,10 +183,6 @@
   .offline-btr-points h1 {
     font-size: 28px;
   }
-
-  .offline-btr-points ul {
-    font-size: 18px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -234,8 +202,7 @@
     font-size: 18px;
   }
 
-  .offline-btr-high-content h1,
-  .offline-btr-points h1 {
+  .offline-btr-high-content h1 {
     font-size: 24px;
   }
 }

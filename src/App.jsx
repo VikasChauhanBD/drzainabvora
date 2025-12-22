@@ -11,8 +11,8 @@ import CRBooksPage from "./components/crBooksPage/CRBooksPage";
 import OnlineBtrPage from "./pages/OnlineBtrPage";
 import OfflineBtrPage from "./pages/OfflineBtrPage";
 import CrispPage from "./pages/CrispPage";
-import CrashCoursePage from "./pages/CrashCoursePage";
-import WhyBtrPage from "./pages/WhyBtrPage";
+import BtrPage from "./pages/BtrPage";
+import BootcampPage from "./pages/BootcampPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -95,17 +95,17 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUsPage />} />
-            <Route path="/students" element={<StudentsPage />} />
+            <Route path="/btr" element={<BtrPage />} />
+            <Route path="/online-btr" element={<OnlineBtrPage />} />
+            <Route path="/offline-btr" element={<OfflineBtrPage />} />
+            <Route path="/bootcamp" element={<BootcampPage />} />
             <Route path="/conceptual-radiology" element={<CRPage />} />
             <Route
               path="/conceptual-radiology-books"
               element={<CRBooksPage />}
             />
-            <Route path="/online-btr" element={<OnlineBtrPage />} />
-            <Route path="/neet-pg-bootcamp" element={<OfflineBtrPage />} />
-            <Route path="/crash-course" element={<CrashCoursePage />} />
             <Route path="/crisp" element={<CrispPage />} />
-            <Route path="/why-btr" element={<WhyBtrPage />} />
+            <Route path="/students" element={<StudentsPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

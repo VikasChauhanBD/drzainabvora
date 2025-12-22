@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Logo from "../../assets/images/ZV-logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDown } from "react-icons/io";
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
-  const [showOnlineMegaMenu, setShowOnlineMegaMenu] = useState(false);
-  const [showOfflineMegaMenu, setShowOfflineMegaMenu] = useState(false);
+  const [showCoursesMenu, setShowCoursesMenu] = useState(false);
+  const [showBTRMenu, setShowBTRMenu] = useState(false);
+  const [showCRMenu, setShowCRMenu] = useState(false);
+  const navigate = useNavigate();
 
   const handleButtonToggle = () => {
     setShowNav(!showNav);
@@ -16,16 +18,32 @@ function Navbar() {
 
   const handleCloseNav = () => {
     setShowNav(false);
-    setShowOnlineMegaMenu(false);
-    setShowOfflineMegaMenu(false);
+    setShowCoursesMenu(false);
+    setShowBTRMenu(false);
+    setShowCRMenu(false);
   };
 
-  const toggleOnlineMegaMenu = () => {
-    setShowOnlineMegaMenu(!showOnlineMegaMenu);
+  const toggleCoursesMenu = () => {
+    setShowCoursesMenu(!showCoursesMenu);
+    if (!showCoursesMenu) {
+      setShowBTRMenu(false);
+    }
   };
 
-  const toggleOfflineMegaMenu = () => {
-    setShowOfflineMegaMenu(!showOfflineMegaMenu);
+  const handleBTRClick = (e) => {
+    if (showNav) {
+      // Mobile: toggle dropdown
+      e.stopPropagation();
+      setShowBTRMenu(!showBTRMenu);
+    } else {
+      // Desktop: navigate to BTR page
+      navigate("/btr");
+      handleCloseNav();
+    }
+  };
+
+  const toggleCRMenu = () => {
+    setShowCRMenu(!showCRMenu);
   };
 
   return (
@@ -40,118 +58,121 @@ function Navbar() {
           Home
         </NavLink>
         <NavLink to="/about" onClick={handleCloseNav}>
-          About
-        </NavLink>
-        <NavLink to="/why-btr" onClick={handleCloseNav}>
-          Why BTR
+          About ZV
         </NavLink>
 
+        {/* First Level: Courses Offered */}
         <div
           className="dropdown-container"
-          onMouseEnter={() => !showNav && setShowOnlineMegaMenu(true)}
-          onMouseLeave={() => !showNav && setShowOnlineMegaMenu(false)}
+          onMouseEnter={() => !showNav && setShowCoursesMenu(true)}
+          onMouseLeave={() =>
+            !showNav && (setShowCoursesMenu(false), setShowBTRMenu(false))
+          }
         >
           <button
             className="dropdown-trigger"
-            onClick={() => showNav && toggleOnlineMegaMenu()}
+            onClick={() => showNav && toggleCoursesMenu()}
           >
-            Online Programs
+            Courses Offered
             <IoIosArrowDown
-              className={`arrow-icon ${showOnlineMegaMenu ? "rotate" : ""}`}
+              className={`arrow-icon ${showCoursesMenu ? "rotate" : ""}`}
             />
           </button>
-          {showOnlineMegaMenu && (
-            <div className="mega-menu">
-              <div className="mega-menu-content">
-                <NavLink
-                  to="/online-btr"
-                  onClick={handleCloseNav}
-                  className="mega-menu-item"
+
+          {showCoursesMenu && (
+            <div
+              className="dropdown-menu level-1"
+              onMouseEnter={() => !showNav && setShowCoursesMenu(true)}
+              onMouseLeave={() =>
+                !showNav && (setShowCoursesMenu(false), setShowBTRMenu(false))
+              }
+            >
+              {/* Second Level: BTR with nested dropdown */}
+              <div
+                className="dropdown-container nested"
+                onMouseEnter={() => !showNav && setShowBTRMenu(true)}
+                onMouseLeave={() => !showNav && setShowBTRMenu(false)}
+              >
+                <button
+                  className="dropdown-trigger nested-trigger"
+                  onClick={handleBTRClick}
                 >
-                  <div className="mega-menu-card">
-                    <div className="card-image online-btr-bg">
-                      <span className="card-badge">Online BTR</span>
-                    </div>
-                    <h3>Belief Toh Rakho</h3>
+                  BTR
+                  <IoIosArrowDown
+                    className={`arrow-icon ${showBTRMenu ? "rotate" : ""}`}
+                  />
+                </button>
+
+                {/* Third Level: Online BTR & Offline BTR */}
+                {showBTRMenu && (
+                  <div
+                    className="dropdown-menu level-2"
+                    onMouseEnter={() => !showNav && setShowBTRMenu(true)}
+                    onMouseLeave={() => !showNav && setShowBTRMenu(false)}
+                  >
+                    <NavLink
+                      to="/online-btr"
+                      onClick={handleCloseNav}
+                      className="dropdown-link"
+                    >
+                      Online BTR
+                    </NavLink>
+                    <NavLink
+                      to="/offline-btr"
+                      onClick={handleCloseNav}
+                      className="dropdown-link"
+                    >
+                      Offline BTR
+                    </NavLink>
                   </div>
-                </NavLink>
-                <NavLink
-                  to="/conceptual-radiology"
-                  onClick={handleCloseNav}
-                  className="mega-menu-item"
-                >
-                  <div className="mega-menu-card">
-                    <div className="card-image cr-bg">
-                      <span className="card-badge">CR</span>
-                    </div>
-                    <h3>Conceptual Radiology</h3>
-                  </div>
-                </NavLink>
+                )}
               </div>
             </div>
           )}
         </div>
 
+        <NavLink to="/bootcamp" onClick={handleCloseNav}>
+          Bootcamp
+        </NavLink>
+
+        {/* Conceptual Radiology with CRISP dropdown */}
         <div
           className="dropdown-container"
-          onMouseEnter={() => !showNav && setShowOfflineMegaMenu(true)}
-          onMouseLeave={() => !showNav && setShowOfflineMegaMenu(false)}
+          onMouseEnter={() => !showNav && setShowCRMenu(true)}
+          onMouseLeave={() => !showNav && setShowCRMenu(false)}
         >
           <button
             className="dropdown-trigger"
-            onClick={() => showNav && toggleOfflineMegaMenu()}
+            onClick={() => showNav && toggleCRMenu()}
           >
-            Offline Events
+            <NavLink to="/conceptual-radiology">Conceptual Radiology</NavLink>
             <IoIosArrowDown
-              className={`arrow-icon ${showOfflineMegaMenu ? "rotate" : ""}`}
+              className={`arrow-icon ${showCRMenu ? "rotate" : ""}`}
             />
           </button>
-          {showOfflineMegaMenu && (
-            <div className="mega-menu-2">
-              <div className="mega-menu-content">
-                <NavLink
-                  to="/neet-pg-bootcamp"
-                  onClick={handleCloseNav}
-                  className="mega-menu-item"
-                >
-                  <div className="mega-menu-card">
-                    <div className="card-image offline-btr-bg">
-                      <span className="card-badge">Offline BTR</span>
-                    </div>
-                    <h3>NEET PG Bootcamp</h3>
-                  </div>
-                </NavLink>
-                <NavLink
-                  to="/crash-course"
-                  onClick={handleCloseNav}
-                  className="mega-menu-item"
-                >
-                  <div className="mega-menu-card">
-                    <div className="card-image cc-bg">
-                      <span className="card-badge">Crash Course</span>
-                    </div>
-                    <h3>4 Days Offline Crash Course</h3>
-                  </div>
-                </NavLink>
-                <NavLink
-                  to="/crisp"
-                  onClick={handleCloseNav}
-                  className="mega-menu-item"
-                >
-                  <div className="mega-menu-card">
-                    <div className="card-image crisp-bg">
-                      <span className="card-badge">CRISP</span>
-                    </div>
-                    <h3>Conceptual Radiology Imaging Skills Program</h3>
-                  </div>
-                </NavLink>
-              </div>
+
+          {showCRMenu && (
+            <div
+              className="dropdown-menu level-1"
+              onMouseEnter={() => !showNav && setShowCRMenu(true)}
+              onMouseLeave={() => !showNav && setShowCRMenu(false)}
+            >
+              <NavLink
+                to="/crisp"
+                onClick={handleCloseNav}
+                className="dropdown-link"
+              >
+                CRISP
+              </NavLink>
             </div>
           )}
         </div>
 
         <NavLink to="/students" onClick={handleCloseNav}>
           Students
+        </NavLink>
+        <NavLink to="/gallery" onClick={handleCloseNav}>
+          Gallery
         </NavLink>
       </nav>
       <div className="hamburger">

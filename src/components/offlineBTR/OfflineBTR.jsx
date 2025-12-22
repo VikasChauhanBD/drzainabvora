@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./OfflineBTR.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpeg";
-import Image from "../../assets/images/neet-pg-bootcamp.webp";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Banner from "../../assets/images/crash-course-banner.jpeg";
+import Image1 from "../../assets/images/crash-course-image1.jpg";
 
 function OfflineBTR() {
+  // const [text] = useTypewriter({
+  //   words: ["“Kahani tumhaari hai, Ho sake toh kamaal likhna.”"],
+  //   loop: {},
+  // });
+
   return (
     <div className="offline-btr-container">
       <div className="offline-btr-banner">
@@ -12,85 +18,68 @@ function OfflineBTR() {
       </div>
 
       <div className="offline-btr-header">
-        <h1>NEET PG Bootcamp 2026</h1>
-        <h3>
-          An Intensive, Personalised Offline Crash Course for NEET PG & INI-CET
-          Aspirants
-        </h3>
+        <h1>BTR Offline: Revise Smart. Recall Fast. Rank Better</h1>
         <p>
-          The <b>NEET PG Bootcamp</b> is a{" "}
-          <b>4-month, high-intensity offline crash program</b> designed for
-          students who want focused revision, expert mentorship, and real exam
-          readiness under one roof. This program goes beyond routine
-          classes—combining structured subject-wise revision, regular
-          assessments, and close faculty guidance to help you convert hard work
-          into rank.
+          <b>BTR Offline</b> is a focused, face-to-face crash revision program
+          designed for NEET PG aspirants who want clarity, confidence, and quick
+          recall before the exam. Built strictly around{" "}
+          <b>PYQs and high-yield facts,</b> BTR helps you revise all 19 subjects
+          in a structured, no-nonsense manner.
           <br />
-          With mentorship from{" "}
-          <b>Dr. Zainab Vora, Dr. Ravi Sharma, and Dr. Apurv Mehra,</b> the
-          Bootcamp is built for serious aspirants targeting{" "}
-          <b>NEET PG & INI-CET 2026.</b>
+          This is not theory overload — it’s about{" "}
+          <b>what to remember, how to apply, and what not to miss.</b>
         </p>
-        <NavLink
-          to="https://www.cerebellumacademy.com/neet-pg-btr-bootcamp/"
+        {/* <h6 className="offline-btr-typeWriter">
+          {text}
+          <Cursor />
+        </h6> */}
+
+        <h6>“Kahani tumhaari hai, Ho sake toh kamaal likhna.”</h6>
+
+        {/* <NavLink
+          to="https://dashboard.cerebellumacademy.com/plans"
           target="_blank"
         >
-          Click Here For More
-        </NavLink>
+          Know More
+        </NavLink> */}
       </div>
 
       <div className="offline-btr-high">
-        <div className="offline-btr-high-image">
-          <img src={Image} alt="Hero" />
-        </div>
-
         <div className="offline-btr-high-content">
-          <h1>Program Highlights:</h1>
+          <h1>What You’ll Learn:</h1>
           <ul>
             <li>
-              <b>Duration:</b> 4 Months
+              <b>19 Subjects Crash Course</b> - Complete rapid revision
             </li>
             <li>
-              <b>Mode:</b> Intensive Personalised Offline Program
+              <b>PYQ-Based Approach</b> - Focus only on what actually gets asked
             </li>
             <li>
-              <b>Target Exams:</b> NEET PG & INI-CET 2026
+              <b>High-Yield NEET PG Topics</b>
+            </li>
+            <li>
+              <b>BTR Core Facts</b> like{" "}
+              <b> IPC / Milestones/ Staging/ Scores​</b>
+            </li>
+            <li>
+              <b>Medicine High-Yield Topics</b> like{" "}
+              <b>ABG/ ECG / Fluid analysis / Stroke localization</b>
+            </li>
+            <li>
+              <b>Must-Know Images</b> from all subjects
+            </li>
+            <li>
+              <b>Face-to-Face Live Sessions</b> with direct interaction
+            </li>
+            <li>
+              <b>Printed BTR Booklet</b> provided for revision support
             </li>
           </ul>
         </div>
-      </div>
 
-      <div className="offline-btr-points">
-        <h1>What You Get:</h1>
-        <ul>
-          <li>
-            Mentorship sessions by{" "}
-            <b>Dr. Zainab Vora, Dr. Ravi Sharma & Dr. Apurv Mehra</b>
-          </li>
-          <li>
-            <b>Subject-wise revision classes</b> covering all 19 subjects
-          </li>
-          <li>
-            <b>Subject-wise tests with detailed discussions</b>
-          </li>
-          <li>
-            <b>Mock Grand Tests (CBT-based)</b>
-          </li>
-          <li>
-            <b>Mini tests with explanations</b>
-          </li>
-          <li>
-            Dedicated <b>library cubicles for self-study</b>
-          </li>
-          <li>
-            <b>Personal desktop</b> with internet access (strictly for academic
-            use)
-          </li>
-          <li>
-            Special focus on <b>borderline students</b> needing guided
-            improvement
-          </li>
-        </ul>
+        <div className="offline-btr-high-image">
+          <img src={Image1} alt="" />
+        </div>
       </div>
     </div>
   );
