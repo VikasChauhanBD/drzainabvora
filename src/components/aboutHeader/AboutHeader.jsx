@@ -49,11 +49,18 @@ const AboutHeader = () => {
 
         <div className="about-header-description">
           <p>
-            A teacher who studies with you, a doctor who understands the
-            pressure you carry, and a mentor who believes that every student's
-            journey deserves clarity, strategy, and hope. From earning Rank 1 in
-            Radiology at AIIMS to simplifying exam preparation for lakhs of
-            students across India.
+            A Journey Defined by Discipline, Compassion, and an Unshakeable
+            Commitment to Students.
+            <br /> <br />
+            Dr. Zainab Vora’s journey has been shaped by consistency, intent,
+            and showing up every single day when the stakes were high and the
+            pressure was real. What sets her apart is not just what she teaches,
+            but how closely she understands the mental and emotional weight of
+            medical preparation.
+            <br />
+            Her work is driven by one clear intent: to make difficult journeys
+            feel navigable, and to stand beside students until clarity replaces
+            chaos.
           </p>
         </div>
       </div>
