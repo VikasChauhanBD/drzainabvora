@@ -168,11 +168,6 @@
   transition: all 0.3s ease;
 }
 
-.feature-list li:hover {
-  color: #667eea;
-  transform: translateX(5px);
-}
-
 .feature-list li::before {
   content: "✓";
   position: absolute;
@@ -279,7 +274,7 @@
   background: #f1f2f6;
   padding: 35px;
   border-radius: 16px;
-  border-left: 6px solid #667eea;
+  border-left: 6px solid #27187e;
   margin-top: 25px;
   box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -391,7 +386,6 @@
 }
 
 .qualities-box {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 40px;
   border-radius: 20px;
   margin-top: 40px;

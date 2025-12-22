@@ -7,9 +7,9 @@ const BTRUnique = () => {
       {/* Main Content */}
       <section className="content-section">
         <div className="section-header">
-          <h2 className="section-title">What makes BTR unique</h2>
+          <h2 className="section-title">What Makes BTR Unique </h2>
           <span className="title-highlight">
-            (from someone who actually used it)
+            Insights shaped by real student experience
           </span>
         </div>
 
@@ -21,21 +21,21 @@ const BTRUnique = () => {
           </div>
           <div className="feature-content">
             <h3 className="feature-title">
-              She simplifies stuff that everyone else overcomplicates
+              Simplifies what often feels overcomplicated
             </h3>
             <p className="feature-text">
-              You know those topics where you read the textbook five times and
-              still feel dumb?
+              There are topics students read repeatedly and still struggle to
+              grasp. BTR approaches them differently—by cutting through
+              unnecessary layers and focusing on what truly matters.
             </p>
             <p className="feature-highlight">
               <span className="highlight-icon">💡</span>
-              With Dr. Zainab it's like — "Oh, this was actually simple?? Why
-              did I waste 3 days on it?"
+              With Dr. Zainab’s teaching, concepts often click sooner than
+              expected. Her summaries and flowcharts are designed for clarity
+              and recall.
             </p>
-            <p className="feature-text">
-              Her flowcharts and summaries hit different.
-            </p>
-            <p className="feature-emphasis">Super crisp, super exam-oriented</p>
+
+            <p className="feature-emphasis">Crisp, Focused, Exam-relevant</p>
           </div>
         </div>
 
@@ -47,15 +47,15 @@ const BTRUnique = () => {
           </div>
           <div className="feature-content">
             <h3 className="feature-title">
-              BTR is literally life-saving during revision
+              Designed to support revision when it matters most
             </h3>
             <p className="feature-text">
-              Like honestly, when exams are close and your brain is giving
-              "system shutting down" vibes — BTR is the only thing you can look
-              at without crying.
+              As exams approach, mental fatigue sets in and attention becomes
+              limited. During this phase, students need material that supports
+              recall—not overload.
             </p>
             <p className="feature-text">
-              Instead of 300 pages of theory, she gives:
+              Instead of lengthy theory, BTR focuses on:
             </p>
             <ul className="feature-list">
               <li>Tables</li>
@@ -63,9 +63,7 @@ const BTRUnique = () => {
               <li>Visual cues</li>
               <li>Quick-revise points</li>
             </ul>
-            <p className="feature-emphasis">
-              It's high-yield in the actual sense.
-            </p>
+            <p className="feature-emphasis">High-yield in the truest sense.</p>
           </div>
         </div>
 
@@ -77,23 +75,19 @@ const BTRUnique = () => {
           </div>
           <div className="feature-content">
             <h3 className="feature-title">
-              Dr. Zainab teaches like she knows your pain
+              Teaching that understands student pressure
             </h3>
-            <p className="feature-text">One thing you'll notice:</p>
             <p className="feature-text">
-              She's not the "distance wali faculty" who just dumps content.
+              One thing becomes clear early on: the teaching does not feel
+              distant. It reflects an understanding of the stress, self-doubt,
+              and exhaus on students experience.
             </p>
             <p className="feature-text">
-              She talks to you like a senior would:
+              Guidance is practical, firm when needed, and reassuring when
+              required—helping students study better, not endlessly.
             </p>
-            <ul className="feature-list">
-              <li>Understands the burnout</li>
-              <li>Tells you how to study smarter</li>
-              <li>Calls out your excuses but in a comforting way</li>
-              <li>Boosts confidence when you're convinced you'll fail</li>
-            </ul>
-            <p className="feature-emphasis">
-              Honestly, that emotional support is rare in med-prep.
+            <p className="feature-text">
+              That kind of support is rare in medical exam preparation.
             </p>
           </div>
         </div>
@@ -106,27 +100,18 @@ const BTRUnique = () => {
           </div>
           <div className="feature-content">
             <h3 className="feature-title">
-              Her vibe makes you actually WANT to study
+              A learning environment that sustains motivation
             </h3>
             <p className="feature-text">
-              Her sessions feel like someone is studying with you, not at you.
+              BTR sessions feel collaborative rather than intimidating. The
+              focus remains on progress, not perfection.
             </p>
-            <div className="benefits-grid">
-              <div className="benefit-item">
-                <span className="benefit-icon">✨</span>
-                You won't zone out.
-              </div>
-              <div className="benefit-item">
-                <span className="benefit-icon">🧠</span>
-                You won't feel stupid.
-              </div>
-              <div className="benefit-item">
-                <span className="benefit-icon">🤝</span>
-                You won't feel alone.
-              </div>
-            </div>
-            <p className="feature-emphasis">
-              That alone is half the battle in exam prep.
+            <p className="feature-text">
+              Students stay engaged, feel supported, and no longer feel alone in
+              the process.
+            </p>
+            <p className="feature-text">
+              That shift itself changes how preparation feels.
             </p>
           </div>
         </div>
@@ -138,20 +123,20 @@ const BTRUnique = () => {
             <div className="number-glow"></div>
           </div>
           <div className="feature-content">
-            <h3 className="feature-title">BTR tells you what NOT to study</h3>
+            <h3 className="feature-title">
+              Clear guidance on what deserves attention
+            </h3>
             <p className="feature-text">
-              Trust me, this is more important than what to study.
+              Time is limited, and not everything carries equal weight. BTR
+              helps students identify what can be safely deprioritised.
             </p>
             <p className="feature-text">
-              There's so much random low-yield stuff that textbooks keep
-              dumping.
+              Low-yield content is clearly filtered out, allowing focus where it
+              truly counts.
             </p>
-            <p className="feature-highlight">
-              <span className="highlight-icon">✂️</span>
-              Zainab ma'am just cuts it off: "Ye sab exam mein nahi aayega.
-              Next."
+            <p className="feature-text">
+              Time saved translates into marks gained.
             </p>
-            <p className="feature-emphasis">Time saved = marks gained.</p>
           </div>
         </div>
       </section>
