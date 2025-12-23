@@ -7,10 +7,7 @@ import HeroImage2 from "../../assets/images/dr-zainab-vora2.png";
 import HeroImage3 from "../../assets/images/dr-zainab-vora3.png";
 
 function Header() {
-  const heroImages = [
-    "https://cdn.dribbble.com/userupload/46111694/file/20b7938841258aa0636802dde8b915d2.png",
-    "https://cdn.dribbble.com/userupload/46111695/file/05931a6957b75963092ac31654b56934.png",
-  ];
+  const heroImages = [HeroImage2, HeroImage3];
   const [currentImage, setCurrentImage] = useState(0);
 
   // Image rotation logic

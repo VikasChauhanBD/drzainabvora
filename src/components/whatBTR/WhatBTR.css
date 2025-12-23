@@ -47,7 +47,7 @@
 .what-btr-container {
   width: 100%;
   padding: 5rem 0;
-  background: #27187e;
+  background: #f8f9fa;
   z-index: 1;
 }
 
@@ -56,7 +56,7 @@
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
-  color: #f1f2f6;
+  color: #27187e;
 }
 
 .what-btr-header h3 {

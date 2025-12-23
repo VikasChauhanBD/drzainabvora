@@ -33,7 +33,7 @@
 
 .lower-header {
   width: 100%;
-  background-color: #27187e;
+  background-color: #f8f9fa;
 }
 
 .header-main {
@@ -47,7 +47,7 @@
   width: 60%;
   align-content: center;
   padding-right: 2rem;
-  color: #f1f2f6;
+  color: #27187e;
 }
 
 .header-content h3 {
@@ -92,7 +92,6 @@
 
 .header-content h6 {
   font-size: 22px;
-  color: #f1f2f6;
   margin-bottom: 2rem;
   transition: opacity 1s ease-in-out, transform 1s ease;
   opacity: 1;

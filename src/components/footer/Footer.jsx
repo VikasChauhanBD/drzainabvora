@@ -45,38 +45,35 @@ function Footer() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about">About ZV</NavLink>
             </li>
             <li>
-              <NavLink to="/why-btr">Why BTR</NavLink>
+              <NavLink to="/bootcamp">Bootcamp</NavLink>
             </li>
             <li>
               <NavLink to="/students">Students</NavLink>
+            </li>
+            <li>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
           </ul>
         </div>
 
         <div className="footer-section">
-          <h3 className="footer-title">Online Programs</h3>
+          <h3 className="footer-title">BTR</h3>
           <ul className="footer-links">
             <li>
               <NavLink to="/online-btr">Online BTR</NavLink>
             </li>
             <li>
-              <NavLink to="/conceptual-radiology">Conceptual Radiology</NavLink>
+              <NavLink to="/offline-btr">Offline BTR</NavLink>
             </li>
           </ul>
         </div>
 
         <div className="footer-section">
-          <h3 className="footer-title">Offline Events</h3>
+          <h3 className="footer-title">Conceptual Radiology</h3>
           <ul className="footer-links">
-            <li>
-              <NavLink to="/neet-pg-bootcamp">Offline BTR</NavLink>
-            </li>
-            <li>
-              <NavLink to="/crash-course">Crash Course</NavLink>
-            </li>
             <li>
               <NavLink to="/crisp">CRISP</NavLink>
             </li>
