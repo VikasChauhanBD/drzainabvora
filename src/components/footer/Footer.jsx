@@ -23,18 +23,38 @@ function Footer() {
             comprehensive learning solutions for career excellence.
           </p> */}
           <div className="footer-social">
-            <a href="#" className="social-icon" aria-label="Facebook">
+            <NavLink
+              to="#"
+              target="_blank"
+              className="social-icon"
+              aria-label="Facebook"
+            >
               <FaFacebookF />
-            </a>
-            <a href="#" className="social-icon" aria-label="Instagram">
+            </NavLink>
+            <NavLink
+              to="https://www.instagram.com/drzainabvora"
+              target="_blank"
+              className="social-icon"
+              aria-label="Instagram"
+            >
               <FaInstagram />
-            </a>
-            <a href="#" className="social-icon" aria-label="LinkedIn">
+            </NavLink>
+            <NavLink
+              to="#"
+              target="_blank"
+              className="social-icon"
+              aria-label="LinkedIn"
+            >
               <FaLinkedinIn />
-            </a>
-            <a href="#" className="social-icon" aria-label="YouTube">
+            </NavLink>
+            <NavLink
+              to="#"
+              target="_blank"
+              className="social-icon"
+              aria-label="YouTube"
+            >
               <FaYoutube />
-            </a>
+            </NavLink>
           </div>
         </div>
 
@@ -48,9 +68,6 @@ function Footer() {
               <NavLink to="/about">About ZV</NavLink>
             </li>
             <li>
-              <NavLink to="/bootcamp">Bootcamp</NavLink>
-            </li>
-            <li>
               <NavLink to="/students">Students</NavLink>
             </li>
             <li>
@@ -60,7 +77,7 @@ function Footer() {
         </div>
 
         <div className="footer-section">
-          <h3 className="footer-title">BTR</h3>
+          <h3 className="footer-title">Programs for NEET/INI CET</h3>
           <ul className="footer-links">
             <li>
               <NavLink to="/online-btr">Online BTR</NavLink>
@@ -68,14 +85,17 @@ function Footer() {
             <li>
               <NavLink to="/offline-btr">Offline BTR</NavLink>
             </li>
+            <li>
+              <NavLink to="/bootcamp">Bootcamp</NavLink>
+            </li>
           </ul>
         </div>
 
         <div className="footer-section">
-          <h3 className="footer-title">Conceptual Radiology</h3>
+          <h3 className="footer-title">Program for PG Residents</h3>
           <ul className="footer-links">
             <li>
-              <NavLink to="/crisp">CRISP</NavLink>
+              <NavLink to="/conceptual-radiology">Conceptual Radiology</NavLink>
             </li>
           </ul>
         </div>
