@@ -7,7 +7,6 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
-  const [showCoursesMenu, setShowCoursesMenu] = useState(false);
   const [showBTRMenu, setShowBTRMenu] = useState(false);
   const [showCRMenu, setShowCRMenu] = useState(false);
   const navigate = useNavigate();
@@ -18,16 +17,8 @@ function Navbar() {
 
   const handleCloseNav = () => {
     setShowNav(false);
-    setShowCoursesMenu(false);
     setShowBTRMenu(false);
     setShowCRMenu(false);
-  };
-
-  const toggleCoursesMenu = () => {
-    setShowCoursesMenu(!showCoursesMenu);
-    if (!showCoursesMenu) {
-      setShowBTRMenu(false);
-    }
   };
 
   const handleBTRClick = (e) => {
@@ -54,10 +45,6 @@ function Navbar() {
     }
   };
 
-  const toggleCRMenu = () => {
-    setShowCRMenu(!showCRMenu);
-  };
-
   return (
     <header className="navbar-container">
       <div className="navbar-logo">
@@ -73,72 +60,39 @@ function Navbar() {
           About ZV
         </NavLink>
 
-        {/* First Level: Courses Offered */}
+        {/* BTR with dropdown */}
         <div
           className="dropdown-container"
-          onMouseEnter={() => !showNav && setShowCoursesMenu(true)}
-          onMouseLeave={() =>
-            !showNav && (setShowCoursesMenu(false), setShowBTRMenu(false))
-          }
+          onMouseEnter={() => !showNav && setShowBTRMenu(true)}
+          onMouseLeave={() => !showNav && setShowBTRMenu(false)}
         >
-          <button
-            className="dropdown-trigger"
-            onClick={() => showNav && toggleCoursesMenu()}
-          >
-            Courses Offered
+          <button className="dropdown-trigger" onClick={handleBTRClick}>
+            BTR
             <IoIosArrowDown
-              className={`arrow-icon ${showCoursesMenu ? "rotate" : ""}`}
+              className={`arrow-icon ${showBTRMenu ? "rotate" : ""}`}
             />
           </button>
 
-          {showCoursesMenu && (
+          {showBTRMenu && (
             <div
               className="dropdown-menu level-1"
-              onMouseEnter={() => !showNav && setShowCoursesMenu(true)}
-              onMouseLeave={() =>
-                !showNav && (setShowCoursesMenu(false), setShowBTRMenu(false))
-              }
+              onMouseEnter={() => !showNav && setShowBTRMenu(true)}
+              onMouseLeave={() => !showNav && setShowBTRMenu(false)}
             >
-              {/* Second Level: BTR with nested dropdown */}
-              <div
-                className="dropdown-container nested"
-                onMouseEnter={() => !showNav && setShowBTRMenu(true)}
-                onMouseLeave={() => !showNav && setShowBTRMenu(false)}
+              <NavLink
+                to="/online-btr"
+                onClick={handleCloseNav}
+                className="dropdown-link"
               >
-                <button
-                  className="dropdown-trigger nested-trigger"
-                  onClick={handleBTRClick}
-                >
-                  BTR
-                  <IoIosArrowDown
-                    className={`arrow-icon ${showBTRMenu ? "rotate" : ""}`}
-                  />
-                </button>
-
-                {/* Third Level: Online BTR & Offline BTR */}
-                {showBTRMenu && (
-                  <div
-                    className="dropdown-menu level-2"
-                    onMouseEnter={() => !showNav && setShowBTRMenu(true)}
-                    onMouseLeave={() => !showNav && setShowBTRMenu(false)}
-                  >
-                    <NavLink
-                      to="/online-btr"
-                      onClick={handleCloseNav}
-                      className="dropdown-link"
-                    >
-                      Online BTR
-                    </NavLink>
-                    <NavLink
-                      to="/offline-btr"
-                      onClick={handleCloseNav}
-                      className="dropdown-link"
-                    >
-                      Offline BTR
-                    </NavLink>
-                  </div>
-                )}
-              </div>
+                Online BTR
+              </NavLink>
+              <NavLink
+                to="/offline-btr"
+                onClick={handleCloseNav}
+                className="dropdown-link"
+              >
+                Offline BTR
+              </NavLink>
             </div>
           )}
         </div>
