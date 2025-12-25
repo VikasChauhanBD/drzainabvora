@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./TestimonialHeader.css";
+// import DrArushiVahie from "../../assets/studentsImages/Dr-Arushi-Vahie.png";
+// import DrNavya from "../../assets/studentsImages/Dr-Navya.png";
+// import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
+// import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
+// import DrShubhDahiya from "../../assets/studentsImages/Dr-Shubh-Dahiya.png";
+// import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
+// import AvatarMale from "../../assets/studentsImages/avatar-male.png";
+// import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
 
 const TestimonialHeader = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -66,6 +74,19 @@ const TestimonialHeader = () => {
     "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
   ];
+
+  //  const profileImages = [
+  //   DrArushiVahie,
+  //   DrNavya,
+  //   DrRajeswariRiya,
+  //   DrShrutiRawat,
+  //   DrShubhDahiya,
+  //   DrSnehaRani,
+  //   DrArushiVahie,
+  //   DrNavya,
+  //   DrRajeswariRiya,
+  //   DrShrutiRawat,
+  // ];
 
   // Fixed positions for avatars
   const avatarPositions = [

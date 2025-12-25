@@ -36,9 +36,17 @@
   animation-iteration-count: infinite;
 }
 
+.testimonials-track.paused {
+  animation-play-state: paused !important;
+}
+
 .track-up {
   animation-name: slideUp;
   animation-duration: 60s;
+}
+
+.column-3 .track-up {
+  animation-duration: 120s;
 }
 
 .track-down {
