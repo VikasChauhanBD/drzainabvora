@@ -62,6 +62,10 @@
   }
 }
 
+.feedback-track.paused {
+  animation-play-state: paused !important;
+}
+
 .feedback-card {
   background: white;
   border-radius: 16px;
