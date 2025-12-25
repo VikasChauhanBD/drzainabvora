@@ -13,6 +13,7 @@ import OfflineBtrPage from "./pages/OfflineBtrPage";
 import CrispPage from "./pages/CrispPage";
 import BtrPage from "./pages/BtrPage";
 import BootcampPage from "./pages/BootcampPage";
+import GalleryPage from "./pages/GalleryPage";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -106,6 +107,7 @@ function App() {
             />
             <Route path="/crisp" element={<CrispPage />} />
             <Route path="/students" element={<StudentsPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>
