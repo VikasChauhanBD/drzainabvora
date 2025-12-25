@@ -87,9 +87,12 @@ const GalleryList = () => {
 
       {/* Image Popup Modal */}
       {selectedImage && (
-        <div className="popup-overlay" onClick={closePopup}>
-          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
-            <button className="popup-close" onClick={closePopup}>
+        <div className="galleryList-popup-overlay" onClick={closePopup}>
+          <div
+            className="galleryList-popup-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="galleryList-popup-close" onClick={closePopup}>
               &times;
             </button>
             <img src={selectedImage.src} alt={selectedImage.alt} />

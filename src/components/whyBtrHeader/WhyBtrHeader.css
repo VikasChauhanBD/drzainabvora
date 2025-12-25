@@ -32,10 +32,10 @@
 
 .why-btr-header-background-image.active {
   opacity: 1;
-  animation: zoomIn 6s ease-out forwards;
+  animation: bgZoomIn 6s ease-out forwards;
 }
 
-@keyframes zoomIn {
+@keyframes bgZoomIn {
   0% {
     transform: scale(1);
   }
