@@ -8,7 +8,7 @@ function StudentsPage() {
     <div>
       <TestimonialHeader />
       <Testimonials />
-      {/* <TestimonialVideos /> */}
+      <TestimonialVideos />
     </div>
   );
 }
