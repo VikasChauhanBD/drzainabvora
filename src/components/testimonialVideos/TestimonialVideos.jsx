@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
@@ -63,6 +63,39 @@ const patientsEnglishData = [
 
 function TestimonialVideos() {
   const swiperRef = useRef(null);
+  const videoRefs = useRef([]);
+  const [playingIndex, setPlayingIndex] = useState(null);
+
+  const handlePlayVideo = (index) => {
+    // Pause all other videos
+    videoRefs.current.forEach((video, i) => {
+      if (video && i !== index) {
+        video.pause();
+      }
+    });
+
+    // Play the selected video
+    if (videoRefs.current[index]) {
+      videoRefs.current[index].play();
+      setPlayingIndex(index);
+    }
+  };
+
+  const handleVideoPause = (index) => {
+    if (playingIndex === index) {
+      setPlayingIndex(null);
+    }
+  };
+
+  const handleVideoPlay = (index) => {
+    // Pause all other videos when one starts playing
+    videoRefs.current.forEach((video, i) => {
+      if (video && i !== index && !video.paused) {
+        video.pause();
+      }
+    });
+    setPlayingIndex(index);
+  };
 
   return (
     <div className="tv-swiper-container">
@@ -85,18 +118,53 @@ function TestimonialVideos() {
             slideShadows: false,
           }}
           modules={[EffectCoverflow, Navigation]}
+          onSlideChange={() => {
+            // Pause all videos when sliding
+            videoRefs.current.forEach((video) => {
+              if (video) {
+                video.pause();
+              }
+            });
+            setPlayingIndex(null);
+          }}
         >
           {patientsEnglishData.map((data, index) => (
             <SwiperSlide className="tv-swiper-slide" key={index}>
               {data.type === "video" ? (
-                <video
-                  src={data.url}
-                  controls
-                  controlsList="nodownload"
-                  preload="metadata"
-                >
-                  Your browser does not support the video tag.
-                </video>
+                <div className="tv-video-wrapper">
+                  <video
+                    ref={(el) => (videoRefs.current[index] = el)}
+                    src={data.url}
+                    controls
+                    controlsList="nodownload"
+                    preload="metadata"
+                    onPlay={() => handleVideoPlay(index)}
+                    onPause={() => handleVideoPause(index)}
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                  <div
+                    className={`tv-play-button-overlay ${
+                      playingIndex === index ? "hidden" : ""
+                    }`}
+                    onClick={() => handlePlayVideo(index)}
+                  >
+                    <div className="tv-play-icon">
+                      <svg
+                        width="36"
+                        height="36"
+                        viewBox="0 0 24 24"
+                        fill="#27187e"
+                        stroke="#27187e"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <polygon points="5 3 19 12 5 21 5 3" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
               ) : (
                 <img src={data.url} alt={`Slide ${index + 1}`} />
               )}
@@ -104,7 +172,6 @@ function TestimonialVideos() {
           ))}
         </Swiper>
 
-        {/* Custom Navigation Buttons */}
         <button
           className="tv-prev-button"
           onClick={() => swiperRef.current?.slidePrev()}
