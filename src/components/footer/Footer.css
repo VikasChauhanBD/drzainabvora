@@ -1,7 +1,6 @@
 .footer-container {
   width: 100%;
   background-color: #f1f2f6;
-  padding-top: 4rem;
 }
 
 .footer-content {
@@ -10,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
-  padding-bottom: 3rem;
+  padding: 2rem 1rem;
 }
 
 .footer-about {
@@ -146,7 +145,7 @@
 
 .footer-bottom {
   background: #15304c;
-  padding: 1.5rem 0;
+  padding: 1.5rem 10px;
   text-align: center;
 }
 
@@ -163,26 +162,16 @@
 /* -------------------------- Responsive Styles -------------------------- */
 
 @media (max-width: 1440px) {
-  .footer-content,
-  .footer-bottom-content {
-    width: 85%;
+  .footer-content {
+    width: 95%;
   }
 }
 
 @media (max-width: 1024px) {
-  .footer-container {
-    padding-top: 2rem;
-  }
-
   .footer-content {
-    width: 95%;
+    width: 100%;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer-bottom-content {
-    width: 95%;
-    flex-direction: column;
   }
 
   .footer-bottom-links {
@@ -197,17 +186,7 @@
 }
 
 @media (max-width: 500px) {
-  .footer-container {
-    padding-top: 0;
-  }
-
   .footer-content {
     grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 1rem;
-  }
-
-  .footer-bottom-content {
-    text-align: center;
-    line-height: 24px;
   }
 }
