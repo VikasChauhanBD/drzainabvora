@@ -45,13 +45,17 @@
   animation-duration: 60s;
 }
 
+.column-1 .track-up {
+  animation-duration: 450s;
+}
+
 .column-3 .track-up {
-  animation-duration: 120s;
+  animation-duration: 90s;
 }
 
 .track-down {
   animation-name: slideDown;
-  animation-duration: 65s;
+  animation-duration: 90s;
 }
 
 @keyframes slideUp {
