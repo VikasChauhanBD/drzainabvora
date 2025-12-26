@@ -276,12 +276,12 @@ export const testimonials = [
       image: AvatarFemale,
     },
     {
-      feedback: "BTR is a must if you are preparing for neetpg .",
+      feedback: "BTR is a must if you are preparing for neetpg.",
       name: "Dr. Thenha Mariyam ",
       image: AvatarFemale,
     },
     {
-      feedback: "BTR greatly helpful to compile all 19 subject\nThank you ",
+      feedback: "BTR greatly helpful to compile all 19 subject. Thank you",
       name: "Dr. Satish ",
       image: AvatarMale,
     },
@@ -364,7 +364,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "Thank you so much Maam @ZainabVora 😭😭❤️❤️❤️\nI got 50k last NEET and then 10k in ini nov and 16k in may ini , I was disappointed but I never gave up , this neet I got AIR 404 and it’s all thanks to you Maam, I never had a particular rank target I just gave my 100% and the day of the exam I followed everything you told, I could literally see you in front of me while I was marking those answers and after the exam I knew it was the best GT of my life.",
+        "Thank you so much Maam @ZainabVora 😭😭❤️❤️❤️ I got 50k last NEET and then 10k in ini nov and 16k in may ini , I was disappointed but I never gave up , this neet I got AIR 404 and it’s all thanks to you Maam, I never had a particular rank target I just gave my 100% and the day of the exam I followed everything you told, I could literally see you in front of me while I was marking those answers and after the exam I knew it was the best GT of my life.",
       name: "Dr. Vidula Ramesh",
       image: AvatarFemale,
     },
@@ -441,7 +441,7 @@ export const testimonials = [
     },
     {
       feedback: "BTR played major role in my result improvement",
-      name: "Dr. Varsha Hegde ",
+      name: "Dr. Varsha Hegde",
       image: AvatarFemale,
     },
     {
@@ -487,7 +487,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "I'm an online btr subscriber\nBtr helped me a lot in this journey,",
+        "I'm an online btr subscriber and Btr helped me a lot in this journey.",
       name: "Dr. Aditya Bhujbal",
       image: AvatarMale,
     },
@@ -509,7 +509,7 @@ export const testimonials = [
       image: AvatarFemale,
     },
     {
-      feedback: "Zainab Vora ma’am is the best 💯",
+      feedback: "Dr. Zainab Vora ma’am is the best 💯",
       name: "Dr. Niharika",
       image: AvatarFemale,
     },
@@ -526,7 +526,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "Zainab ma’am keeps the class interesting, engaging, and entertaining. Many of my concepts were cleared, and the sessions never felt monotonous—even during long lectures.",
+        "Dr. Zainab ma’am keeps the class interesting, engaging, and entertaining. Many of my concepts were cleared, and the sessions never felt monotonous—even during long lectures.",
       name: "Dr. Naaz",
       image: AvatarFemale,
     },

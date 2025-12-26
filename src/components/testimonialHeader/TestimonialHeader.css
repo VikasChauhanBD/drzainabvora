@@ -25,22 +25,11 @@
 .tsm-header-slider-card {
   width: 39%;
   background-color: #f1f2f6;
-  color: #27187e;
+  color: #15304c;
   border: 2px solid #5b7bf8;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.tsm-header-impressions-badge h3 {
-  font-size: 64px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.tsm-header-impressions-badge p {
-  font-size: 18px;
-  /* color: #a8b3d0; */
 }
 
 .tsm-header-content {
@@ -53,18 +42,11 @@
   font-size: 20px;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: #15304c;
 }
 
 .tsm-header-author {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.tsm-header-course {
-  font-size: 14px;
-  color: #15304c;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .tsm-header-image {

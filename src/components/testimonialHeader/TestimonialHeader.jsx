@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./TestimonialHeader.css";
-// import DrArushiVahie from "../../assets/studentsImages/Dr-Arushi-Vahie.png";
-// import DrNavya from "../../assets/studentsImages/Dr-Navya.png";
-// import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
-// import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
-// import DrShubhDahiya from "../../assets/studentsImages/Dr-Shubh-Dahiya.png";
-// import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
-// import AvatarMale from "../../assets/studentsImages/avatar-male.png";
-// import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
+import Image1 from "../../assets/images/crash-course-image2.jpg";
+import Image2 from "../../assets/images/crash-course-image1.jpg";
+import Image3 from "../../assets/images/neet-pg-bootcamp.webp";
+import DrArushiVahie from "../../assets/studentsImages/Dr-Arushi-Vahie.png";
+import DrNavya from "../../assets/studentsImages/Dr-Navya.png";
+import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
+import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
+import DrShubhDahiya from "../../assets/studentsImages/Dr-Shubh-Dahiya.png";
+import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
+
+import DrAkshitaSarin from "../../assets/studentsImages/dr-akshita-sarin.webp";
+import DrMuditGoyal from "../../assets/studentsImages/dr-mudit-goyal.webp";
+import DrVidushi from "../../assets/studentsImages/dr-vidushi.webp";
 
 const TestimonialHeader = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -15,78 +20,70 @@ const TestimonialHeader = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [visibleProfiles, setVisibleProfiles] = useState([]);
   const [count, setCount] = useState(0);
-  const target = 100000; // 1,00,000
+  const target = 115221;
   const duration = 2000; // animation duration in ms (2 sec)
 
   // Testimonial data for slider
   const testimonials = [
     {
       quote:
-        "The course was a growth machine and a complete eye-opener for us. Have never learnt such fundamentals before.",
-      author: "Jash & Devarsh Gotawala",
-      course: "Enrolled in How To YouTube",
-      image:
-        "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=500&fit=crop",
+        "What else can be described as the best memory and the best moment other than getting this picture with my dream mentor that I could cherish for years to come. She had become my everything - a teacher who makes learning and be honest understanding super easy, a friend who always believes in you, a sister who uplifts you when you feel low and a mother who gives the best life lessons and encourages you to become a good human being",
+      author: "Dr. Akshita Sarin",
+      image: DrAkshitaSarin,
     },
     {
       quote:
-        "This course transformed my understanding of content creation. The insights were invaluable.",
-      author: "Sarah Johnson",
-      course: "Enrolled in Content Mastery",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop",
+        "Attending the test and discussion with everyone and listening to Dr. Zainab Vora ma’am was an amazing experience for me. It helped me improve my consistency and overcome my fear of the exam.",
+      author: "Dr. Mudit Goyal",
+      image: DrMuditGoyal,
     },
     {
-      quote: "Best investment I've made in my career. The strategies work!",
-      author: "Mike Chen",
-      course: "Enrolled in Digital Marketing",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop",
+      quote:
+        "It felt like magic in my life 4 days passed so amazingly that I never imagined it while entering there. Whether it was the syllabus being completed so quickly, which I would have never managed on my own, or the life lessons shared by Dr. Zainab ma’am that she inculcated in us, every moment was truly impactful.",
+      author: "Dr. Vidushi",
+      image: DrVidushi,
     },
   ];
 
   // Rotating text quotes
   const rotatingTexts = [
     {
-      text: "Will make you question all that you've been doing till now.",
-      author: "Riya Baria",
+      text: "Dr. Zainab Vora ma’am is the best.",
+      author: "Dr. Niharika",
     },
     {
-      text: "Completely transformed my approach to creating content.",
-      author: "Alex Kumar",
+      text: "BTR played major role in my result improvement.",
+      author: "Dr. Varsha Hegde",
     },
     {
-      text: "The best course I've ever taken. Highly recommend!",
-      author: "Maria Garcia",
+      text: "BTR & T&ds are best to revise & perform well in exam.",
+      author: "Dr. Muskan Maheswari",
+    },
+    {
+      text: "I’m deeply grateful to Dr. Zainab Vora ma’am for her brilliant BTR sessions.",
+      author: "Dr. Phalguni Wadhwa",
     },
   ];
 
   // Profile images for top box - fixed positions
   const profileImages = [
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
+    // "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    DrArushiVahie,
+    DrNavya,
+    DrRajeswariRiya,
+    DrShrutiRawat,
+    DrShubhDahiya,
+    DrSnehaRani,
   ];
-
-  //  const profileImages = [
-  //   DrArushiVahie,
-  //   DrNavya,
-  //   DrRajeswariRiya,
-  //   DrShrutiRawat,
-  //   DrShubhDahiya,
-  //   DrSnehaRani,
-  //   DrArushiVahie,
-  //   DrNavya,
-  //   DrRajeswariRiya,
-  //   DrShrutiRawat,
-  // ];
 
   // Fixed positions for avatars
   const avatarPositions = [
@@ -103,11 +100,7 @@ const TestimonialHeader = () => {
   ];
 
   // Certificate images
-  const certificateImages = [
-    "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1552581234-26160f608093?w=600&h=400&fit=crop",
-  ];
+  const certificateImages = [Image1, Image2, Image3];
 
   // Initialize visible profiles
   useEffect(() => {
@@ -193,20 +186,12 @@ const TestimonialHeader = () => {
       <div className="tsm-header-grid">
         {/* Left Box - Slider */}
         <div className="tsm-header-card tsm-header-slider-card">
-          <div className="tsm-header-impressions-badge">
-            <h3>1M</h3>
-            <p>Monthly Impressions</p>
-          </div>
-
           <div className="tsm-header-content">
             <p className="tsm-header-quote">
               "{testimonials[currentSlide].quote}"
             </p>
             <p className="tsm-header-author">
               {testimonials[currentSlide].author}
-            </p>
-            <p className="tsm-header-course">
-              {testimonials[currentSlide].course}
             </p>
           </div>
 
@@ -229,26 +214,6 @@ const TestimonialHeader = () => {
 
         {/* Right Side Container */}
         <div className="tsm-header-right-container">
-          {/* Top Right Box - Student Count with Changing Images at Fixed Positions */}
-          {/* <div className="tsm-header-card tsm-header-students-card">
-            <div className="tsm-header-floating-images">
-              {visibleProfiles.map((profileIdx, index) => (
-                <img
-                  key={index}
-                  src={profileImages[profileIdx]}
-                  alt={`Student ${index + 1}`}
-                  className="tsm-header-floating-avatar"
-                  style={{
-                    top: avatarPositions[index].top,
-                    left: avatarPositions[index].left,
-                  }}
-                />
-              ))}
-            </div>
-            <h2 className="tsm-header-student-count">467,546</h2>
-            <p className="tsm-header-student-text">students and counting!</p>
-          </div> */}
-
           <div className="tsm-header-card tsm-header-students-card">
             <div className="tsm-header-floating-images">
               {visibleProfiles.map((profileIdx, index) => (
