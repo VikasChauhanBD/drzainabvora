@@ -6,6 +6,7 @@ import Subjects from "../components/subjects/Subjects";
 import WhatBTR from "../components/whatBTR/WhatBTR";
 import Schedule from "../components/schedule/Schedule";
 import Feedback from "../components/feedback/Feedback";
+import InstagramFeed from "../components/instagramFeed/InstagramFeed";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Subjects />
       <Schedule />
       <Feedback />
+      {/* <InstagramFeed /> */}
     </>
   );
 }
