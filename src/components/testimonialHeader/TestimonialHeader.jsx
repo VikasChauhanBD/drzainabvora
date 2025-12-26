@@ -20,6 +20,7 @@ const TestimonialHeader = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [visibleProfiles, setVisibleProfiles] = useState([]);
   const [count, setCount] = useState(0);
+  const [isSliderHovered, setIsSliderHovered] = useState(false);
   const target = 115221;
   const duration = 2000; // animation duration in ms (2 sec)
 
@@ -118,13 +119,15 @@ const TestimonialHeader = () => {
     );
   };
 
-  // Auto-slide testimonials every 5 seconds
+  // Auto-slide testimonials every 5 seconds - PAUSES ON HOVER
   useEffect(() => {
+    if (isSliderHovered) return; // Don't start interval if hovered
+
     const interval = setInterval(() => {
       nextSlide();
     }, 5000);
     return () => clearInterval(interval);
-  }, [currentSlide]);
+  }, [currentSlide, isSliderHovered]);
 
   // Auto-rotate text
   useEffect(() => {
@@ -185,7 +188,11 @@ const TestimonialHeader = () => {
 
       <div className="tsm-header-grid">
         {/* Left Box - Slider */}
-        <div className="tsm-header-card tsm-header-slider-card">
+        <div
+          className="tsm-header-card tsm-header-slider-card"
+          onMouseEnter={() => setIsSliderHovered(true)}
+          onMouseLeave={() => setIsSliderHovered(false)}
+        >
           <div className="tsm-header-content">
             <p className="tsm-header-quote">
               "{testimonials[currentSlide].quote}"
