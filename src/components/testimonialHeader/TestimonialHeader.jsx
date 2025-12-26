@@ -18,7 +18,9 @@ const TestimonialHeader = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [visibleProfiles, setVisibleProfiles] = useState([]);
+  const [visibleProfiles, setVisibleProfiles] = useState([
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+  ]);
   const [count, setCount] = useState(0);
   const [isSliderHovered, setIsSliderHovered] = useState(false);
   const target = 115221;
@@ -66,18 +68,23 @@ const TestimonialHeader = () => {
     },
   ];
 
-  // Profile images for top box - fixed positions
   const profileImages = [
-    // "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    // "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
-    // "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    // "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
-    // "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
-    // "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
     DrArushiVahie,
     DrNavya,
     DrRajeswariRiya,
@@ -86,7 +93,6 @@ const TestimonialHeader = () => {
     DrSnehaRani,
   ];
 
-  // Fixed positions for avatars
   const avatarPositions = [
     { top: "5%", left: "5%" },
     { top: "15%", left: "25%" },
@@ -103,9 +109,19 @@ const TestimonialHeader = () => {
   // Certificate images
   const certificateImages = [Image1, Image2, Image3];
 
-  // Initialize visible profiles
+  // Initialize visible profiles - randomly select 10 from the pool
   useEffect(() => {
-    setVisibleProfiles(profileImages.map((_, idx) => idx));
+    const initialProfiles = [];
+    const availableIndices = [...Array(profileImages.length).keys()];
+
+    // Randomly select 10 unique images from the pool
+    for (let i = 0; i < 10; i++) {
+      const randomIdx = Math.floor(Math.random() * availableIndices.length);
+      initialProfiles.push(availableIndices[randomIdx]);
+      availableIndices.splice(randomIdx, 1);
+    }
+
+    setVisibleProfiles(initialProfiles);
   }, []);
 
   // Slider navigation
@@ -223,7 +239,7 @@ const TestimonialHeader = () => {
         <div className="tsm-header-right-container">
           <div className="tsm-header-card tsm-header-students-card">
             <div className="tsm-header-floating-images">
-              {visibleProfiles.map((profileIdx, index) => (
+              {visibleProfiles.slice(0, 10).map((profileIdx, index) => (
                 <img
                   key={index}
                   src={profileImages[profileIdx]}

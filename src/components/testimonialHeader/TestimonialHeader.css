@@ -33,7 +33,6 @@
 }
 
 .tsm-header-content {
-  margin: 40px 0;
   flex-grow: 1;
   transition: opacity 0.5s ease-in-out;
 }
