@@ -3,7 +3,6 @@ import "./GalleryList.css";
 import Image1 from "../../assets/images/crash-course-image1.jpg";
 import Image2 from "../../assets/images/crash-course-image2.jpg";
 import Image3 from "../../assets/images/neet-pg-bootcamp.webp";
-import Image4 from "../../assets/images/crash-course-image1.jpg";
 import Image5 from "../../assets/images/why-btr-header-1.JPG";
 import Image6 from "../../assets/images/why-btr-header-2.JPG";
 
@@ -35,12 +34,12 @@ const galleryItems = [
   },
   {
     id: 6,
-    src: Image6,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766822097/4737c1ede28e550da6a5f9702c81cfd3_bhgqk2.jpg",
     size: "wide",
   },
   {
     id: 7,
-    src: "https://cdn.dribbble.com/userupload/46169260/file/4737c1ede28e550da6a5f9702c81cfd3.jpg",
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766822112/why-btr-header-2_t0d5su.jpg",
     size: "wide",
   },
   {
