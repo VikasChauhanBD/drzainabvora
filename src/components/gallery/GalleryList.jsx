@@ -40,22 +40,89 @@ const galleryItems = [
   },
   {
     id: 7,
-    src: "https://cdn.dribbble.com/userupload/46169258/file/97c56a4b41db5861157595a39f7520af.jpg",
-    size: "normal",
-  },
-  {
-    id: 8,
-    src: "https://cdn.dribbble.com/userupload/46169259/file/b8162574c47f15176fa31bd9b685d942.jpg",
-    size: "normal",
-  },
-  {
-    id: 9,
     src: "https://cdn.dribbble.com/userupload/46169260/file/4737c1ede28e550da6a5f9702c81cfd3.jpg",
     size: "wide",
   },
   {
+    id: 8,
+    src: "https://cdn.dribbble.com/userupload/46169258/file/97c56a4b41db5861157595a39f7520af.jpg",
+    size: "normal",
+  },
+  {
+    id: 9,
+    src: "https://cdn.dribbble.com/userupload/46169259/file/b8162574c47f15176fa31bd9b685d942.jpg",
+    size: "normal",
+  },
+  {
     id: 10,
-    src: "https://cdn.dribbble.com/userupload/46169351/file/adc5262511cc13a5f02981fb7401b851.jpg",
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820785/Screenshot_2025-09-02_at_8_00_06_PM-Picsart-AiImageEnhancer_xgbvka.jpg",
+    size: "tall",
+  },
+  {
+    id: 11,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820975/Screenshot_2025-09-02_at_7_58_39_PM-Picsart-AiImageEnhancer_ykk4ib.jpg",
+    size: "tall",
+  },
+  {
+    id: 12,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.45_33_sgqa9r.jpg",
+    size: "tall",
+  },
+  {
+    id: 13,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.46_8_yjdyzx.jpg",
+    size: "tall",
+  },
+  {
+    id: 14,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820975/image02-09-2025_at_18.52.46_20_was6n2.jpg",
+    size: "tall",
+  },
+  {
+    id: 15,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.46_16_umsmyc.jpg",
+    size: "normal",
+  },
+  {
+    id: 16,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820975/Screenshot_2025-09-02_at_7_57_41_PM-Picsart-AiImageEnhancer_zemmiq.jpg",
+    size: "normal",
+  },
+
+  {
+    id: 17,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820973/image02-09-2025_at_18.52.45_2_eb6r9o.jpg",
+    size: "normal",
+  },
+
+  {
+    id: 18,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820973/image02-09-2025_at_18.52.45_5_btqshg.jpg",
+    size: "normal",
+  },
+  {
+    id: 19,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.45_26_apkgte.jpg",
+    size: "wide",
+  },
+  {
+    id: 20,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.45_19_a7rh6l.jpg",
+    size: "wide",
+  },
+  {
+    id: 21,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820973/image02-09-2025_at_18.52.45_10_ewfmle.jpg",
+    size: "normal",
+  },
+  {
+    id: 22,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.45_28_s5bcje.jpg",
+    size: "normal",
+  },
+  {
+    id: 23,
+    src: "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766820974/image02-09-2025_at_18.52.46_13_acvfl7.jpg",
     size: "tall",
   },
 ];
