@@ -2,180 +2,71 @@ import React from "react";
 import "./Schedule.css";
 
 export default function Schedule() {
-  // const scheduleData = [
-  //   {
-  //     day: "Monday",
-  //     sessions: [
-  //       { time: "9:00 AM - 12:00 PM", subject: "Radiology", badge: "Live" },
-  //       { time: "2:00 PM - 5:00 PM", subject: "Physiology", badge: "Live" },
-  //     ],
-  //   },
-  //   {
-  //     day: "Tuesday",
-  //     sessions: [
-  //       { time: "9:00 AM - 12:00 PM", subject: "Biochemistry", badge: "Live" },
-  //       { time: "2:00 PM - 5:00 PM", subject: "Pathology", badge: "Live" },
-  //     ],
-  //   },
-  //   {
-  //     day: "Wednesday",
-  //     sessions: [
-  //       { time: "9:00 AM - 12:00 PM", subject: "Pharmacology", badge: "Live" },
-  //       { time: "2:00 PM - 5:00 PM", subject: "Microbiology", badge: "Live" },
-  //     ],
-  //   },
-  //   {
-  //     day: "Thursday",
-  //     sessions: [
-  //       { time: "9:00 AM - 12:00 PM", subject: "Medicine", badge: "Live" },
-  //       { time: "2:00 PM - 5:00 PM", subject: "Surgery", badge: "Live" },
-  //     ],
-  //   },
-  //   {
-  //     day: "Friday",
-  //     sessions: [
-  //       {
-  //         time: "9:00 AM - 12:00 PM",
-  //         subject: "OBG & Pediatrics",
-  //         badge: "Live",
-  //       },
-  //       {
-  //         time: "2:00 PM - 5:00 PM",
-  //         subject: "Orthopedics",
-  //         badge: "Live",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     day: "Saturday",
-  //     sessions: [
-  //       {
-  //         time: "9:00 AM - 1:00 PM",
-  //         subject: "Weekly Revision & MCQs",
-  //         badge: "Interactive",
-  //       },
-  //     ],
-  //   },
-  // ];
-
-  const scheduleData = [
-    {
-      day: "22nd Nov 2025 (Saturday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Surgery-Ortho-Radio Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "1st Dec 2025 (Monday)",
-      sessions: [
-        { time: "", subject: "Surgery-Ortho-Radio E&D", badge: "E&D" },
-      ],
-    },
-    {
-      day: "4th Dec 2025 (Thursday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Biochem-FMT Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "9th Dec 2025 (Tuesday)",
-      sessions: [{ time: "", subject: "Biochem-FMT E&D", badge: "E&D" }],
-    },
-    {
-      day: "13th Dec 2025 (Saturday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Micro-Anat Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "19th Dec 2025 (Friday)",
-      sessions: [{ time: "", subject: "Micro-Anat E&D", badge: "E&D" }],
-    },
-    {
-      day: "23rd Dec 2025 (Tuesday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Psychi-ENT-Ophthal Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "2nd Jan 2026 (Friday)",
-      sessions: [{ time: "", subject: "Psychi-ENT-Ophthal E&D", badge: "E&D" }],
-    },
-    {
-      day: "14th Jan 2026 (Wednesday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Integrated Systems Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "20th Jan 2026 (Tuesday)",
-      sessions: [
-        {
-          time: "",
-          subject: "Integrated Systems E&D (200 MCQs)",
-          badge: "E&D",
-        },
-      ],
-    },
-    {
-      day: "25th Jan 2026 (Sunday)",
-      sessions: [
-        {
-          time: "",
-          subject: "PSM-Derma-Anesthesia Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "1st Feb 2026 (Sunday)",
-      sessions: [
-        { time: "", subject: "PSM-Derma-Anesthesia E&D", badge: "E&D" },
-      ],
-    },
-    {
-      day: "8th Feb 2026 (Sunday)",
-      sessions: [
-        {
-          time: "",
-          subject: "OBG-Pedia Tricky Concepts",
-          badge: "Tricky Concepts",
-        },
-      ],
-    },
-    {
-      day: "13th Feb 2026 (Thursday)",
-      sessions: [{ time: "", subject: "OBG-Pedia E&D", badge: "E&D" }],
-    },
+  const neetPgSchedule = [
+    { date: "2026-01-18", subject: "Orientation" },
+    { date: "2026-01-19", subject: "OBG-1" },
+    { date: "2026-01-21", subject: "OBG-2" },
+    { date: "2026-01-24", subject: "OBG Test-Discussion" },
+    { date: "2026-01-26", subject: "PSM-1" },
+    { date: "2026-01-28", subject: "PSM-2" },
+    { date: "2026-01-31", subject: "PSM Test-Discussion" },
+    { date: "2026-02-02", subject: "Surgery-1" },
+    { date: "2026-02-04", subject: "Surgery-2" },
+    { date: "2026-02-07", subject: "Surgery Test-Discussion" },
+    { date: "2026-02-09", subject: "CVS" },
+    { date: "2026-02-11", subject: "Hemat" },
+    { date: "2026-02-14", subject: "Neuro" },
+    { date: "2026-02-16", subject: "Renal + Rheumat" },
+    { date: "2026-02-18", subject: "Endocrine + GI" },
+    { date: "2026-02-20", subject: "Respi + General Physio" },
+    { date: "2026-02-23", subject: "General Path + Pharma" },
+    { date: "2026-02-25", subject: "Integrated Systems Test-1" },
+    { date: "2026-02-28", subject: "Integrated Systems Test-2" },
+    { date: "2026-03-02", subject: "Microbiology" },
+    { date: "2026-03-06", subject: "Micro Test-Discussion" },
+    { date: "2026-03-08", subject: "Anatomy" },
+    { date: "2026-03-12", subject: "Anatomy Test-Discussion" },
+    { date: "2026-03-14", subject: "Biochemistry" },
+    { date: "2026-03-19", subject: "Biochem Test-Discussion" },
+    { date: "2026-03-21", subject: "Pediatrics" },
+    { date: "2026-03-25", subject: "Pediatrics Test-Discussion" },
+    { date: "2026-03-27", subject: "Radiology" },
+    { date: "2026-03-31", subject: "Radiology Test-Discussion" },
+    { date: "2026-04-02", subject: "ENT" },
+    { date: "2026-04-06", subject: "ENT Test-Discussion" },
+    { date: "2026-04-08", subject: "Ophthalmology" },
+    { date: "2026-04-12", subject: "Ophthalmology Test-Discussion" },
+    { date: "2026-04-14", subject: "FMT" },
+    { date: "2026-04-17", subject: "FMT Test-Discussion" },
+    { date: "2026-04-19", subject: "Psychi" },
+    { date: "2026-04-21", subject: "Derma" },
+    { date: "2026-04-24", subject: "Psychi-Derma Test-Discussion" },
+    { date: "2026-04-25", subject: "Anesthesia" },
+    { date: "2026-04-28", subject: "Orthopedics" },
+    { date: "2026-05-01", subject: "Anesthesia-Ortho Test-Discussion" },
+    { date: "2026-05-07", subject: "Mock-GT-1" },
+    { date: "2026-05-09", subject: "Mock-GT-2" },
+    { date: "2026-05-11", subject: "INICET Mock GT" },
+    { date: "2026-05-17", subject: "INICET" },
   ];
+
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const options = {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    };
+    return date.toLocaleDateString("en-US", options);
+  };
 
   return (
     <div className="btr-schedule-container">
       <div className="btr-schedule-wrapper">
         {/* Header */}
         <div className="btr-schedule-header">
-          <div className="btr-schedule-subtitle">CLASS SCHEDULE</div>
-          <h1 className="btr-schedule-title">Your Weekly Learning Journey</h1>
+          <h1 className="btr-schedule-title">NEET PG 2026 Bootcamp Schedule</h1>
           <p className="btr-schedule-description">
             A well-organized approach that helps you master all subjects through
             live interactive sessions and dedicated revision.
@@ -244,10 +135,10 @@ export default function Schedule() {
 
         {/* Schedule */}
         <div className="btr-schedule-list">
-          {scheduleData.map((day, index) => (
+          {neetPgSchedule.map((item, index) => (
             <div key={index} className="btr-schedule-day">
               <div className="btr-schedule-day-content">
-                {/* Day */}
+                {/* Date */}
                 <div className="btr-schedule-day-name">
                   <svg
                     className="btr-schedule-icon-small"
@@ -268,42 +159,20 @@ export default function Schedule() {
                     <line x1="8" y1="2" x2="8" y2="6"></line>
                     <line x1="3" y1="10" x2="21" y2="10"></line>
                   </svg>
-                  <span className="btr-schedule-day-text">{day.day}</span>
+                  <span className="btr-schedule-day-text">
+                    {formatDate(item.date)}
+                  </span>
                 </div>
 
-                {/* Sessions */}
+                {/* Subject */}
                 <div className="btr-sessions-grid">
-                  {day.sessions.map((session, sessionIndex) => (
-                    <div key={sessionIndex} className="btr-session-item">
-                      <div className="btr-session-time">
-                        <svg
-                          className="btr-session-icon-tiny"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                        <span>{session.time}</span>
-                      </div>
-                      <div className="btr-session-subject">
-                        <span className="btr-session-subject-name">
-                          {session.subject}
-                        </span>
-                        <span
-                          className={`btr-session-badge ${
-                            session.badge === "Interactive"
-                              ? "btr-session-badge-interactive"
-                              : "btr-session-badge-live"
-                          }`}
-                        >
-                          {session.badge}
-                        </span>
-                      </div>
+                  <div className="btr-session-item">
+                    <div className="btr-session-subject">
+                      <span className="btr-session-subject-name">
+                        {item.subject}
+                      </span>
                     </div>
-                  ))}
+                  </div>
                 </div>
               </div>
             </div>
