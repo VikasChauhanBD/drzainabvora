@@ -105,17 +105,45 @@
   font-style: italic;
 }
 
+.what-is-btr {
+  width: 70%;
+  background-color: #27187e;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  margin: 4rem auto;
+}
+
+.what-is-btr-ques {
+  font-size: 48px;
+}
+
+.what-is-btr-ans {
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 32px;
+}
+
 /* -------------------------- Responsive Style -------------------------- */
 
 @media (max-width: 1440px) {
   .why-btr-header-text {
     width: 70%;
   }
+
+  .what-is-btr {
+    width: 85%;
+  }
 }
 
 @media (max-width: 1024px) {
   .why-btr-header-text {
     width: 80%;
+  }
+
+  .what-is-btr {
+    width: 95%;
   }
 }
 
@@ -124,13 +152,15 @@
     width: 95%;
   }
 
-  .why-btr-header-text h1 {
+  .why-btr-header-text h1,
+  .what-is-btr-ques {
     font-size: 40px;
   }
 }
 
 @media (max-width: 500px) {
-  .why-btr-header-text h1 {
+  .why-btr-header-text h1,
+  .what-is-btr-ques {
     font-size: 32px;
     line-height: 40px;
   }

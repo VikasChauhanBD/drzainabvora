@@ -139,19 +139,15 @@ const BTRUnique = () => {
             </p>
           </div>
         </div>
-      </section>
 
-      {/* Important Note Section */}
-      <section className="note-section">
-        <div className="note-background-pattern"></div>
-        <div className="note-card">
-          <h3 className="note-title">BTR is not your main textbook</h3>
-          <p className="note-text">
-            If you're weak in concepts, or starting fresh → BTR alone won't save
-            you.
-          </p>
-          <div className="study-formula">
-            <h4>Use BTR like this:</h4>
+        {/* Feature 6 */}
+        <div className="feature-card">
+          <div className="feature-number-wrapper">
+            <div className="feature-number">6</div>
+            <div className="number-glow"></div>
+          </div>
+          <div className="feature-content">
+            <h3 className="feature-title">Use BTR like this:</h3>
             <div className="formula-flow">
               <span className="formula-step">Concepts</span>
               <span className="formula-arrow">→</span>
@@ -161,45 +157,46 @@ const BTRUnique = () => {
               <span className="formula-arrow">→</span>
               <span className="formula-step">Repeat</span>
             </div>
-            <p className="formula-highlight">
-              That's when the magic happens. ✨
-            </p>
+            <p className="feature-text">That's when the magic happens. ✨</p>
           </div>
         </div>
-      </section>
 
-      {/* Testimonial Section */}
-      <section className="testimonial-section">
-        <div className="testimonial-content">
-          <h3 className="testimonial-title">
-            What it felt like studying with her
-          </h3>
-          <div className="testimonial-card">
-            <p className="testimonial-text">
+        {/* Feature 7 */}
+        <div className="feature-card">
+          <div className="feature-number-wrapper">
+            <div className="feature-number">7</div>
+            <div className="number-glow"></div>
+          </div>
+          <div className="feature-content">
+            <h3 className="feature-title">
+              What it felt like studying with her
+            </h3>
+            <p className="feature-text">
               It's like having a senior who's cracked the exam telling you:
             </p>
-            <span className="quote">
+            <span className="feature-highlight">
               Chill. I know what matters. Just follow this, you'll be fine.
             </span>
-            <p className="testimonial-text">
+            <p className="feature-text">
               That assurance… that calmness… Honestly, it reduces half the
               stress.
             </p>
           </div>
+        </div>
 
-          <div className="qualities-box">
-            <p className="testimonial-text">
-              When she explains, you get the feeling that:
-            </p>
-            <ul className="qualities-list">
-              <li>She's been in your exact spot</li>
-              <li>She knows the pressure</li>
-              <li>She genuinely cares</li>
-            </ul>
-            <p className="testimonial-emphasis">
-              That makes a HUGE difference when you're drowning in syllabus.
-            </p>
-          </div>
+        {/* Qualities Section */}
+        <div className="qualities-box">
+          <p className="qualities-text">
+            When she explains, you get the feeling that:
+          </p>
+          <ul className="qualities-list">
+            <li>She's been in your exact spot</li>
+            <li>She knows the pressure</li>
+            <li>She genuinely cares</li>
+          </ul>
+          <p className="qualities-emphasis">
+            That makes a HUGE difference when you're drowning in syllabus.
+          </p>
         </div>
       </section>
 

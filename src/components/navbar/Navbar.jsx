@@ -57,7 +57,7 @@ function Navbar() {
           Home
         </NavLink>
         <NavLink to="/about" onClick={handleCloseNav}>
-          About ZV
+          About Dr. ZV
         </NavLink>
 
         {/* BTR with dropdown */}

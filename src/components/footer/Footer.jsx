@@ -65,7 +65,7 @@ function Footer() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About ZV</NavLink>
+              <NavLink to="/about">About Dr. ZV</NavLink>
             </li>
             <li>
               <NavLink to="/students">Students</NavLink>
