@@ -6,6 +6,23 @@ import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
 import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
 import DrShubhDahiya from "../../assets/studentsImages/Dr-Shubh-Dahiya.png";
 import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
+import DrAravindKrishnan from "../../assets/studentsImages/dr-aravind-krishnan.jpg";
+import DrkritikaAggarwal from "../../assets/studentsImages/dr-kritika-aggarwal.jpg";
+import DrIfrahAnsari from "../../assets/studentsImages/dr-ifrah-ansari.jpg";
+import DrPrakrutiBhat from "../../assets/studentsImages/dr-prakruti-bhat.jpg";
+import DrArshiyaGarg from "../../assets/studentsImages/dr-arshiya-garg.jpg";
+import DrShravya from "../../assets/studentsImages/dr-shravya.jpg";
+import DrTanishaGupta from "../../assets/studentsImages/dr-tanisha-gupta.jpg";
+import DrAkshithaThatikonda from "../../assets/studentsImages/dr-akshitha-thatikonda.jpg";
+import DrVinootKalasappagol from "../../assets/studentsImages/dr-vinoot-kalasappagol.jpg";
+import DrYogithaPoojari from "../../assets/studentsImages/dr-yogitha-poojari.jpg";
+import DrAparnaWarrier from "../../assets/studentsImages/dr-aparna-warrier.jpg";
+import DrAlphonsaMaryMathew from "../../assets/studentsImages/dr-alphonsa-mary-mathew.jpg";
+import DrFaizanAftabWani from "../../assets/studentsImages/dr-faizan-aftab-wani.jpg";
+import DrSakshitaPal from "../../assets/studentsImages/dr-sakshita-pal.jpg";
+import DrAveekChakraborty from "../../assets/studentsImages/dr-aveek-chakraborty.jpg";
+import DrAvneeshMadan from "../../assets/studentsImages/dr-avneesh-madan.jpg";
+import DrDevanshiPundeer from "../../assets/studentsImages/dr-devanshi-pundeer.jpg";
 import AvatarMale from "../../assets/studentsImages/avatar-male.png";
 import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
 
@@ -14,6 +31,91 @@ const Feedback = () => {
   const [isPausedRow2, setIsPausedRow2] = useState(false);
 
   const testimonials = [
+    {
+      text: "This rank wouldn’t have been possible without BTR and Dr. Zainab Vora Ma’am. Dr. Zainab Vora Ma’am has a unique way of explaining concepts — she seamlessly connects topics across subjects, making learning truly integrated BTR transforms the way you approach questions. The problem-solving techniques it teaches are unmatched by any other platform.",
+      name: "Dr. Akshitha thatikonda",
+      image: DrAkshithaThatikonda,
+    },
+    {
+      text: "Best concise notes of BTR and Dr. Zainab Vora Ma’am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
+      name: "Dr. Tanisha Gupta",
+      image: DrTanishaGupta,
+    },
+    {
+      text: "BTR and Dr. Zainab Vora ma'am has played a great role in my success journey. i am so grateful to her for being the guiding light and bringing all 19 subjects in the best crisp and condensed way.",
+      name: "Dr. kritika aggarwal",
+      image: DrkritikaAggarwal,
+    },
+    {
+      text: "BTR really helped me stay consistent and built a mind map. Also Dr. Zainab Vora ma'am TnDs were really helpful.",
+      name: "Dr. Aravind Krishnan",
+      image: DrAravindKrishnan,
+    },
+    {
+      text: "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma’am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
+      name: "Dr. Prakruti Bhat",
+      image: DrPrakrutiBhat,
+    },
+    {
+      text: "A huge credit goes to BTR! It is like a boost to get a top rank when you have a strong base topped up with pyqs and custom modules",
+      name: "Dr. Shravya",
+      image: DrShravya,
+    },
+    {
+      text: "Loved every bit of BTR Super helpful and enough for preparation",
+      name: "Dr. Arshiya Garg",
+      image: DrArshiyaGarg,
+    },
+    {
+      text: "I was an online BTR subscriber and honestly, Dr. Zainab Vohra mam’s TnD was a complete game changer for me. The way she guided us, I actually learned how to master MCQ solving. And the effort she puts into her compiled modules, going that extra mile every single time—it really made a huge difference in my prep. Forever grateful 🤍",
+      name: "Dr. Ifrah Ansari",
+      image: DrIfrahAnsari,
+    },
+    {
+      text: "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora Ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
+      name: "Dr. Vinoot Kalasappagol",
+      image: DrVinootKalasappagol,
+    },
+    {
+      text: "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible ",
+      name: "Dr. Aparna Warrier ",
+      image: DrAparnaWarrier,
+    },
+    {
+      text: "Very good platform. Hat's off to Dr. Zainab Vora ma'am.",
+      name: "Dr. Yogitha Poojari ",
+      image: DrYogithaPoojari,
+    },
+    {
+      text: "I would reccommend BTR to anyone starting their pg prep because I could not have done this without ma'am",
+      name: "Dr. Alphonsa Mary Mathew",
+      image: DrAlphonsaMaryMathew,
+    },
+    {
+      text: "BTR is a full package and it was very helpful.",
+      name: "Dr. Faizan Aftab Wani",
+      image: DrFaizanAftabWani,
+    },
+    {
+      text: "BTR is the most important and helpful source in my entire exam preparation.",
+      name: "Dr. Sakshita Pal",
+      image: DrSakshitaPal,
+    },
+    {
+      text: "I am deeply indebted to Dr. Zainab Vora ma'am for BTR as well as her overall guidance.",
+      name: "Dr. Aveek Chakraborty",
+      image: DrAveekChakraborty,
+    },
+    {
+      text: "I have been a BTR Online Student for 1 year. My entire preparation has been anchored in place by the 2 BTR books and Dr. Zainab Vora ma'am has been an everlasting beacon of light that has guided me through difficult times. I highly recommend following her BTR EnD Cycles and follow her plan exactly how she says.",
+      name: "Dr. Avneesh Madan",
+      image: DrAvneeshMadan,
+    },
+    {
+      text: "I owe my success to the one and only Dr. Zainab Vora ma'am. This was my first attempt and with the little time i had , i had to choose my resource wisely to get max output. All of this was possible because of BTR which i gave my heart n soul to master as Dr. Zainab Vora Ma'am always said. Her teaching, her advices is something i followed religiously. She is the biggest blessing for neet pg aspirants like us. Thankyou so much Ma'am. ",
+      name: "Dr. Devanshi Pundeer ",
+      image: DrDevanshiPundeer,
+    },
     {
       text: "This place is so well managed,they put their heart into it and you can easily see that,the effort,the dedication. Dr Zainab ma'am and the whole team are awesome,very inspired by them.",
       name: "Dr. Shubham Bansal",
