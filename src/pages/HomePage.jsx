@@ -18,7 +18,7 @@ function HomePage() {
       <Subjects />
       <Schedule />
       <Feedback />
-      {/* <InstagramFeed /> */}
+      <InstagramFeed />
     </>
   );
 }
