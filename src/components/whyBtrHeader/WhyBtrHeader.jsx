@@ -55,13 +55,11 @@ const WhyBtrHeader = () => {
       <section className="what-is-btr">
         <h1 className="what-is-btr-ques">What is BTR</h1>
         <p className="what-is-btr-ans">
-          This is a Dummy Text :- Dr. Zainab Vora is a renowned radiologist and
-          passionate educator, an alumna of AIIMS New Delhi with Rank 1 at AIIMS
-          (May 2015) and NIMHANS (March 2015). She has completed her MBBS, MD
-          (Radiology), DNB, and served as a Senior Resident at AIIMS. Known for
-          her expertise in CT, MRI, ultrasound, Doppler, and interventional
-          radiology, she is a leading faculty at Vidya Jeevan, guiding students
-          for FMGE, NEET PG, and INICET with clarity and precision.
+          BTR is a high-yield rapid revision course designed to help students
+          revise the most important, exam-oriented concepts just before the
+          exam. It helps reduce revision time drastically, focuses on what
+          actually gets asked and especially useful during crash course / last
+          revision phase.
         </p>
       </section>
     </div>
