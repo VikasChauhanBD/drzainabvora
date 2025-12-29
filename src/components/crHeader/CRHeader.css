@@ -7,17 +7,17 @@
   width: 80%;
   margin: 0 auto;
   display: flex;
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 .crheader-content {
-  width: 50%;
+  width: 60%;
   align-content: center;
-  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 .crheader-content h1 {
-  font-size: 48px;
+  font-size: 40px;
   color: #f1f2f6;
 }
 
@@ -45,12 +45,13 @@
 }
 
 .crheader-image {
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 
 .crheader-image img {
-  width: 50%;
+  width: 75%;
+  margin-bottom: -5px;
 }
 
 /* -------------------------- Responsive Style -------------------------- */
@@ -64,6 +65,10 @@
 @media (max-width: 1024px) {
   .crheader-main {
     width: 95%;
+  }
+
+  .crheader-image img {
+    width: 100%;
   }
 }
 
@@ -86,6 +91,10 @@
   .crheader-image {
     width: 100%;
     margin-bottom: 2rem;
+  }
+
+  .crheader-image img {
+    width: 80%;
   }
 
   .crheader-content h1 {

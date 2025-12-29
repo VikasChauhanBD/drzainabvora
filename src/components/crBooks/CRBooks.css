@@ -10,7 +10,7 @@
 }
 
 .crbooks-content h1 {
-  font-size: 48px;
+  font-size: 40px;
   color: #27187e;
 }
 
@@ -49,6 +49,10 @@
   .crbooks-content {
     width: 95%;
   }
+
+  .crbooks-content h1 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -57,12 +61,9 @@
   }
 
   .crbooks-content h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 500px) {
-  .crbooks-content h1 {
-    font-size: 28px;
-  }
 }

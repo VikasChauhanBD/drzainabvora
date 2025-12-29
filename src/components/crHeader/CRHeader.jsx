@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./CRHeader.css";
 import { NavLink } from "react-router-dom";
-import HeroImage from "../../assets/images/Dr-Zainab-Vohra-cr.png";
+import HeroImage from "../../assets/images/dr-zainab-vora.png";
 
 function CRHeader() {
   return (
