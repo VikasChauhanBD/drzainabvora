@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./CareerTimeline.css";
 
 const CareerTimeline = () => {
   const [selectedYear, setSelectedYear] = useState(null);

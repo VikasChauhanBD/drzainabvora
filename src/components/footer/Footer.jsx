@@ -2,12 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/ZV-logo.png";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
 function Footer() {
@@ -23,14 +18,14 @@ function Footer() {
             comprehensive learning solutions for career excellence.
           </p> */}
           <div className="footer-social">
-            <NavLink
+            {/* <NavLink
               to="#"
               target="_blank"
               className="social-icon"
               aria-label="Facebook"
             >
               <FaFacebookF />
-            </NavLink>
+            </NavLink> */}
             <NavLink
               to="https://www.instagram.com/drzainabvora"
               target="_blank"
@@ -40,15 +35,7 @@ function Footer() {
               <FaInstagram />
             </NavLink>
             <NavLink
-              to="#"
-              target="_blank"
-              className="social-icon"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedinIn />
-            </NavLink>
-            <NavLink
-              to="#"
+              to="https://www.youtube.com/@ConceptualRadiology"
               target="_blank"
               className="social-icon"
               aria-label="YouTube"
@@ -100,7 +87,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3 className="footer-title">Contact Us</h3>
           <ul className="footer-contact">
             <li>
@@ -116,7 +103,7 @@ function Footer() {
               <span>Greater Noida, India</span>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-bottom">

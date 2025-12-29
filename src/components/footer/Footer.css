@@ -4,10 +4,10 @@
 }
 
 .footer-content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
   padding: 2rem 1rem;
 }
@@ -171,7 +171,10 @@
   .footer-content {
     width: 100%;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-logo img {
+    width: 180px;
   }
 
   .footer-bottom-links {
@@ -187,6 +190,6 @@
 
 @media (max-width: 500px) {
   .footer-content {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
