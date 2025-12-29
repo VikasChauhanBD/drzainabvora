@@ -1,0 +1,52 @@
+import React from "react";
+import "./VidyaJeevan.css";
+import { NavLink } from "react-router-dom";
+
+function VidyaJeevan() {
+  return (
+    <div className="vidya-main-container">
+      <div className="vidya-content">
+        <h1>VIDYA JEEVAN - An Educational Hub at Greater Noida</h1>
+        <h2>A Learning Centre Where Purpose Meets Preparation</h2>
+        <p>
+          <b>Vidya Jeevan</b> is not just a learning hub - it’s a{" "}
+          <b>vision brought to life by experienced educators and mentors</b>,
+          rooted in the belief that the right mentorship can shape not just
+          successful doctors, but compassionate healers.
+          <br />
+          <br />
+          Created as a <b>dedicated space for NEET PG, INICET aspirants</b>, and
+          <b> residency students</b>, Vidya Jeevan offers a focused environment
+          where medical learning is both <b>rigorous and real-world ready</b>.
+          Students here receive more than academic guidance - they gain access
+          to
+          <b> hands - on clinical exposure, procedural training</b>, and the
+          kind of
+          <b> ethical mentorship</b> that shapes both skill and character.
+          <br />
+          <br />
+          At Vidya Jeevan, every session, workshop, and discussion is guided by{" "}
+          <b>India’s leading educators and mentors</b>, including Dr. Mehra
+          himself - ensuring that students are not only prepared for exams, but
+          for life in medicine.
+          <br />
+          <br />
+          Whether you're aiming to ace the country's most competitive entrance
+          exams or looking to grow into a confident, compassionate clinician -{" "}
+          <b>Vidya Jeevan is where that journey begins.</b>
+          <br />
+          <br />
+          <b>
+            A space where learning is sincere, guidance is personal, and every
+            student is treated with belief.
+          </b>
+        </p>
+        {/* <div className="vidya-btn">
+          <NavLink to="/students">See More</NavLink>
+        </div> */}
+      </div>
+    </div>
+  );
+}
+
+export default VidyaJeevan;

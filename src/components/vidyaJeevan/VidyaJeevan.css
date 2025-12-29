@@ -1,0 +1,109 @@
+.vidya-main-container {
+  width: 100%;
+  padding: 4rem 0 2rem 0;
+  background-image: url("../../assets/images/vidya-jeevan-image.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.vidya-main-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
+.vidya-content {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.vidya-content h1 {
+  font-size: 40px;
+}
+
+.vidya-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.vidya-content p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* .vidya-btn {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.vidya-btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: #ff8600;
+  border: 2px solid #ff8600;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.vidya-btn a:hover {
+  color: #ffffff;
+  background-color: #ff8600;
+} */
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1440px) {
+  .vidya-content {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vidya-content {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .vidya-content h1 {
+    font-size: 32px;
+  }
+
+  .vidya-content h2 {
+    font-size: 22px;
+  }
+
+  .vidya-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .vidya-main-container {
+    padding: 2.5rem 0;
+  }
+
+  .vidya-content h1 {
+    font-size: 26px;
+  }
+
+  .vidya-content h2 {
+    font-size: 20px;
+  }
+
+  .vidya-content p {
+    font-size: 16px;
+  }
+}

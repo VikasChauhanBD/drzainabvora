@@ -3,7 +3,7 @@ import "./OfflineBTR.css";
 import { NavLink } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Banner from "../../assets/images/crash-course-banner.jpeg";
-import Image1 from "../../assets/images/crash-course-image1.jpg";
+import Image1 from "../../assets/images/offline-btr-image.webp";
 
 function OfflineBTR() {
   // const [text] = useTypewriter({
