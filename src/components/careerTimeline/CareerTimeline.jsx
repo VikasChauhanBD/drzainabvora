@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./CareerTimeline.css";
 
 const CareerTimeline = () => {
   const [selectedYear, setSelectedYear] = useState(null);
@@ -42,91 +41,58 @@ const CareerTimeline = () => {
 
   const timelineData = [
     {
-      year: "2016",
-      title: "Outstanding Educator Award",
-      institution: "Johns Hopkins University",
+      title: "Roots & Early Recognition",
       description:
-        "Recognized for exceptional teaching methods and student mentorship. Developed innovative curriculum for clinical skills training.",
-      type: "achievement",
-      image:
-        "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=400&h=300&fit=crop",
+        "Born and raised in Rajkot, Dr. Zainab Vora brought pride to her hometown through her academic achievements. From the very beginning of her medical journey, she stood out as a dedicated and focused student with a passion for excellence.",
     },
     {
-      year: "2018",
-      title: "Associate Professor",
-      institution: "Stanford Medical School",
+      title: "MBBS - AIIMS New Delhi",
       description:
-        "Promoted to Associate Professor, leading the Internal Medicine teaching program and supervising research fellows.",
-      type: "experience",
-      image:
-        "https://images.unsplash.com/photo-1571844307880-751c6d86f3f3?w=400&h=300&fit=crop",
+        "Completed MBBS from the All India Institute of Medical Sciences (AIIMS), New Delhi, one of India's most prestigious medical institutions.<br/> Honored with the Outstanding Student Award, reflecting her academic brilliance and consistent performance.",
     },
     {
-      year: "2020",
-      title: "Department Chair",
-      institution: "Stanford Medical School",
+      title: "2015 - A Year to Remember",
       description:
-        "Appointed as Chair of Internal Medicine Department, overseeing academic programs and research initiatives.",
-      type: "experience",
-      image:
-        "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=300&fit=crop",
+        "The year 2015 marked a turning point in Dr. Zainab Vora's career: <br/> <b>All India Rank 1 - NIMHANS (March 2015)</b> <br/> <b>All India Rank 1 - AIIMS PG (May 2015)</b><br/> These results placed her among the top medical minds in the country and made Rajkot proud on the national stage.",
     },
     {
-      year: "2022",
-      title: "National Medical Excellence Award",
-      institution: "American Medical Association",
+      title: "Journey as a PG Aspirant",
       description:
-        "Received prestigious national award for contributions to medical education and advancing clinical practices.",
-      type: "achievement",
-      image:
-        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
+        "As a postgraduate aspirant, Dr. Zainab Vora's preparation was defined by discipline, conceptual clarity, and smart strategy. Her dedication result in securing AIR 1 in both AIIMS PG and NIMHANS in the same year—a rare and remarkable achievement that continues to inspire PG aspirants across India.",
     },
     {
-      year: "2024",
-      title: "Professor & Research Director",
-      institution: "Stanford Medical School",
+      title: "The Beginning of Her Educator Journey",
       description:
-        "Currently serving as Professor of Medicine and Director of Clinical Research, mentoring the next generation of medical professionals.",
-      type: "experience",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300&fit=crop",
+        "Dr. Zainab Vora's journey as an educator was shaped by her own experiences as a PG aspirant. Understanding the stress, confusion, and pressure students face, she developed a structured, concept-based teaching approach focused on high-yield topics, smart revision techniques, and exam-oriented understanding.",
+    },
+    {
+      title: "Teaching During the Lockdown - Unacademy Phase",
+      description:
+        "During the COVID-19 lockdown, she began teaching on Unacademy, reaching students across the country through online platforms. Despite long study hours and packed schedules, her commitment to students remained unwavering.<br/> One of the most memorable initiatives from this phase was 'Midnight Express' - a unique late-night teaching series where she taught students from 12 AM to 1 AM, even after studying and working throughout the day. This initiative became a symbol of her dedication, discipline, and deep concern for student success.",
+    },
+    {
+      title: "A Trusted Mentor Today",
+      description:
+        "Known as the 'BTR Queen', Dr. Zainab Vora today is more than a radiology educator. She is a mentor, guide, and source of strength for countless NEET PG and INI-CET aspirants, helping them transform anxiety into confidence and dreams into achievable goals.",
     },
   ];
 
   const getTypeIcon = (type) => {
-    switch (type) {
-      case "education":
-        return "🎓";
-      case "experience":
-        return "💼";
-      case "achievement":
-        return "🏆";
-      default:
-        return "📌";
-    }
+    return "📌";
   };
 
   const getTypeLabel = (type) => {
-    switch (type) {
-      case "education":
-        return "Education";
-      case "experience":
-        return "Professional Experience";
-      case "achievement":
-        return "Achievement";
-      default:
-        return "Milestone";
-    }
+    return "Milestone";
   };
 
   return (
     <section className="career-timeline-section">
       <div className="career-timeline-container">
         <div className="career-timeline-header">
-          <h2>Career Timeline</h2>
+          <h2>Dr. Zainab Vora - Career Timeline</h2>
           <p>
-            - A chronological display of her milestones, accomplishments, and
-            professional growth.
+            A journey of excellence, dedication, and inspiring countless medical
+            aspirants
           </p>
         </div>
 
@@ -143,33 +109,18 @@ const CareerTimeline = () => {
               key={index}
               className={`career-timeline-item ${
                 index % 2 === 0 ? "left" : "right"
-              } ${selectedYear === item.year ? "active" : ""}`}
+              } ${selectedYear === item.title ? "active" : ""}`}
               onClick={() =>
-                setSelectedYear(selectedYear === item.year ? null : item.year)
+                setSelectedYear(selectedYear === item.title ? null : item.title)
               }
             >
               <div className="career-timeline-content">
-                <div className="career-timeline-image">
-                  <img src={item.image} alt={item.title} />
-                  <div className="career-timeline-type-badge">
-                    <span className="career-timeline-type-icon">
-                      {getTypeIcon(item.type)}
-                    </span>
-                  </div>
-                </div>
-
                 <div className="career-timeline-details">
-                  <div className="career-timeline-year">{item.year}</div>
-                  <div className="career-timeline-type">
-                    {getTypeLabel(item.type)}
-                  </div>
                   <h3>{item.title}</h3>
-                  <p className="career-timeline-institution">
-                    {item.institution}
-                  </p>
-                  <p className="career-timeline-description">
-                    {item.description}
-                  </p>
+                  <p
+                    className="career-timeline-description"
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  />
                 </div>
               </div>
 

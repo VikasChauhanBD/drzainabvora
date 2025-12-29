@@ -58,7 +58,6 @@
   display: flex;
   margin-bottom: 80px;
   position: relative;
-  cursor: pointer;
   transition: all 0.3s ease;
   z-index: 3;
 }
@@ -71,11 +70,6 @@
 .career-timeline-item.right {
   justify-content: flex-end;
   padding-left: 55%;
-}
-
-.career-timeline-item:hover .career-timeline-content {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .career-timeline-item.active .career-timeline-content {
@@ -92,80 +86,20 @@
   width: 100%;
 }
 
-.career-timeline-image {
-  position: relative;
-  width: 100%;
-  height: 220px;
-  overflow: hidden;
-}
-
-.career-timeline-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.career-timeline-item:hover .career-timeline-image img {
-  transform: scale(1.1);
-}
-
-.career-timeline-type-badge {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 10px 15px;
-  border-radius: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.career-timeline-type-icon {
-  font-size: 1.5rem;
-}
-
 .career-timeline-details {
-  padding: 25px;
-}
-
-.career-timeline-year {
-  display: inline-block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 8px 20px;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.95rem;
-  margin-bottom: 12px;
-}
-
-.career-timeline-type {
-  color: #7f8c8d;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
-  font-weight: 600;
+  padding: 30px;
 }
 
 .career-timeline-details h3 {
-  font-size: 1.5rem;
-  color: #2c3e50;
-  margin-bottom: 8px;
+  font-size: 24px;
+  margin-bottom: 15px;
   font-weight: 700;
 }
 
-.career-timeline-institution {
-  color: #3498db;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 12px;
-}
-
 .career-timeline-description {
-  color: #546e7a;
-  line-height: 1.7;
-  font-size: 0.95rem;
+  color: #1d1d1d;
+  line-height: 1.8;
+  font-size: 1rem;
 }
 
 .career-timeline-marker {
@@ -184,13 +118,6 @@
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(52, 152, 219, 0.2);
   transition: all 0.3s ease;
-}
-
-.career-timeline-item:hover .career-timeline-marker-dot {
-  width: 32px;
-  height: 32px;
-  border-width: 5px;
-  box-shadow: 0 0 0 12px rgba(52, 152, 219, 0.3);
 }
 
 .career-timeline-item.active .career-timeline-marker-dot {
@@ -255,15 +182,15 @@
     padding-left: 50px;
   }
 
-  .career-timeline-image {
-    height: 180px;
-  }
-
   .career-timeline-details {
     padding: 20px;
   }
 
   .career-timeline-details h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .career-timeline-description {
+    font-size: 0.9rem;
   }
 }
