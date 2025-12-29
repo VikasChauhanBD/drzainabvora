@@ -9,6 +9,23 @@ import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
 import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
 import DrShubhDahiya from "../../assets/studentsImages/Dr-Shubh-Dahiya.png";
 import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
+import DrAravindKrishnan from "../../assets/studentsImages/dr-aravind-krishnan.jpg";
+import DrkritikaAggarwal from "../../assets/studentsImages/dr-kritika-aggarwal.jpg";
+import DrIfrahAnsari from "../../assets/studentsImages/dr-ifrah-ansari.jpg";
+import DrPrakrutiBhat from "../../assets/studentsImages/dr-prakruti-bhat.jpg";
+import DrArshiyaGarg from "../../assets/studentsImages/dr-arshiya-garg.jpg";
+import DrShravya from "../../assets/studentsImages/dr-shravya.jpg";
+import DrTanishaGupta from "../../assets/studentsImages/dr-tanisha-gupta.jpg";
+import DrAkshithaThatikonda from "../../assets/studentsImages/dr-akshitha-thatikonda.jpg";
+import DrVinootKalasappagol from "../../assets/studentsImages/dr-vinoot-kalasappagol.jpg";
+import DrYogithaPoojari from "../../assets/studentsImages/dr-yogitha-poojari.jpg";
+import DrAparnaWarrier from "../../assets/studentsImages/dr-aparna-warrier.jpg";
+import DrAlphonsaMaryMathew from "../../assets/studentsImages/dr-alphonsa-mary-mathew.jpg";
+import DrFaizanAftabWani from "../../assets/studentsImages/dr-faizan-aftab-wani.jpg";
+import DrSakshitaPal from "../../assets/studentsImages/dr-sakshita-pal.jpg";
+import DrAveekChakraborty from "../../assets/studentsImages/dr-aveek-chakraborty.jpg";
+import DrAvneeshMadan from "../../assets/studentsImages/dr-avneesh-madan.jpg";
+import DrDevanshiPundeer from "../../assets/studentsImages/dr-devanshi-pundeer.jpg";
 
 import DrAkshitaSarin from "../../assets/studentsImages/dr-akshita-sarin.webp";
 import DrMuditGoyal from "../../assets/studentsImages/dr-mudit-goyal.webp";
@@ -30,9 +47,9 @@ const TestimonialHeader = () => {
   const testimonials = [
     {
       quote:
-        "What else can be described as the best memory and the best moment other than getting this picture with my dream mentor that I could cherish for years to come. She had become my everything - a teacher who makes learning and be honest understanding super easy, a friend who always believes in you, a sister who uplifts you when you feel low and a mother who gives the best life lessons and encourages you to become a good human being",
-      author: "Dr. Akshita Sarin",
-      image: DrAkshitaSarin,
+        "Best concise notes of BTR and Dr. Zainab Vora Ma’am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
+      author: "Dr. Tanisha Gupta",
+      image: DrTanishaGupta,
     },
     {
       quote:
@@ -45,6 +62,30 @@ const TestimonialHeader = () => {
         "It felt like magic in my life 4 days passed so amazingly that I never imagined it while entering there. Whether it was the syllabus being completed so quickly, which I would have never managed on my own, or the life lessons shared by Dr. Zainab ma’am that she inculcated in us, every moment was truly impactful.",
       author: "Dr. Vidushi",
       image: DrVidushi,
+    },
+    {
+      quote:
+        "BTR and Dr. Zainab Vora ma'am has played a great role in my success journey. I am so grateful to her for being the guiding light and bringing all 19 subjects in the best crisp and condensed way.",
+      author: "Dr. kritika aggarwal",
+      image: DrkritikaAggarwal,
+    },
+    {
+      quote:
+        "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma’am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
+      author: "Dr. Prakruti Bhat",
+      image: DrPrakrutiBhat,
+    },
+    {
+      quote:
+        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora Ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
+      author: "Dr. Vinoot Kalasappagol",
+      image: DrVinootKalasappagol,
+    },
+    {
+      quote:
+        "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible ",
+      author: "Dr. Aparna Warrier ",
+      image: DrAparnaWarrier,
     },
   ];
 
@@ -69,22 +110,26 @@ const TestimonialHeader = () => {
   ];
 
   const profileImages = [
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop",
+    DrVidushi,
+    DrMuditGoyal,
+    DrAkshitaSarin,
+    DrAravindKrishnan,
+    DrkritikaAggarwal,
+    DrIfrahAnsari,
+    DrPrakrutiBhat,
+    DrArshiyaGarg,
+    DrShravya,
+    DrTanishaGupta,
+    DrAkshithaThatikonda,
+    DrVinootKalasappagol,
+    DrYogithaPoojari,
+    DrAparnaWarrier,
+    DrAlphonsaMaryMathew,
+    DrFaizanAftabWani,
+    DrSakshitaPal,
+    DrAveekChakraborty,
+    DrAvneeshMadan,
+    DrDevanshiPundeer,
     DrArushiVahie,
     DrNavya,
     DrRajeswariRiya,

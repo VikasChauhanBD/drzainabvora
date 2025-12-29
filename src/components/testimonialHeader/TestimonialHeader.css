@@ -1,6 +1,6 @@
 .tsm-header-section {
   width: 100%;
-  background-color: #27187e;
+  background-color: #f1f2f6;
   align-content: center;
   padding: 4rem 0;
 }
@@ -9,7 +9,7 @@
   text-align: center;
   font-size: 48px;
   font-weight: 600;
-  color: #f1f2f6;
+  color: #27187e;
   margin-bottom: 50px;
   line-height: 1.3;
 }
@@ -24,8 +24,8 @@
 /* Slider Card (Left Side - Full Height) */
 .tsm-header-slider-card {
   width: 39%;
-  background-color: #f1f2f6;
-  color: #15304c;
+  background-color: #27187e !important;
+  color: #f1f2f6;
   border: 2px solid #5b7bf8;
   display: flex;
   flex-direction: column;
@@ -38,13 +38,13 @@
 }
 
 .tsm-header-quote {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .tsm-header-author {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -52,8 +52,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   border-radius: 24px 0 24px 0;
   overflow: hidden;
 }
@@ -206,7 +206,7 @@
 }
 
 .tsm-header-rotating-quote {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
   font-weight: 500;
@@ -246,6 +246,11 @@
   .tsm-header-grid {
     width: 90%;
   }
+
+  .tsm-header-image {
+    width: 220px;
+    height: 220px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -273,6 +278,28 @@
     margin-top: 2rem;
   }
 
+  .tsm-header-quote {
+    font-size: 16px;
+  }
+
+  .tsm-header-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .tsm-header-slider-controls {
+    margin-top: 1rem;
+  }
+
+  .tsm-header-slider-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tsm-header-rotating-quote {
+    font-size: 18px;
+  }
+
   .tsm-header-right-container {
     width: 100%;
   }
@@ -282,7 +309,7 @@
   }
 
   .tsm-header-student-count {
-    font-size: 48px;
+    font-size: 42px;
   }
 }
 

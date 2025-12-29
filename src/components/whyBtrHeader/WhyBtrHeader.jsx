@@ -40,14 +40,14 @@ const WhyBtrHeader = () => {
           <div className="why-btr-header-text">
             <h1>What makes BTR unique?</h1>
             <p>
-              BTR by Dr. Zainab is not just another notes book. It actually
+              "BTR by Dr. Zainab is not just another notes book. It actually
               feels like someone finally sat down, suffered through all the
               confusion we go through, and then distilled the entire syllabus
-              into something that won't fry your brain.
+              into something that won't fry your brain."
             </p>
-            <span>
+            {/* <span>
               I've studied under her, so let me give you the real deal
-            </span>
+            </span> */}
           </div>
         </div>
       </section>
