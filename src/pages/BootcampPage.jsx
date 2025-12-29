@@ -1,6 +1,6 @@
 import React from "react";
 import Bootcamp from "../components/bootcamp/Bootcamp";
-import VidyaJeevan from "../components/vidyaJeevan/vidyaJeevan";
+import VidyaJeevan from "../components/vidyaJeevan/VidyaJeevan";
 import BootcampFeedback from "../components/bootcampFeedback/BootcampFeedback";
 
 function BootcampPage() {
