@@ -187,7 +187,7 @@ function InstagramFeed() {
           </div>
         ) : (
           <div className="instagram-posts-grid">
-            {posts.slice(0, 6).map((post, index) => (
+            {posts.slice(0, 3).map((post, index) => (
               <div key={index} className="instagram-post-card">
                 {/* Post Image */}
                 {post.imageUrl ? (

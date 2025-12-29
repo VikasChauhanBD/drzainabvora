@@ -56,6 +56,15 @@ function Bootcamp() {
             <li>
               <b>Target Exams:</b> NEET PG & INI-CET 2026
             </li>
+            <li>
+              <b>Subject-wise tests with detailed discussions</b>
+            </li>
+            <li>
+              <b>Mock Grand Tests (CBT-based)</b>
+            </li>
+            <li>
+              <b>Mini tests with explanations</b>
+            </li>
           </ul>
         </div>
       </div>
@@ -69,15 +78,6 @@ function Bootcamp() {
           </li>
           <li>
             <b>Subject-wise revision classes</b> covering all 19 subjects
-          </li>
-          <li>
-            <b>Subject-wise tests with detailed discussions</b>
-          </li>
-          <li>
-            <b>Mock Grand Tests (CBT-based)</b>
-          </li>
-          <li>
-            <b>Mini tests with explanations</b>
           </li>
           <li>
             Dedicated <b>library cubicles for self-study</b>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./OfflineBtrFeedback.css";
+import "./BootcampFeedback.css";
 import DrArushiVahie from "../../assets/studentsImages/Dr-Arushi-Vahie.png";
 import DrNavya from "../../assets/studentsImages/Dr-Navya.png";
 import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
@@ -27,7 +27,7 @@ import AvatarMale from "../../assets/studentsImages/avatar-male.png";
 import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
 import { NavLink } from "react-router-dom";
 
-const OfflineBtrFeedback = () => {
+const BootcampFeedback = () => {
   const [isPaused, setIsPaused] = useState(false);
 
   const testimonials = [
@@ -142,7 +142,7 @@ const OfflineBtrFeedback = () => {
       image: DrShubhDahiya,
     },
     {
-      text: "Vidya jeevan provides a very positive environment . This place is not just a architecture buildup its actually has a vibe that motivate you to push your limits and achieve everything that you dream of. Every corner tells you something and most importantly every person here wants to see you achieve , dream, believe and think big in every aspects of life... Thank you Zainab ma'am and team for supporting us and lifting us through this journey... SABR ✨SHUKAR ✨STHIR✨",
+      text: "Vidya jeevan provides a very positive environment. This place is not just a architecture buildup its actually has a vibe that motivate you to push your limits and achieve everything that you dream of. Every corner tells you something and most importantly every person here wants to see you achieve , dream, believe and think big in every aspects of life... Thank you Zainab ma'am and team for supporting us and lifting us through this journey... SABR ✨SHUKAR ✨STHIR✨",
       name: "Dr. Sandhya Boora",
       image: AvatarFemale,
     },
@@ -189,30 +189,30 @@ const OfflineBtrFeedback = () => {
   ];
 
   return (
-    <div className="offline-btr-feedback-section">
-      <h2 className="offline-btr-feedback-title">Offline BTR Feedback</h2>
+    <div className="bootcamp-feedback-section">
+      <h2 className="bootcamp-feedback-title">NEET PG Bootcamp Feedback</h2>
 
-      <div className="offline-btr-feedback-container">
-        <div className="offline-btr-feedback-row">
+      <div className="bootcamp-feedback-container">
+        <div className="bootcamp-feedback-row">
           <div
-            className={`offline-btr-feedback-track ${isPaused ? "paused" : ""}`}
+            className={`bootcamp-feedback-track ${isPaused ? "paused" : ""}`}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
             {[...testimonials, ...testimonials].map((testimonial, index) => (
-              <div key={index} className="offline-btr-feedback-card">
-                <p className="offline-btr-feedback-text">{testimonial.text}</p>
-                <div className="offline-btr-feedback-author">
+              <div key={index} className="bootcamp-feedback-card">
+                <p className="bootcamp-feedback-text">{testimonial.text}</p>
+                <div className="bootcamp-feedback-author">
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="offline-btr-feedback-author-image"
+                    className="bootcamp-feedback-author-image"
                   />
-                  <div className="offline-btr-feedback-author-info">
-                    <h4 className="offline-btr-feedback-author-name">
+                  <div className="bootcamp-feedback-author-info">
+                    <h4 className="bootcamp-feedback-author-name">
                       {testimonial.name}
                     </h4>
-                    <p className="offline-btr-feedback-author-handle">
+                    <p className="bootcamp-feedback-author-handle">
                       {testimonial.handle}
                     </p>
                   </div>
@@ -222,15 +222,15 @@ const OfflineBtrFeedback = () => {
           </div>
         </div>
 
-        <div className="offline-btr-feedback-fog-overlay offline-btr-feedback-fog-left"></div>
-        <div className="offline-btr-feedback-fog-overlay offline-btr-feedback-fog-right"></div>
+        <div className="bootcamp-feedback-fog-overlay bootcamp-feedback-fog-left"></div>
+        <div className="bootcamp-feedback-fog-overlay bootcamp-feedback-fog-right"></div>
       </div>
 
-      <div className="offline-btr-feedback-btn">
+      <div className="bootcamp-feedback-btn">
         <NavLink to="/students">See More</NavLink>
       </div>
     </div>
   );
 };
 
-export default OfflineBtrFeedback;
+export default BootcampFeedback;
