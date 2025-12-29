@@ -16,14 +16,14 @@
 }
 
 .clipped-text {
-  font-size: 150px;
+  font-size: 180px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  background-image: url("../../assets/images/crash-course-image1.jpg");
+  background-image: url("https://cdn.dribbble.com/userupload/46205889/file/9bd00fe21ced38f671a570d407f48ff2.png");
   background-size: 150% auto;
-  background-position: center;
+  background-position: top;
   /* background-attachment: fixed; */
   animation: scroll-background 15s linear infinite;
   background-clip: text;

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Biography.css";
+import Icon from "../../assets/images/zv-icon.jpg";
 
 export default function Biography() {
   const sectionRef = useRef(null);
@@ -108,31 +109,30 @@ export default function Biography() {
 
   const stories = [
     {
-      title: "Stories Unveiled",
-      subhead: "Capture the essence of family celebration.",
-      description: "Share the moments that weave your family tale.",
+      title: "MBBS - AIIMS New Delhi",
+      description:
+        "Completed MBBS from the All India Institute of Medical Sciences (AIIMS), New Delhi, one of India's most prestigious medical institutions.<br/> Honored with the Outstanding Student Award, reflecting her academic brilliance and consistent performance.",
       image:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-desktop-3.webp",
+        "https://cdn.dribbble.com/userupload/46206081/file/3477900436b0327d110aee3d9fb8fba6.jpg",
       mobileImage:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-mobile-3.webp",
+        "https://cdn.dribbble.com/userupload/46206081/file/3477900436b0327d110aee3d9fb8fba6.jpg",
     },
     {
-      title: "Celebrating Life Together",
-      subhead: "Embrace the significance of shared joy.",
-      description: "In every celebration, find the heartwarming stories.",
+      title: "2015 - A Year to Remember",
+      description:
+        "The year 2015 marked a turning point in Dr. Zainab Vora's career: <br/> <b>All India Rank 1 - NIMHANS (March 2015)</b> <br/> <b>All India Rank 1 - AIIMS PG (May 2015)</b><br/> These results placed her among the top medical minds in the country and made Rajkot proud on the national stage.",
+
       image:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-desktop-2.webp",
+        "https://cdn.dribbble.com/userupload/46206082/file/5d8604ce627e60bf35469cac13968dc6.jpg",
       mobileImage:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-mobile-2.webp",
+        "https://cdn.dribbble.com/userupload/46206082/file/5d8604ce627e60bf35469cac13968dc6.jpg",
     },
     {
-      title: "The Art of Giving",
-      subhead: "Explore the stories within each present.",
-      description: "Every gift is a chapter in your family's narrative.",
-      image:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-desktop-1.webp",
-      mobileImage:
-        "https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/stories-with-scroll-driven/images/img-mobile-1.webp",
+      title: "A Trusted Mentor Today",
+      description:
+        "Known as the 'BTR Queen', Dr. Zainab Vora today is more than a radiology educator. She is a mentor, guide, and source of strength for countless NEET PG and INI-CET aspirants, helping them transform anxiety into confidence and dreams into achievable goals.",
+      image: Icon,
+      mobileImage: Icon,
     },
   ];
 
@@ -195,8 +195,7 @@ export default function Biography() {
             <div key={index} className="biography-mobile-item">
               <div className="biography-mobile-content">
                 <h3>{story.title}</h3>
-                <div className="biography-mobile-subhead">{story.subhead}</div>
-                <p>{story.description}</p>
+                <p dangerouslySetInnerHTML={{ __html: stories.description }} />
               </div>
               <div className="biography-mobile-image">
                 <img src={story.mobileImage} alt={story.title} />
