@@ -206,14 +206,31 @@ const TestimonialHeader = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Change profile images at fixed positions
+  // Change profile images at fixed positions - ensuring no duplicates
   useEffect(() => {
     const interval = setInterval(() => {
       setVisibleProfiles((prev) => {
         const newProfiles = [...prev];
-        const randomIndex = Math.floor(Math.random() * newProfiles.length);
-        const randomImage = Math.floor(Math.random() * profileImages.length);
-        newProfiles[randomIndex] = randomImage;
+
+        // Pick a random position to change
+        const positionToChange = Math.floor(Math.random() * newProfiles.length);
+
+        // Find available images (not currently visible)
+        const availableImages = [];
+        for (let i = 0; i < profileImages.length; i++) {
+          if (!newProfiles.includes(i)) {
+            availableImages.push(i);
+          }
+        }
+
+        // If there are available images, pick one randomly
+        if (availableImages.length > 0) {
+          const randomAvailableIdx = Math.floor(
+            Math.random() * availableImages.length
+          );
+          newProfiles[positionToChange] = availableImages[randomAvailableIdx];
+        }
+
         return newProfiles;
       });
     }, 1500);
