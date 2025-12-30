@@ -182,8 +182,7 @@ export default function Biography() {
                 }`}
               >
                 <h3>{story.title}</h3>
-                <div className="biography-subhead">{story.subhead}</div>
-                <p>{story.description}</p>
+                <p dangerouslySetInnerHTML={{ __html: story.description }} />
               </div>
             ))}
           </div>
@@ -191,11 +190,11 @@ export default function Biography() {
 
         {/* Mobile Layout */}
         <div className="biography-mobile">
-          {[...stories].reverse().map((story, index) => (
+          {[...stories].map((story, index) => (
             <div key={index} className="biography-mobile-item">
               <div className="biography-mobile-content">
                 <h3>{story.title}</h3>
-                <p dangerouslySetInnerHTML={{ __html: stories.description }} />
+                <p dangerouslySetInnerHTML={{ __html: story.description }} />
               </div>
               <div className="biography-mobile-image">
                 <img src={story.mobileImage} alt={story.title} />
