@@ -242,7 +242,7 @@ function InstagramFeed() {
         {/* Refresh Button */}
         <div className="instagram-refresh-section">
           <NavLink
-            href="https://www.instagram.com/drzainabvora"
+            to="https://www.instagram.com/drzainabvora"
             target="_blank"
             rel="noopener noreferrer"
             className="instagram-follow-link"

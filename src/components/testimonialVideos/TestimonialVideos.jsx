@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectCoverflow } from "swiper/modules";
+import { NavLink } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
@@ -8,56 +9,100 @@ import "./TestimonialVideos.css";
 
 const patientsEnglishData = [
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071076/reel-cover-16_m7acey.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771077/SaveClip.App_AQN0Mv0kiTf0f_eVKHcpr1NbXEj1HRRSRqDp0FUrHsGBitrs9TsMb_kv1O-EggVWGE6-mOKJx2-wJO0sIoaBbSS3Orw6oWaW6wcyAHo_ctzcwh.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071089/reel-video-16_trqgrb.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071086/reel-cover-1_fccp8r.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771075/SaveClip.App_AQNXi0NupvkY-lUHuJNwoqg3WEbkdAfkFwAKNupR4huLXgYADY6T-_h4Mam2EPBaz-rS_OIf8FYCDLJctDljxns0hEbhv3Dk9qRaWMg_yebn9o.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071089/reel-video-1_ceyh23.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071086/reel-cover-2_ewjsgi.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771074/SaveClip.App_AQOrfqgNyh9A4jmw6oxT3TpUpiHeVvxKwh2O4FOhVJWIF2M9sStiWsHpd3adIahBtUb1R5CXQpjxM-9bPeqxP5NY8K76ONv_x90SJJg_dajjyb.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071089/reel-video-2_dqnuox.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071086/reel-cover-3_ko58vl.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771075/SaveClip.App_AQPaTjOU-9cSh1Fgsvio6rAFb_5-7FNEZMjKvbogAxMQYIRXV1EpmLefTpVp_hytfg9nCDNoSSk5cl8_VqJGE1R2AFhrB45-2r7gWBE_updmad.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071086/reel-video-3_ynm0nq.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071086/reel-cover-4_dbqlwv.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771074/SaveClip.App_AQOZv_vzQ8wMlkiczbxhf6-Zuw_px4lJ0MT8rznl6PsRy3DXIQG15B0H1qjslWVFszy4QyylTlIU74JgaZPTU2pF115G3cQSTXItqpc_kipref.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071088/reel-video-4_diyqea.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071084/reel-cover-5_ka9rv3.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771070/SaveClip.App_AQO8ITZmSAB15vWrBPZ3NN4kMpNKeNXRHSFn-yOkXzwnc5w9dhepV3BtnlUnmrHlRtfxhFvSPexgWwCBEVLzNohYyNzKA_9qJeTyApk_fmjl7q.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071084/reel-video-5_rq1bgu.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071083/reel-cover-6_qdgoyi.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771070/SaveClip.App_AQMS73z8sMz6lWOW9q3P3w9h5h5-3EZCq-Smuqhhe2A8xJFC2vvkuc7BcqhwUUDVIIbB29ru1xtFEg6nKdSV5mkUsC1-j5MtXTX0yXE_ldw9ar.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071082/reel-video-6_s0bkev.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071080/reel-cover-7_fqtsgg.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771070/SaveClip.App_AQN9NAIsfP1zpzRexdM3jcu8UdghseOag1Yr4__O6uzpR_HSxbB3XysYmVuAxsE8DDgd_hfPGI0qHZ4AqdF1Jz1yt78SEOKb_cIwe_g_rm6noo.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071084/reel-video-7_tzad1z.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071079/reel-cover-8_zjbk1j.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771070/SaveClip.App_AQNxSH9ttvnJBFbghDJj6mMGHNif3fEE-4fI7GsZW3Zvqvpz4XwULL0eRI_Z8i4aH_diDKfBgCfb4JFUfbtUEe3xUKZPz_FOZq0YLxY_pscvav.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071079/reel-video-8_a6xrew.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071076/reel-cover-9_nxz0n1.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771071/SaveClip.App_AQNrsqTIj4SbpV3ywu3a6_GSxgntS3cxLExOS6LGhQnRLSXKMI1yXxVGgAUQFSo-t1m9ISfavXSmFbhFl5KjE6Pi5gkMGEfQZn4uZHc_odorpp.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071078/reel-video-9_f0gxxe.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071076/reel-cover-10_vadv4x.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771072/SaveClip.App_AQOSXWHfwvOaHn8yoPqeSpr_O1Cenub-4K1-_NhGpNrnqB2XBZoNB-MFBQ2OLkIwCZ6gBAK5lYxZTOxNMXqZLNmv_ciywkf.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071083/reel-video-10_avxzhe.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071082/reel-cover-11_hm7lb4.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771072/SaveClip.App_AQORrMa8tN5NtIDzuiCT6SmLdC5kqQFnNYEdjwgKgXdLJ8YBBWsNzGNTiERkVh6eHFkzTEzsc26IPFJqUh65M1a4XFVy1-IpVFVMIhA_opne93.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071085/reel-video-11_wmu6wi.mp4",
   },
   {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071081/reel-cover-12_r0nlg5.jpg",
     type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766771075/SaveClip.App_AQPbQeQ5vP6lCEYyMgL0chUgDddza9PYhehoUrqE3HxqSQ1dU4UTHv66xwmaagT92OmK95kZJK0Wz0gwTV5WZtmAwyZNl-u3oM_dZKw_fiwj0p.mp4",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071080/reel-video-12_vp2pfa.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071079/reel-cover-13_ixoncb.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071080/reel-video-13_mvquh4.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071080/reel-cover-14_z6axqg.png",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071081/reel-video-14_syq6sy.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767071077/reel-cover-15_pirthr.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767071078/reel-video-15_ut6n6n.mp4",
   },
 ];
 
@@ -65,8 +110,12 @@ function TestimonialVideos() {
   const swiperRef = useRef(null);
   const videoRefs = useRef([]);
   const [playingIndex, setPlayingIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePlayVideo = (index) => {
+    // Only allow playing if this is the active slide
+    if (index !== activeIndex) return;
+
     // Pause all other videos
     videoRefs.current.forEach((video, i) => {
       if (video && i !== index) {
@@ -104,6 +153,7 @@ function TestimonialVideos() {
         <Swiper
           onSwiper={(swiper) => {
             swiperRef.current = swiper;
+            setActiveIndex(swiper.realIndex);
           }}
           effect="coverflow"
           grabCursor={true}
@@ -118,7 +168,7 @@ function TestimonialVideos() {
             slideShadows: false,
           }}
           modules={[EffectCoverflow, Navigation]}
-          onSlideChange={() => {
+          onSlideChange={(swiper) => {
             // Pause all videos when sliding
             videoRefs.current.forEach((video) => {
               if (video) {
@@ -126,23 +176,40 @@ function TestimonialVideos() {
               }
             });
             setPlayingIndex(null);
+            setActiveIndex(swiper.realIndex);
           }}
         >
           {patientsEnglishData.map((data, index) => (
-            <SwiperSlide className="tv-swiper-slide" key={index}>
+            <SwiperSlide
+              className={`tv-swiper-slide ${
+                playingIndex === index ? "playing" : ""
+              }`}
+              key={index}
+            >
               {data.type === "video" ? (
                 <div className="tv-video-wrapper">
+                  {/* Thumbnail image */}
+                  <img
+                    src={data.image}
+                    alt={`Video ${index + 1} thumbnail`}
+                    className="tv-thumbnail"
+                  />
+
+                  {/* Actual video */}
                   <video
                     ref={(el) => (videoRefs.current[index] = el)}
                     src={data.url}
                     controls
                     controlsList="nodownload"
                     preload="metadata"
+                    className={playingIndex === index ? "playing" : ""}
                     onPlay={() => handleVideoPlay(index)}
                     onPause={() => handleVideoPause(index)}
                   >
                     Your browser does not support the video tag.
                   </video>
+
+                  {/* Play button overlay - only visible on active slide */}
                   <div
                     className={`tv-play-button-overlay ${
                       playingIndex === index ? "hidden" : ""
@@ -171,7 +238,6 @@ function TestimonialVideos() {
             </SwiperSlide>
           ))}
         </Swiper>
-
         <button
           className="tv-prev-button"
           onClick={() => swiperRef.current?.slidePrev()}
@@ -186,6 +252,12 @@ function TestimonialVideos() {
         >
           &#10095;
         </button>
+
+        <div className="tv-follow-btn">
+          <NavLink to="https://www.instagram.com/drzainabvora" target="_blank">
+            See More on Instagram
+          </NavLink>
+        </div>
       </div>
     </div>
   );
