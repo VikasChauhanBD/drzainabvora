@@ -42,20 +42,20 @@
 
 .track-up {
   animation-name: slideUp;
-  animation-duration: 60s;
-}
-
-.column-1 .track-up {
   animation-duration: 450s;
 }
 
-.column-3 .track-up {
+/* .column-1 .track-up {
+  animation-duration: 450s;
+} */
+
+/* .column-3 .track-up {
   animation-duration: 90s;
-}
+} */
 
 .track-down {
   animation-name: slideDown;
-  animation-duration: 90s;
+  animation-duration: 450s;
 }
 
 @keyframes slideUp {
