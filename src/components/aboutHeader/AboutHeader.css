@@ -120,27 +120,35 @@
 /* ---------------------- Responsive Style ------------------ */
 
 @media (max-width: 800px) {
-  .about-header {
-    min-height: 100vh;
-  }
-
   .about-header-content {
     width: 100%;
-    padding: 30px 20px;
+    padding: 20px;
+  }
+
+  .about-header-description {
+    width: 100%;
+  }
+
+  .about-header-description p {
+    font-size: 20px;
   }
 
   .about-header-text h1 {
     font-size: 40px;
   }
+
+  .about-header-background-video {
+    left: 80%;
+    transform: translate(-80%, -50%);
+  }
 }
 
 @media (max-width: 500px) {
   .about-header-text h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .about-header-description p {
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 18px;
   }
 }
