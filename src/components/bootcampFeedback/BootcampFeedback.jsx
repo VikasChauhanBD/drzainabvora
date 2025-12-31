@@ -152,7 +152,7 @@ const BootcampFeedback = () => {
           >
             {[...testimonials, ...testimonials].map((testimonial, index) => (
               <div key={index} className="bootcamp-feedback-card">
-                <p className="bootcamp-feedback-text">{testimonial.text}</p>
+                <p className="bootcamp-feedback-text">{testimonial.feedback}</p>
                 <div className="bootcamp-feedback-author">
                   <img
                     src={testimonial.image}
