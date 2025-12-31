@@ -28,13 +28,13 @@ const Feedback = () => {
   const testimonials = [
     {
       feedback:
-        "This rank wouldn’t have been possible without BTR and Dr. Zainab Vora Ma’am. Dr. Zainab Vora Ma’am has a unique way of explaining concepts — she seamlessly connects topics across subjects, making learning truly integrated BTR transforms the way you approach questions. The problem-solving techniques it teaches are unmatched by any other platform.",
+        "This rank wouldn't have been possible without BTR and Dr. Zainab Vora ma'am. Dr. Zainab Vora ma'am has a unique way of explaining concepts — she seamlessly connects topics across subjects, making learning truly integrated BTR transforms the way you approach questions. The problem-solving techniques it teaches are unmatched by any other platform.",
       name: "Dr. Akshitha thatikonda",
       image: DrAkshithaThatikonda,
     },
     {
       feedback:
-        "Best concise notes of BTR and Dr. Zainab Vora Ma’am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
+        "Best concise notes of BTR and Dr. Zainab Vora ma'am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
       name: "Dr. Tanisha Gupta",
       image: DrTanishaGupta,
     },
@@ -52,37 +52,37 @@ const Feedback = () => {
     },
     {
       feedback:
-        "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma’am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
+        "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma'am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
       name: "Dr. Prakruti Bhat",
       image: DrPrakrutiBhat,
     },
     {
       feedback:
-        "A huge credit goes to BTR! It is like a boost to get a top rank when you have a strong base topped up with pyqs and custom modules",
+        "A huge credit goes to BTR! It is like a boost to get a top rank when you have a strong base topped up with pyqs and custom modules.",
       name: "Dr. Shravya",
       image: DrShravya,
     },
     {
       feedback:
-        "Loved every bit of BTR Super helpful and enough for preparation",
+        "Loved every bit of BTR Super helpful and enough for preparation.",
       name: "Dr. Arshiya Garg",
       image: DrArshiyaGarg,
     },
     {
       feedback:
-        "I was an online BTR subscriber and honestly, Dr. Zainab Vohra mam’s TnD was a complete game changer for me. The way she guided us, I actually learned how to master MCQ solving. And the effort she puts into her compiled modules, going that extra mile every single time—it really made a huge difference in my prep. Forever grateful 🤍",
+        "I was an online BTR subscriber and honestly, Dr. Zainab Vora mam's TnD was a complete game changer for me. The way she guided us, I actually learned how to master MCQ solving. And the effort she puts into her compiled modules, going that extra mile every single time—it really made a huge difference in my prep. Forever grateful ❤️.",
       name: "Dr. Ifrah Ansari",
       image: DrIfrahAnsari,
     },
     {
       feedback:
-        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora Ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
+        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
       name: "Dr. Vinoot Kalasappagol",
       image: DrVinootKalasappagol,
     },
     {
       feedback:
-        "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible ",
+        "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible.",
       name: "Dr. Aparna Warrier",
       image: DrAparnaWarrier,
     },
@@ -93,7 +93,7 @@ const Feedback = () => {
     },
     {
       feedback:
-        "I would reccommend BTR to anyone starting their pg prep because I could not have done this without ma'am",
+        "I would reccommend BTR to anyone starting their pg prep because I could not have done this without ma'am.",
       name: "Dr. Alphonsa Mary Mathew",
       image: DrAlphonsaMaryMathew,
     },
@@ -122,13 +122,13 @@ const Feedback = () => {
     },
     {
       feedback:
-        "I owe my success to the one and only Dr. Zainab Vora ma'am. This was my first attempt and with the little time i had , i had to choose my resource wisely to get max output. All of this was possible because of BTR which i gave my heart n soul to master as Dr. Zainab Vora Ma'am always said. Her teaching, her advices is something i followed religiously. She is the biggest blessing for neet pg aspirants like us. Thankyou so much Ma'am.",
+        "I owe my success to the one and only Dr. Zainab Vora ma'am. This was my first attempt and with the little time i had , i had to choose my resource wisely to get max output. All of this was possible because of BTR which i gave my heart n soul to master as Dr. Zainab Vora ma'am always said. Her teaching, her advices is something i followed religiously. She is the biggest blessing for neet pg aspirants like us. Thankyou so much ma'am.",
       name: "Dr. Devanshi Pundeer",
       image: DrDevanshiPundeer,
     },
     {
       feedback:
-        "BTR was a game changer for me. Dr. Zainab Vora ma'am is a true inspiration. Please give me a chance to thanks her .",
+        "BTR was a game changer for me. Dr. Zainab Vora ma'am is a true inspiration. Please give me a chance to thanks her.",
       name: "Dr. Garima Sharma",
       image: DrGarimaSharma,
     },
@@ -140,7 +140,7 @@ const Feedback = () => {
     },
     {
       feedback:
-        "I recently attended the 4-day BTR course at Vidya Jeewan, and it was truly an incredible experience. From the exceptional quality of teaching to the delicious food, every aspect was thoughtfully curated. The cleanliness, the welcoming environment, and the overall attention to detail were absolutely impeccable. The atmosphere is filled with such positive energy—it's genuinely uplifting. I appreciated how the entire team went above and beyond to make everyone feel comfortable and supported throughout the journey. I honestly can't think of a single thing to criticize. Thank you Dr. Zainab Vora Ma'am.",
+        "I recently attended the 4-day BTR course at Vidya Jeewan, and it was truly an incredible experience. From the exceptional quality of teaching to the delicious food, every aspect was thoughtfully curated. The cleanliness, the welcoming environment, and the overall attention to detail were absolutely impeccable. The atmosphere is filled with such positive energy—it's genuinely uplifting. I appreciated how the entire team went above and beyond to make everyone feel comfortable and supported throughout the journey. I honestly can't think of a single thing to criticize. Thank you Dr. Zainab Vora ma'am.",
       name: "Dr. Shruti Rawat",
       image: DrShrutiRawat,
     },

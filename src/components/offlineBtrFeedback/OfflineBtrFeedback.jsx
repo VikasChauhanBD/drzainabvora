@@ -17,43 +17,43 @@ const OfflineBtrFeedback = () => {
     },
     {
       feedback:
-        "Everything is Outstanding!!but please arrange Offline btr in 4 days so that we don't zone out and can learn everything from Dr. Zainab Vora Ma'am, Vidya Jevan is 200/10 in everything, management, team, environment, everything.",
+        "Everything is Outstanding!!but please arrange Offline btr in 4 days so that we don't zone out and can learn everything from Dr. Zainab Vora ma'am, Vidya Jevan is 200/10 in everything, management, team, environment, everything.",
       name: "Dr. Aayush Gupta",
       image: AvatarMale,
     },
     {
       feedback:
-        "BTR works like a magic for me .My rank was 97k in 2024 . without BTR I can never achieve this.In march 2025 I lost my Mother and I was shattered but somehow I managed to attend offline BTR in kolkata at April and continue to follow dr. zainab vora ma'am only. Whichever improvement I made it's just because of my mother's blessings and BTR .",
+        "BTR works like a magic for me .My rank was 97k in 2024 . without BTR I can never achieve this.In march 2025 I lost my Mother and I was shattered but somehow I managed to attend offline BTR in kolkata at April and continue to follow Dr. Zainab Vora ma'am only. Whichever improvement I made it's just because of my mother's blessings and BTR.",
       name: "Dr. Ballavi Das",
       image: AvatarFemale,
     },
     {
       feedback:
-        "The best decision of my NEET PG prep was attending the offline BTR session in May 2024, right after the INI exam. It was a game-changer! I'm in awe of dr. zainab vora mam's exceptional teaching skills - she's truly a wizard . She instills confidence and make you believe in yourself like nobody does . She is the best senior anyone can have .",
+        "The best decision of my NEET PG prep was attending the offline BTR session in May 2024, right after the INI exam. It was a game-changer! I'm in awe of Dr. Zainab Vora mam's exceptional teaching skills - she's truly a wizard . She instills confidence and make you believe in yourself like nobody does . She is the best senior anyone can have.",
       name: "Dr. Arshita Arora",
       image: AvatarFemale,
     },
     {
       feedback:
-        "Thank you dr. zainab vora ma'am, secured air 105 this ini. Had 1.2k in may ini and 5k in neet. I didn't study after neet. It was just the 4 days offline btr which helped me revise. In between sometimes I gave btr tests & listened to your discussion live. That was all. ",
+        "Thank you Dr. Zainab Vora ma'am, secured air 105 this ini. Had 1.2k in may ini and 5k in neet. I didn't study after neet. It was just the 4 days offline btr which helped me revise. In between sometimes I gave btr tests & listened to your discussion live. That was all.",
       name: "Dr. Srushti Rameshwar Rakhade",
       image: AvatarFemale,
     },
     {
       feedback:
-        "BTR tnds kept me accountable, 4 day offline btr helped me revise and concise the subjects i had already studied ",
+        "BTR tnds kept me accountable, 4 day offline btr helped me revise and concise the subjects i had already studied.",
       name: "Dr. Sana Zubia Siddiqui",
       image: AvatarFemale,
     },
     {
       feedback:
-        "BTR offline bootcamp helps me a lot...hope to do more better in upcoming neetpg 2026",
+        "BTR offline bootcamp helps me a lot...hope to do more better in upcoming neetpg 2026.",
       name: "Dr. Dwaipayan Guhathakurta ",
       image: AvatarMale,
     },
     {
       feedback:
-        "I hadn’t studied much after NEET as I was preparing for admission, but the 4-day offline BTR helped me revise the entire syllabus once again. Along with a few BTR tests and live discussions, that was all I did. Zainab ma’am made me believe that even a not-so-motivated post-NEET student who doesn’t want to give up still has a chance. Revising all subjects in just 4 days felt impossible on my own, but she made it happen. What sets BTR apart is not just the concise content, but the structured plan and constant hand-holding through live sessions till the ashirwaad class, ensuring we stay on track. Thank you, ma’am, for creating BTR and making preparation easier ❤️",
+        "I hadn’t studied much after NEET as I was preparing for admission, but the 4-day offline BTR helped me revise the entire syllabus once again. Along with a few BTR tests and live discussions, that was all I did. Zainab ma’am made me believe that even a not-so-motivated post-NEET student who doesn’t want to give up still has a chance. Revising all subjects in just 4 days felt impossible on my own, but she made it happen. What sets BTR apart is not just the concise content, but the structured plan and constant hand-holding through live sessions till the ashirwaad class, ensuring we stay on track. Thank you, ma’am, for creating BTR and making preparation easier ❤️.",
       name: "Dr. Srushti Rameshwar Rakhade",
       image: AvatarFemale,
     },
@@ -65,7 +65,7 @@ const OfflineBtrFeedback = () => {
     },
     {
       feedback:
-        "I recently attended the 4-day BTR course at Vidya Jeewan, and it was truly an incredible experience. From the exceptional quality of teaching to the delicious food, every aspect was thoughtfully curated. The cleanliness, the welcoming environment, and the overall attention to detail were absolutely impeccable. The atmosphere is filled with such positive energy—it's genuinely uplifting. I appreciated how the entire team went above and beyond to make everyone feel comfortable and supported throughout the journey. I honestly can't think of a single thing to criticize. Thank you Dr. Zainab Vora Ma'am.",
+        "I recently attended the 4-day BTR course at Vidya Jeewan, and it was truly an incredible experience. From the exceptional quality of teaching to the delicious food, every aspect was thoughtfully curated. The cleanliness, the welcoming environment, and the overall attention to detail were absolutely impeccable. The atmosphere is filled with such positive energy—it's genuinely uplifting. I appreciated how the entire team went above and beyond to make everyone feel comfortable and supported throughout the journey. I honestly can't think of a single thing to criticize. Thank you Dr. Zainab Vora ma'am.",
       name: "Dr. Shruti Rawat",
       image: DrShrutiRawat,
     },

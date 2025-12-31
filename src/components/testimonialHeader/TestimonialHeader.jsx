@@ -47,19 +47,19 @@ const TestimonialHeader = () => {
   const testimonials = [
     {
       quote:
-        "Best concise notes of BTR and Dr. Zainab Vora Ma’am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
+        "Best concise notes of BTR and Dr. Zainab Vora ma'am Constant guidance throughout this journey is the best thing to study with. She is like a senior who knows more than you know about yourself. She is a mentor,guide, my constant inspiration.",
       author: "Dr. Tanisha Gupta",
       image: DrTanishaGupta,
     },
     {
       quote:
-        "Attending the test and discussion with everyone and listening to Dr. Zainab Vora ma’am was an amazing experience for me. It helped me improve my consistency and overcome my fear of the exam.",
+        "Attending the test and discussion with everyone and listening to Dr. Zainab Vora ma'am was an amazing experience for me. It helped me improve my consistency and overcome my fear of the exam.",
       author: "Dr. Mudit Goyal",
       image: DrMuditGoyal,
     },
     {
       quote:
-        "It felt like magic in my life 4 days passed so amazingly that I never imagined it while entering there. Whether it was the syllabus being completed so quickly, which I would have never managed on my own, or the life lessons shared by Dr. Zainab ma’am that she inculcated in us, every moment was truly impactful.",
+        "It felt like magic in my life 4 days passed so amazingly that I never imagined it while entering there. Whether it was the syllabus being completed so quickly, which I would have never managed on my own, or the life lessons shared by Dr. Zainab ma'am that she inculcated in us, every moment was truly impactful.",
       author: "Dr. Vidushi",
       image: DrVidushi,
     },
@@ -71,19 +71,19 @@ const TestimonialHeader = () => {
     },
     {
       quote:
-        "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma’am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
+        "I was a BTR subscriber for a year. It changed my whole approach to studying and MCQ solving. So grateful for what Dr. Zainab Vora ma'am is doing for us students. My rank went from 25k in NEET 2024 to 431 in NEET 2025.",
       author: "Dr. Prakruti Bhat",
       image: DrPrakrutiBhat,
     },
     {
       quote:
-        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora Ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
+        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
       author: "Dr. Vinoot Kalasappagol",
       image: DrVinootKalasappagol,
     },
     {
       quote:
-        "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible ",
+        "I studied for NEET pg right after my internship got over, just for 3 months and honeslty without BTR and Dr. Zainab Vora ma'am, nothing would have been possible.",
       author: "Dr. Aparna Warrier ",
       image: DrAparnaWarrier,
     },
@@ -92,7 +92,7 @@ const TestimonialHeader = () => {
   // Rotating text quotes
   const rotatingTexts = [
     {
-      text: "Dr. Zainab Vora ma’am is the best.",
+      text: "Dr. Zainab Vora ma'am is the best.",
       author: "Dr. Niharika",
     },
     {
@@ -104,7 +104,7 @@ const TestimonialHeader = () => {
       author: "Dr. Muskan Maheswari",
     },
     {
-      text: "I’m deeply grateful to Dr. Zainab Vora ma’am for her brilliant BTR sessions.",
+      text: "I'm deeply grateful to Dr. Zainab Vora ma'am for her brilliant BTR sessions.",
       author: "Dr. Phalguni Wadhwa",
     },
   ];

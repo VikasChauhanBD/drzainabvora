@@ -12,13 +12,13 @@ const OnlineBtrFeedback = () => {
   const testimonials = [
     {
       feedback:
-        "I was an online BTR subscriber and honestly, Dr. Zainab Vohra mam’s TnD was a complete game changer for me. The way she guided us, I actually learned how to master MCQ solving. And the effort she puts into her compiled modules, going that extra mile every single time—it really made a huge difference in my prep. Forever grateful 🤍",
+        "I was an online BTR subscriber and honestly, Dr. Zainab Vora mam's TnD was a complete game changer for me. The way she guided us, I actually learned how to master MCQ solving. And the effort she puts into her compiled modules, going that extra mile every single time—it really made a huge difference in my prep. Forever grateful ❤️.",
       name: "Dr. Ifrah Ansari",
       image: DrIfrahAnsari,
     },
     {
       feedback:
-        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora Ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
+        "It was great experience, I had taken BTR ONLINE , truly a great learning experience especially, Dr. Zainab Vora ma'am She is just amazing and a great mentor truly Looking forward to meet her atleast once in my lifetime.",
       name: "Dr. Vinoot Kalasappagol",
       image: DrVinootKalasappagol,
     },
