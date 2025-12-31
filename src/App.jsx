@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
+import ScrollToTop from "./pages/ScrollToTop";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import IntroVideo from "./components/introVideo/IntroVideo";
@@ -93,6 +94,7 @@ function App() {
       ) : (
         <BrowserRouter>
           <Navbar />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUsPage />} />
