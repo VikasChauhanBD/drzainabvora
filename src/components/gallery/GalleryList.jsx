@@ -3,8 +3,7 @@ import "./GalleryList.css";
 import Image1 from "../../assets/images/crash-course-image1.jpg";
 import Image2 from "../../assets/images/crash-course-image2.jpg";
 import Image3 from "../../assets/images/neet-pg-bootcamp.webp";
-import Image5 from "../../assets/images/why-btr-header-1.JPG";
-import Image6 from "../../assets/images/why-btr-header-2.JPG";
+import Image5 from "../../assets/images/btr-header-1.JPG";
 
 const galleryItems = [
   {

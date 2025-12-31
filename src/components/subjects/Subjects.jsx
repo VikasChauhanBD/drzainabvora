@@ -9,7 +9,7 @@ function Subjects() {
       <div className="subjects-card">
         <h1>All 19 Subjects Under One Roof</h1>
         <p>
-          Complete preparation for NEET PG and INICET with comprehensive
+          Complere preparations for NEET PG, FMGE, and INICET with comprehensive
           coverage of every subject you need to master.
         </p>
         <div className="subjects-list">
@@ -50,7 +50,7 @@ function Subjects() {
             <BiCheckCircle /> ENT
           </span>
           <span>
-            <BiCheckCircle /> Forensic
+            <BiCheckCircle /> Forensic Medicine
           </span>
           <span>
             <BiCheckCircle /> Ophthalmology

@@ -1,4 +1,4 @@
-.why-btr-header {
+.btr-header {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -7,7 +7,7 @@
   color: white;
 }
 
-.why-btr-header-background-images {
+.btr-header-background-images {
   position: absolute;
   top: 0;
   left: 0;
@@ -16,7 +16,7 @@
   z-index: 1;
 }
 
-.why-btr-header-background-image {
+.btr-header-background-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -30,7 +30,7 @@
   transition: opacity 1s ease-in-out;
 }
 
-.why-btr-header-background-image.active {
+.btr-header-background-image.active {
   opacity: 1;
   animation: bgZoomIn 6s ease-out forwards;
 }
@@ -44,7 +44,7 @@
   }
 }
 
-.why-btr-header-overlay {
+.btr-header-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@
   z-index: 2;
 }
 
-.why-btr-header-content {
+.btr-header-content {
   width: 100%;
   position: relative;
   z-index: 2;
@@ -79,12 +79,12 @@
   }
 }
 
-.why-btr-header-text {
+.btr-header-text {
   width: 60%;
   text-align: center;
 }
 
-.why-btr-header-text h1 {
+.btr-header-text h1 {
   font-size: 48px;
   font-weight: 900;
   line-height: 1.1;
@@ -94,13 +94,13 @@
   animation: fadeInUp 1s ease-out;
 }
 
-.why-btr-header-text p {
+.btr-header-text p {
   font-size: 22px;
   font-weight: 700;
   margin: 1rem auto;
 }
 
-/* .why-btr-header-text span {
+/* .btr-header-text span {
   font-size: 22px;
   font-style: italic;
 } */
@@ -128,7 +128,7 @@
 /* -------------------------- Responsive Style -------------------------- */
 
 @media (max-width: 1440px) {
-  .why-btr-header-text {
+  .btr-header-text {
     width: 70%;
   }
 
@@ -138,7 +138,7 @@
 }
 
 @media (max-width: 1024px) {
-  .why-btr-header-text {
+  .btr-header-text {
     width: 80%;
   }
 
@@ -148,25 +148,25 @@
 }
 
 @media (max-width: 800px) {
-  .why-btr-header-text {
+  .btr-header-text {
     width: 95%;
   }
 
-  .why-btr-header-text h1,
+  .btr-header-text h1,
   .what-is-btr-ques {
     font-size: 40px;
   }
 }
 
 @media (max-width: 500px) {
-  .why-btr-header-text h1,
+  .btr-header-text h1,
   .what-is-btr-ques {
     font-size: 32px;
     line-height: 40px;
   }
 
-  .why-btr-header-text p,
-  .why-btr-header-text span {
+  .btr-header-text p,
+  .btr-header-text span {
     font-size: 20px;
   }
 }

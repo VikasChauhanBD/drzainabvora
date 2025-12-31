@@ -74,7 +74,7 @@ function WhatBTR() {
       id: 4,
       icon: BiTrophy,
       title: "Exam-Oriented",
-      desp: "Content aligned with NEET PG and INICET patterns",
+      desp: "Content aligned with NEET PG, FMGE, and INICET patterns",
     },
   ];
 

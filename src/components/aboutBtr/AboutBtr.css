@@ -1,47 +1,47 @@
-.btr-container {
+.about-btr-container {
   width: 100%;
   align-content: center;
 }
 
-.btr-heading {
+.about-btr-heading {
   font-size: 40px;
   color: #27187e;
 }
 
-.btr-cards {
+.about-btr-cards {
   width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
-.btr-image {
+.about-btr-image {
   width: 58%;
 }
 
-.btr-image img {
+.about-btr-image img {
   width: 100%;
   margin-bottom: -5px;
 }
 
-.btr-content {
+.about-btr-content {
   width: 40%;
   align-content: center;
   color: #27187e;
   padding: 1rem 0 2rem 0;
 }
 
-.btr-content h2 {
+.about-btr-content h2 {
   font-size: 24px;
   font-weight: 500;
 }
 
-.btr-content p {
+.about-btr-content p {
   font-size: 20px;
   line-height: 28px;
   margin: 1.5rem 0;
 }
 
-.btr-content a {
+.about-btr-content a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 
-.btr-content a:hover {
+.about-btr-content a:hover {
   color: #ffffff;
   background-color: #ff8600;
 }
@@ -60,46 +60,46 @@
 /* -------------------------- Responsive Style -------------------------- */
 
 @media (max-width: 1440px) {
-  .btr-cards {
+  .about-btr-cards {
     width: 95%;
   }
 }
 
 @media (max-width: 1024px) {
-  .btr-cards {
+  .about-btr-cards {
     width: 100%;
   }
 }
 
 @media (max-width: 800px) {
-  .btr-heading {
+  .about-btr-heading {
     font-size: 32px;
   }
 
-  .btr-cards {
+  .about-btr-cards {
     flex-wrap: wrap;
   }
 
-  .btr-image {
+  .about-btr-image {
     width: 100%;
   }
 
-  .btr-content {
+  .about-btr-content {
     width: 100%;
     padding: 2rem 1rem;
   }
 
-  .btr-content h2 {
+  .about-btr-content h2 {
     font-size: 20px;
   }
 
-  .btr-content p {
+  .about-btr-content p {
     font-size: 18px;
   }
 }
 
 @media (max-width: 500px) {
-  .btr-heading {
+  .about-btr-heading {
     font-size: 24px;
   }
 }

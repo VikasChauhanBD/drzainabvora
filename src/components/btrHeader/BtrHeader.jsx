@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./WhyBtrHeader.css";
-import Image1 from "../../assets/images/why-btr-header-1.JPG";
-import Image2 from "../../assets/images/why-btr-header-2.JPG";
+import "./BtrHeader.css";
+import Image1 from "../../assets/images/btr-header-1.JPG";
+import Image2 from "../../assets/images/btr-header-2.JPG";
 
-const WhyBtrHeader = () => {
+const BtrHeader = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [Image1, Image2];
@@ -18,13 +18,13 @@ const WhyBtrHeader = () => {
 
   return (
     <div>
-      <section className="why-btr-header">
+      <section className="btr-header">
         {/* Background Images */}
-        <div className="why-btr-header-background-images">
+        <div className="btr-header-background-images">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`why-btr-header-background-image ${
+              className={`btr-header-background-image ${
                 currentImage === index ? "active" : ""
               }`}
               style={{ backgroundImage: `url(${image})` }}
@@ -33,11 +33,11 @@ const WhyBtrHeader = () => {
         </div>
 
         {/* Overlay */}
-        <div className="why-btr-header-overlay"></div>
+        <div className="btr-header-overlay"></div>
 
         {/* Content */}
-        <div className="why-btr-header-content">
-          <div className="why-btr-header-text">
+        <div className="btr-header-content">
+          <div className="btr-header-text">
             <h1>What makes BTR unique?</h1>
             <p>
               "BTR by Dr. Zainab is not just another notes book. It actually
@@ -66,4 +66,4 @@ const WhyBtrHeader = () => {
   );
 };
 
-export default WhyBtrHeader;
+export default BtrHeader;

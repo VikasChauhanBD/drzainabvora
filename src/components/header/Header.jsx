@@ -36,8 +36,8 @@ function Header() {
     <div className="header-container">
       <div className="upper-header">
         <h1>
-          A respected radiologist and renowned educator, mentoring thousands of
-          medical students across India through BTR for FMGE, NEET PG & INICET.
+          A renowned and respected education, mentoring thousands of medical
+          students across India through BTR for FMGE, NEET PG & INICET.
         </h1>
         {/* <NavLink to="/about">Click Here</NavLink> */}
       </div>
@@ -48,8 +48,8 @@ function Header() {
             <h3>Here comes</h3>
             <h1>Dr. Zainab Vora</h1>
             <h2>
-              Radiologist, National NEET PG Mentor, and the mastermind behind
-              BTR.
+              MD Radiology ( AIIMS Delhi ), National NEET PG Mentor, and the
+              mastermind behind BTR.
             </h2>
             <p>
               An AIIMS New Delhi alumnus and AIR 1 in INI-CET, Dr. Zainab Vora
