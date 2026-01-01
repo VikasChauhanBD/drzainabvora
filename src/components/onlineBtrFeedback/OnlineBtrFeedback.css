@@ -181,4 +181,8 @@
   .online-btr-feedback-text {
     font-size: 14px;
   }
+
+  .btr-feedback-track {
+    animation: slideLeft 10s linear infinite;
+  }
 }
