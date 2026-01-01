@@ -199,6 +199,11 @@
     font-size: 32px;
   }
 
+  .feedback-track-left {
+    animation-name: slideLeft;
+    animation-duration: 25s;
+  }
+
   .feedback-card {
     min-width: 280px;
     max-width: 280px;
@@ -215,6 +220,11 @@
 }
 
 @media (max-width: 500px) {
+  .feedback-track-left {
+    animation-name: slideLeft;
+    animation-duration: 10s;
+  }
+
   .feedback-section {
     padding: 60px 16px;
   }

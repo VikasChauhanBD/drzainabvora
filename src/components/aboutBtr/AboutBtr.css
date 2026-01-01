@@ -77,7 +77,7 @@
   }
 
   .about-btr-cards {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
 
   .about-btr-image {

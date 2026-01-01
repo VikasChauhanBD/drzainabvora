@@ -175,8 +175,8 @@
   }
 
   .header-main {
-    flex-wrap: wrap-reverse;
-    padding: 1rem 0;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 0 1rem;
     margin-top: 2rem;
   }
 
@@ -187,11 +187,10 @@
 
   .header-image {
     width: 100%;
-    margin-bottom: 2rem;
   }
 
   .hero-img.active {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -219,5 +218,10 @@
 
   .header-content h1 {
     font-size: 32px;
+  }
+
+  .hero-img.active {
+    width: 100%;
+    margin: 0 auto;
   }
 }
