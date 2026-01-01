@@ -205,13 +205,16 @@
 
   .biography-mobile-image {
     width: 100%;
+    height: 80vh;
     overflow: hidden;
   }
 
   .biography-mobile-image img {
+    display: block;
     width: 100%;
     height: 100%;
-    display: block;
+    object-fit: cover;
+    object-position: top;
   }
 }
 
@@ -227,5 +230,9 @@
   .biography-mobile-subhead {
     color: #ff8600;
     font-size: 20px;
+  }
+
+  .biography-mobile-image {
+    height: 50vh;
   }
 }
