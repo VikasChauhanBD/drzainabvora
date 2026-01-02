@@ -74,11 +74,19 @@
   .course-cards {
     width: 95%;
   }
+
+  .course-header h1 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 800px) {
   .course-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .course-header h1 {
+    font-size: 32px;
   }
 }
 
@@ -88,7 +96,7 @@
   }
 
   .course-header h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 

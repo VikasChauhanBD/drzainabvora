@@ -1,31 +1,27 @@
-.crheader-container {
+.crheader-banner {
   width: 100%;
-  background: #27187e;
 }
 
-.crheader-main {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  padding-top: 2rem;
+.crheader-banner img {
+  width: 100%;
 }
 
 .crheader-content {
-  width: 60%;
-  align-content: center;
-  padding-bottom: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #27187e;
+  padding-top: 4rem;
 }
 
 .crheader-content h1 {
-  font-size: 40px;
-  color: #f1f2f6;
+  font-size: 48px;
 }
 
 .crheader-content p {
   font-size: 20px;
   line-height: 28px;
   margin: 1.5rem 0;
-  color: #f1f2f6;
 }
 
 .crheader-content a {
@@ -44,61 +40,31 @@
   background-color: #e35336;
 }
 
-.crheader-image {
-  width: 40%;
-  text-align: center;
-}
-
-.crheader-image img {
-  width: 75%;
-  margin-bottom: -5px;
-}
-
 /* -------------------------- Responsive Style -------------------------- */
 
 @media (max-width: 1440px) {
-  .crheader-main {
+  .crheader-content {
     width: 85%;
   }
 }
 
 @media (max-width: 1024px) {
-  .crheader-main {
-    width: 95%;
-  }
-
-  .crheader-image img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 800px) {
-  .upper-header h1 {
-    font-size: 24px;
-  }
-
-  .crheader-main {
-    flex-wrap: wrap-reverse;
-    padding: 1rem 0;
-    margin-top: 2rem;
-  }
-
   .crheader-content {
-    width: 100%;
-    padding: 2rem 0;
-  }
-
-  .crheader-image {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  .crheader-image img {
-    width: 80%;
+    width: 95%;
   }
 
   .crheader-content h1 {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .crheader-content {
+    padding-top: 2.5rem;
+  }
+
+  .crheader-content h1 {
+    font-size: 32px;
   }
 
   .crheader-content p {
@@ -109,6 +75,6 @@
 
 @media (max-width: 500px) {
   .crheader-content h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }

@@ -1,31 +1,29 @@
 import React, { useEffect, useState } from "react";
 import "./CRHeader.css";
 import { NavLink } from "react-router-dom";
-import HeroImage from "../../assets/images/dr-zainab-vora.png";
+import Banner from "../../assets/images/cr-banner.jpg";
 
 function CRHeader() {
   return (
     <div className="crheader-container">
-      <div className="crheader-main">
-        <div className="crheader-content">
-          <h1>Learn the skills of tomorrow</h1>
-          <p>
-            <b>Conceptual Radiology</b> is built to transform radiology
-            education for residents and practicing radiologists. Our aim is to
-            develop strong clinical thinking, exam readiness, and reporting
-            confidence through structured teaching, expert faculty, and
-            practical learning. From residency to real-world practice, we help
-            you grow into a confident radiologist.
-          </p>
+      <div className="crheader-banner">
+        <img src={Banner} alt="CR Banner" />
+      </div>
 
-          <NavLink to="https://conceptualradiology.com/" target="_blank">
-            Know More
-          </NavLink>
-        </div>
+      <div className="crheader-content">
+        <h1>Learn the skills of tomorrow</h1>
+        <p>
+          <b>Conceptual Radiology</b> is built to transform radiology education
+          for residents and practicing radiologists. Our aim is to develop
+          strong clinical thinking, exam readiness, and reporting confidence
+          through structured teaching, expert faculty, and practical learning.
+          From residency to real-world practice, we help you grow into a
+          confident radiologist.
+        </p>
 
-        <div className="crheader-image">
-          <img src={HeroImage} alt="Hero" />
-        </div>
+        <NavLink to="https://conceptualradiology.com/" target="_blank">
+          Know More
+        </NavLink>
       </div>
     </div>
   );
