@@ -21,28 +21,28 @@ function Navbar() {
     setShowCRMenu(false);
   };
 
-  const handleBTRClick = (e) => {
-    if (showNav) {
-      // Mobile: toggle dropdown
-      e.stopPropagation();
-      setShowBTRMenu(!showBTRMenu);
-    } else {
-      // Desktop: navigate to BTR page
-      navigate("/btr");
-      handleCloseNav();
-    }
+  const handleBTRClick = () => {
+    // Navigate to BTR page
+    navigate("/btr");
+    handleCloseNav();
   };
 
-  const handleCRClick = (e) => {
-    if (showNav) {
-      // Mobile: toggle dropdown
-      e.stopPropagation();
-      setShowCRMenu(!showCRMenu);
-    } else {
-      // Desktop: navigate to Conceptual Radiology page
-      navigate("/conceptual-radiology");
-      handleCloseNav();
-    }
+  const handleBTRArrowClick = (e) => {
+    // Stop propagation to prevent triggering handleBTRClick
+    e.stopPropagation();
+    setShowBTRMenu(!showBTRMenu);
+  };
+
+  const handleCRClick = () => {
+    // Navigate to Conceptual Radiology page
+    navigate("/conceptual-radiology");
+    handleCloseNav();
+  };
+
+  const handleCRArrowClick = (e) => {
+    // Stop propagation to prevent triggering handleCRClick
+    e.stopPropagation();
+    setShowCRMenu(!showCRMenu);
   };
 
   return (
@@ -67,9 +67,10 @@ function Navbar() {
           onMouseLeave={() => !showNav && setShowBTRMenu(false)}
         >
           <button className="dropdown-trigger" onClick={handleBTRClick}>
-            BTR
+            <span className="dropdown-text">BTR</span>
             <IoIosArrowDown
               className={`arrow-icon ${showBTRMenu ? "rotate" : ""}`}
+              onClick={handleBTRArrowClick}
             />
           </button>
 
@@ -108,9 +109,10 @@ function Navbar() {
           onMouseLeave={() => !showNav && setShowCRMenu(false)}
         >
           <button className="dropdown-trigger" onClick={handleCRClick}>
-            Conceptual Radiology
+            <span className="dropdown-text">Conceptual Radiology</span>
             <IoIosArrowDown
               className={`arrow-icon ${showCRMenu ? "rotate" : ""}`}
+              onClick={handleCRArrowClick}
             />
           </button>
 

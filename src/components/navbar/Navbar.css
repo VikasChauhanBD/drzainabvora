@@ -71,9 +71,15 @@
   background-color: transparent;
 }
 
+.dropdown-text {
+  pointer-events: none;
+}
+
 .arrow-icon {
-  font-size: 14px;
+  font-size: 24px;
   transition: transform 0.3s ease;
+  padding: 0.25rem;
+  cursor: pointer;
 }
 
 .arrow-icon.rotate {
@@ -203,6 +209,7 @@
     font-size: 2rem;
     border: none;
     cursor: pointer;
+    color: #15304c;
   }
 
   .mobile-nav {
@@ -262,6 +269,11 @@
 
   .dropdown-link {
     padding: 0.75rem 0.5rem;
+  }
+
+  .arrow-icon {
+    font-size: 32px;
+    padding: 0.5rem;
   }
 }
 
