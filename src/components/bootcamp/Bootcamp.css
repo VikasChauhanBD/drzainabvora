@@ -104,6 +104,11 @@
   font-size: 18px;
 }
 
+.bootcamp-high-content p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
 .bootcamp-points {
   width: 80%;
   margin: 2.5rem auto;

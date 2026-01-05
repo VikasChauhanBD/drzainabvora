@@ -1,7 +1,7 @@
 import React from "react";
 import "./Bootcamp.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpeg";
+import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpg";
 import Image from "../../assets/images/neet-pg-bootcamp.webp";
 
 function Bootcamp() {
@@ -21,10 +21,9 @@ function Bootcamp() {
           The <b>NEET PG Bootcamp</b> is a{" "}
           <b>4-month, high-intensity offline crash program</b> designed for
           students who want focused revision, expert mentorship, and real exam
-          readiness under one roof. This program goes beyond routine
-          classes—combining structured subject-wise revision, regular
-          assessments, and close faculty guidance to help you convert hard work
-          into rank.
+          readiness under one roof. This program goes beyond routine classes -
+          combining structured subject-wise revision, regular assessments, and
+          close faculty guidance to help you convert hard work into rank.
           <br />
           With mentorship from{" "}
           <b>Dr. Zainab Vora, Dr. Ravi Sharma, and Dr. Apurv Mehra,</b> the
@@ -66,6 +65,9 @@ function Bootcamp() {
               <b>Mini tests with explanations</b>
             </li>
           </ul>
+          <p>
+            New NEET PG batch starts from 18<sup>th</sup> January
+          </p>
         </div>
       </div>
 

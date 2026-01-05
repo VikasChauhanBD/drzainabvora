@@ -14,13 +14,16 @@ function AboutBtr() {
           <h1 className="about-btr-heading">About BTR</h1>
           <h2>A faculty who teached with Clarity, Precision and Purpose.</h2>
           <p>
-            Dr. Zainab Vora, a renowned and passionate educator, an alumna of
-            AIIMS New Delhi with Rank 1 at AIIMS ( May 2015 ) and NIMHANS (
-            March 2015 ). She has completed her MBBS, MD ( Radiology ), DNB, and
-            served as a Senior Resident at AIIMS. Known for her expertise in CT,
-            MRI, ultrasound, Doppler, and interventional radiology, she is a
-            leading faculty at Vidya Jeevan, guiding students for FMGE, NEET PG,
-            and INICET with clarity and precision.
+            BTR is the smarter way to prepare, created and led by Dr. Zainab
+            Vora, one of India’s most trusted radiology educators. Designed for
+            NEET PG aspirants who need fast, focused, high-yield revision, BTR
+            turns all 19 subjects into a clean, structured, exam-oriented plan.
+            Students get Quick Revision Videos, Annotated PDF Notes (in-app),
+            Classical + Annotated Workbooks (Vol I & II), and the Chhoti Copy
+            for last-minute power revision, along with year-long live sessions
+            and the official Telegram group for updates and doubt support. BTR
+            helps you revise faster, retain better, and score higher with a
+            proven revision strategy built by Dr. Zainab Vora herself.
           </p>
           <NavLink to="/btr"> See why students trust BTR</NavLink>
         </div>

@@ -36,7 +36,7 @@ function Header() {
     <div className="header-container">
       <div className="upper-header">
         <h1>
-          A renowned and respected education, mentoring thousands of medical
+          A renowned and respected educator, mentoring thousands of medical
           students across India through BTR for FMGE, NEET PG & INICET.
         </h1>
         {/* <NavLink to="/about">Click Here</NavLink> */}
