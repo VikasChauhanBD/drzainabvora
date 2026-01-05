@@ -151,7 +151,7 @@ const Feedback = () => {
 
   return (
     <div className="feedback-section">
-      <h2 className="feedback-title">Students Feedback</h2>
+      <h2 className="feedback-title">From Our Students</h2>
 
       <div className="feedback-container">
         <div className="feedback-row">

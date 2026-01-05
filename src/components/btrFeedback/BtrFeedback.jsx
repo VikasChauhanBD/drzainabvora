@@ -228,7 +228,7 @@ const BtrFeedback = () => {
 
   return (
     <div className="btr-feedback-section">
-      <h2 className="btr-feedback-title">BTR Feedback</h2>
+      <h2 className="btr-feedback-title">From Our Students</h2>
 
       <div className="btr-feedback-container">
         <div className="btr-feedback-row">

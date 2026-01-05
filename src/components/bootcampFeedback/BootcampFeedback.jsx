@@ -141,7 +141,7 @@ const BootcampFeedback = () => {
 
   return (
     <div className="bootcamp-feedback-section">
-      <h2 className="bootcamp-feedback-title">NEET PG Bootcamp Feedback</h2>
+      <h2 className="bootcamp-feedback-title">From Our Students</h2>
 
       <div className="bootcamp-feedback-container">
         <div className="bootcamp-feedback-row">

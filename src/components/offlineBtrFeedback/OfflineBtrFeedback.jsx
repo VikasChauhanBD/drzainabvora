@@ -73,7 +73,7 @@ const OfflineBtrFeedback = () => {
 
   return (
     <div className="offline-btr-feedback-section">
-      <h2 className="offline-btr-feedback-title">Offline BTR Feedback</h2>
+      <h2 className="offline-btr-feedback-title">From Our Students</h2>
 
       <div className="offline-btr-feedback-container">
         <div className="offline-btr-feedback-row">

@@ -38,7 +38,7 @@ const OnlineBtrFeedback = () => {
 
   return (
     <div className="online-btr-feedback-section">
-      <h2 className="online-btr-feedback-title">Online BTR Feedback</h2>
+      <h2 className="online-btr-feedback-title">From Our Students</h2>
 
       <div className="online-btr-feedback-container">
         <div className="online-btr-feedback-row">
