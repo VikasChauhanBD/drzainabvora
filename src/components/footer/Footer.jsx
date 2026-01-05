@@ -108,7 +108,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>
-          &copy; 2025 Dr. Zainab Vora, All rights reserved. | Designed & Managed
+          &copy; 2026 Dr. Zainab Vora, All rights reserved. | Designed & Managed
           By:{" "}
           <NavLink to="https://believersdestination.com/">
             Believers Destination Pvt Ltd

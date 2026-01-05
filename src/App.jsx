@@ -16,6 +16,7 @@ import BtrPage from "./pages/BtrPage";
 import BootcampPage from "./pages/BootcampPage";
 import GalleryPage from "./pages/GalleryPage";
 import Footer from "./components/footer/Footer";
+import NotFound from "./components/notFound/NotFound";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
@@ -110,6 +111,7 @@ function App() {
             <Route path="/crisp" element={<CrispPage />} />
             <Route path="/students" element={<StudentsPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </BrowserRouter>
