@@ -65,7 +65,7 @@ const FolderGallery = () => {
             {selectedFolder.images.map((item) => (
               <div
                 key={item.id}
-                className={`galleryList-item ${item.size}`}
+                className="galleryList-item"
                 onClick={() => openPopup(item)}
               >
                 <img src={item.src} alt="" loading="lazy" />
