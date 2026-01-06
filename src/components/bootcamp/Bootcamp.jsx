@@ -66,7 +66,7 @@ function Bootcamp() {
             </li>
           </ul>
           <p>
-            New NEET PG batch starts from 18<sup>th</sup> January
+            New Batch Starts from 18<sup>th</sup> January 2026
           </p>
         </div>
       </div>

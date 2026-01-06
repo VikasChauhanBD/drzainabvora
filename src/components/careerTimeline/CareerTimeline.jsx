@@ -59,7 +59,7 @@ const CareerTimeline = () => {
     {
       title: "Journey as a PG Aspirant",
       description:
-        "As a postgraduate aspirant, Dr. Zainab Vora's preparation was defined by discipline, conceptual clarity, and smart strategy. Her dedication result in securing AIR 1 in both AIIMS PG and NIMHANS in the same year—a rare and remarkable achievement that continues to inspire PG aspirants across India.",
+        "As a postgraduate aspirant, Dr. Zainab Vora's preparation was defined by discipline, conceptual clarity, and smart strategy. Her dedication resulted in securing AIR 1 in both AIIMS PG and NIMHANS in the same year—a rare and remarkable achievement that continues to inspire PG aspirants across India.",
     },
     {
       title: "The Beginning of Her Educator Journey",

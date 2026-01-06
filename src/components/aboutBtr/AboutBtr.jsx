@@ -12,10 +12,9 @@ function AboutBtr() {
         </div>
         <div className="about-btr-content">
           <h1 className="about-btr-heading">About BTR</h1>
-          <h2>A faculty who teached with Clarity, Precision and Purpose.</h2>
           <p>
-            BTR is the smarter way to prepare, created and led by Dr. Zainab
-            Vora, one of India’s most trusted radiology educators. Designed for
+            BTR is the smarter way to prepare for PG Exams, created and led by
+            Dr. Zainab Vora, one of India’s most trusted educators. Designed for
             NEET PG aspirants who need fast, focused, high-yield revision, BTR
             turns all 19 subjects into a clean, structured, exam-oriented plan.
             Students get Quick Revision Videos, Annotated PDF Notes (in-app),
@@ -25,7 +24,7 @@ function AboutBtr() {
             helps you revise faster, retain better, and score higher with a
             proven revision strategy built by Dr. Zainab Vora herself.
           </p>
-          <NavLink to="/btr"> See why students trust BTR</NavLink>
+          <NavLink to="/btr">See why students trust BTR</NavLink>
         </div>
       </div>
     </div>

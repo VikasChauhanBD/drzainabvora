@@ -27,18 +27,12 @@
   width: 40%;
   align-content: center;
   color: #27187e;
-  padding: 1rem 0 2rem 0;
-}
-
-.about-btr-content h2 {
-  font-size: 24px;
-  font-weight: 500;
 }
 
 .about-btr-content p {
   font-size: 20px;
   line-height: 28px;
-  margin: 1.5rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .about-btr-content a {
