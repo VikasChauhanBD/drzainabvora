@@ -20,18 +20,19 @@
 
 .about-btr-image img {
   width: 100%;
-  margin-bottom: -5px;
+  height: 100%;
 }
 
 .about-btr-content {
   width: 40%;
   align-content: center;
   color: #27187e;
+  padding: 1rem 0 2rem 0;
 }
 
 .about-btr-content p {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 26px;
   margin: 1rem 0 2rem 0;
 }
 
@@ -88,7 +89,8 @@
   }
 
   .about-btr-content p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 

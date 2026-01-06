@@ -53,12 +53,12 @@ function Header() {
             </h2>
             <p>
               An AIIMS New Delhi alumnus and AIR 1 in INI-CET, Dr. Zainab Vora
-              is more than an educator—she is a pillar of hope for PG aspirants
-              across India. With compassion and clarity, she has transformed
-              countless journeys through the BTR course—turning confusion into
-              confidence and dreams into reality which is why she known as the
-              “BTR Queen,” To her students, she is not just a mentor but a
-              belief that says, "Your story can still change."
+              is more than an educator - she is a pillar of hope for PG
+              aspirants across India. With compassion and clarity, she has
+              transformed countless journeys through the BTR course - turning
+              confusion into confidence and dreams into reality which is why she
+              known as the “BTR Queen,” To her students, she is not just a
+              mentor but a belief that says, "Your story can still change."
             </p>
 
             {/* <h6 className="header-typeWriter">
