@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import "./Story.css";
-import Image1 from "../../assets/images/story-images.JPG";
-import Image2 from "../../assets/images/neet-pg-bootcamp.webp";
 
 const Story = () => {
   const slideRef = useRef(null);
@@ -20,10 +18,10 @@ const Story = () => {
 
   // Array of images only
   const slides = [
-    "https://cdn.dribbble.com/userupload/46169258/file/97c56a4b41db5861157595a39f7520af.jpg",
-    "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1766822097/4737c1ede28e550da6a5f9702c81cfd3_bhgqk2.jpg",
-    Image1,
-    Image2,
+    "https://cdn.dribbble.com/userupload/46295951/file/0d7ff40fa53d1488fb23e4608470ce49.jpg",
+    "https://cdn.dribbble.com/userupload/46294781/file/932361710626bb0d3701a45ca1258889.jpg",
+    "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+    "https://cdn.dribbble.com/userupload/46295928/file/1304e421fb879feb83e6c0ff616ba640.jpg",
   ];
 
   return (
