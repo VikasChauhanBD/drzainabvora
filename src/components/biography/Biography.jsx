@@ -113,9 +113,9 @@ export default function Biography() {
       description:
         "Completed MBBS from the All India Institute of Medical Sciences (AIIMS), New Delhi, one of India's most prestigious medical institutions.<br/> Honored with the Outstanding Student Award, reflecting her academic brilliance and consistent performance.",
       image:
-        "https://cdn.dribbble.com/userupload/46206081/file/3477900436b0327d110aee3d9fb8fba6.jpg",
+        "https://cdn.dribbble.com/userupload/46300983/file/9709a61fbd3b6d5c29711279ad0324d6.jpeg",
       mobileImage:
-        "https://cdn.dribbble.com/userupload/46206081/file/3477900436b0327d110aee3d9fb8fba6.jpg",
+        "https://cdn.dribbble.com/userupload/46300983/file/9709a61fbd3b6d5c29711279ad0324d6.jpeg",
     },
     {
       title: "2015 - A Year to Remember",
@@ -123,9 +123,9 @@ export default function Biography() {
         "The year 2015 marked a turning point in Dr. Zainab Vora's career: <br/> <b>All India Rank 1 - NIMHANS (March 2015)</b> <br/> <b>All India Rank 1 - AIIMS PG (May 2015)</b><br/> These results placed her among the top medical minds in the country and made Rajkot proud on the national stage.",
 
       image:
-        "https://cdn.dribbble.com/userupload/46206082/file/5d8604ce627e60bf35469cac13968dc6.jpg",
+        "https://cdn.dribbble.com/userupload/46300984/file/87e1697456a0a62da45ba7bbc7fedbee.jpeg",
       mobileImage:
-        "https://cdn.dribbble.com/userupload/46206082/file/5d8604ce627e60bf35469cac13968dc6.jpg",
+        "https://cdn.dribbble.com/userupload/46300984/file/87e1697456a0a62da45ba7bbc7fedbee.jpeg",
     },
     {
       title: "A Trusted Mentor Today",
