@@ -11,146 +11,202 @@ export const galleryFoldersData = [
       },
       {
         id: 2,
-        src: "https://cdn.dribbble.com/userupload/46295928/file/1304e421fb879feb83e6c0ff616ba640.jpg",
+        src: "https://cdn.dribbble.com/userupload/46296747/file/fd58b3226a6eef68a1bb0f53dd9a8f62.jpg",
       },
       {
         id: 3,
-        src: "https://cdn.dribbble.com/userupload/46295926/file/2eb6291684173fb51a2774f3d05f3543.jpg",
+        src: "https://cdn.dribbble.com/userupload/46296746/file/e4202f1e8f9c3905b316ddfcfe1fd9c1.jpg",
       },
       {
         id: 4,
-        src: "https://cdn.dribbble.com/userupload/46295931/file/89ff377208f1906548c1c0229d347cae.jpg",
+        src: "https://cdn.dribbble.com/userupload/46294781/file/932361710626bb0d3701a45ca1258889.jpg",
       },
       {
         id: 5,
-        src: "https://cdn.dribbble.com/userupload/46295935/file/760fa1a31f6c65675ede775ff35064e1.jpg",
+        src: "https://cdn.dribbble.com/userupload/46294779/file/99c1c7a9a080e95f7469cf7a065b271e.jpg",
       },
       {
         id: 6,
-        src: "https://cdn.dribbble.com/userupload/46295936/file/08db33f045651fd864eab87caf4fc21f.jpg",
+        src: "https://cdn.dribbble.com/userupload/46297331/file/58b365b0b0f4462374cc7951067017bc.jpg",
       },
       {
         id: 7,
-        src: "https://cdn.dribbble.com/userupload/46295934/file/e3bdd683af8c5839367f9ed5ec37159e.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295928/file/1304e421fb879feb83e6c0ff616ba640.jpg",
       },
       {
         id: 8,
-        src: "https://cdn.dribbble.com/userupload/46295927/file/b03d6d47ffa301f20e861d106438b9a9.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295926/file/2eb6291684173fb51a2774f3d05f3543.jpg",
       },
       {
         id: 9,
-        src: "https://cdn.dribbble.com/userupload/46295933/file/a1069848cfa4c280ea614fef31c4d277.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295931/file/89ff377208f1906548c1c0229d347cae.jpg",
       },
       {
         id: 10,
-        src: "https://cdn.dribbble.com/userupload/46295932/file/64f9678d3beda3fb5ec889572459970b.jpg",
+        src: "https://cdn.dribbble.com/userupload/46297374/file/d43ce104afeef8e2deca26cf7dd2ff09.jpg",
       },
       {
         id: 11,
-        src: "https://cdn.dribbble.com/userupload/46295930/file/997a73bdb0a9ee543a1b30bb516f7ed0.jpg",
+        src: "https://cdn.dribbble.com/userupload/46297373/file/69487a86e9027d9c4917bf3b7449938f.jpg",
       },
       {
         id: 12,
-        src: "https://cdn.dribbble.com/userupload/46295938/file/6afe98695826332203a37089183bc6f5.jpg",
+        src: "https://cdn.dribbble.com/userupload/46296920/file/d0f0c3b231430011a22407d3e5559c33.jpg",
       },
       {
         id: 13,
-        src: "https://cdn.dribbble.com/userupload/46295929/file/702fc441b9249a2df3b5c49d8ed7a218.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295935/file/760fa1a31f6c65675ede775ff35064e1.jpg",
       },
       {
         id: 14,
-        src: "https://cdn.dribbble.com/userupload/46295940/file/128e0aa6df05f7843a65825f28658659.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295936/file/08db33f045651fd864eab87caf4fc21f.jpg",
       },
       {
         id: 15,
-        src: "https://cdn.dribbble.com/userupload/46295956/file/29e0fc4aa975b197b9c4e59f5d15df76.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295934/file/e3bdd683af8c5839367f9ed5ec37159e.jpg",
       },
       {
         id: 16,
-        src: "https://cdn.dribbble.com/userupload/46295945/file/63ff5742204ed3beb7b5a2a298f57325.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295927/file/b03d6d47ffa301f20e861d106438b9a9.jpg",
       },
       {
         id: 17,
-        src: "https://cdn.dribbble.com/userupload/46295944/file/b8fe1a10d498a74078dd8a961c39b028.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295933/file/a1069848cfa4c280ea614fef31c4d277.jpg",
       },
       {
         id: 18,
-        src: "https://cdn.dribbble.com/userupload/46295952/file/5aeeeba33aa1087f13e42fd406164d57.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295932/file/64f9678d3beda3fb5ec889572459970b.jpg",
       },
       {
         id: 19,
-        src: "https://cdn.dribbble.com/userupload/46295946/file/41cbf303747e7b5d2775a8d6b903b2a6.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295930/file/997a73bdb0a9ee543a1b30bb516f7ed0.jpg",
       },
       {
         id: 20,
-        src: "https://cdn.dribbble.com/userupload/46295953/file/35247ba7250977c9f2981626b6400050.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295938/file/6afe98695826332203a37089183bc6f5.jpg",
       },
       {
         id: 21,
-        src: "https://cdn.dribbble.com/userupload/46295947/file/0aaad51abb38c7d8183d947fd5bc2044.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295929/file/702fc441b9249a2df3b5c49d8ed7a218.jpg",
       },
       {
         id: 22,
-        src: "https://cdn.dribbble.com/userupload/46295942/file/285c40dd8dc2b1c41326745947d7d29b.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295940/file/128e0aa6df05f7843a65825f28658659.jpg",
       },
       {
         id: 23,
-        src: "https://cdn.dribbble.com/userupload/46295955/file/0c6750f8de4bba09e3a7816711c5ea78.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295956/file/29e0fc4aa975b197b9c4e59f5d15df76.jpg",
       },
       {
         id: 24,
-        src: "https://cdn.dribbble.com/userupload/46295950/file/9684c03a7398595b0bea2602af7a7274.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295945/file/63ff5742204ed3beb7b5a2a298f57325.jpg",
       },
       {
         id: 25,
-        src: "https://cdn.dribbble.com/userupload/46295961/file/74c69c95f74fbd485d17e1180976d9c6.webp",
+        src: "https://cdn.dribbble.com/userupload/46295944/file/b8fe1a10d498a74078dd8a961c39b028.jpg",
       },
       {
         id: 26,
-        src: "https://cdn.dribbble.com/userupload/46295960/file/c5b0712312abada93710c0960251dedb.webp",
+        src: "https://cdn.dribbble.com/userupload/46295952/file/5aeeeba33aa1087f13e42fd406164d57.jpg",
       },
       {
         id: 27,
-        src: "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+        src: "https://cdn.dribbble.com/userupload/46295946/file/41cbf303747e7b5d2775a8d6b903b2a6.jpg",
       },
       {
         id: 28,
-        src: "https://cdn.dribbble.com/userupload/46295949/file/5f20ced351eb0bb5f4b9be611b3cdeeb.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295953/file/35247ba7250977c9f2981626b6400050.jpg",
       },
       {
         id: 29,
-        src: "https://cdn.dribbble.com/userupload/46295941/file/3cd0fe036bbffc66a638ec44a46262ac.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295947/file/0aaad51abb38c7d8183d947fd5bc2044.jpg",
       },
       {
         id: 30,
-        src: "https://cdn.dribbble.com/userupload/46295957/file/b6d94af2b62a77780a0961691df18c93.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295942/file/285c40dd8dc2b1c41326745947d7d29b.jpg",
       },
       {
         id: 31,
-        src: "https://cdn.dribbble.com/userupload/46295954/file/eea8cece4c477ec644b59b7f9a62fa67.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295955/file/0c6750f8de4bba09e3a7816711c5ea78.jpg",
       },
       {
         id: 32,
-        src: "https://cdn.dribbble.com/userupload/46295959/file/20df6b87dfaa2fb6cff88c586cdcbea5.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295950/file/9684c03a7398595b0bea2602af7a7274.jpg",
       },
       {
         id: 33,
-        src: "https://cdn.dribbble.com/userupload/46295948/file/a2d96a881f05b79af06065e8b0038f16.jpg",
+        src: "https://cdn.dribbble.com/userupload/46296687/file/94a5d133c818b754c90cd42a6d9ec271.jpg",
       },
       {
         id: 34,
-        src: "https://cdn.dribbble.com/userupload/46295951/file/0d7ff40fa53d1488fb23e4608470ce49.jpg",
+        src: "https://cdn.dribbble.com/userupload/46296688/file/fb265ea658f784dd5b82660a40f488b8.jpg",
       },
       {
         id: 35,
-        src: "https://cdn.dribbble.com/userupload/46295943/file/8149a78452d0fc1b3b02d902badc5b7b.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295961/file/74c69c95f74fbd485d17e1180976d9c6.webp",
       },
       {
         id: 36,
-        src: "https://cdn.dribbble.com/userupload/46295958/file/ee45c0b58a660a8b2d4829b8cb7d477a.jpg",
+        src: "https://cdn.dribbble.com/userupload/46295960/file/c5b0712312abada93710c0960251dedb.webp",
       },
       {
         id: 37,
+        src: "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+      },
+      {
+        id: 38,
+        src: "https://cdn.dribbble.com/userupload/46295949/file/5f20ced351eb0bb5f4b9be611b3cdeeb.jpg",
+      },
+      {
+        id: 39,
+        src: "https://cdn.dribbble.com/userupload/46296886/file/4b3c523a468c2b4cc0a1e0e88acd914d.jpg",
+      },
+      {
+        id: 40,
+        src: "https://cdn.dribbble.com/userupload/46295941/file/3cd0fe036bbffc66a638ec44a46262ac.jpg",
+      },
+      {
+        id: 41,
+        src: "https://cdn.dribbble.com/userupload/46296847/file/fde9429ee1b99623dfff19c10a1ed1f0.jpg",
+      },
+      {
+        id: 42,
+        src: "https://cdn.dribbble.com/userupload/46296846/file/4aeb12c2f0691df28046445fc8421caa.jpg",
+      },
+      {
+        id: 43,
+        src: "https://cdn.dribbble.com/userupload/46295957/file/b6d94af2b62a77780a0961691df18c93.jpg",
+      },
+      {
+        id: 44,
+        src: "https://cdn.dribbble.com/userupload/46295954/file/eea8cece4c477ec644b59b7f9a62fa67.jpg",
+      },
+      {
+        id: 45,
+        src: "https://cdn.dribbble.com/userupload/46295959/file/20df6b87dfaa2fb6cff88c586cdcbea5.jpg",
+      },
+      {
+        id: 46,
+        src: "https://cdn.dribbble.com/userupload/46295948/file/a2d96a881f05b79af06065e8b0038f16.jpg",
+      },
+      {
+        id: 47,
+        src: "https://cdn.dribbble.com/userupload/46295951/file/0d7ff40fa53d1488fb23e4608470ce49.jpg",
+      },
+      {
+        id: 48,
+        src: "https://cdn.dribbble.com/userupload/46296785/file/54e95ed87a087af3bdf982313c282566.jpg",
+      },
+      {
+        id: 49,
+        src: "https://cdn.dribbble.com/userupload/46295943/file/8149a78452d0fc1b3b02d902badc5b7b.jpg",
+      },
+      {
+        id: 50,
+        src: "https://cdn.dribbble.com/userupload/46295958/file/ee45c0b58a660a8b2d4829b8cb7d477a.jpg",
+      },
+      {
+        id: 51,
         src: "https://cdn.dribbble.com/userupload/46295939/file/5013c77efa5456948a4b5546983f2732.jpg",
       },
     ],
@@ -316,14 +372,6 @@ export const galleryFoldersData = [
       {
         id: 39,
         src: "https://cdn.dribbble.com/userupload/46294785/file/78f97e4206a72f6691f79ab207a9f776.jpg",
-      },
-      {
-        id: 40,
-        src: "https://cdn.dribbble.com/userupload/46294781/file/932361710626bb0d3701a45ca1258889.jpg",
-      },
-      {
-        id: 41,
-        src: "https://cdn.dribbble.com/userupload/46294779/file/99c1c7a9a080e95f7469cf7a065b271e.jpg",
       },
     ],
   },
