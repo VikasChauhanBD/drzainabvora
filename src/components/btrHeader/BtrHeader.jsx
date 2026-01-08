@@ -57,9 +57,10 @@ const BtrHeader = () => {
         <p className="what-is-btr-ans">
           BTR is a high-yield rapid revision course designed to help students
           revise the most important, exam-oriented concepts just before the
-          exam. It helps reduce revision time drastically, focuses on what
-          actually gets asked and especially useful during crash course / last
-          revision phase.
+          exam. The focus is to divide the content into concepts which can be
+          understood with the lectures and facts which can be remembered using
+          tricks. It gives a feeling of content that can be revised multiple
+          times before the exam, which becomes the game-changer.
         </p>
       </section>
     </div>
