@@ -115,7 +115,7 @@ export default function Biography() {
       image:
         "https://cdn.dribbble.com/userupload/46300983/file/9709a61fbd3b6d5c29711279ad0324d6.jpeg",
       mobileImage:
-        "https://cdn.dribbble.com/userupload/46300983/file/9709a61fbd3b6d5c29711279ad0324d6.jpeg",
+        "https://cdn.dribbble.com/userupload/46307618/file/5a4777d31a0215bb72915156007004fc.jpeg",
     },
     {
       title: "2015 - A Year to Remember",
@@ -125,14 +125,16 @@ export default function Biography() {
       image:
         "https://cdn.dribbble.com/userupload/46300984/file/87e1697456a0a62da45ba7bbc7fedbee.jpeg",
       mobileImage:
-        "https://cdn.dribbble.com/userupload/46300984/file/87e1697456a0a62da45ba7bbc7fedbee.jpeg",
+        "https://cdn.dribbble.com/userupload/46307617/file/89a0c5cbc29d9e86ea19234c7004936c.jpeg",
     },
     {
       title: "A Trusted Mentor Today",
       description:
         "Known as the 'BTR Queen', Dr. Zainab Vora today is more than a radiology educator. She is a mentor, guide, and source of strength for countless NEET PG and INI-CET aspirants, helping them transform anxiety into confidence and dreams into achievable goals.",
-      image: Icon,
-      mobileImage: Icon,
+      image:
+        "https://cdn.dribbble.com/userupload/46307615/file/910b6345c9dc4a51b5bc1d50c2fa308e.jpg",
+      mobileImage:
+        "https://cdn.dribbble.com/userupload/46307615/file/910b6345c9dc4a51b5bc1d50c2fa308e.jpg",
     },
   ];
 
