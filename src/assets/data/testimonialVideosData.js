@@ -1,6 +1,54 @@
 export const testimonialVideosData = [
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768016790/reel-cover-24_hdttom.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768016791/reel-video-24_miwzf7.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017934/reel-cover-31_qlhoq1.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017946/reel-video-31_m2g6x1.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017935/reel-cover-30_baqese.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017938/reel-video-30_gve4nb.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017935/reel-cover-29_p9pi9b.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017937/reel-video-29_omw6hp.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017936/reel-cover-28_ocj83q.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017944/reel-video-28_cufmxr.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017938/reel-cover-27_fzz9bd.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017938/reel-video-27_dwgizk.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017939/reel-cover-26_tiupxq.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017939/reel-video-26_scihs4.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017940/reel-cover-25_iazoen.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017943/reel-video-25_ecotsu.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1767677192/reel-cover-23_qb8rfo.jpg",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1767677193/reel-video-23_rvrgzw.mp4",

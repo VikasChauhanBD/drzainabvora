@@ -51,7 +51,7 @@ function TestimonialVideos() {
   return (
     <div className="tv-swiper-container">
       <div className="tv-swiper-content">
-        <h1>Video Testimonials</h1>
+        <h1>The Student Voices Gallery</h1>
         <Swiper
           onSwiper={(swiper) => {
             swiperRef.current = swiper;
