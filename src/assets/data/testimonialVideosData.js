@@ -7,6 +7,12 @@ export const testimonialVideosData = [
   },
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768115424/reel-cover-32_xerolx.jpg",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768115484/reel-video-32_qtwiyd.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768017934/reel-cover-31_qlhoq1.jpg",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1768017946/reel-video-31_m2g6x1.mp4",
