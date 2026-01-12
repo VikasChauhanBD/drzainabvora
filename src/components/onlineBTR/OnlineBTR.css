@@ -63,6 +63,7 @@
 
 .online-btr-high-image img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .online-btr-high-content {

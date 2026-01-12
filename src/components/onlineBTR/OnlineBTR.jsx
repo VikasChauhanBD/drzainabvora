@@ -2,7 +2,7 @@ import React from "react";
 import "./OnlineBTR.css";
 import { NavLink } from "react-router-dom";
 import Banner from "../../assets/images/online-btr-banner.jpg";
-import Image from "../../assets/images/online-btr-inage.png";
+import Image from "../../assets/images/online-btr-inage.webp";
 
 function OnlineBTR() {
   return (
