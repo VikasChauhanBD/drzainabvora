@@ -50,13 +50,15 @@ function OnlineBTR() {
             <li>Focus on high-yield points based on PYQs</li>
             <li>Quick revision recorded videos for all 19 subjects</li>
             <li>
-              Conceptual, application-based MCQs with concise discussions,
-              helping students think like toppers and solve MCQs effectively.
+              Test-discussion videos: Curated MCQs which are highly conceptual
+              and application based followed by discussion with an aim to teach
+              students how to think like a topper and teaching the art of
+              solving mcqs has been the game-changer according to most students
             </li>
             <li>
-              Pathology, Pharmacology, Physiology, and Medicine covered as
-              integrated systems to build a strong, holistic conceptual
-              foundation for PG entrance.
+              Pathology, Pharmacology, Physiology, Medicine Have been covered as
+              Integrated systems to give a holistic conceptual basis to the most
+              important subjects for PG entrances
             </li>
             <li>
               <b>In-app annotated PDFs</b> available as revision notes
