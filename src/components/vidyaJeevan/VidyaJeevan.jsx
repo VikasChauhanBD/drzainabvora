@@ -26,9 +26,8 @@ function VidyaJeevan() {
           <br />
           <br />
           At Vidya Jeevan, every session, workshop, and discussion is guided by{" "}
-          <b>India’s leading educators and mentors</b>, including Dr. Mehra
-          himself - ensuring that students are not only prepared for exams, but
-          for life in medicine.
+          <b>India’s leading educators and mentors</b>, ensuring that students
+          are not only prepared for exams, but for life in medicine.
           <br />
           <br />
           Whether you're aiming to ace the country's most competitive entrance
