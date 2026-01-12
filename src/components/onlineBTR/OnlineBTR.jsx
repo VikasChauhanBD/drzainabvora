@@ -50,8 +50,13 @@ function OnlineBTR() {
             <li>Focus on high-yield points based on PYQs</li>
             <li>Quick revision recorded videos for all 19 subjects</li>
             <li>
-              Integrated system-wise teaching of Physiology, Pathology,
-              Pharmacology, and Medicine
+              Conceptual, application-based MCQs with concise discussions,
+              helping students think like toppers and solve MCQs effectively.
+            </li>
+            <li>
+              Pathology, Pharmacology, Physiology, and Medicine covered as
+              integrated systems to build a strong, holistic conceptual
+              foundation for PG entrance.
             </li>
             <li>
               <b>In-app annotated PDFs</b> available as revision notes

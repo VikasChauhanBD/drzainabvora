@@ -59,7 +59,12 @@ const CareerTimeline = () => {
     {
       title: "Journey as a PG Aspirant",
       description:
-        "As a postgraduate aspirant, Dr. Zainab Vora's preparation was defined by discipline, conceptual clarity, and smart strategy. Her dedication resulted in securing AIR 1 in both AIIMS PG and NIMHANS in the same year—a rare and remarkable achievement that continues to inspire PG aspirants across India.",
+        "As a postgraduate aspirant, Dr. Zainab Vora's preparation was defined by discipline, conceptual clarity, and smart strategy. Her dedication resulted in securing AIR 1 in both AIIMS PG and NIMHANS in the same year-a rare and remarkable achievement that continues to inspire PG aspirants across India.",
+    },
+    {
+      title: "MD Radiology & Senior Residency at AIIMS, New Delhi",
+      description:
+        "She completed her MD in Radiology with a Gold Medal and received the prestigious Dr. Shyam Sharma Gold Medal. She then pursued her Senior Residency at AIIMS, New Delhi, gaining advanced clinical expertise and evolving from a PG aspirant into a dedicated educator.",
     },
     {
       title: "The Beginning of Her Educator Journey",

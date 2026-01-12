@@ -149,11 +149,15 @@ const BTRUnique = () => {
           <div className="feature-content">
             <h3 className="feature-title">Use BTR like this:</h3>
             <div className="formula-flow">
-              <span className="formula-step">Concepts</span>
+              <span className="formula-step">BTR</span>
               <span className="formula-arrow">→</span>
-              <span className="formula-step">QBank</span>
+              <span className="formula-step">Active recall</span>
               <span className="formula-arrow">→</span>
-              <span className="formula-step">BTR revision</span>
+              <span className="formula-step">
+                MCQ practice with discussion videos
+              </span>
+              <span className="formula-arrow">→</span>
+              <span className="formula-step">Target weaknesses</span>
               <span className="formula-arrow">→</span>
               <span className="formula-step">Repeat</span>
             </div>
