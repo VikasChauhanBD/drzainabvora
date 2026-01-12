@@ -6,7 +6,10 @@ import Image2 from "../../assets/images/btr-header-2.JPG";
 const BtrHeader = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
-  const images = [Image1, Image2];
+  const images = [
+    "https://cdn.dribbble.com/userupload/46355808/file/f2274fc9ca13235e117b03ebf82f2320.jpg",
+    "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
