@@ -629,6 +629,173 @@ export const testimonials = [
       name: "Dr. Anonymous",
       image: AvatarMale,
     },
+    {
+      feedback:
+        "1.4 lakhs last NEET PG 35k last INI CET to 12k this INI CET. This may not be a great score but for someone who was in lakhs last time this seems like a very big personal win to me. All I can say is thank you Dr. Zainab Vora ma'am followed everything ma'am says and while my progress may not be huge or fast, I now have confidence that I am doing something right and I am ready to face NEET PG with her guidance, Whatever the result may be Good luck everyone, no matter your ranks today, we all got this! No matter how dull this very moment may seem, hang on, just a couple of days more, we will surely reach the other side, the upcoming journey is going to be so colorful in ways you've never imagined.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Dr. Zainab Vora ma'am thank you so much, I got 966 rank all because of BTR and hope to improve in NEET PG Ma'am could you please do a Harrison's review because amongst my incorrect were both of the questions directly from Harrison, the one with arthralgia and sensory loss as answers.",
+      name: "Dr. Neelabh Mitti Ravindran",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I secured AIR 323 in this May INI CET. It wouldn't have been possible without BTR. I have been following BTR only for the longest time. In fact I took mission plan subscription only after November INI CET. But before that and even after that BTR has been the holy grail of my preparation. I actually cleared NEET PG 24 and was getting clinical branch at 13.5k. Many people told me to take up whatever I am getting because of increasing competition. I had just completed my internship and had attended Kolkata offline BTR. I thought I should at least give myself a chance to prepare properly before taking up a seat. Hence I took a drop. Although 323 might not be an excellent rank but it is definitely an improvement from my side and I owe this success to you ma'am. Thank you for everything you do for us Dr. Zainab Vora ma'am.",
+      name: "Dr. Avirup Mukherjee",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I got a rank of 674 all thanks to you. Couldn't believe it as starting my preparation from march, thought I was so late but as you always say BELIEF THO RAKHO, that what kept me going on. Just followed your schedule each and every day.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ok guys... no doubt I am clueless right now... How to approach now! But want to share something with you all... my last attempt that is May INI CET 2024 I had a rank of 69k... but this time it's 12k... I am happy for myself in one way but equally stressed how to proceed further in next 20 days. Dr. Zainab Vora ma'am is the one because of whom I could push till now. Ma'am Thank you is a very small word us all how to proceed for the next 20 days with this confused mind set.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I've got a rank of 1059 in this exam. I may or may not get a seat of my choice but this is very close to my heart. I ended up with 23k rank in NEET PG 2024, after which it was difficult to decide whether or not to take another drop. I'm so glad I did, and part of the reason was that BTR was my only source and I just had to go through that again. Later in Nov INI CET my rank was 6k, I am so so grateful. Thank you for all the support and positivity. Lots of love and respect.",
+      name: "Dr. Gautami",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Ma'am, You are a Angel sent by God for me... I could qualify because of your methods of learning and remembering.",
+      name: "Dr. Rainy",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am... Got 93k in NEET PG 24, 13k in INI CET Nov 24, 10k in INI CET May 25 Finally 4k in NEET PG 25... Thank you so much ma'am for everything... lots of love to you.",
+      name: "Dr. Sai",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Got a rank of AIR 156 in my first attempt. Started my prep in april with BTR. Owe most of it to Dr. Zainab ma'am. Thank you so much ma'am for getting me to this place.",
+      name: "Dr. Jyothi Iyer",
+      image: AvatarFemale,
+    },
+    {
+      feedback: "1.16 lakh NEET PG 24 to 9.3k now thank you Dr. Zainab ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I went from 153000 previous NEET PG to 15800 in this NEET PG. All thanks to Dr. Zainab Ma'am only. Without ma'am this wouldn't have been possible, Thank you ma'am. I owe you a lot.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am, It's been your creation that helped me achieve a rank of 1978 in this NEET PG. I am from 2018 batch and from a private medical college. I scored a rank of 28K last year in 2024 and was shattered. But you made me dare to dream big ma'am! I owe it to you ma'am. You've been a blessing in my life!! you're truly an inspiration ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I, Benozir Yeasmin, am writing in the group for the first time. Last year my rank was 30k and this year I secured 2800. This improvement is only because of your teaching and guidance. Really grateful to you for all the support.",
+      name: "Dr. Benozir Yeasmin",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am, I put in very little effort in my preparation during my internship and had made up my mind to take a drop year and joined BTR in late april after completing my internship. But in just 3 months of preparation I could secure an AIR of 4227 and it was only possible because of you. I used to look at the quote on my chhoti copy - at any moment you have the power to say this is not how my story will end and I now think it made me believe that I can do it and I did. Thankyou for giving me that courage to believe. This could have never been possible without you.",
+      name: "Dr. Sonal Yadav",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "From a rank of 97k in NEET PG 2024 to a rank of 7k in NEET PG 2025, I owe a lot of it to you ma'am. I really don't know if I'll ever be able to thankyou enough. You really kept me going even when I didn't know if I could. The little jokes between your videos were the best part of my prep journey, you have been my biggest inspiration in every which way possible and I feel so lucky to have met you at the 4 day offline BTR Chennai. I hope and wish to get to meet you again! Thankyou for everything.",
+      name: "Dr. Ipsa Mishra",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am. I am so grateful to you. I got 19k rank it's not that good but I am so grateful for this NEET PG 2024 I got 70k. 50k rank difference is only because of your mentorship in E&D. I will forever be grateful for you.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Firstly big big fan!! I mean for real. I wouldn't die to meet any Bollywood actors also this much that I would die to meet you. Got AIR 5700 ma'am, All thanks to YOU and only YOU ma'am. I came across BTR for the first time last year in the month of April and gave May INI. I hardly had done few subjects back then but right after that exam is when I realized what a gem BTR is and how well you taught us. Honestly I feel, I didn't even know this is how we study to retain for long term or the fact that everything can be integrated this well. Got a rank of 30k in 2024 and this was with 3 months of preparation. I honestly think if I had not come across your teaching, I clearly couldn't have cracked this exam. Cause you made it so interesting and so good. I couldn't go a day without listening to your voice. I'm just so so grateful for you ma'am!!",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you soooo much Dr. Zainab Vora ma'am... I have got 8405 rank and I am hopeful about getting MS Obs - Gynae this year... Thank you soooo much ma'am... BTR has helped me a looooootttt... Thank you...",
+      name: "Dr. Adieu",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Notification of 'your BTR subscription expiring soon' hurts me today... Dr. Zainab Vora ma'am became addictive of hearing your voice everyday. I want to hear your voice everyday will miss all the ends beech beech mein you saying deaaaaar and many more things. Just can't explain can't portray my feelings in words ma'am already started missing you.",
+      name: "Dr. Pragya Yadav",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "NEET PG AIR - 4413, RAJ Medical officer (MO) Rank- 336. Dr. Zainab Vora ma'am Thank youuuu so muchhhh ma'am for everything. Always grateful for YOU and BTR.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From AIR 26k last year to AIR 3.5k in NEET PG 25 this year by God's grace and my parents blessings. Thank you so much Dr. Zainab Vora Ma'am for everything. This year was indeed the toughest year for me and my family as my dad got diagnosed with colon cancer in Jan 25. Felt all hopes were shattered then the struggle to keep up the preparation along with managing family was very difficult for me and my mother. My best decision was to attend offline BTR in April after getting totally detached from studies for 3 months. That really gave me the direction and confidence I needed most to continue my struggle for my dream branch. This rank would have been impossible without you Ma'am and BTR. BTR indeed was the biggest blessing I needed at this difficult times.",
+      name: "Dr. Sayantan Roy",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am. I am from 2017 batch, secured a rank of 2197. I was heart broken last year when I got a rank of 22k despite studying hard. But you taught us how to not lose hope, how to keep going, how to keep faith in every situation of life. And your words 'At any given moment you have the power to say. This is not how my story is going to end' constantly kept me motivated. Words are short to describe my emotions when I saw my rank I owe this to you ma'am. And will forever be grateful to you.",
+      name: "Dr. Rajat",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am for your guidance and mentorship. Because of BTR And your E&D sessions I was able to understand the subjects much better. Forever grateful for having you as my teacher and playing a major role in this rollercoaster ride. Hope I become a good doctor and a good human being like you. Dr. Prateek Bhoot - AIR 9461.",
+      name: "Dr. Prateek Bhoot",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Notification of 'your BTR subscription expiring soon' hurts me today... Dr. Zainab Vora ma'am became addictive of hearing your voice everyday. I want to hear your voice everyday will miss all the ends beech beech mein you saying deaaaaar and many more things. Just can't explain can't portray my feelings in words ma'am already started missing you.",
+      name: "Dr. Pragya Yadav",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "NEET PG AIR - 4413, RAJ Medical officer (MO) Rank- 336. Dr. Zainab Vora ma'am Thank youuuu so muchhhh ma'am for everything. Always grateful for YOU and BTR.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From AIR 26k last year to AIR 3.5k in NEET PG 25 this year by God's grace and my parents blessings. Thank you so much Dr. Zainab Vora Ma'am for everything. This year was indeed the toughest year for me and my family as my dad got diagnosed with colon cancer in Jan 25. Felt all hopes were shattered then the struggle to keep up the preparation along with managing family was very difficult for me and my mother. My best decision was to attend offline BTR in April after getting totally detached from studies for 3 months. That really gave me the direction and confidence I needed most to continue my struggle for my dream branch. This rank would have been impossible without you Ma'am and BTR. BTR indeed was the biggest blessing I needed at this difficult times.",
+      name: "Dr. Sayantan Roy",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am. I am from 2017 batch, secured a rank of 2197. I was heart broken last year when I got a rank of 22k despite studying hard. But you taught us how to not lose hope, how to keep going, how to keep faith in every situation of life. And your words 'At any given moment you have the power to say. This is not how my story is going to end' constantly kept me motivated. Words are short to describe my emotions when I saw my rank I owe this to you ma'am. And will forever be grateful to you.",
+      name: "Dr. Rajat",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am for your guidance and mentorship. Because of BTR And your E&D sessions I was able to understand the subjects much better. Forever grateful for having you as my teacher and playing a major role in this rollercoaster ride. Hope I become a good doctor and a good human being like you. Dr. Prateek Bhoot - AIR 9461.",
+      name: "Dr. Prateek Bhoot",
+      image: AvatarMale,
+    },
   ],
 
   // Column 2 - Top to Bottom /////////////////////////////////////////////////////
@@ -1241,6 +1408,156 @@ export const testimonials = [
       name: "Dr. Anonymous",
       image: AvatarMale,
     },
+    {
+      feedback:
+        "I got a rank of 2643 on my first attempt. If not for you I wouldn't be where i am. I can't begin to express how grateful I'm. My story is to all those people who thinks that it's not possible with BTR or for those people who asks 'Is BTR enough?'. Ma'am truly you are a goddess, Even on my worst days I used to just watch your videos just to hear you talking. You get me out through every situation in life. I'm sure probably few years down the lane I'll still come back and watch you. I love you more than words ma'am. You are a blessing to this medical fraternity, Truly.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am got a good rank to escape this rat race. It was BTR which helped me to come back 10 days before the exam after a gap of 1.5 months. BTR is cherry on the top of a Good conceptual base created over the months using RR videos. For me it was enough to regain control and perform decently, to get under 9k, Thank you ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thanks allot Dr. Zainab Vora ma'am, Got 8156 rank in this NEET PG All thanks to BTR and specially exam and discussions Thanks allot ma'am.",
+      name: "Dr. Fuzail Bhad",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thanks a lot ma'am, The best ever class I attended till now after joining MBBS was offline BTR never imagined it could boost me this much, I don't know how much academically it gave me edge but mentally it gave me a big motivation and confidence to face the exam. In the last few days before exam solely followed BTR and its definitely a magic Secured 2354 rank from 73k last year, Thank you ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am... from NEET PG 2024 77462 to INI CET May 2025 11943 to NEET PG 2025 AIR 4000. Kahaani meri thi maine kamaal likh di... Thank you ma'am.",
+      name: "Dr. Anjali Singh",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "I'm from 2019 batch, and it's my first attempt of NEET PG in internship. I got 4k rank in NEET PG 2025 and it's all because of your guidance and teaching... BTR, yes it is the game changer. I got 38k rank in May INICET. Now ended up with 4k. My sincere thanks to Dr. Zainab Vora ma'am, I'm forever grateful for learning from you.",
+      name: "Dr. Gopikrishnan Murugavel",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you very much Dr. Zainab Vora ma'am. I am very grateful to you. You are very amazing teacher. Today I got an amazing rank because of your guidance and motivation. Everyday I just open my tab and literally only listening to you for hours.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I am one of your BTR subscriber, I am sure all your inbox will be filled with toppers but I am average student here. Went from 36000 rank in 2024 to 13700 rank this year I am satisfied because I gave my best and will be able to secure a good college in tamil nadu for ophthal. I am grateful and thankful to you. All these days during my second drop your videos have only been my constant friend. I have laughed and cried watching them. Thank you for everything, Forever grateful.",
+      name: "Dr. Naaz",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "From 59k to 17k in this NEET PG. All thanks to you Dr. Zainab Vora ma'am. Couldn't have done it without you.",
+      name: "Dr. Siddhant Patil",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "77k 2024 to 19k now. ( May not be a great rank but I'm truly grateful for it ) Thank you Dr. Zainab Vora ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I got AIR 209. Thanks for everything ma'am. Can't express my gratitude in words. This journey was full of ups and downs but your constant support and guidance did the magic. Thank you so much ma'am.",
+      name: "Dr. Ruchirank",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am, You made this terrible journey of mine bearable. Bless us so that we can at least be 10% of what you are. Thank you again, AIR 11k ( not good but enough for me) Always will be Grateful.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From 47K NEET PG 2024 to 7.5K in 2025 Thank you so much Dr. Zainab Vora ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am, It was my first attempt... AIR 7125, I am pheripheral private medical college vikhe patil. I had repeated twice for MBBS and got private college that time I had decided to take PG in government seat only. You were my constant motivation, during my exam I was feeling that I am watching a T&D I was recalling all your words thank you soooo much.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From a 1.8 lakh NEET PG 2024 rank, not qualifying INICET 2024 (Nov), to getting a 14k rank in INICET 2025 (May), and then a 23k rank in NEET PG 2025 - Ma'am, you have given me a lot of push every day. You are an inspiration to each and every aspirant. I know my rank is not up to the mark. That's on me - I went off track during the postponement and made some serious silly mistakes, which I take full responsibility for. But the motivation and commitment you have given are beyond another level. Thank you, ma'am, for everything. I'll always be grateful. I will keep pushing harder on this journey. As you said, I'll always take one day at a time.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From a 15k rank in NEET PG 2024 to rank 707 in 2025 - this wouldn't have been possible without you, Dr. Zainab Vora ma'am. I also attended the Kolkata BTR offline classes, which really boosted my confidence. Your integrated style of teaching and the way you connected all the ends were super helpful. I also have a twin brother, who is your student as well, and he is currently pursuing MD Medicine (NEET PG 2024 rank 1111). Both of us are truly grateful to you, ma'am. Hope to meet you someday.",
+      name: "Dr. Krishna Dana",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you ma'am, You are a blessing in my life from my allha. I reached from 1 lakh+ to 12k rank only BTR was my source. Only and only BTR and only your time table and MCQ practice... I can't thank enough alhamdulillah. Believed in my almighty, Believed in you, Believed in myself, Believed in BTR. As you once said have blind belief It's a huge leap for me ma'am. I am very happy with 12k rank All the credits to you and your hard work. Many Thanks to Zaru for keeping us sane and keeping our child in us alive. I can't end this, Thank you ma'am thank you so much and words aren't enough to express.",
+      name: "Dr. Yaseen",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Does BTR is sufficient ? Ans: A BIG YES. Because I have done only BTR nothing else. Now I am ready to take a seat Only gratitude to you ma'am. It couldn't have been possible without you. Only credits I can give to you in my journey, Finally a big thank you ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Dear Dr. Zainab Vora Ma'am, I wanted to sincerely thank you for all the guidance and support. I secured a rank of 8261, and while I understand my performance could have been better compared to my GT scores, I am truly grateful for your teaching. Your END modules helped me tremendously, and I relied almost entirely on BTR along with a few of my own Step 2 notes. It really would not have been possible without your clarity and structured approach. I'm so glad I chose to stay consistent with BTR instead of running after multiple resources. Thank you once again for making such a big difference in this journey.",
+      name: "Dr. Abhimanyu Agarwal",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From not being able to sit in the exam last year due to heavy rains and delay to AIR 751. It's been a long journey which became easier and interesting with you ma'am. Thank you Ma'am.",
+      name: "Dr. Kopal Maheshwari",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am, You made this infinite syllabus feel coverable in a finite number of days, and for that I am eternally grateful. I may be an atheist, but I have religiously followed you through every video, every class, and every E&D session. Because of that, I was able to achieve Rank 708 From 22k in NEET PG 2024, to 4.5k in INI May 2025, to finally 708 in NEET PG 2025 it has been a long, exhausting, and sometimes lonely journey. But you made it bearable. Your witty humor, your relatable references 'Are yaar, ma'am ne How I Met Your Mother bhi dekha hai, Friends bhi dekha hai, Big Bang Theory bhi dekha hai' they gave me a strange sense of belonging in this otherwise harsh and lonely path. This rank is as much yours as it is mine. I always dreamt of taking Radiology, and in you I found not just a teacher but an idol.",
+      name: "Dr. Ayush",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, Forever grateful to you ma'am what you have done for us in this tough journey. Believed in your content, Every single time question arises in mind is it sufficient very next second i remind myself did i master what i have. I followed your schedule and believe in you before myself and here i am NEET PG 24 27k rank, NEET PG 25 1521 rank.",
+      name: "Dr. Kuldeep Bishnoi",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ma'am thank you so much. If it wasn't for BTR I would never have been able to revise the whole syllabus multiple times. My rank jumped from 51k last year to 3426 this time. It is all thanks to your guidance throughout the preparation journey. Words can't express how grateful I am for BTR.",
+      name: "Dr. Vaibhav Jain",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ma'am I hope you read this message because you created a undefined impact in my preparation and my life. I know I am little late. After getting 21k rank last year I was completely clueless about what, how to do and many such questions were in my mind but that all ended on 26th august when I heard you in strategy session and all my questions and self doubt disappeared. BTR became my main source and added stuffs in it. Taking baby steps I got AIR 1400 in INI NOV 24 and AIR 1082 in INI MAY 25 and finally AIR 748 in NEET PG 25. Your constant encouragement, clarity in instructions and timely advice helped me each day each minute. The discipline you instilled has not only made me clear the exam but laid a strong foundation for my future. This is a token of my lifelong respect, gratitude and reverence.",
+      name: "Dr. Astha Singh",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "This is Dr. Rohith (2k17 batch) and I secured a Rank of 12k and I'm sure of getting Anesthesia/ENT/Ophthal which are my dream branches in Osmania, Hyderabad (my home town), Thank You Soo Much for your Persistent Efforts and Guidance ma'am. It was only possible because of you ma'am.",
+      name: "Dr. Rohith Reddy",
+      image: AvatarMale,
+    },
   ],
 
   // Column 3 - Bottom to Top ///////////////////////////////////////////////
@@ -1831,6 +2148,144 @@ export const testimonials = [
       feedback:
         "From backbencher to FMG to AIR 7600 (with job it was impossible for me to get here, definitely not a top rank but more than sufficient for me to get the branch i want). All thanks to Dr. Zainab ma'am, Thank you so much ma'am.",
       name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "NEET PG 2024 - 97k, Nov INI CET 24 - 4.5k, May INI CET 25 - 9k, NEET PG 2025 - 1413 Thank you so much Dr. Zainab Vora ma'am. Experienced so many personal issues during prep phase and couldn't study, but could always come back on track due to BTR and your lectures. It wouldn't have been possible with a long course for me. Thank you Dr. Zainab Vora ma'am for creating BTR and Teaching us.",
+      name: "Dr. Vinesh Kumar Reddy",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am, Secured AIR 1253 I don't have enough words how thank you I am someone who gave all the USMLE steps last year and then decided to pursue NEET PG Was totally clueless in January with what to start and how to do. Your classes were the only motivational thing that made helped me to conquer this difficult phase of life. All your mnemonics, mcq solving advice helped to secure this rank. I can't thank you enough. BTR helped me a lot during this phase and was the best revision tool towards the end. Thank you so much ma'am for everything.",
+      name: "Dr. Janmay Vala",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I got a rank of 5.9k in my first attempt at NET PG. I am from 2019 batch. I wholeheartedly give credit to all my teachers for this rank.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am. Did BTR as my primary source. Saw the videos for 4-5 times. Did revision for 4-5 times. From 90000 to 9367, It's all because of you ma'am. More than anyone you were the only person I used to listen all the time. I love you ma'am thank you so much for your efforts.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you ma'am for your invaluable guidance throughout signing off Forever grateful to you ma'am for so many things, May Almighty bless you abundantly with his choicest blessings... Love you ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I got 26k! Thank you so much Ma'am Dr. Zainab Vora very happy!! 'The wand chooses the wizard'.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am, Improved my rank from 100k last year to 13k this year. Without your help and guidance it wouldn't have been possible. Forever grateful to you for everything you have done as a teacher and mentor.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am for everything! Got rank 8335 and this wouldn't have been possible without you It was you who kept me going even at my lowest times Grateful to have you as my teacher. Can't thank you enough! Really want to meet you someday in my life. Now I'll give my best in INI CET as well as you said everyone should give INICET as there's nothing to lose! and also cause I want to see what happens if I don't give up.",
+      name: "Dr. Regina Phalange",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "I got AIR 433 and I want to thank you wholeheartedly for your guidance and teachings. Your classes have been a constant source of learning and motivation throughout my preparation phase. This achievement would not have been possible without you. The way you explained concepts, simplified difficult topics, and encouraged me through your words made a huge difference. From - 25k+ in INICET May 2024, 11588 in NEET PG 2024, 3709 in INICET Nov 2024, 1501 in INICET May 2025 and now AIR 433 in NEET 2025. You may not know me personally, but I have watched your videos almost everyday and the impact you have created is beyond words. I truly couldn't have done it without you. Thank you for being such an inspiring teacher.",
+      name: "Dr. Palak Jain",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "NEET PG 24 - 163k, INICET Nov - 26k, INICET May - 7956, NEET PG 25 - 9061. Grateful for everything in life if i can then anyone can You just gotta believe in yourself. Thank you so much Dr. Zainab Vora ma'am for the source you've created, Grateful.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you Dr. Zainab Vora ma'am From rank 15k in NEET PG 2024 to rank 732 in May INICET to Rank 28 in NEET PG 2025. It's totally BTR which changed my journey towards this result... Forever be grateful for you ma'am... Your motivation and the efforts you do for us made me to push myself ahead in this journey... You have always inspired me ma'am... It's been a very memorable journey in my life... so it's BTR - Believe Trust and Revise.",
+      name: "Dr. Yuvaraj Veeramani",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Forever indebted to you ma'am. The journey from 50k in 2024 to 4k in 2025 was only possible because of you ma'am! Can't thank you enough.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you ma'am, You've been such an amazing guide throughout this journey. I was studying for the first time and it was so helpful because you just didn't teach us. You were there always as our senior, scolding and praising us when needed. My rank last year was 31k and now it is 3k. I've gone through a lot personally these 1.5 years apart from studies... but your voice kept me on track and I am really grateful for that Thank you so much ma'am.",
+      name: "Dr. Aditi Arora",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am. BTR helped a lot in the quick revisions which I blatantly missed doing in my previous attempt. Last year 38k something, this year 4527 while working a job (job was for mental stability rather than financial).",
+      name: "Dr. Shubham Gabhane",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Dr. Zainab Vora ma'am Thanks a lot I secured AIR 6268 I know it's not the best rank but for me ma'am it's my biggest achievement. I had joined the college with sports quota and my rank that time was 5Lakh when my classmates has rank of 20-30k so it was so hard for me to cope up but I didn't give up I used it as my motivation and worked towards my goal thanks a lot ma'am for helping me. I'm forever grateful to you my friends and family for having some blind trust on me and pushing me forward no matter what thanks a lot to you ma'am. Wouldn't have been possible without BTR ma'am.",
+      name: "Dr. Mahima",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Dear Dr. Zainab Vora Ma'am, I just wanted to take a moment to thank you from the bottom of my heart. Cracking NEET PG in my first attempt, alongside internship and that too from a private university, would never have been possible without your constant guidance. From the very beginning, I had little faith in myself but immense faith in you. After NEET UG, I always carried this fire to prove something in life and I knew this was my chance. You literally spoon-fed me the way to study, your timetables, your methods, BTR and T&Ds... and I just did exactly what you said. The postponement turned out to be a blessing too - it helped me push from 145+ corrects to 160 corrects. And that wouldn't have happened without your system and mentorship. This rank is as much yours as it is mine. (RANK 3066).",
+      name: "Dr. Manvi Agarwal",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Dr. Zainab Vora ma'am can't really put my feelings into words. From 45k to 3157 in NEET PG 2025. Thank you for everything ma'am, Forever Indebted.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "NEET PG 2022 - 1 lakh, NEET PG 2023 - 50k, NEET PG 2024 - 40k, INI CET May 2025 - 11k, NEET PG 2025 - 10k. Its not that great... But being a average student I am happy with that because I will get MS Ortho in my state... My dream branch... I was there from the starting of BTR. Ma'am I will get my dream branch Its only for you. Your words your positive energy everything was like 'Maa Saraswati', You are my goddess. May be i am not that 1k 2k rank holder student. But I am achieving everything that is only for you. You are pathfinder to average student also like me. Thanks ma'am Thanks for BTR.",
+      name: "Dr. Aritra Mandal",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Dr. Zainab Vora ma'am, I did good this time... My rank is 1226. I have no words to express my gratitude to you and this message will never completely embody my emotions. THANK YOU MA'AM... BTR did help me to identify my short comings and focus my hardwork. Me being an FMGE was always told that NEET PG is out of my reach and you helped me prove it wrong. Thank you for helping me through this will always be grateful.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Dear Dr. Zainab Vora Ma'am, I sincerely thank you. I have secured an AIR 4402 in NEET PG 2025, compared to 19.5k in NEET PG 2024. Last year, I had the option of joining MD Anesthesia in one of the best colleges of the state, but I did not join. When I restarted my preparation, I faced many challenges while managing my duty at the CHC. Most of my friends had already joined, and at times I struggled with motivation. There were moments of regret and self-doubt, but your words - 'take baby steps and believe in yourself' - kept me moving forward. I truly consider you not only a mentor but also a friend who inspired me through this journey. Thank you so much ma'am, for your constant guidance and encouragement.",
+      name: "Dr. Rojalin Prusty",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, I got selected as a State Medical Officer ( 2 different state ) and a Central Government Officer( UPSC CMS ), from day one I trusted BTR, and I'll keep trusting it in the future too.",
+      name: "Dr. Richie Rich",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Hello to anyone who takes time to read it out. I am a student of 2018 batch from a private medical college in UP, secured a rank of 55k in NEET PG 2024 (first attempt) -> 11K in Nov INI CET 2024 -> 5K in May INI 2025 -> This year I secured a rank of 9k in NEET PG 2025. (All While working a job). I know it aint a huge jump, and i have been dealing with feeling a bit inadequate for the past 5 days because had i not made silly mistakes, things would have been way better. Now i dont know who needs to hear this, but its fine. This exam, or any competitive exam for that matter doesn't directly reflect the kind of professional you are in your stream. I am so very grateful to Dr. Zainab Vora ma'am, I did BTR only. Online and a 4 days BTR offline at Vidhya Jeevan which was phenomenal. Thank you so much ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I got AIR 6111, I want to thank you for your contribution in my journey of NEET PG prep, BTR helped me a lot, it was my base, the way you taught made me build my confidence towards a positive direction. Am really really grateful that I got the opportunity to learn from you ma'am. Am waiting to get interviewed by you ma'am, it would be a dream come true for me and for my parents. Thank you so much ma'am.",
+      name: "Dr. Ani",
       image: AvatarMale,
     },
     // {
