@@ -9,7 +9,7 @@ function InstagramFeed() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const RSS_FEED_URL = "https://rss.app/feeds/D5yhd54naMaGw1f4.xml";
+  const RSS_FEED_URL = "https://rss.app/feeds/G3vZxMus56nqvWwu.xml";
 
   // CORS proxy to bypass restrictions during development
   const CORS_PROXY = "https://api.allorigins.win/raw?url=";
