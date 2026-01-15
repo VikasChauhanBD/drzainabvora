@@ -993,6 +993,110 @@ export const testimonials = [
       name: "Dr. Shreya",
       image: AvatarFemale,
     },
+    {
+      feedback:
+        "Thank you so much Dr. Zainab Vora ma'am, I got 15k rank with 532 marks. Last year I got 56k rank this jump was possible only because of you. BTR was truly a gem in my prep. It helped me a lot in revision and made a big difference in my journey. Forever grateful to you.",
+      name: "Dr. Phoenix",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am. Got 5788 rank enough for my dream branch all because of your guidance forever blessed to be your student.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am because of you I got a good rank. Thank you so much, I am really grateful to you and BTR.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Rank - 1282 Thank you ma'am for everything. This wont have been possible without you.",
+      name: "Dr. Diya",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you ma'am, will forever be grateful to you, Got 4229 rank. Will always be Zavians.",
+      name: "Dr. Bhargavi Thakrar",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Got a rank of 5904. Thank you Dr. Zainab Vora ma'am for bringing BTR. During preparation I often wondered how I could become as ambitious and inspiring as you ma'am.",
+      name: "Dr. Afitha Abu",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "AIR 6372, I am from a private medical college and I never thought I had it in me to crack this exam. I was right I didn't! But you made me watching you work soo hard even after achieving the everything a person dreams of gave me an entirely different perspective of life. Never studied for the rank but only to become a good doctor like you said. I never touched any revision notes or main notes, just followed every word that came out of you religiously. MY RANK IS ALL YOURS! Always and forever your follower and in your debt.",
+      name: "Dr. Heeral",
+      image: AvatarFemale,
+    },
+    {
+      feedback: "From 1.5lakh to 7.5k thank you so much ma'am.",
+      name: "Dr. Shivani Lanje",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am. Secured AIR 341, Aapke guidance k bina possible nahi tha. Thank you for everything.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you so much for all your efforts and guidance ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you so much ma'am for your guidance and support.",
+      name: "Dr. Naveen",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Got a rank of 12473 in first attempt just because of you ma'am. Follow everything you said despite hearing so much negativity about BTR but I never left revising BTR. Thank you again ma'am for your greatness and kindness towards everyone. Really Grateful to learn from a teacher like you.",
+      name: "Dr. Prakash Kumar",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Always grateful to you for whatever you have done for us. I am happy with my results could have done a bit better but I think at this stage this is what I deserve, but surely I can improve a lot more. Thank you for everything ma'am.",
+      name: "Dr. Manash Pratim Das",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, Out of this rat race finally. Your contribution in this journey is just cannot be expressed in words. Thank you ma'am.",
+      name: "Dr. Ani",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, I got AIR 701 and the whole credit goes to you and words are very less you to thank you for this ma'am.",
+      name: "Dr. Sakshi",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am. It's been a great journey with you from rank 100000 in NEET PG 2024 to rank 6k this time.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much Ma'am, I come from a private medical college, this was my first attempt. I was mentally prepared for a drop, my only expectation was 'to give the best exam of my life' and I ended up with a 9k rank. I'm awestruck and speechless. Can not thank you enough! The 'private college' tag was very heavy ma'am you helped me flip the script.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you so much for making my journey simpler ma'am.",
+      name: "Dr. Pavithra Matam",
+      image: AvatarFemale,
+    },
   ],
 
   // Column 2 - Top to Bottom /////////////////////////////////////////////////////
@@ -1920,6 +2024,142 @@ export const testimonials = [
       name: "Dr. Anonymous",
       image: AvatarMale,
     },
+    {
+      feedback:
+        "Ma'am, Thank you so much for your guidance. I jumped from 12.8k rank in INI May 2025 to Rank 690 in NEET just because you believed in us. Ma'am, I am a 2019 batch passout, finished my MBBS in December 2024. After that I was working full-time due to financial reasons and wasn't able to study much, so got a rank of 12.8k in INI CET which really disheartened me. I didn't have any hope for NEET PG which was supposed to be held in June. But then the news of postponement came and your words echoed in my head. You said the postponement is for ME, to re-write my story and I took it to heart. I went from full-time work to part-time work and studied with a schedule and a plan. And the day of the exam, I did just as you told. I manifested, I believed. I ended up getting 167 corrects with a rank of 690. I am truly grateful to you.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "I have got a rank of AIR 441 from previous NEET PG rank 11000 ma'am. Thank you so much ma'am for your support and guidance.",
+      name: "Dr. Dhruthi",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "8.2k rank ma'am, Thank you for everything ma'am. Thank you for all the study methods and biggest thankyou for always being there.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Hats off to OG Dr. Zainab Vora ma'am, It's all because of your immense efforts from last year 85k to 2.9k this year (Got 2910). Thanks ma'am for your emotional support in my journey.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, Not possible without you. You are just OG thank you for existing, Got 5071 rank.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ma'am, I've got 5982 rank. I completed my internship 2 months before NEET PG. It was my first attempt. Thank you so much, Dr. Zainab Vora ma'am.",
+      name: "Dr. Bidisha",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank You Ma'am, From 86k in NEET 2024 to 5k in 2025. you have been the Guiding light in my life. Thanks a lot once again.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am for everything you made this journey so wonderful.",
+      name: "Dr. Alekha Bhalerao",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much mam for everything you did it's impossible without you.",
+      name: "Dr. Priya",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, couldn't do it without you, forever grateful.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, whatever i got was because of you. I remembered you just before starting the exam and you were there throughout can't tell the feeling right now. Thank you God for giving me mentor like Dr. Zainab ma'am. I bow down to you ma'am thank you so much for coming to teaching I don't know what I would have done without you.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ma'am, I haven't been active in this group too often, but only god knows how much BTR helped me in this journey, I had wasted quite a few months initially, but once BTR came in my schedule, there was no turning back, Your techniques and tricks are no doubt the best, Even after I faltered in INI CET May, kept my faith over BTR and finally it pushed my rank from 66k in 2024 to 7.9k this year. It maybe not a very good rank but I can proudly say if it was not Dr. Zainab ma'am, I couldn't have reached here as well. Thank you so much ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Got 665 rank ma'am, very much grateful to your test and discussions, total gamechanger thank you very much.",
+      name: "Dr. Leena",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you ma'am from 1 lakh+ to 12k rank only BTR was my source. Only and only BTR and only your time table and MCQ practice. I can't thank enough alhamdulillah. You are a blessing in my life from my allha I reached.",
+      name: "Dr. Yaseen",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am! I got good scores and my parents are soo proud of me. All thanks to you.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you so much ma'am for your guidance.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you ma'am, Now will start building again on my partially built castle, I am ahead of my previous start. Thank you so much ma'am for the new cycle, see you on 25th.",
+      name: "Dr. S Mundra",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much for being with us throughout the journey ma'am. whatever I've scored today, you have played a great part with that. I'll get my desired branch in a good college. I'm really grateful for all the support that you gave.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "From 83k in NEET PG 2024 to rank of 5340 in NEET PG 2025, Thank you so much for the guidance ma'am. The journey was so enjoying because you made it. Fan of your witty nature, kind soul, personal mentorship. And most importantly, how you focus on the importance of 'we are so stressed and focused on small A's in life that we forget that we are already blessed with big A's in life. We forget that life is passing by exam is just an exam' Apart from the guidance, I will always try to implement the life lessons you teach us! Thank you ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "NEET PG 2024: 1 Lakh rank, INI CET May 2025: 13k rank, NEET PG 2025: AIR 993. Thank you would be an understatement when I think about what you've given me Dr. Zainab Vora ma'am. Will always be Indebted to your teachings and constant support.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Got 624 marks, 1155 rank Thank you Ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Got a AIR 6.2k thank you ma'am for constant support, for being in both up and downs of this journey. Always grateful to you ma'am. Thank you.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "AIR 26k ma'am, Thank you so much Will get my desired branch Just wanted to know this is my 6th attempt. Finally my NEET PG journey ended with your guidance thank you ma'am.",
+      name: "Dr. Shravan",
+      image: AvatarMale,
+    },
   ],
 
   // Column 3 - Bottom to Top ///////////////////////////////////////////////
@@ -2801,6 +3041,116 @@ export const testimonials = [
         "Thank you ma'am, You are a real gem and more respects towards you ma'am.",
       name: "Dr. Ganesh K",
       image: AvatarMale,
+    },
+    {
+      feedback:
+        "From backbencher to FMGE to 7600 (with job it was impossible for me to get here, definitely not a top rank but more than sufficient for me to get the branch i want). All thanks to Dr. Zainab Vora ma'am. Thank you so much ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Rank 2245 Ma'am, Thank you so much ma'am.",
+      name: "Dr. Akshay Sr",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you so much ma'am, I got 9639 All thanks to you ma'am.",
+      name: "Dr. Natasha Sharma",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, I got 6.5k rank from 67k last year. All because of you, I will get my dream branch.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback: "Thank you ma'am for everything, Got the rank that I desired.",
+      name: "Dr. Avneesh",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thanks a lot ma'am got air 3004 in my first attempt, Thank you so much.",
+      name: "Dr. Sanyam",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am, for your constant support and dedication in our journey. My sole source for prep was BTR & it helped me get 332 rank (from 59k last year). Much gratitude.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am. BTR changed my life and you have been a guardian angel for me. I got 2.5k rank in NEET PG and 1.7k rank INI CET May and can't be more grateful to you than i am really. Thank you once again ma'am.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you so much ma'am for all the effort you put to sort out the content for us and always guiding us as a well wishing senior. Blessed to have learnt from you.",
+      name: "Dr. Srivastava",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you ma'am for all that you have done. Although the result wasn't satisfactory but I've made my peace with it. Our ranks are not a reflection of our hard work.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Ma'am, thank you so much for your support and guidance. Your encouragement and help were crucial in clearing my exams. I am forever grateful.",
+      name: "Dr. Gaveesh Karadi",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Felt like hugging you while giving the paper, when I saw the result felt like bowing and touching your feet ma'am! You've literally been the biggest blessing and guiding force in this journey! Can't thank you enough.",
+      name: "Dr. Kashish Jaitley",
+      image: AvatarFemale,
+    },
+    {
+      feedback: "Got AIR 119, Thank you ma'am for BTR.",
+      name: "Dr. Pavan",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Hi ma'am, Got a rank of 1233 in NEET PG. Thank you so much for everything. I've relied on BTR only as main source and if anyone says BTR is not enough I will just say BTR is as good as you are. It's the crux of the story what you've created is a Zainab verse of your own with everything coming together beautifully in the end. At first IMBJ is just an annoying four letter word in the end it becomes the meeting point of so many subjects. Ma'am really you are an artist if there is anyone who has prepared for this entrance to the top notch level it's you and you do it every year. There are many sources of preparation but there is only one mentor who is there from strategy class till ashirvaad class. Thank you for being part of my journey.",
+      name: "Dr. Eshita",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Ma'am thank you so much BTR is enough for me I believe in that and it came true.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "The best thing about BTR is that it always prepares you for the worst case scenario ( a toughest paper) so when you actually see the questions in NEET PG you feel relieved. Can not thank you enough ma'am for pushing us more towards AIR 1, even though we couldn't get that somehow we end up getting a decent rank enough to get into a branch and college of our choice.",
+      name: "Dr. Saptha Giri",
+      image: AvatarFemale,
+    },
+    {
+      feedback:
+        "Ma'am got an air of 2206, Thank you so much for everything. Biggest fan Ma'am.",
+      name: "Dr. Daksh Krishnani",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "AIR 5491 from 1 lakh. Thank you so much ma'am, BTR helped the most in increasing the score.",
+      name: "Dr. Anonymous",
+      image: AvatarMale,
+    },
+    {
+      feedback:
+        "Thank you soo much for making BTR ma'am. I got 4.9k from 52k last year! Soo grateful to you ma'am.",
+      name: "Dr. Saahi",
+      image: AvatarFemale,
     },
     // {
     //   feedback:

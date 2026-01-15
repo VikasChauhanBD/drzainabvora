@@ -42,7 +42,7 @@
 
 .track-up {
   animation-name: slideUp;
-  animation-duration: 1000s;
+  animation-duration: 1200s;
 }
 
 /* .column-1 .track-up {
@@ -55,7 +55,7 @@
 
 .track-down {
   animation-name: slideDown;
-  animation-duration: 1000s;
+  animation-duration: 1500s;
 }
 
 @keyframes slideUp {
