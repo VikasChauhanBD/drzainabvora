@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CRApp.css";
 import { NavLink } from "react-router-dom";
-import MockUpImage from "../../assets/images/cr-mockup.webp";
 import PlayStore from "../../assets/images/playstore.webp";
 import AppStore from "../../assets/images/appstore.webp";
 
@@ -10,7 +9,10 @@ function CRApp() {
     <div className="crapp-container">
       <div className="crapp-main">
         <div className="crapp-image">
-          <img src={MockUpImage} alt="Hero" />
+          <img
+            src="https://cdn.dribbble.com/userupload/46394027/file/25cf029e9e83338c6a3542fe90a503a7.webp"
+            alt="cr-mockup"
+          />
         </div>
 
         <div className="crapp-content">

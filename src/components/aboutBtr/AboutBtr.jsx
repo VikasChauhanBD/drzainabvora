@@ -1,14 +1,16 @@
 import React from "react";
 import "./AboutBtr.css";
 import { NavLink } from "react-router-dom";
-import BtrImage from "../../assets/images/about-btr-image.webp";
 
 function AboutBtr() {
   return (
     <div className="about-btr-container">
       <div className="about-btr-cards">
         <div className="about-btr-image">
-          <img src={BtrImage} alt="" />
+          <img
+            src="https://cdn.dribbble.com/userupload/46394010/file/1e842c14be5b580134cd798c1aead2e5.webp"
+            alt="about-btr-image"
+          />
         </div>
         <div className="about-btr-content">
           <h1 className="about-btr-heading">About BTR</h1>

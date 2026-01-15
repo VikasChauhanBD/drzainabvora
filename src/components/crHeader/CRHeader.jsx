@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./CRHeader.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/cr-banner.jpg";
 
 function CRHeader() {
   return (
     <div className="crheader-container">
       <div className="crheader-banner">
-        <img src={Banner} alt="CR Banner" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394023/file/1e47d594a1e372a3603fdca99d825bef.jpg"
+          alt="CR Banner"
+        />
       </div>
 
       <div className="crheader-content">

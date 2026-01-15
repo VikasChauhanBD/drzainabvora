@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./BtrHeader.css";
-import Image1 from "../../assets/images/btr-header-1.JPG";
-import Image2 from "../../assets/images/btr-header-2.JPG";
 
 const BtrHeader = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -48,9 +46,6 @@ const BtrHeader = () => {
               confusion we go through, and then distilled the entire syllabus
               into something that won't fry your brain."
             </p>
-            {/* <span>
-              I've studied under her, so let me give you the real deal
-            </span> */}
           </div>
         </div>
       </section>

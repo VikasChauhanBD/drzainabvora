@@ -1,12 +1,14 @@
 import React from "react";
 import "./CrispHeader.css";
-import BannerImage from "../../assets/images/crisp-banner.jpeg";
 
 function CrispHeader() {
   return (
     <div className="crisp-header-container">
       <div className="crisp-header-banner">
-        <img src={BannerImage} alt="" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394008/file/8c1e8a2287d54ca34b7d0136f4a53ba2.jpeg"
+          alt="crisp-banner"
+        />
       </div>
 
       <div className="crisp-header-content">

@@ -1,14 +1,15 @@
 import React from "react";
 import "./Bootcamp.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/neet-pg-bootcamp-banner.jpg";
-import Image from "../../assets/images/neet-pg-bootcamp.webp";
 
 function Bootcamp() {
   return (
     <div className="bootcamp-container">
       <div className="bootcamp-banner">
-        <img src={Banner} alt="" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394038/file/78d1e389807ff9a2a1f665d86b49e7db.jpg"
+          alt="neet-pg-bootcamp-banner"
+        />
       </div>
 
       <div className="bootcamp-header">
@@ -40,7 +41,10 @@ function Bootcamp() {
 
       <div className="bootcamp-high">
         <div className="bootcamp-high-image">
-          <img src={Image} alt="Hero" />
+          <img
+            src="https://cdn.dribbble.com/userupload/46394035/file/bd0a89a0a1b12002437146371728adee.webp"
+            alt="neet-pg-bootcamp"
+          />
         </div>
 
         <div className="bootcamp-high-content">

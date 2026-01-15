@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./TestimonialHeader.css";
-import Image1 from "../../assets/images/crash-course-image2.jpg";
-import Image2 from "../../assets/images/crash-course-image1.jpg";
-import Image3 from "../../assets/images/neet-pg-bootcamp.webp";
 import DrArushiVahie from "../../assets/studentsImages/Dr-Arushi-Vahie.png";
 import DrNavya from "../../assets/studentsImages/Dr-Navya.png";
 import DrRajeswariRiya from "../../assets/studentsImages/Dr-Rajeswari-Riya.png";
@@ -152,7 +149,11 @@ const TestimonialHeader = () => {
   ];
 
   // Certificate images
-  const certificateImages = [Image1, Image2, Image3];
+  const certificateImages = [
+    "https://cdn.dribbble.com/userupload/46394035/file/bd0a89a0a1b12002437146371728adee.webp",
+    "https://cdn.dribbble.com/userupload/46394037/file/779239c41dca64941a9c00383e17cfcd.webp",
+    "https://cdn.dribbble.com/userupload/46394036/file/7dd4070634fe035c743acdf5284c1039.jpg",
+  ];
 
   // Initialize visible profiles - randomly select 10 from the pool
   useEffect(() => {

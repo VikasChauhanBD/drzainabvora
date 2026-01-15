@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import "./OfflineBTR.css";
 import { NavLink } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Banner from "../../assets/images/crash-course-banner.jpeg";
-import Image1 from "../../assets/images/offline-btr-image.webp";
 
 function OfflineBTR() {
   // const [text] = useTypewriter({
@@ -14,7 +12,10 @@ function OfflineBTR() {
   return (
     <div className="offline-btr-container">
       <div className="offline-btr-banner">
-        <img src={Banner} alt="" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394015/file/86537fb81017d699d53e04a9bee72d19.jpeg"
+          alt="crash-course-banner"
+        />
       </div>
 
       <div className="offline-btr-header">
@@ -78,7 +79,10 @@ function OfflineBTR() {
         </div>
 
         <div className="offline-btr-high-image">
-          <img src={Image1} alt="" />
+          <img
+            src="https://cdn.dribbble.com/userupload/46394037/file/779239c41dca64941a9c00383e17cfcd.webp"
+            alt="offline-btr-image"
+          />
         </div>
       </div>
     </div>

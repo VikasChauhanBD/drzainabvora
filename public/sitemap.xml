@@ -47,6 +47,12 @@
     <priority>0.7</priority>
   </url>
 
+   <url>
+    <loc>http://localhost:5173/conceptual-radiology-books</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <url>
     <loc>https://drzainabvora.com/crisp</loc>
     <changefreq>weekly</changefreq>

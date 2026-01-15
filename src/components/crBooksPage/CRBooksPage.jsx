@@ -1,16 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./CRBooksPage.css";
 import { data, NavLink } from "react-router-dom";
-import BookBanner from "../../assets/images/book-banner.jpeg";
-import Book1 from "../../assets/images/book-1.jpeg";
-import Book2 from "../../assets/images/book-2.jpeg";
-import Book3 from "../../assets/images/book-3.jpeg";
-import Book4 from "../../assets/images/book-4.jpeg";
-import Book5 from "../../assets/images/book-5.jpeg";
-import Book6 from "../../assets/images/book-6.jpeg";
-import Book7 from "../../assets/images/book-7.jpeg";
-import Book8 from "../../assets/images/book-8.jpeg";
-import Book9 from "../../assets/images/book-9.jpeg";
 
 const CRBooksPage = () => {
   const cardsContainerRef = useRef(null);
@@ -135,7 +125,8 @@ const CRBooksPage = () => {
   const cardData = [
     {
       id: 1,
-      image: Book1,
+      image:
+        "https://cdn.dribbble.com/userupload/46394017/file/eb15229bf4528535eeddaf219d065f1e.jpeg",
       title: "1. Concepts in Radiology – Volume I",
       description:
         "This volume lays a strong foundation in radiology by covering all major subspecialties with a balanced mix of theory and clinical application. Written by legendary faculty, it helps residents understand imaging concepts systematically while integrating practical insights, multimedia resources, and self-assessment tools for effective learning.",
@@ -143,7 +134,8 @@ const CRBooksPage = () => {
     },
     {
       id: 2,
-      image: Book2,
+      image:
+        "https://cdn.dribbble.com/userupload/46394018/file/e2ca361d6ade93b5638c2714ab27b0c6.jpeg",
       title: "2. Concepts in Radiology – Volume II",
       description:
         "Volume II focuses on conceptual clarity and diagnostic reasoning through concise lecture notes and case-based explanations. It is especially useful for early residents who want to develop a structured approach to image interpretation across multiple radiology subspecialties.",
@@ -151,7 +143,8 @@ const CRBooksPage = () => {
     },
     {
       id: 3,
-      image: Book3,
+      image:
+        "https://cdn.dribbble.com/userupload/46394011/file/f2f968f6bbef5f79f2f0b7badfe0a53b.jpeg",
       title: "3. Concepts in Radiology – Volume III",
       description:
         "Designed to sharpen higher-level diagnostic skills, this volume connects imaging findings with pathology, surgical planning, and clinical decision-making. It blends evidence-based guidelines with expert judgment, preparing learners for real-world reporting and multidisciplinary discussions.",
@@ -159,7 +152,8 @@ const CRBooksPage = () => {
     },
     {
       id: 4,
-      image: Book4,
+      image:
+        "https://cdn.dribbble.com/userupload/46394020/file/0ec80a054ae6708cbad565e900d864fb.jpeg",
       title: "4. Concepts in Radiology – Volume IV",
       description:
         "A high-yield, focused guide covering Chest Imaging, Cardiovascular Radiology, and Uro-radiology. The content progresses from basic principles to advanced applications, making it ideal for quick revision, daily reporting reference, and exam-oriented preparation.",
@@ -167,7 +161,8 @@ const CRBooksPage = () => {
     },
     {
       id: 5,
-      image: Book5,
+      image:
+        "https://cdn.dribbble.com/userupload/46394013/file/d37ddc72c73bc3d6679e90531feaeeaa.jpeg",
       title: "5. Concepts in Radiology – Volume V",
       description:
         "This volume integrates Women’s Imaging, Core Imaging Physics, and important advances in radiology. It simplifies complex physics concepts, explains safety protocols and guidelines clearly, and delivers exam-ready content for residents and fellows.",
@@ -175,7 +170,8 @@ const CRBooksPage = () => {
     },
     {
       id: 6,
-      image: Book6,
+      image:
+        "https://cdn.dribbble.com/userupload/46394009/file/765ad69ae1b8c70a42f99b6f37db78b2.jpeg",
       title: "6. Radiological Anatomy: Practice Cases",
       description:
         "A practical, image-based book designed to strengthen radiological anatomy using X-ray, CT, MRI, and ultrasound cases. It enhances recognition of normal anatomy, anatomical variants, and key landmarks essential for accurate interpretation.",
@@ -183,7 +179,8 @@ const CRBooksPage = () => {
     },
     {
       id: 7,
-      image: Book7,
+      image:
+        "https://cdn.dribbble.com/userupload/46394014/file/92b80220ee54ffcc26e2240611d7a70e.jpeg",
       title: "7. Spotters Cases in Radiology",
       description:
         "A dedicated spotters book created to improve speed, accuracy, and confidence in identifying key imaging findings. Ideal for systematic revision, exam preparation, and group discussions for MD and DNB radiology residents.",
@@ -191,7 +188,8 @@ const CRBooksPage = () => {
     },
     {
       id: 8,
-      image: Book8,
+      image:
+        "https://cdn.dribbble.com/userupload/46394012/file/30e6647c99e156baf67a9a238eeb0b86.jpeg",
       title: "8. DNB Master Solutions Radiology – Volume I",
       description:
         "An exam-oriented resource featuring actual DNB Radiology question papers from the past six years with detailed, point-wise solutions. It helps students understand exam patterns, marking schemes, and answer-writing strategies.",
@@ -199,7 +197,8 @@ const CRBooksPage = () => {
     },
     {
       id: 9,
-      image: Book9,
+      image:
+        "https://cdn.dribbble.com/userupload/46394021/file/835ef06e0277c7dd99426f7d6f5bd1fb.jpeg",
       title: "9. DNB Master Solutions Radiology – Volume II",
       description:
         "This volume continues with more recent DNB Radiology question papers and in-depth explanations. It supports final-phase preparation by highlighting high-frequency topics and refining exam strategies with confidence.",
@@ -210,7 +209,10 @@ const CRBooksPage = () => {
   return (
     <div className="crbookspage-container">
       <div className="crbookspage-banner">
-        <img src={BookBanner} alt="" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394026/file/b543e24367afcd15380429f93987c107.jpeg"
+          alt="cr-books-page-banner"
+        />
       </div>
 
       <div className="crbookspage-price">

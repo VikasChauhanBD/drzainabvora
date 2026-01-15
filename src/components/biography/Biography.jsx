@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Biography.css";
-import Icon from "../../assets/images/zv-icon.jpg";
 
 export default function Biography() {
   const sectionRef = useRef(null);

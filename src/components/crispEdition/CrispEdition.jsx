@@ -1,8 +1,6 @@
 import React from "react";
 import "./CrispEdition.css";
 import { NavLink } from "react-router-dom";
-import Edition1 from "../../assets/images/crisp-1.webp";
-import Edition2 from "../../assets/images/crisp-2.webp";
 
 function CrispEdition() {
   return (
@@ -49,7 +47,10 @@ function CrispEdition() {
         </h1>
         <div className="crisp-edition-card">
           <div className="crisp-edition-card-image">
-            <img src={Edition1} alt="" />
+            <img
+              src="https://cdn.dribbble.com/userupload/46394016/file/4f16418449ad83c2cb7fe122d55ddb9b.webp"
+              alt="Edition1"
+            />
           </div>
           <h3>
             CRISP 2024 (1<sup>st</sup> Edition)
@@ -67,7 +68,10 @@ function CrispEdition() {
 
         <div className="crisp-edition-card">
           <div className="crisp-edition-card-image">
-            <img src={Edition2} alt="" />
+            <img
+              src="https://cdn.dribbble.com/userupload/46394007/file/bf6eb480b9be47fec23994e3e0eb0f1b.webp"
+              alt="Edition2"
+            />
           </div>
           <h3>
             CRISP 2025 (2<sup>nd</sup> Edition)

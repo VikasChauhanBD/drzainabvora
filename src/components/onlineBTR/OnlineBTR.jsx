@@ -1,14 +1,15 @@
 import React from "react";
 import "./OnlineBTR.css";
 import { NavLink } from "react-router-dom";
-import Banner from "../../assets/images/online-btr-banner.jpg";
-import Image from "../../assets/images/online-btr-image.webp";
 
 function OnlineBTR() {
   return (
     <div className="online-btr-container">
       <div className="online-btr-banner">
-        <img src={Banner} alt="" />
+        <img
+          src="https://cdn.dribbble.com/userupload/46394030/file/eacdbc74e520e22a292e50395eea41b8.jpg"
+          alt="online-btr-banner"
+        />
       </div>
 
       <div className="online-btr-header">
@@ -38,7 +39,10 @@ function OnlineBTR() {
 
       <div className="online-btr-high">
         <div className="online-btr-high-image">
-          <img src={Image} alt="Hero" />
+          <img
+            src="https://cdn.dribbble.com/userupload/46394040/file/30079b3f3b0a736db9bd61a7d89ac0cb.webp"
+            alt="online-btr-image"
+          />
         </div>
 
         <div className="online-btr-high-content">
