@@ -108,8 +108,9 @@
 }
 
 .crbookspage-card__btn {
-  width: 200px;
+  width: 210px;
   text-decoration: none;
+  text-align: center;
   font-size: 18px;
   font-weight: 600;
   padding: 8px 16px;
@@ -165,7 +166,7 @@
   }
 
   .crbookspage-card__btn {
-    width: 180px;
+    width: 190px;
     font-size: 16px;
   }
 }
