@@ -7,7 +7,7 @@ function Bootcamp() {
     <div className="bootcamp-container">
       <div className="bootcamp-banner">
         <img
-          src="https://cdn.dribbble.com/userupload/46394038/file/78d1e389807ff9a2a1f665d86b49e7db.jpg"
+          src="https://cdn.dribbble.com/userupload/46428531/file/ec15c4c33447539de5d8ff7c659bea8d.png"
           alt="neet-pg-bootcamp-banner"
         />
       </div>
@@ -69,9 +69,7 @@ function Bootcamp() {
               <b>Mini tests with explanations</b>
             </li>
           </ul>
-          <p>
-            New Batch Starts from 18<sup>th</sup> January 2026
-          </p>
+          <p>New Batch Started</p>
         </div>
       </div>
 
