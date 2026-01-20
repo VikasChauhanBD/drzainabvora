@@ -5,7 +5,7 @@ export default function Schedule() {
   const neetPgSchedule = [
     { date: "2026-01-18", subject: "Orientation" },
     { date: "2026-01-19", subject: "OBG-1" },
-    { date: "2026-01-21", subject: "OBG-2" },
+    { date: "2026-01-20", subject: "OBG-2" },
     { date: "2026-01-24", subject: "OBG Test-Discussion" },
     { date: "2026-01-26", subject: "PSM-1" },
     { date: "2026-01-28", subject: "PSM-2" },
@@ -47,7 +47,7 @@ export default function Schedule() {
     { date: "2026-05-07", subject: "Mock-GT-1" },
     { date: "2026-05-09", subject: "Mock-GT-2" },
     { date: "2026-05-11", subject: "INICET Mock GT" },
-    { date: "2026-05-17", subject: "INICET" },
+    // { date: "2026-05-17", subject: "INICET" },
   ];
 
   const formatDate = (dateString) => {

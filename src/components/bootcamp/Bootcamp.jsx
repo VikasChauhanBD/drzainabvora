@@ -69,7 +69,9 @@ function Bootcamp() {
               <b>Mini tests with explanations</b>
             </li>
           </ul>
-          <p>New Batch Started</p>
+          <p>
+            New Batch Started From 18<sup>th</sup> Jan 2026
+          </p>
         </div>
       </div>
 
