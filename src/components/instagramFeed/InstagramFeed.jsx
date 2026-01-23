@@ -34,29 +34,29 @@ const InstagramFeed = () => {
         <p className="instagram-header-subtitle">Latest Instagram Posts</p>
       </div>
 
-      <div className="instagram-post">
-        <iframe
-          src="https://www.instagram.com/p/DT2GPQqDEAW/embed"
-          width="100%"
-          height="580"
-          frameBorder="0"
-          scrolling="no"
-          allowTransparency="true"
-        ></iframe>
-      </div>
-
-      <div className="instagram-post">
-        <iframe
-          src="https://www.instagram.com/p/DT19cYtkyGD/embed"
-          width="100%"
-          height="580"
-          frameBorder="0"
-          scrolling="no"
-          allowTransparency="true"
-        ></iframe>
-      </div>
-
       <div className="instagram-grid">
+        <div className="instagram-post">
+          <iframe
+            src="https://www.instagram.com/p/DT2GPQqDEAW/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
+            src="https://www.instagram.com/p/DT19cYtkyGD/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+          ></iframe>
+        </div>
+
         <div className="instagram-post">
           <iframe
             src="https://www.instagram.com/p/DTqXHrsEvqV/embed"
