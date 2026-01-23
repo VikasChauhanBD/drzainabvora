@@ -146,74 +146,95 @@ const Feedback = () => {
     },
   ];
 
-  const row1 = testimonials.slice(0, 5);
-  const row2 = testimonials.slice(5);
+  const row1 = testimonials.slice(0, 10);
+  const row2 = testimonials.slice(10, 20);
+
+  const TestimonialCard = ({ testimonial }) => (
+    <div className="feedback-card">
+      <p className="feedback-text">{testimonial.feedback}</p>
+      <div className="feedback-author">
+        <img
+          src={testimonial.image}
+          alt={testimonial.name}
+          className="feedback-author-image"
+        />
+        <div className="feedback-author-info">
+          <h4 className="feedback-author-name">{testimonial.name}</h4>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <div className="feedback-section">
       <h2 className="feedback-title">From Our Students</h2>
 
       <div className="feedback-container">
+        {/* First Row - Desktop shows first 10, Mobile/Tablet shows all 20 */}
         <div className="feedback-row">
           <div
-            className={`feedback-track feedback-track-left ${
-              isPausedRow1 ? "paused" : ""
-            }`}
+            className={`feedback-track ${isPausedRow1 ? "paused" : ""}`}
             onMouseEnter={() => setIsPausedRow1(true)}
             onMouseLeave={() => setIsPausedRow1(false)}
           >
-            {[...row1, ...row1].map((testimonial, index) => (
-              <div key={index} className="feedback-card">
-                <p className="feedback-text">{testimonial.feedback}</p>
-                <div className="feedback-author">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="feedback-author-image"
-                  />
-                  <div className="feedback-author-info">
-                    <h4 className="feedback-author-name">{testimonial.name}</h4>
-                    <p className="feedback-author-handle">
-                      {testimonial.handle}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
+            {/* Desktop: First 10 testimonials repeated */}
+            <div className="desktop-track">
+              {row1.map((testimonial, index) => (
+                <TestimonialCard
+                  key={`row1-${index}`}
+                  testimonial={testimonial}
+                />
+              ))}
+              {row1.map((testimonial, index) => (
+                <TestimonialCard
+                  key={`row1-duplicate-${index}`}
+                  testimonial={testimonial}
+                />
+              ))}
+            </div>
+
+            {/* Mobile/Tablet: All 20 testimonials repeated */}
+            <div className="mobile-track">
+              {testimonials.map((testimonial, index) => (
+                <TestimonialCard
+                  key={`mobile-${index}`}
+                  testimonial={testimonial}
+                />
+              ))}
+              {testimonials.map((testimonial, index) => (
+                <TestimonialCard
+                  key={`mobile-duplicate-${index}`}
+                  testimonial={testimonial}
+                />
+              ))}
+            </div>
           </div>
         </div>
 
-        <div className="feedback-row">
+        {/* Second Row - Desktop only, shows last 10 */}
+        <div className="feedback-row feedback-row-second">
           <div
-            className={`feedback-track feedback-track-right ${
-              isPausedRow2 ? "paused" : ""
-            }`}
+            className={`feedback-track feedback-track-reverse ${isPausedRow2 ? "paused" : ""}`}
             onMouseEnter={() => setIsPausedRow2(true)}
             onMouseLeave={() => setIsPausedRow2(false)}
           >
-            {[...row2, ...row2].map((testimonial, index) => (
-              <div key={index} className="feedback-card">
-                <p className="feedback-text">{testimonial.feedback}</p>
-                <div className="feedback-author">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="feedback-author-image"
-                  />
-                  <div className="feedback-author-info">
-                    <h4 className="feedback-author-name">{testimonial.name}</h4>
-                    <p className="feedback-author-handle">
-                      {testimonial.handle}
-                    </p>
-                  </div>
-                </div>
-              </div>
+            {row2.map((testimonial, index) => (
+              <TestimonialCard
+                key={`row2-${index}`}
+                testimonial={testimonial}
+              />
+            ))}
+            {row2.map((testimonial, index) => (
+              <TestimonialCard
+                key={`row2-duplicate-${index}`}
+                testimonial={testimonial}
+              />
             ))}
           </div>
         </div>
 
-        <div className="feedback-fog-overlay feedback-fog-left"></div>
-        <div className="feedback-fog-overlay feedback-fog-right"></div>
+        <div className="feedback-fog-left"></div>
+        <div className="feedback-fog-right"></div>
       </div>
 
       <div className="feedback-btn">

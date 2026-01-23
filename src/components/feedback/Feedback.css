@@ -30,21 +30,40 @@
 .feedback-track {
   display: flex;
   gap: 20px;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  width: fit-content;
 }
 
-.feedback-track-left {
-  animation-name: slideLeft;
-  animation-duration: 40s;
+/* Desktop track - shows first/last 10 */
+.desktop-track {
+  display: flex;
+  gap: 20px;
+  animation: scrollLeft 120s linear infinite;
 }
 
-.feedback-track-right {
-  animation-name: slideRight;
-  animation-duration: 35s;
+/* Reverse animation for second row */
+.feedback-track-reverse {
+  animation: scrollRight 120s linear infinite;
 }
 
-@keyframes slideLeft {
+/* Mobile track - shows all 20 */
+.mobile-track {
+  display: none;
+  gap: 20px;
+  animation: scrollLeft 80s linear infinite;
+}
+
+/* Pause on hover */
+.feedback-track.paused .desktop-track,
+.feedback-track.paused .mobile-track {
+  animation-play-state: paused;
+}
+
+.feedback-track-reverse.paused {
+  animation-play-state: paused;
+}
+
+/* Animations */
+@keyframes scrollLeft {
   0% {
     transform: translateX(0);
   }
@@ -53,17 +72,13 @@
   }
 }
 
-@keyframes slideRight {
+@keyframes scrollRight {
   0% {
     transform: translateX(-50%);
   }
   100% {
     transform: translateX(0);
   }
-}
-
-.feedback-track.paused {
-  animation-play-state: paused !important;
 }
 
 .feedback-card {
@@ -78,7 +93,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   flex-shrink: 0;
 }
 
@@ -121,12 +138,8 @@
   margin-bottom: 4px;
 }
 
-.feedback-author-handle {
-  color: #999;
-  font-size: 14px;
-}
-
-.feedback-fog-overlay {
+.feedback-fog-left,
+.feedback-fog-right {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -172,6 +185,7 @@
   background-color: transparent;
   cursor: pointer;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 .feedback-btn a:hover {
@@ -179,7 +193,7 @@
   background-color: #ff8600;
 }
 
-/* -------------------------- Responsive Style ---------------------------- */
+/* -------------------------- Responsive Styles ---------------------------- */
 
 @media (max-width: 1024px) {
   .feedback-title {
@@ -195,36 +209,37 @@
 }
 
 @media (max-width: 800px) {
-  .feedback-title {
-    font-size: 32px;
-  }
-
-  .feedback-track-left {
-    animation-name: slideLeft;
-    animation-duration: 25s;
+  .desktop-track {
+    display: none;
   }
 
   .feedback-card {
-    min-width: 280px;
-    max-width: 280px;
-    min-height: 220px;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    min-height: 200px;
   }
 
-  .feedback-row:nth-child(2) {
+  .mobile-track {
+    display: flex;
+    animation-duration: 180s;
+  }
+
+  .feedback-row-second {
     display: none;
   }
 
-  .feedback-fog-overlay {
+  .feedback-fog-left,
+  .feedback-fog-right {
     display: none;
+  }
+
+  .feedback-title {
+    font-size: 32px;
   }
 }
 
 @media (max-width: 500px) {
-  .feedback-track-left {
-    animation-name: slideLeft;
-    animation-duration: 10s;
-  }
-
   .feedback-section {
     padding: 60px 16px;
   }
@@ -232,13 +247,6 @@
   .feedback-title {
     font-size: 28px;
     margin-bottom: 40px;
-  }
-
-  .feedback-card {
-    min-width: 260px;
-    max-width: 260px;
-    padding: 20px;
-    min-height: 200px;
   }
 
   .feedback-text {
