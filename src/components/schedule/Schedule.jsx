@@ -8,7 +8,7 @@ export default function Schedule() {
     { date: "2026-01-20", subject: "OBG-2" },
     { date: "2026-01-24", subject: "OBG Test-Discussion" },
     { date: "2026-01-26", subject: "PSM-1" },
-    { date: "2026-01-28", subject: "PSM-2" },
+    { date: "2026-01-27", subject: "PSM-2" },
     { date: "2026-01-31", subject: "PSM Test-Discussion" },
     { date: "2026-02-02", subject: "Surgery-1" },
     { date: "2026-02-04", subject: "Surgery-2" },
