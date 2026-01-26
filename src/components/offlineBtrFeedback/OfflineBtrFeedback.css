@@ -1,5 +1,5 @@
 .offline-btr-feedback-section {
-  padding: 60px 20px;
+  padding: 80px 20px;
   background: #f8f9fa;
   overflow: hidden;
 }
@@ -28,6 +28,7 @@
   display: flex;
   gap: 20px;
   animation: slideLeft 30s linear infinite;
+  width: max-content;
 }
 
 @keyframes slideLeft {
@@ -55,7 +56,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   flex-shrink: 0;
 }
 
@@ -157,14 +160,13 @@
 }
 
 /* -------------------------- Responsive Style ---------------------------- */
-
 @media (max-width: 800px) {
   .offline-btr-feedback-title {
     font-size: 32px;
   }
 
   .offline-btr-feedback-fog-overlay {
-    display: none;
+    width: 80px;
   }
 }
 
@@ -178,11 +180,32 @@
     margin-bottom: 40px;
   }
 
-  .offline-btr-feedback-text {
-    font-size: 14px;
+  .offline-btr-feedback-card {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 260px;
+    padding: 20px;
   }
 
-  .btr-feedback-track {
-    animation: slideLeft 10s linear infinite;
+  .offline-btr-feedback-text {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .offline-btr-feedback-author {
+    padding-top: 16px;
+  }
+
+  .offline-btr-feedback-author-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .offline-btr-feedback-author-name {
+    font-size: 15px;
+  }
+
+  .offline-btr-feedback-fog-overlay {
+    width: 40px;
   }
 }

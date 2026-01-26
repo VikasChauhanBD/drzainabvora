@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./BtrFeedback.css";
+import { NavLink } from "react-router-dom";
 import DrSnehaRani from "../../assets/studentsImages/Dr-Sneha-Rani.png";
 import DrAravindKrishnan from "../../assets/studentsImages/dr-aravind-krishnan.jpg";
 import DrkritikaAggarwal from "../../assets/studentsImages/dr-kritika-aggarwal.jpg";
@@ -26,6 +27,8 @@ import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
 
 const BtrFeedback = () => {
   const [isPaused, setIsPaused] = useState(false);
+  const [animationDuration, setAnimationDuration] = useState(30);
+  const trackRef = useRef(null);
 
   const testimonials = [
     {
@@ -226,14 +229,34 @@ const BtrFeedback = () => {
     },
   ];
 
+  useEffect(() => {
+    const calculateDuration = () => {
+      if (trackRef.current) {
+        const trackWidth = trackRef.current.scrollWidth / 2;
+        const viewportWidth = window.innerWidth;
+
+        const pixelsPerSecond = 50;
+        const duration = trackWidth / pixelsPerSecond;
+
+        setAnimationDuration(duration);
+      }
+    };
+
+    calculateDuration();
+    window.addEventListener("resize", calculateDuration);
+
+    return () => window.removeEventListener("resize", calculateDuration);
+  }, [testimonials]);
+
   return (
     <div className="btr-feedback-section">
       <h2 className="btr-feedback-title">From Our Students</h2>
-
       <div className="btr-feedback-container">
         <div className="btr-feedback-row">
           <div
+            ref={trackRef}
             className={`btr-feedback-track ${isPaused ? "paused" : ""}`}
+            style={{ animationDuration: `${animationDuration}s` }}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
@@ -259,13 +282,11 @@ const BtrFeedback = () => {
             ))}
           </div>
         </div>
-
         <div className="btr-feedback-fog-overlay btr-feedback-fog-left"></div>
         <div className="btr-feedback-fog-overlay btr-feedback-fog-right"></div>
       </div>
-
       <div className="btr-feedback-btn">
-        <a href="/students">See More</a>
+        <NavLink to="/students">See More</NavLink>
       </div>
     </div>
   );

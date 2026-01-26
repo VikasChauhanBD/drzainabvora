@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./OfflineBtrFeedback.css";
 import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
 import AvatarMale from "../../assets/studentsImages/avatar-male.png";
@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom";
 
 const OfflineBtrFeedback = () => {
   const [isPaused, setIsPaused] = useState(false);
+  const [animationDuration, setAnimationDuration] = useState(30);
+  const trackRef = useRef(null);
 
   const testimonials = [
     {
@@ -71,14 +73,34 @@ const OfflineBtrFeedback = () => {
     },
   ];
 
+  useEffect(() => {
+    const calculateDuration = () => {
+      if (trackRef.current) {
+        const trackWidth = trackRef.current.scrollWidth / 2;
+        const viewportWidth = window.innerWidth;
+
+        const pixelsPerSecond = 50;
+        const duration = trackWidth / pixelsPerSecond;
+
+        setAnimationDuration(duration);
+      }
+    };
+
+    calculateDuration();
+    window.addEventListener("resize", calculateDuration);
+
+    return () => window.removeEventListener("resize", calculateDuration);
+  }, [testimonials]);
+
   return (
     <div className="offline-btr-feedback-section">
       <h2 className="offline-btr-feedback-title">From Our Students</h2>
-
       <div className="offline-btr-feedback-container">
         <div className="offline-btr-feedback-row">
           <div
+            ref={trackRef}
             className={`offline-btr-feedback-track ${isPaused ? "paused" : ""}`}
+            style={{ animationDuration: `${animationDuration}s` }}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
@@ -106,11 +128,9 @@ const OfflineBtrFeedback = () => {
             ))}
           </div>
         </div>
-
         <div className="offline-btr-feedback-fog-overlay offline-btr-feedback-fog-left"></div>
         <div className="offline-btr-feedback-fog-overlay offline-btr-feedback-fog-right"></div>
       </div>
-
       <div className="offline-btr-feedback-btn">
         <NavLink to="/students">See More</NavLink>
       </div>
