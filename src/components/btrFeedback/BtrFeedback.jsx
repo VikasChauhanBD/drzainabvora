@@ -21,7 +21,6 @@ import DrIfrahAnsari from "../../assets/studentsImages/dr-ifrah-ansari.jpg";
 import DrVinootKalasappagol from "../../assets/studentsImages/dr-vinoot-kalasappagol.jpg";
 import DrAvneeshMadan from "../../assets/studentsImages/dr-avneesh-madan.jpg";
 import DrShrutiRawat from "../../assets/studentsImages/Dr-Shruti-Rawat.png";
-
 import AvatarMale from "../../assets/studentsImages/avatar-male.png";
 import AvatarFemale from "../../assets/studentsImages/avatar-female.png";
 
