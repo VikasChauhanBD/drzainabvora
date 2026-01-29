@@ -13,11 +13,13 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Dr. Zainab Vora: Medical PG Exam Preparation Platform</title>
+        <title>
+          Dr. Zainab Vora | NEET PG, FMGE & INICET Exam Preparation Platform
+        </title>
 
         <meta
           name="description"
-          content="Dr. Zainab Vora’s platform offers medical PG exam preparation with clear concepts, smart revision methods & focused guidance for FMGE, NEET PG and & INICET."
+          content="NEET PG, FMGE & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success."
         />
       </Helmet>
 
