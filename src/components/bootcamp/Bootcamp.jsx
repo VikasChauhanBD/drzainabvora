@@ -8,7 +8,7 @@ function Bootcamp() {
       <div className="bootcamp-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46428531/file/ec15c4c33447539de5d8ff7c659bea8d.png"
-          alt="NEET PG BootCamp 2026 by Dr Zainab Vora"
+          alt="NEET PG BootCamp 2026 by Dr. Zainab Vora"
         />
       </div>
 

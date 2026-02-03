@@ -1133,7 +1133,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "Dr Zainab Vora ma'am is the Greatest teacher of all time. I owe this success to her and I am in forever debt. Thank you so much ma'am.",
+        "Dr. Zainab Vora ma'am is the Greatest teacher of all time. I owe this success to her and I am in forever debt. Thank you so much ma'am.",
       name: "Dr. Aryan sachan ",
       image: AvatarMale,
     },
@@ -2224,7 +2224,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "I studied from BTR , I m intern student and my intership will end on 31 jan 2026. during intership it is big achivement to me to secure this rank in my first attempt all thanks to dr Zainab Vora ma'am.",
+        "I studied from BTR , I m intern student and my intership will end on 31 jan 2026. during intership it is big achivement to me to secure this rank in my first attempt all thanks to Dr. Zainab Vora ma'am.",
       name: "Dr. Harsh Arora ",
       image: AvatarMale,
     },
@@ -2236,7 +2236,7 @@ export const testimonials = [
     },
     {
       feedback:
-        "Dr Zainab Vora ma'am BTR T&D helped a lot in keeping track of my schedule and approaching questions.",
+        "Dr. Zainab Vora ma'am BTR T&D helped a lot in keeping track of my schedule and approaching questions.",
       name: "Dr. Meghaswana Mahapatra",
       image: AvatarFemale,
     },
@@ -3160,7 +3160,7 @@ export const testimonials = [
     // },
     // {
     //   feedback:
-    //     "This place is so well managed,they put their heart into it and you can easily see that,the effort,the dedication. Dr Zainab Vora ma'am and the whole team are awesome,very inspired by them.",
+    //     "This place is so well managed,they put their heart into it and you can easily see that,the effort,the dedication. Dr. Zainab Vora ma'am and the whole team are awesome,very inspired by them.",
     //   name: "Dr. Shubham Bansal",
     //   image: AvatarMale,
     // },
@@ -3184,7 +3184,7 @@ export const testimonials = [
     // },
     // {
     //   feedback:
-    //     "BTR Bootcamp by Dr Zainab Vora ma'am✨❤️ This place has such positive vibes.The best thing about this place is that they not only teach you academics but life lessons too. I'll never forget this phase of my life where I have learnt so much from my teachers. I love the environment here and enthusiasm of the students. There is very cooperative staff and everyone here helps you too. Topiary is also amazing. Much Respect 🙏✨😇.",
+    //     "BTR Bootcamp by Dr. Zainab Vora ma'am✨❤️ This place has such positive vibes.The best thing about this place is that they not only teach you academics but life lessons too. I'll never forget this phase of my life where I have learnt so much from my teachers. I love the environment here and enthusiasm of the students. There is very cooperative staff and everyone here helps you too. Topiary is also amazing. Much Respect 🙏✨😇.",
     //   name: "Dr. Shubh Dahiya",
     //   image: DrShubhDahiya,
     // },

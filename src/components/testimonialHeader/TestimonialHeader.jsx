@@ -293,7 +293,7 @@ const TestimonialHeader = () => {
                 <img
                   key={index}
                   src={profileImages[profileIdx]}
-                  alt={`Student ${index + 1}`}
+                  alt="BTR Subscribers"
                   className="tsm-header-floating-avatar"
                   style={{
                     top: avatarPositions[index].top,
@@ -328,7 +328,7 @@ const TestimonialHeader = () => {
             <div className="tsm-header-card tsm-header-certificate-card">
               <img
                 src={certificateImages[currentImageIndex]}
-                alt="Certificate"
+                alt="BTR Subscribers with Dr. Zainab Vora"
                 className="tsm-header-certificate-image"
               />
             </div>

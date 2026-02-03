@@ -4,7 +4,7 @@ const SchemaMarkup = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Dr Zainab Vora",
+    name: "Dr. Zainab Vora",
     description:
       "NEET PG, FMGE & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success.",
     image: "https://drzainabvora.com/assets/ZV-logo-71QxKXJj.png",
@@ -32,7 +32,7 @@ const SchemaMarkup = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Dr Zainab Vora",
+    name: "Dr. Zainab Vora",
     url: "https://drzainabvora.com/",
     logo: "https://drzainabvora.com/assets/ZV-logo-71QxKXJj.png",
     sameAs: [
