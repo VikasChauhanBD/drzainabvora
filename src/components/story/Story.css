@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.story-header h1 {
+.story-header h2 {
   font-size: 40px;
   padding: 1rem 0;
   color: #27187e;
@@ -206,7 +206,7 @@
 }
 
 @media (max-width: 868px) {
-  .story-header h1 {
+  .story-header h2 {
     font-size: 32px;
   }
 
@@ -243,7 +243,7 @@
 }
 
 @media (max-width: 500px) {
-  .story-header h1 {
+  .story-header h2 {
     font-size: 24px;
   }
 

@@ -4,10 +4,10 @@ import "./TextClip.css";
 const TextClip = () => {
   return (
     <section className="text-clip-section">
-      <h1 className="clipped-text">
+      <h2 className="clipped-text">
         Dr. Zainab <br />
         Vora
-      </h1>
+      </h2>
     </section>
   );
 };

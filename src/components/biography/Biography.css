@@ -12,7 +12,7 @@
   color: #f1f2f6;
 }
 
-.biography-section-heading h1 {
+.biography-section-heading h2 {
   font-size: 32px;
   font-weight: 600;
   line-height: 1.4;
@@ -49,7 +49,9 @@
   position: absolute;
   width: 520px;
   height: 520px;
-  transition: opacity 0.1s ease, transform 0.1s ease;
+  transition:
+    opacity 0.1s ease,
+    transform 0.1s ease;
   transform-origin: center center;
   will-change: transform, opacity;
 }
@@ -160,7 +162,7 @@
 }
 
 @media (max-width: 800px) {
-  .biography-section-heading h1 {
+  .biography-section-heading h2 {
     font-size: 28px;
   }
 
@@ -219,7 +221,7 @@
 }
 
 @media (max-width: 500px) {
-  .biography-section-heading h1 {
+  .biography-section-heading h2 {
     font-size: 24px;
   }
 

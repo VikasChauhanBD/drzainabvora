@@ -27,7 +27,7 @@ const Story = () => {
   return (
     <div className="story-container">
       <div className="story-header">
-        <h1>Sharing her Values, Inspirations, and Teaching Approach.</h1>
+        <h2>Sharing her Values, Inspirations, and Teaching Approach.</h2>
       </div>
       <div className="story-card">
         <div className="story-slide" ref={slideRef}>

@@ -34,7 +34,7 @@ export default function Biography() {
         const images = section.querySelectorAll(".biography-image-wrapper");
         const progress = Math.max(
           0,
-          Math.min(1, scrollPosition / (sectionHeight - windowHeight))
+          Math.min(1, scrollPosition / (sectionHeight - windowHeight)),
         );
 
         images.forEach((img, index) => {
@@ -44,7 +44,7 @@ export default function Biography() {
             const fadeEnd = 0.66;
             const fadeProgress = Math.max(
               0,
-              Math.min(1, (progress - fadeStart) / (fadeEnd - fadeStart))
+              Math.min(1, (progress - fadeStart) / (fadeEnd - fadeStart)),
             );
 
             if (progress < fadeStart) {
@@ -61,7 +61,7 @@ export default function Biography() {
             const fadeStart = 0.66;
             const fadeProgress = Math.max(
               0,
-              Math.min(1, (progress - fadeStart) / (1 - fadeStart))
+              Math.min(1, (progress - fadeStart) / (1 - fadeStart)),
             );
 
             if (progress < 0.33) {
@@ -140,10 +140,10 @@ export default function Biography() {
   return (
     <section className="biography-section" ref={sectionRef}>
       <div className="biography-section-heading">
-        <h1>
+        <h2>
           Professional Biography – Highlighting her qualifications,
           achievements, and medical expertise.
-        </h1>
+        </h2>
       </div>
       <div className="biography-container">
         {/* Desktop Layout */}
