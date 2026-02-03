@@ -87,7 +87,7 @@ function TestimonialVideos() {
                 <div className="tv-video-wrapper">
                   <img
                     src={data.image}
-                    alt={`Video ${index + 1} thumbnail`}
+                    alt={data.alt}
                     className="tv-thumbnail"
                   />
 
