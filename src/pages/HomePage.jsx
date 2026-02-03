@@ -8,6 +8,7 @@ import WhatBTR from "../components/whatBTR/WhatBTR";
 import Schedule from "../components/schedule/Schedule";
 import Feedback from "../components/feedback/Feedback";
 import InstagramFeed from "../components/instagramFeed/InstagramFeed";
+import SchemaMarkup from "../components/schemaMarkup/SchemaMarkup";
 
 function HomePage() {
   return (
@@ -22,6 +23,8 @@ function HomePage() {
           content="NEET PG, FMGE & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success."
         />
       </Helmet>
+
+      <SchemaMarkup />
 
       <VideoHero />
       <Header />

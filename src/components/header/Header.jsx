@@ -21,10 +21,10 @@ function Header() {
   return (
     <div className="header-container">
       <div className="upper-header">
-        <h1>
+        <h2>
           A renowned and respected educator, mentoring thousands of medical
           students across India through BTR for FMGE, NEET PG & INICET.
-        </h1>
+        </h2>
       </div>
 
       <div className="lower-header">
