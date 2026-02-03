@@ -38,9 +38,8 @@ const TestimonialHeader = () => {
   const [count, setCount] = useState(0);
   const [isSliderHovered, setIsSliderHovered] = useState(false);
   const target = 115221;
-  const duration = 2000; // animation duration in ms (2 sec)
+  const duration = 2000;
 
-  // Testimonial data for slider
   const testimonials = [
     {
       quote:
@@ -86,7 +85,6 @@ const TestimonialHeader = () => {
     },
   ];
 
-  // Rotating text quotes
   const rotatingTexts = [
     {
       text: "Dr. Zainab Vora ma'am is the best.",
@@ -148,19 +146,16 @@ const TestimonialHeader = () => {
     { top: "35%", left: "70%" },
   ];
 
-  // Certificate images
   const certificateImages = [
     "https://cdn.dribbble.com/userupload/46394035/file/bd0a89a0a1b12002437146371728adee.webp",
     "https://cdn.dribbble.com/userupload/46394037/file/779239c41dca64941a9c00383e17cfcd.webp",
     "https://cdn.dribbble.com/userupload/46394036/file/7dd4070634fe035c743acdf5284c1039.jpg",
   ];
 
-  // Initialize visible profiles - randomly select 10 from the pool
   useEffect(() => {
     const initialProfiles = [];
     const availableIndices = [...Array(profileImages.length).keys()];
 
-    // Randomly select 10 unique images from the pool
     for (let i = 0; i < 10; i++) {
       const randomIdx = Math.floor(Math.random() * availableIndices.length);
       initialProfiles.push(availableIndices[randomIdx]);
@@ -170,20 +165,18 @@ const TestimonialHeader = () => {
     setVisibleProfiles(initialProfiles);
   }, []);
 
-  // Slider navigation
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % testimonials.length);
   };
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length,
     );
   };
 
-  // Auto-slide testimonials every 5 seconds - PAUSES ON HOVER
   useEffect(() => {
-    if (isSliderHovered) return; // Don't start interval if hovered
+    if (isSliderHovered) return;
 
     const interval = setInterval(() => {
       nextSlide();
@@ -191,7 +184,6 @@ const TestimonialHeader = () => {
     return () => clearInterval(interval);
   }, [currentSlide, isSliderHovered]);
 
-  // Auto-rotate text
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTextIndex((prev) => (prev + 1) % rotatingTexts.length);
@@ -199,7 +191,6 @@ const TestimonialHeader = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Auto-rotate certificate images
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % certificateImages.length);
@@ -207,16 +198,13 @@ const TestimonialHeader = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Change profile images at fixed positions - ensuring no duplicates
   useEffect(() => {
     const interval = setInterval(() => {
       setVisibleProfiles((prev) => {
         const newProfiles = [...prev];
 
-        // Pick a random position to change
         const positionToChange = Math.floor(Math.random() * newProfiles.length);
 
-        // Find available images (not currently visible)
         const availableImages = [];
         for (let i = 0; i < profileImages.length; i++) {
           if (!newProfiles.includes(i)) {
@@ -224,10 +212,9 @@ const TestimonialHeader = () => {
           }
         }
 
-        // If there are available images, pick one randomly
         if (availableImages.length > 0) {
           const randomAvailableIdx = Math.floor(
-            Math.random() * availableImages.length
+            Math.random() * availableImages.length,
           );
           newProfiles[positionToChange] = availableImages[randomAvailableIdx];
         }
@@ -248,7 +235,7 @@ const TestimonialHeader = () => {
 
       const value = Math.min(
         Math.floor((progress / duration) * target),
-        target
+        target,
       );
 
       setCount(value);
@@ -263,7 +250,7 @@ const TestimonialHeader = () => {
 
   return (
     <div className="tsm-header-section">
-      <h2 className="tsm-header-title">From Our Students</h2>
+      <h1 className="tsm-header-title">From Our Students</h1>
 
       <div className="tsm-header-grid">
         {/* Left Box - Slider */}

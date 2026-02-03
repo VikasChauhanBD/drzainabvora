@@ -15,17 +15,14 @@ function TestimonialVideos() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePlayVideo = (index) => {
-    // Only allow playing if this is the active slide
     if (index !== activeIndex) return;
 
-    // Pause all other videos
     videoRefs.current.forEach((video, i) => {
       if (video && i !== index) {
         video.pause();
       }
     });
 
-    // Play the selected video
     if (videoRefs.current[index]) {
       videoRefs.current[index].play();
       setPlayingIndex(index);
@@ -39,7 +36,6 @@ function TestimonialVideos() {
   };
 
   const handleVideoPlay = (index) => {
-    // Pause all other videos when one starts playing
     videoRefs.current.forEach((video, i) => {
       if (video && i !== index && !video.paused) {
         video.pause();
@@ -51,7 +47,7 @@ function TestimonialVideos() {
   return (
     <div className="tv-swiper-container">
       <div className="tv-swiper-content">
-        <h1>The Student Voices Gallery</h1>
+        <h2>The Student Voices Gallery</h2>
         <Swiper
           onSwiper={(swiper) => {
             swiperRef.current = swiper;
@@ -71,7 +67,6 @@ function TestimonialVideos() {
           }}
           modules={[EffectCoverflow, Navigation]}
           onSlideChange={(swiper) => {
-            // Pause all videos when sliding
             videoRefs.current.forEach((video) => {
               if (video) {
                 video.pause();
@@ -90,14 +85,12 @@ function TestimonialVideos() {
             >
               {data.type === "video" ? (
                 <div className="tv-video-wrapper">
-                  {/* Thumbnail image */}
                   <img
                     src={data.image}
                     alt={`Video ${index + 1} thumbnail`}
                     className="tv-thumbnail"
                   />
 
-                  {/* Actual video */}
                   <video
                     ref={(el) => (videoRefs.current[index] = el)}
                     src={data.url}
@@ -111,7 +104,6 @@ function TestimonialVideos() {
                     Your browser does not support the video tag.
                   </video>
 
-                  {/* Play button overlay - only visible on active slide */}
                   <div
                     className={`tv-play-button-overlay ${
                       playingIndex === index ? "hidden" : ""

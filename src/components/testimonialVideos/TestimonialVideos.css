@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.tv-swiper-container h1 {
+.tv-swiper-container h2 {
   text-align: center;
   font-size: 48px;
   color: #f1f2f6;
@@ -184,7 +184,7 @@
 }
 
 @media (max-width: 1024px) {
-  .tv-swiper-container h1 {
+  .tv-swiper-container h2 {
     font-size: 40px;
   }
 
@@ -214,7 +214,7 @@
 }
 
 @media (max-width: 800px) {
-  .tv-swiper-container h1 {
+  .tv-swiper-container h2 {
     font-size: 32px;
   }
 

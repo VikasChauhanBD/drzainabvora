@@ -27,7 +27,6 @@ const FolderGallery = () => {
   return (
     <div className="gallery-container">
       {!selectedFolder ? (
-        // Folders View
         <>
           <div className="folders-grid">
             {galleryFoldersData.map((folder) => (
@@ -52,7 +51,6 @@ const FolderGallery = () => {
           </div>
         </>
       ) : (
-        // Gallery View
         <>
           <div className="gallery-header">
             <button className="gallery-back-button" onClick={closeFolder}>
@@ -75,7 +73,6 @@ const FolderGallery = () => {
         </>
       )}
 
-      {/* Image Popup Modal */}
       {selectedImage && (
         <div className="galleryList-popup-overlay" onClick={closePopup}>
           <div
