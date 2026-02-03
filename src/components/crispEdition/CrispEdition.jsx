@@ -49,7 +49,7 @@ function CrispEdition() {
           <div className="crisp-edition-card-image">
             <img
               src="https://cdn.dribbble.com/userupload/46394016/file/4f16418449ad83c2cb7fe122d55ddb9b.webp"
-              alt="Edition1"
+              alt="CRISP 2024 by Dr. Zainab Vora"
             />
           </div>
           <h3>
@@ -70,7 +70,7 @@ function CrispEdition() {
           <div className="crisp-edition-card-image">
             <img
               src="https://cdn.dribbble.com/userupload/46394007/file/bf6eb480b9be47fec23994e3e0eb0f1b.webp"
-              alt="Edition2"
+              alt="CRISP 2025 by Dr. Zainab Vora"
             />
           </div>
           <h3>

@@ -16,12 +16,23 @@ const Story = () => {
     slide.prepend(items[items.length - 1]);
   };
 
-  // Array of images only
   const slides = [
-    "https://cdn.dribbble.com/userupload/46295951/file/0d7ff40fa53d1488fb23e4608470ce49.jpg",
-    "https://cdn.dribbble.com/userupload/46294781/file/932361710626bb0d3701a45ca1258889.jpg",
-    "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
-    "https://cdn.dribbble.com/userupload/46295928/file/1304e421fb879feb83e6c0ff616ba640.jpg",
+    {
+      src: "https://cdn.dribbble.com/userupload/46295951/file/0d7ff40fa53d1488fb23e4608470ce49.jpg",
+      alt: "Reunion Felicitation Ceremony INICET Nov 2025 Toppers with Dr. Zainab Vora",
+    },
+    {
+      src: "https://cdn.dribbble.com/userupload/46294781/file/932361710626bb0d3701a45ca1258889.jpg",
+      alt: "NEET PG 2025 Review",
+    },
+    {
+      src: "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+      alt: "Reunion Felicitation Ceremony INICET Nov 2025 Toppers with Dr. Zainab Vora",
+    },
+    {
+      src: "https://cdn.dribbble.com/userupload/46295928/file/1304e421fb879feb83e6c0ff616ba640.jpg",
+      alt: "INICET Nov 2025 Topper with Dr. Zainab Vora",
+    },
   ];
 
   return (
@@ -29,21 +40,25 @@ const Story = () => {
       <div className="story-header">
         <h2>Sharing her Values, Inspirations, and Teaching Approach.</h2>
       </div>
+
       <div className="story-card">
         <div className="story-slide" ref={slideRef}>
-          {slides.map((image, index) => (
-            <div
-              key={index}
-              className="story-item"
-              style={{ backgroundImage: `url(${image})` }}
-            ></div>
+          {slides.map((item, index) => (
+            <div key={index} className="story-item">
+              <img src={item.src} alt={item.alt} loading="lazy" />
+            </div>
           ))}
         </div>
+
         <div className="story-button">
-          <button className="prev" onClick={handlePrev}>
+          <button
+            className="prev"
+            onClick={handlePrev}
+            aria-label="Previous slide"
+          >
             ◁
           </button>
-          <button className="next" onClick={handleNext}>
+          <button className="next" onClick={handleNext} aria-label="Next slide">
             ▷
           </button>
         </div>

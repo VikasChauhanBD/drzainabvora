@@ -9,7 +9,7 @@ function AboutBtr() {
         <div className="about-btr-image">
           <img
             src="https://cdn.dribbble.com/userupload/46394010/file/1e842c14be5b580134cd798c1aead2e5.webp"
-            alt="about-btr-image"
+            alt="BTR Class"
           />
         </div>
         <div className="about-btr-content">

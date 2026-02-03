@@ -5,8 +5,14 @@ const BtrHeader = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "https://cdn.dribbble.com/userupload/46355808/file/f2274fc9ca13235e117b03ebf82f2320.jpg",
-    "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+    {
+      src: "https://cdn.dribbble.com/userupload/46355808/file/f2274fc9ca13235e117b03ebf82f2320.jpg",
+      alt: "BTR Subscriber Students with Dr. Zainab Vora",
+    },
+    {
+      src: "https://cdn.dribbble.com/userupload/46295962/file/3f356f62229b14733e4bee0c87aef9c2.webp",
+      alt: "BTR Subscriber Students with Dr. Zainab Vora",
+    },
   ];
 
   useEffect(() => {
@@ -15,7 +21,7 @@ const BtrHeader = () => {
     }, 6000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div>
@@ -23,12 +29,14 @@ const BtrHeader = () => {
         {/* Background Images */}
         <div className="btr-header-background-images">
           {images.map((image, index) => (
-            <div
+            <img
               key={index}
+              src={image.src}
+              alt={image.alt}
               className={`btr-header-background-image ${
                 currentImage === index ? "active" : ""
               }`}
-              style={{ backgroundImage: `url(${image})` }}
+              loading="lazy"
             />
           ))}
         </div>

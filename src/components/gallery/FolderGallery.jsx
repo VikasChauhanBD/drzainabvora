@@ -36,11 +36,7 @@ const FolderGallery = () => {
                 onClick={() => openFolder(folder)}
               >
                 <div className="folder-thumbnail">
-                  <img
-                    src={folder.thumbnail}
-                    alt={folder.name}
-                    loading="lazy"
-                  />
+                  <img src={folder.thumbnail} alt={folder.alt} loading="lazy" />
                 </div>
                 <div className="folder-info">
                   <Folder className="folder-icon" size={24} />
@@ -66,7 +62,7 @@ const FolderGallery = () => {
                 className="galleryList-item"
                 onClick={() => openPopup(item)}
               >
-                <img src={item.src} alt="" loading="lazy" />
+                <img src={item.src} alt={item.alt} loading="lazy" />
               </div>
             ))}
           </div>
@@ -82,7 +78,7 @@ const FolderGallery = () => {
             <button className="galleryList-popup-close" onClick={closePopup}>
               &times;
             </button>
-            <img src={selectedImage.src} alt="" />
+            <img src={selectedImage.src} alt={selectedImage.alt} />
           </div>
         </div>
       )}

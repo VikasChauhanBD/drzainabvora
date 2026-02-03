@@ -15,7 +15,6 @@ export default function Biography() {
       const sectionHeight = section.offsetHeight;
       const windowHeight = window.innerHeight;
 
-      // Calculate which story is active based on scroll position
       const scrollPosition = -sectionTop;
       const storyHeight = sectionHeight / 3;
 
@@ -29,7 +28,6 @@ export default function Biography() {
         setActiveIndex(2);
       }
 
-      // Desktop: Apply transformations to images based on scroll
       if (window.innerWidth >= 1024) {
         const images = section.querySelectorAll(".biography-image-wrapper");
         const progress = Math.max(
@@ -39,7 +37,6 @@ export default function Biography() {
 
         images.forEach((img, index) => {
           if (index === 0) {
-            // First image (top layer) - rotated 8deg
             const fadeStart = 0.33;
             const fadeEnd = 0.66;
             const fadeProgress = Math.max(
@@ -57,7 +54,6 @@ export default function Biography() {
               }%) rotate(${8 - fadeProgress * 58}deg)`;
             }
           } else if (index === 1) {
-            // Second image (middle layer) - rotated -5deg
             const fadeStart = 0.66;
             const fadeProgress = Math.max(
               0,
@@ -77,7 +73,6 @@ export default function Biography() {
               }%) rotate(${-5 - fadeProgress * 45}deg)`;
             }
           } else if (index === 2) {
-            // Third image (bottom layer) - rotated 20deg, always visible
             img.style.opacity = "1";
             img.style.transform = `rotate(20deg)`;
           }
@@ -98,7 +93,6 @@ export default function Biography() {
       }
     };
 
-    // Initial call to set up images
     handleScroll();
 
     window.addEventListener("scroll", handleScroll);
@@ -115,6 +109,7 @@ export default function Biography() {
         "https://cdn.dribbble.com/userupload/46300983/file/9709a61fbd3b6d5c29711279ad0324d6.jpeg",
       mobileImage:
         "https://cdn.dribbble.com/userupload/46307618/file/5a4777d31a0215bb72915156007004fc.jpeg",
+      alt: "Dr. Zainab Vora",
     },
     {
       title: "2015 - A Year to Remember",
@@ -125,6 +120,7 @@ export default function Biography() {
         "https://cdn.dribbble.com/userupload/46300984/file/87e1697456a0a62da45ba7bbc7fedbee.jpeg",
       mobileImage:
         "https://cdn.dribbble.com/userupload/46307617/file/89a0c5cbc29d9e86ea19234c7004936c.jpeg",
+      alt: "Dr. Zainab Vora",
     },
     {
       title: "A Trusted Mentor Today",
@@ -134,6 +130,7 @@ export default function Biography() {
         "https://cdn.dribbble.com/userupload/46307615/file/910b6345c9dc4a51b5bc1d50c2fa308e.jpg",
       mobileImage:
         "https://cdn.dribbble.com/userupload/46307615/file/910b6345c9dc4a51b5bc1d50c2fa308e.jpg",
+      alt: "Dr. Zainab Vora Logo",
     },
   ];
 
@@ -155,21 +152,21 @@ export default function Biography() {
                 className="biography-image-wrapper biography-image-first"
                 data-index="0"
               >
-                <img src={stories[0].image} alt={stories[0].title} />
+                <img src={stories[0].image} alt={stories[0].alt} />
               </div>
               {/* Second image - middle layer (Celebrating Life Together) */}
               <div
                 className="biography-image-wrapper biography-image-second"
                 data-index="1"
               >
-                <img src={stories[1].image} alt={stories[1].title} />
+                <img src={stories[1].image} alt={stories[1].alt} />
               </div>
               {/* Third image - bottom layer (The Art of Giving) */}
               <div
                 className="biography-image-wrapper biography-image-third"
                 data-index="2"
               >
-                <img src={stories[2].image} alt={stories[2].title} />
+                <img src={stories[2].image} alt={stories[2].alt} />
               </div>
             </div>
           </div>
@@ -198,7 +195,7 @@ export default function Biography() {
                 <p dangerouslySetInnerHTML={{ __html: story.description }} />
               </div>
               <div className="biography-mobile-image">
-                <img src={story.mobileImage} alt={story.title} />
+                <img src={story.mobileImage} alt={story.alt} />
               </div>
             </div>
           ))}

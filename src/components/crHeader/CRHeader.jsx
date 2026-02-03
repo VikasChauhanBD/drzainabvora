@@ -8,7 +8,7 @@ function CRHeader() {
       <div className="crheader-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46394023/file/1e47d594a1e372a3603fdca99d825bef.jpg"
-          alt="CR Banner"
+          alt="Conceptual Radiology by Dr. Zainab Vora"
         />
       </div>
 

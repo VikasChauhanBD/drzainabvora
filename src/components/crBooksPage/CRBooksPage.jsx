@@ -121,6 +121,7 @@ const CRBooksPage = () => {
       description:
         "This volume lays a strong foundation in radiology by covering all major subspecialties with a balanced mix of theory and clinical application. Written by legendary faculty, it helps residents understand imaging concepts systematically while integrating practical insights, multimedia resources, and self-assessment tools for effective learning.",
       link: "https://conceptualradiology.com/concepts-in-radiology-vol-1/",
+      alt: "Concepts in Radiology Book Volume 1",
     },
     {
       id: 2,
@@ -130,6 +131,7 @@ const CRBooksPage = () => {
       description:
         "Volume II focuses on conceptual clarity and diagnostic reasoning through concise lecture notes and case-based explanations. It is especially useful for early residents who want to develop a structured approach to image interpretation across multiple radiology subspecialties.",
       link: "https://conceptualradiology.com/concepts-in-radiology-vol-2/",
+      alt: "Concepts in Radiology Book Volume 2",
     },
     {
       id: 3,
@@ -139,6 +141,7 @@ const CRBooksPage = () => {
       description:
         "Designed to sharpen higher-level diagnostic skills, this volume connects imaging findings with pathology, surgical planning, and clinical decision-making. It blends evidence-based guidelines with expert judgment, preparing learners for real-world reporting and multidisciplinary discussions.",
       link: "https://conceptualradiology.com/concepts-in-radiology-vol-3/",
+      alt: "Concepts in Radiology Book Volume 3",
     },
     {
       id: 4,
@@ -148,6 +151,7 @@ const CRBooksPage = () => {
       description:
         "A high-yield, focused guide covering Chest Imaging, Cardiovascular Radiology, and Uro-radiology. The content progresses from basic principles to advanced applications, making it ideal for quick revision, daily reporting reference, and exam-oriented preparation.",
       link: "https://conceptualradiology.com/concepts-in-radiology-vol-4/",
+      alt: "Concepts in Radiology Book Volume 4",
     },
     {
       id: 5,
@@ -157,6 +161,7 @@ const CRBooksPage = () => {
       description:
         "This volume integrates Women’s Imaging, Core Imaging Physics, and important advances in radiology. It simplifies complex physics concepts, explains safety protocols and guidelines clearly, and delivers exam-ready content for residents and fellows.",
       link: "https://conceptualradiology.com/concepts-in-radiology-vol-5/",
+      alt: "Concepts in Radiology Book Volume 5",
     },
     {
       id: 6,
@@ -166,6 +171,7 @@ const CRBooksPage = () => {
       description:
         "A practical, image-based book designed to strengthen radiological anatomy using X-ray, CT, MRI, and ultrasound cases. It enhances recognition of normal anatomy, anatomical variants, and key landmarks essential for accurate interpretation.",
       link: "https://conceptualradiology.com/radiological-anatomy-practice-cases/",
+      alt: "Radiology Anatomy Books",
     },
     {
       id: 7,
@@ -175,6 +181,7 @@ const CRBooksPage = () => {
       description:
         "A dedicated spotters book created to improve speed, accuracy, and confidence in identifying key imaging findings. Ideal for systematic revision, exam preparation, and group discussions for MD and DNB radiology residents.",
       link: "https://conceptualradiology.com/spotters-cases-in-radiology/",
+      alt: "Radiology Spotters Book",
     },
     {
       id: 8,
@@ -184,6 +191,7 @@ const CRBooksPage = () => {
       description:
         "An exam-oriented resource featuring actual DNB Radiology question papers from the past six years with detailed, point-wise solutions. It helps students understand exam patterns, marking schemes, and answer-writing strategies.",
       link: "https://conceptualradiology.com/dnb-master-solution-radiology-vol-1/",
+      alt: "DNB Radiology Books Volume 1",
     },
     {
       id: 9,
@@ -193,6 +201,7 @@ const CRBooksPage = () => {
       description:
         "This volume continues with more recent DNB Radiology question papers and in-depth explanations. It supports final-phase preparation by highlighting high-frequency topics and refining exam strategies with confidence.",
       link: "https://conceptualradiology.com/dnb-master-solution-radiology-vol-2/",
+      alt: "DNB Radiology Books Volume 2",
     },
   ];
 
@@ -210,7 +219,7 @@ const CRBooksPage = () => {
       <div className="crbookspage-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46394026/file/b543e24367afcd15380429f93987c107.jpeg"
-          alt="cr-books-page-banner"
+          alt="Set of 9 Radiology Books"
         />
       </div>
 
@@ -241,7 +250,7 @@ const CRBooksPage = () => {
                 <img
                   className="crbookspage-card__image"
                   src={card.image}
-                  alt={card.title}
+                  alt={card.alt}
                 />
               </div>
               <div className="crbookspage-card__content">

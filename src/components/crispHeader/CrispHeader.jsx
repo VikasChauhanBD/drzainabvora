@@ -7,7 +7,7 @@ function CrispHeader() {
       <div className="crisp-header-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46394008/file/8c1e8a2287d54ca34b7d0136f4a53ba2.jpeg"
-          alt="crisp-banner"
+          alt="Conceptual Radiology Imaging Skills Program by Dr. Zainab Vora"
         />
       </div>
 

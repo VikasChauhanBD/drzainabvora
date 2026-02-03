@@ -8,7 +8,7 @@ function Bootcamp() {
       <div className="bootcamp-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46428531/file/ec15c4c33447539de5d8ff7c659bea8d.png"
-          alt="neet-pg-bootcamp-banner"
+          alt="NEET PG BootCamp 2026 by Dr Zainab Vora"
         />
       </div>
 
@@ -43,7 +43,7 @@ function Bootcamp() {
         <div className="bootcamp-high-image">
           <img
             src="https://cdn.dribbble.com/userupload/46394035/file/bd0a89a0a1b12002437146371728adee.webp"
-            alt="neet-pg-bootcamp"
+            alt="NEET PG BootCamp Class 2026"
           />
         </div>
 

@@ -55,7 +55,7 @@ function Header() {
             {heroImages.map((img, index) => (
               <img
                 src={img}
-                alt="Hero"
+                alt="Dr. Zainab Vora"
                 className={`hero-img ${index === currentImage ? "active" : ""}`}
               />
             ))}

@@ -11,7 +11,7 @@ function CRApp() {
         <div className="crapp-image">
           <img
             src="https://cdn.dribbble.com/userupload/46394027/file/25cf029e9e83338c6a3542fe90a503a7.webp"
-            alt="cr-mockup"
+            alt="Conceptual Radiology App by Dr. Zainab Vora"
           />
         </div>
 
@@ -34,13 +34,13 @@ function CRApp() {
               to="https://play.google.com/store/apps/details?id=com.conceptual.orthopedics&hl=en_IN&gl=US"
               target="_blank"
             >
-              <img src={PlayStore} alt="" />
+              <img src={PlayStore} alt="Google Play Store" />
             </NavLink>
             <NavLink
               to="https://apps.apple.com/in/app/econceptual-ms-md-dnb-ss-exam/id1533947249"
               target="_blank"
             >
-              <img src={AppStore} alt="" />
+              <img src={AppStore} alt="Apple Store" />
             </NavLink>
           </div>
         </div>

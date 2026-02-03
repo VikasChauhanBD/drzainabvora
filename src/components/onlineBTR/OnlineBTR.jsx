@@ -8,7 +8,7 @@ function OnlineBTR() {
       <div className="online-btr-banner">
         <img
           src="https://cdn.dribbble.com/userupload/46394030/file/eacdbc74e520e22a292e50395eea41b8.jpg"
-          alt="online-btr-banner"
+          alt="Online BTR by Dr. Zainab Vora"
         />
       </div>
 
@@ -41,7 +41,7 @@ function OnlineBTR() {
         <div className="online-btr-high-image">
           <img
             src="https://cdn.dribbble.com/userupload/46394040/file/30079b3f3b0a736db9bd61a7d89ac0cb.webp"
-            alt="online-btr-image"
+            alt="Dr. Zainab vora with BTR Subscriber"
           />
         </div>
 

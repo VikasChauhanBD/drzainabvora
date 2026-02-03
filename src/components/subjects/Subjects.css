@@ -46,6 +46,9 @@
   background-color: #27187e;
   padding: 8px 16px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .subjects-btn {
