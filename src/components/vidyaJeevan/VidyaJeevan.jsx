@@ -6,8 +6,8 @@ function VidyaJeevan() {
   return (
     <div className="vidya-main-container">
       <div className="vidya-content">
-        <h1>VIDYA JEEVAN - An Educational Hub at Greater Noida</h1>
-        <h2>A Learning Centre Where Purpose Meets Preparation</h2>
+        <h2>VIDYA JEEVAN - An Educational Hub at Greater Noida</h2>
+        <h3>A Learning Centre Where Purpose Meets Preparation</h3>
         <p>
           <b>Vidya Jeevan</b> is not just a learning hub - it’s a{" "}
           <b>vision brought to life by experienced educators and mentors</b>,
@@ -40,9 +40,6 @@ function VidyaJeevan() {
             student is treated with belief.
           </b>
         </p>
-        {/* <div className="vidya-btn">
-          <NavLink to="/students">See More</NavLink>
-        </div> */}
       </div>
     </div>
   );

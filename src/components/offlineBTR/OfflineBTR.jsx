@@ -4,11 +4,6 @@ import { NavLink } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function OfflineBTR() {
-  // const [text] = useTypewriter({
-  //   words: ["“Kahani tumhaari hai, Ho sake toh kamaal likhna.”"],
-  //   loop: {},
-  // });
-
   return (
     <div className="offline-btr-container">
       <div className="offline-btr-banner">
@@ -30,24 +25,13 @@ function OfflineBTR() {
           This is not theory overload — it’s about{" "}
           <b>what to remember, how to apply, and what not to miss.</b>
         </p>
-        {/* <h6 className="offline-btr-typeWriter">
-          {text}
-          <Cursor />
-        </h6> */}
 
         <h6>“Kahani tumhaari hai, Ho sake toh kamaal likhna.”</h6>
-
-        {/* <NavLink
-          to="https://dashboard.cerebellumacademy.com/plans"
-          target="_blank"
-        >
-          Know More
-        </NavLink> */}
       </div>
 
       <div className="offline-btr-high">
         <div className="offline-btr-high-content">
-          <h1>What You’ll Learn:</h1>
+          <h2>What You’ll Learn:</h2>
           <ul>
             <li>
               <b>19 Subjects Crash Course</b> - Complete rapid revision

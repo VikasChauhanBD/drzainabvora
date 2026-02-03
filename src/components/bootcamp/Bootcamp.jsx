@@ -48,7 +48,7 @@ function Bootcamp() {
         </div>
 
         <div className="bootcamp-high-content">
-          <h1>Program Highlights:</h1>
+          <h2>Program Highlights:</h2>
           <ul>
             <li>
               <b>Duration:</b> 4 Months
@@ -76,7 +76,7 @@ function Bootcamp() {
       </div>
 
       <div className="bootcamp-points">
-        <h1>What You Get:</h1>
+        <h2>What You Get:</h2>
         <ul>
           <li>
             Mentorship sessions by{" "}

@@ -75,7 +75,7 @@
   padding: 1rem;
 }
 
-.bootcamp-high-content h1 {
+.bootcamp-high-content h2 {
   font-size: 40px;
   color: #f1f2f6;
 }
@@ -117,7 +117,7 @@
   border-radius: 16px;
 }
 
-.bootcamp-points h1 {
+.bootcamp-points h2 {
   font-size: 40px;
   color: #27187e;
 }
@@ -175,15 +175,15 @@
     font-size: 18px;
   }
 
-  .bootcamp-high-content h1,
-  .bootcamp-points h1 {
+  .bootcamp-high-content h2,
+  .bootcamp-points h2 {
     font-size: 32px;
   }
 }
 
 @media (max-width: 800px) {
   .bootcamp-header h1,
-  .bootcamp-points h1 {
+  .bootcamp-points h2 {
     font-size: 32px;
   }
 
@@ -212,8 +212,8 @@
     width: 100%;
   }
 
-  .bootcamp-high-content h1,
-  .bootcamp-points h1 {
+  .bootcamp-high-content h2,
+  .bootcamp-points h2 {
     font-size: 28px;
   }
 
@@ -239,8 +239,8 @@
     font-size: 18px;
   }
 
-  .bootcamp-high-content h1,
-  .bootcamp-points h1 {
+  .bootcamp-high-content h2,
+  .bootcamp-points h2 {
     font-size: 24px;
   }
 }

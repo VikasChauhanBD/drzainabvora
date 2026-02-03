@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 function BtrWorkBook() {
   return (
     <div className="workbook-container">
-      <h1>BTR Workbooks – Your Revision Companions</h1>
+      <h2>BTR Workbooks – Your Revision Companions</h2>
       <div className="workbook-cards">
         <div className="workbook-card">
-          <h2>BTR Unannotated Workbook</h2>
+          <h3>BTR Unannotated Workbook</h3>
           <p>
             A flexible workbook designed for self-made notes and active
             revision. Ideal for NEET PG, INI-CET, and FMGE aspirants who want to
@@ -24,7 +24,7 @@ function BtrWorkBook() {
         </div>
 
         <div className="workbook-card">
-          <h2>BTR Annotated Workbook</h2>
+          <h3>BTR Annotated Workbook</h3>
           <p>
             A time-saving, pre-annotated version was created based on student
             feedback. Helps reduce annotation effort and allows faster revision,

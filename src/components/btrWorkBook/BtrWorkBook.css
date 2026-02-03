@@ -3,7 +3,7 @@
   margin: 4rem 0;
 }
 
-.workbook-container h1 {
+.workbook-container h2 {
   font-size: 48px;
   color: #27187e;
   text-align: center;
@@ -23,7 +23,8 @@
   padding: 2rem;
   border-radius: 16px;
   text-align: center;
-  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
     inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
     inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
@@ -36,7 +37,7 @@
     0 22px 22px -1px rgba(0, 0, 0, 0.08);
 }
 
-.workbook-card h2 {
+.workbook-card h3 {
   font-size: 32px;
   color: #27187e;
 }
@@ -77,7 +78,7 @@
     width: 95%;
   }
 
-  .workbook-container h1 {
+  .workbook-container h2 {
     font-size: 40px;
   }
 
@@ -91,7 +92,7 @@
 }
 
 @media (max-width: 800px) {
-  .workbook-container h1 {
+  .workbook-container h2 {
     font-size: 32px;
     margin-bottom: 0;
   }

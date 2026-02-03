@@ -51,7 +51,7 @@ const BtrHeader = () => {
       </section>
 
       <section className="what-is-btr">
-        <h1 className="what-is-btr-ques">What is BTR</h1>
+        <h2 className="what-is-btr-ques">What is BTR</h2>
         <p className="what-is-btr-ans">
           BTR is a high-yield rapid revision course designed to help students
           revise the most important, exam-oriented concepts just before the

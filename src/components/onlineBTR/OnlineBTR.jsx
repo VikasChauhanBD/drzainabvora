@@ -46,7 +46,7 @@ function OnlineBTR() {
         </div>
 
         <div className="online-btr-high-content">
-          <h1>Highlights:</h1>
+          <h2>Highlights:</h2>
           <ul>
             <li>
               Complete 19-subject crash revision covering all major exam areas
