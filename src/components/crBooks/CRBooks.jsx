@@ -6,10 +6,10 @@ function CRBooks() {
   return (
     <div className="crbooks-container">
       <div className="crbooks-content">
-        <h1>
+        <h2>
           Conceptual Radiology Books – A Complete Learning Path from Basics to
           Exam Excellence
-        </h1>
+        </h2>
         <p>
           The Conceptual Radiology book series is thoughtfully designed to meet
           the real needs of radiology residents and practicing radiologists.

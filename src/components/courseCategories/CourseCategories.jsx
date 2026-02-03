@@ -17,25 +17,22 @@ function CourseCategories() {
       (entries, obs) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Animate header
             headerRef.current?.classList.add("animate");
 
-            // Animate cards with stagger
             cardRefs.current.forEach((card, index) => {
               setTimeout(() => {
                 card?.classList.add("animate");
               }, index * 150);
             });
 
-            // Stop observing after first trigger (iOS fix)
             obs.unobserve(entry.target);
           }
         });
       },
       {
-        threshold: 0.1, // iOS friendly
+        threshold: 0.1,
         rootMargin: "0px",
-      }
+      },
     );
 
     if (sectionRef.current) {
@@ -45,7 +42,6 @@ function CourseCategories() {
     return () => observer.disconnect();
   }, []);
 
-  // iOS Safari fallback (prevents invisible content)
   useEffect(() => {
     setTimeout(() => {
       headerRef.current?.classList.add("animate");
@@ -95,7 +91,7 @@ function CourseCategories() {
   return (
     <section className="course-container" ref={sectionRef}>
       <div className="course-header" ref={headerRef}>
-        <h1>Course Categories</h1>
+        <h2>Course Categories</h2>
       </div>
 
       <div className="course-cards">

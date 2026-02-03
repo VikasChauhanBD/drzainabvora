@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-.crplans-header h1 {
+.crplans-header h2 {
   font-size: 48px;
   color: #f1f2f6;
 }
@@ -96,7 +96,7 @@
     width: 95%;
   }
 
-  .crplans-header h1 {
+  .crplans-header h2 {
     font-size: 40px;
   }
 
@@ -128,7 +128,7 @@
   }
 }
 @media (max-width: 500px) {
-  .crplans-header h1 {
+  .crplans-header h2 {
     font-size: 36px;
   }
 

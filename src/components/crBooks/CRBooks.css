@@ -9,7 +9,7 @@
   padding: 4rem 0;
 }
 
-.crbooks-content h1 {
+.crbooks-content h2 {
   font-size: 40px;
   color: #27187e;
 }
@@ -50,7 +50,7 @@
     width: 95%;
   }
 
-  .crbooks-content h1 {
+  .crbooks-content h2 {
     font-size: 32px;
   }
 }
@@ -60,7 +60,7 @@
     padding: 2rem 1rem;
   }
 
-  .crbooks-content h1 {
+  .crbooks-content h2 {
     font-size: 28px;
   }
 }

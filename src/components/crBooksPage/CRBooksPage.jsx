@@ -14,24 +14,21 @@ const CRBooksPage = () => {
 
       if (!cardsContainer || cards.length === 0) return;
 
-      // Set CSS variables
       cardsContainer.style.setProperty(
         "--cards-count",
-        cards.length.toString()
+        cards.length.toString(),
       );
       cardsContainer.style.setProperty(
         "--card-height",
-        `${cards[0].clientHeight}px`
+        `${cards[0].clientHeight}px`,
       );
 
-      // Set padding and scroll observers for each card
       cards.forEach((card, index) => {
         if (!card) return;
 
         const offsetTop = 20 + index * 20;
         card.style.paddingTop = `${offsetTop}px`;
 
-        // Skip the last card
         if (index === cards.length - 1) return;
 
         const toScale = 1 - (cards.length - 1 - index) * 0.1;
@@ -70,7 +67,6 @@ const CRBooksPage = () => {
             percentageY = Math.max(0, Math.min(100, percentageY));
           }
 
-          // Calculate scale and brightness values
           const scale = valueAtPercentage({
             from: 1,
             to: toScale,
@@ -87,14 +83,11 @@ const CRBooksPage = () => {
           cardInner.style.filter = `brightness(${brightness})`;
         };
 
-        // Initial call
         handleScroll();
 
-        // Add scroll event listener
         window.addEventListener("scroll", handleScroll);
         window.addEventListener("resize", handleScroll);
 
-        // Cleanup function
         return () => {
           window.removeEventListener("scroll", handleScroll);
           window.removeEventListener("resize", handleScroll);
@@ -102,15 +95,12 @@ const CRBooksPage = () => {
       });
     };
 
-    // Helper function to calculate value at percentage
     const valueAtPercentage = ({ from, to, percentage }) => {
       return from + (to - from) * (percentage / 100);
     };
 
-    // Initialize when component mounts
     const cleanupFunctions = initializeScrollEffects();
 
-    // Cleanup on unmount
     return () => {
       if (cleanupFunctions) {
         cleanupFunctions.forEach((cleanup) => cleanup && cleanup());
@@ -118,7 +108,6 @@ const CRBooksPage = () => {
     };
   }, []);
 
-  // Add card to ref array
   const addToCardsRef = (el, index) => {
     cardsRef.current[index] = el;
   };
@@ -256,7 +245,7 @@ const CRBooksPage = () => {
                 />
               </div>
               <div className="crbookspage-card__content">
-                <h1 className="crbookspage-card__title">{card.title}</h1>
+                <h3 className="crbookspage-card__title">{card.title}</h3>
                 <p className="crbookspage-card__description">
                   {card.description}
                 </p>

@@ -6,7 +6,7 @@ function CrispEdition() {
   return (
     <div className="crisp-edition-container">
       <div className="crisp-edition-high">
-        <h1>Highlights:</h1>
+        <h2>Highlights:</h2>
         <h3>
           <b>Focused Offline Crash Course</b> designed exclusively for radiology
           residents preparing for <b>MD, DNB, and other Radiology exams</b>

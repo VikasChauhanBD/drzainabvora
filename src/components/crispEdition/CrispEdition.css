@@ -11,7 +11,7 @@
   border-radius: 16px;
 }
 
-.crisp-edition-high h1 {
+.crisp-edition-high h2 {
   font-size: 40px;
   color: #f1f2f6;
 }
@@ -69,7 +69,8 @@
   border-radius: 16px;
   text-align: center;
   color: #27187e;
-  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
     inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
     inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
@@ -132,7 +133,7 @@
   }
 }
 @media (max-width: 800px) {
-  .crisp-edition-high h1,
+  .crisp-edition-high h2,
   .crisp-edition-cards h1 {
     font-size: 32px;
   }
@@ -150,7 +151,7 @@
   }
 }
 @media (max-width: 500px) {
-  .crisp-edition-high h1,
+  .crisp-edition-high h2,
   .crisp-edition-cards h1 {
     font-size: 28px;
   }

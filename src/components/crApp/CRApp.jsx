@@ -16,10 +16,10 @@ function CRApp() {
         </div>
 
         <div className="crapp-content">
-          <h1>
+          <h2>
             Get Unlimited Access With <br />
             Our Premium Membership
-          </h1>
+          </h2>
           <ul>
             <li>Clinical Radiology</li>
             <li>Medical physics and recent advances</li>

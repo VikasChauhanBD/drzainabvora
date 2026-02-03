@@ -12,12 +12,10 @@ function CRPlans() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Animate headers
             headerRefs.current.forEach((header) => {
               header.classList.add("animate");
             });
 
-            // Animate cards with stagger
             cardRefs.current.forEach((card, index) => {
               setTimeout(() => {
                 card.classList.add("animate");
@@ -26,7 +24,7 @@ function CRPlans() {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     if (sectionRef.current) observer.observe(sectionRef.current);
@@ -57,7 +55,7 @@ function CRPlans() {
   return (
     <div className="crplans-container" ref={sectionRef}>
       <div className="crplans-header" ref={addToHeaderRefs}>
-        <h1>Solo Plan</h1>
+        <h2>Solo Plan</h2>
         <p>
           The Solo Plan is ideal for radiology residents who prefer focused,
           self-paced learning on Conceptual Radiology. It offers complete access
@@ -88,7 +86,7 @@ function CRPlans() {
       </div>
 
       <div className="crplans-header" ref={addToHeaderRefs}>
-        <h1 style={{ marginTop: "2rem" }}> Buddy Plan</h1>
+        <h2 style={{ marginTop: "2rem" }}> Buddy Plan</h2>
         <p>
           The Buddy Plan is designed for two radiology residents who want to
           learn together. It encourages collaboration, discussion, and mutual

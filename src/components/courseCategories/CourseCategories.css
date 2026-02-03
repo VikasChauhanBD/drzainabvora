@@ -15,7 +15,7 @@
   transform: translateY(0);
 }
 
-.course-header h1 {
+.course-header h2 {
   font-size: 48px;
   color: #27187e;
   margin-bottom: 24px;
@@ -75,7 +75,7 @@
     width: 95%;
   }
 
-  .course-header h1 {
+  .course-header h2 {
     font-size: 40px;
   }
 }
@@ -85,7 +85,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .course-header h1 {
+  .course-header h2 {
     font-size: 32px;
   }
 }
@@ -95,7 +95,7 @@
     grid-template-columns: 1fr;
   }
 
-  .course-header h1 {
+  .course-header h2 {
     font-size: 28px;
   }
 }
