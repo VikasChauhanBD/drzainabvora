@@ -13,7 +13,7 @@ function AboutBtr() {
           />
         </div>
         <div className="about-btr-content">
-          <h1 className="about-btr-heading">About BTR</h1>
+          <h2 className="about-btr-heading">About BTR</h2>
           <p>
             BTR is the smarter way to prepare for PG Exams, created and led by
             Dr. Zainab Vora, one of India’s most trusted educators. Designed for

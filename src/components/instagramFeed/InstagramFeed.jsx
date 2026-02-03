@@ -29,7 +29,7 @@ const InstagramFeed = () => {
       <div className="instagram-feed-header">
         <div className="instagram-header-title-section">
           <FaInstagram className="instagram-header-icon" />
-          <h1 className="instagram-header-title">Dr. Zainab Vora</h1>
+          <h2 className="instagram-header-title">Dr. Zainab Vora</h2>
         </div>
         <p className="instagram-header-subtitle">Latest Instagram Posts</p>
       </div>

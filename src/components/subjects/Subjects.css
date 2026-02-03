@@ -21,7 +21,7 @@
   border-radius: 10px;
 }
 
-.subjects-card h1 {
+.subjects-card h2 {
   font-size: 48px;
 }
 
@@ -96,7 +96,7 @@
     padding: 2rem 1rem;
   }
 
-  .subjects-card h1 {
+  .subjects-card h2 {
     font-size: 40px;
   }
 
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 500px) {
-  .subjects-card h1 {
+  .subjects-card h2 {
     font-size: 32px;
   }
 

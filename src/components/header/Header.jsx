@@ -10,15 +10,6 @@ function Header() {
   ];
   const [currentImage, setCurrentImage] = useState(0);
 
-  // Image rotation logic
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentImage((prev) => (prev + 1) % heroImages.length);
-  //   }, 4000); // change image every 4 seconds
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % heroImages.length);
@@ -27,11 +18,6 @@ function Header() {
     return () => clearInterval(interval);
   }, []);
 
-  // const [text] = useTypewriter({
-  //   words: ["“Kahani tumhaari hai. Ho sake toh kamaal likhna.”"],
-  //   loop: {},
-  // });
-
   return (
     <div className="header-container">
       <div className="upper-header">
@@ -39,18 +25,17 @@ function Header() {
           A renowned and respected educator, mentoring thousands of medical
           students across India through BTR for FMGE, NEET PG & INICET.
         </h1>
-        {/* <NavLink to="/about">Click Here</NavLink> */}
       </div>
 
       <div className="lower-header">
         <div className="header-main">
           <div className="header-content">
-            <h3>Here comes</h3>
-            <h1>Dr. Zainab Vora</h1>
-            <h2>
+            <h4>Here comes</h4>
+            <h2>Dr. Zainab Vora</h2>
+            <h3>
               MD Radiology ( AIIMS Delhi ), National NEET PG Mentor, and the
               mastermind behind BTR.
-            </h2>
+            </h3>
             <p>
               An AIIMS New Delhi alumnus and AIR 1 in INI-CET, Dr. Zainab Vora
               is more than an educator - she is a pillar of hope for PG
@@ -61,11 +46,6 @@ function Header() {
               mentor but a belief that says, "Your story can still change."
             </p>
 
-            {/* <h6 className="header-typeWriter">
-              {text}
-              <Cursor />
-            </h6> */}
-
             <h6>“Kahani tumhaari hai. Ho sake toh kamaal likhna.”</h6>
 
             <NavLink to="/about">Know More</NavLink>
@@ -73,12 +53,6 @@ function Header() {
 
           <div className="header-image">
             {heroImages.map((img, index) => (
-              // <img
-              //   key={index}
-              //   src={img}
-              //   alt="Dr. Zainab Vora"
-              //   className={`hero-img ${index === currentImage ? "active" : ""}`}
-              // />
               <img
                 src={img}
                 alt="Hero"

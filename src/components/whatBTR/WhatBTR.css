@@ -18,12 +18,8 @@
   margin-bottom: 1rem;
 }
 
-.what-btr-header h1 {
-  font-size: 48px;
-}
-
 .what-btr-header h2 {
-  font-size: 22px;
+  font-size: 48px;
 }
 
 .what-btr-header p {
@@ -47,7 +43,8 @@
   background-color: #f1f2f6;
   border: 1px solid rgba(33, 33, 33, 0.07);
   border-radius: 22px;
-  box-shadow: inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
+  box-shadow:
+    inset 0 0.361px 0.181px -1.25px rgba(0, 0, 0, 0.18),
     inset 0 1.373px 0.687px -2.5px rgba(0, 0, 0, 0.16),
     inset 0 6px 3px -3.75px rgba(0, 0, 0, 0.06),
     inset 0 0.422px 0.422px -1.25px hsla(0, 0%, 100%, 0.18),
@@ -140,7 +137,7 @@
     padding: 10px;
   }
 
-  .what-btr-header h1 {
+  .what-btr-header h2 {
     font-size: 40px;
   }
 
@@ -187,7 +184,7 @@
 }
 
 @media (max-width: 500px) {
-  .what-btr-header h1 {
+  .what-btr-header h2 {
     font-size: 36px;
   }
 

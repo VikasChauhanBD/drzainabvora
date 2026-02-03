@@ -66,7 +66,7 @@ export default function Schedule() {
       <div className="btr-schedule-wrapper">
         {/* Header */}
         <div className="btr-schedule-header">
-          <h1 className="btr-schedule-title">NEET PG 2026 Bootcamp Schedule</h1>
+          <h2 className="btr-schedule-title">NEET PG 2026 Bootcamp Schedule</h2>
           <p className="btr-schedule-description">
             A well-organized approach that helps you master all subjects through
             live interactive sessions and dedicated revision.

@@ -31,7 +31,7 @@ function WhatBTR() {
           }
         });
       },
-      { threshold: 0.3, rootMargin: "-50px" }
+      { threshold: 0.3, rootMargin: "-50px" },
     );
 
     if (sectionRef.current) {
@@ -82,11 +82,11 @@ function WhatBTR() {
     <div className="what-btr-container" ref={sectionRef}>
       <div className="what-btr-header" ref={headerRef}>
         <h3>THE BTR METHOD</h3>
-        <h1>
+        <h2>
           Belief Toh Rakho
           <br />
           The Revolutionary Approach
-        </h1>
+        </h2>
         <p>
           A complete teaching methodology that changes how you learn medicine,
           helping you master all subjects with techniques for better persistence

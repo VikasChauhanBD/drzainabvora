@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.upper-header h1 {
+.upper-header h2 {
   font-size: 28px;
   font-weight: 400;
   line-height: 36px;
@@ -50,16 +50,16 @@
   color: #ffffff;
 }
 
-.header-content h3 {
+.header-content h4 {
   font-size: 22px;
   margin-bottom: 1rem;
 }
 
-.header-content h1 {
+.header-content h2 {
   font-size: 48px;
 }
 
-.header-content h2 {
+.header-content h3 {
   font-size: 22px;
   font-weight: 500;
 }
@@ -94,17 +94,11 @@
 .header-content h6 {
   font-size: 22px;
   margin-bottom: 2rem;
-  transition: opacity 1s ease-in-out, transform 1s ease;
+  transition:
+    opacity 1s ease-in-out,
+    transform 1s ease;
   opacity: 1;
 }
-
-/* .header-typeWriter {
-  font-size: 24px;
-  color: #f1f2f6;
-  margin-bottom: 2rem;
-  transition: opacity 1s ease-in-out, transform 1s ease;
-  opacity: 1;
-} */
 
 .fade-in {
   opacity: 1;
@@ -115,28 +109,6 @@
   opacity: 0;
   transform: translateY(-10px);
 }
-
-/* .header-image {
-  width: 50%;
-  position: relative;
-  height: 100%;
-}
-
-.hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-.hero-img.active {
-  opacity: 1;
-  transform: translateY(0);
-  position: relative;
-} */
 
 .header-image {
   width: 40%;
@@ -183,7 +155,7 @@
 }
 
 @media (max-width: 800px) {
-  .upper-header h1 {
+  .upper-header h2 {
     font-size: 24px;
   }
 
@@ -207,12 +179,12 @@
     margin: 0 auto;
   }
 
-  .header-content h1 {
+  .header-content h3 {
     font-size: 40px;
   }
 
-  .header-content h2,
   .header-content h3,
+  .header-content h4,
   .header-typeWriter {
     font-size: 20px;
   }
@@ -224,12 +196,12 @@
 }
 
 @media (max-width: 500px) {
-  .upper-header h1 {
+  .upper-header h2 {
     font-size: 22px;
     line-height: 28px;
   }
 
-  .header-content h1 {
+  .header-content h3 {
     font-size: 32px;
   }
 

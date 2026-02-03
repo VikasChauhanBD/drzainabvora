@@ -7,7 +7,7 @@ function Subjects() {
   return (
     <div className="subjects-container">
       <div className="subjects-card">
-        <h1>All 19 Subjects Under One Roof</h1>
+        <h2>All 19 Subjects Under One Roof</h2>
         <p>
           Complere preparations for NEET PG, FMGE, and INICET with comprehensive
           coverage of every subject you need to master.
