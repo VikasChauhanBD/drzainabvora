@@ -8,6 +8,27 @@ export const testimonialVideosData = [
   },
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1770194532/reel-cover-35_qpn4lc.jpg",
+    alt: "Students with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1770194540/reel-video-35_c38cy0.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1770194532/reel-cover-34_diylyu.jpg",
+    alt: "BTR Subscribers with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1770194536/reel-video-34_gyfrxj.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1770194532/reel-cover-33_belh2l.jpg",
+    alt: "Motivation speech by Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1770194534/reel-video-33_um3bou.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768115424/reel-cover-32_xerolx.jpg",
     alt: "Student feedback for Dr. Zainab Vora",
     type: "video",
