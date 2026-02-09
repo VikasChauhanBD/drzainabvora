@@ -15,7 +15,7 @@ export default function Schedule() {
     { date: "2026-02-07", subject: "Surgery Test-Discussion" },
     { date: "2026-02-09", subject: "CVS" },
     { date: "2026-02-11", subject: "Hemat" },
-    { date: "2026-02-13", subject: "Neuro" },
+    { date: "2026-02-15", subject: "Neuro" },
     { date: "2026-02-16", subject: "Renal + Rheumat" },
     { date: "2026-02-18", subject: "Endocrine + GI" },
     { date: "2026-02-20", subject: "Respi + General Physio" },
