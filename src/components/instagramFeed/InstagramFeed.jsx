@@ -17,7 +17,6 @@ const InstagramFeed = () => {
     }
 
     return () => {
-      // Cleanup script on unmount
       if (script.parentNode) {
         script.parentNode.removeChild(script);
       }
