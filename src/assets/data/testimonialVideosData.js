@@ -30,7 +30,7 @@ export const testimonialVideosData = [
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319760/reel-cover-37_czmsf4.jpg",
-    alt: "Dr. Zainab Vora class session",
+    alt: "Dr. Zainab Vora online class session",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319760/reel-video-37_yzv0v4.mp4",
   },
