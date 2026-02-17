@@ -8,6 +8,41 @@ export const testimonialVideosData = [
   },
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319759/reel-cover-40_puen5n.jpg",
+    alt: "BTR Subscriber",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319761/reel-video-40_szalex.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319758/reel-cover-39_ibb5tc.jpg",
+    alt: "Motivation speech by Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319760/reel-video-39_kvkrlz.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319759/reel-cover-38_srcst4.jpg",
+    alt: "Motivation speech by Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319762/reel-video-38_zbw2sw.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319760/reel-cover-37_czmsf4.jpg",
+    alt: "Dr. Zainab Vora class session",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319760/reel-video-37_yzv0v4.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319761/reel-cover-36_lkcxcv.jpg",
+    alt: "BTR Subscribers with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771319762/reel-video-36_dbhqju.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1770194532/reel-cover-35_qpn4lc.jpg",
     alt: "Students with Dr. Zainab Vora",
     type: "video",
