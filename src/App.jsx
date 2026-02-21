@@ -22,7 +22,7 @@ function App() {
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
-    const CHANNEL_NAME = "intro_video_channel";
+    const CHANNEL_NAME = "Dr. Zainab Vora Intro Video";
     let channel;
 
     try {

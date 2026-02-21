@@ -5,22 +5,28 @@ import { NavLink } from "react-router-dom";
 
 const InstagramFeed = () => {
   useEffect(() => {
-    // Load Instagram embed script
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "//www.instagram.com/embed.js";
-    document.body.appendChild(script);
-
-    // Process embeds after script loads
     if (window.instgrm) {
       window.instgrm.Embeds.process();
+      return;
     }
 
-    return () => {
-      if (script.parentNode) {
-        script.parentNode.removeChild(script);
+    const existingScript = document.querySelector(
+      'script[src="https://www.instagram.com/embed.js"]',
+    );
+    if (existingScript) return;
+
+    const script = document.createElement("script");
+    script.async = true;
+    script.defer = true;
+    script.src = "https://www.instagram.com/embed.js";
+
+    script.onload = () => {
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
       }
     };
+
+    document.body.appendChild(script);
   }, []);
 
   return (
@@ -41,7 +47,8 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowTransparency="true"
+            allowtransparency="true"
+            title="Dr. Zainab Vora Instagram post"
           ></iframe>
         </div>
 
@@ -52,7 +59,8 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowTransparency="true"
+            allowtransparency="true"
+            title="Dr. Zainab Vora Instagram post"
           ></iframe>
         </div>
 
@@ -63,7 +71,8 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowTransparency="true"
+            allowtransparency="true"
+            title="Dr. Zainab Vora Instagram post"
           ></iframe>
         </div>
       </div>
