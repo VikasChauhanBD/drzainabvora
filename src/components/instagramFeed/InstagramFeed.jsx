@@ -42,37 +42,37 @@ const InstagramFeed = () => {
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
+            src="https://www.instagram.com/p/DVBkqdrgUyd/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowtransparency="true"
+            title="Dr. Zainab Vora latest Instagram post"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
+            src="https://www.instagram.com/p/DVAqFkAjWws/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowtransparency="true"
+            title="Dr. Zainab Vora latest Instagram post"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
             src="https://www.instagram.com/p/DU8dwubDJnu/embed"
             width="100%"
             height="580"
             frameBorder="0"
             scrolling="no"
             allowtransparency="true"
-            title="Dr. Zainab Vora Instagram post"
-          ></iframe>
-        </div>
-
-        <div className="instagram-post">
-          <iframe
-            src="https://www.instagram.com/p/DUyV69Xk7Bv/embed"
-            width="100%"
-            height="580"
-            frameBorder="0"
-            scrolling="no"
-            allowtransparency="true"
-            title="Dr. Zainab Vora Instagram post"
-          ></iframe>
-        </div>
-
-        <div className="instagram-post">
-          <iframe
-            src="https://www.instagram.com/p/DUw6yfjE6vi/embed"
-            width="100%"
-            height="580"
-            frameBorder="0"
-            scrolling="no"
-            allowtransparency="true"
-            title="Dr. Zainab Vora Instagram post"
+            title="Dr. Zainab Vora latest Instagram post"
           ></iframe>
         </div>
       </div>
