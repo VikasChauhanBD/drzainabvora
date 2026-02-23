@@ -8,6 +8,20 @@ export const testimonialVideosData = [
   },
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771846489/reel-cover-42_gf5ozw.jpg",
+    alt: "Stay focused during long lectures with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771846491/reel-video-42_l48x5y.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771846488/reel-cover-41_jtjlb7.jpg",
+    alt: "Life Lessons with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1771846491/reel-video-41_undwrx.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771319759/reel-cover-40_puen5n.jpg",
     alt: "BTR Subscriber",
     type: "video",
