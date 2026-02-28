@@ -11,7 +11,6 @@ const InstagramFeed = () => {
     script.src = "//www.instagram.com/embed.js";
     document.body.appendChild(script);
 
-    // Process embeds after script loads
     if (window.instgrm) {
       window.instgrm.Embeds.process();
     }
