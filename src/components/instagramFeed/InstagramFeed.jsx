@@ -39,6 +39,7 @@ const InstagramFeed = () => {
         <p className="instagram-header-subtitle">Latest Instagram Posts</p>
       </div>
 
+      {/* Dr. Zainab Vora Instagram Posts */}
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
