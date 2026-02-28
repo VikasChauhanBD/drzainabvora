@@ -5,28 +5,22 @@ import { NavLink } from "react-router-dom";
 
 const InstagramFeed = () => {
   useEffect(() => {
-    if (window.instgrm) {
-      window.instgrm.Embeds.process();
-      return;
-    }
-
-    const existingScript = document.querySelector(
-      'script[src="https://www.instagram.com/embed.js"]',
-    );
-    if (existingScript) return;
-
+    // Load Instagram embed script
     const script = document.createElement("script");
     script.async = true;
-    script.defer = true;
-    script.src = "https://www.instagram.com/embed.js";
+    script.src = "//www.instagram.com/embed.js";
+    document.body.appendChild(script);
 
-    script.onload = () => {
-      if (window.instgrm) {
-        window.instgrm.Embeds.process();
+    // Process embeds after script loads
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    }
+
+    return () => {
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
       }
     };
-
-    document.body.appendChild(script);
   }, []);
 
   return (
@@ -39,7 +33,6 @@ const InstagramFeed = () => {
         <p className="instagram-header-subtitle">Latest Instagram Posts</p>
       </div>
 
-      {/* Dr. Zainab Vora Instagram Posts */}
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
@@ -48,7 +41,7 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowtransparency="true"
+            allowTransparency="true"
             title="Dr. Zainab Vora latest Instagram post"
           ></iframe>
         </div>
@@ -60,7 +53,7 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowtransparency="true"
+            allowTransparency="true"
             title="Dr. Zainab Vora latest Instagram post"
           ></iframe>
         </div>
@@ -72,7 +65,7 @@ const InstagramFeed = () => {
             height="580"
             frameBorder="0"
             scrolling="no"
-            allowtransparency="true"
+            allowTransparency="true"
             title="Dr. Zainab Vora latest Instagram post"
           ></iframe>
         </div>
