@@ -8,6 +8,34 @@ export const testimonialVideosData = [
   },
   {
     image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1772425644/reel-cover-46_ixifkp.jpg",
+    alt: "BTR Subscriber and Students with Dr. Zainab Vora Ma'am",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1772425652/reel-video-46_xwigdn.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1772425644/reel-cover-45_zm7z5x.jpg",
+    alt: "Test and Discussion with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1772425647/reel-video-45_lzylvr.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1772425644/reel-cover-44_lc5dir.jpg",
+    alt: "Mini Test by Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1772425647/reel-video-44_il1mbd.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1772425644/reel-cover-43_f3kia0.jpg",
+    alt: "BTR Subscriber and Students with Dr. Zainab Vora Ma'am",
+    type: "video",
+    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1772425648/reel-video-43_nfk2jz.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1771846489/reel-cover-42_gf5ozw.jpg",
     alt: "Stay focused during long lectures with Dr. Zainab Vora",
     type: "video",
