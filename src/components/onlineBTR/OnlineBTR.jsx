@@ -7,8 +7,8 @@ function OnlineBTR() {
     <div className="online-btr-container">
       <div className="online-btr-banner">
         <img
-          src="https://cdn.dribbble.com/userupload/46394030/file/eacdbc74e520e22a292e50395eea41b8.jpg"
-          alt="Online BTR by Dr. Zainab Vora"
+          src="https://cdn.dribbble.com/userupload/46394030/file/2f74baf955f88eeaf2416e5147f177d9.webp"
+          alt="BTR Online by Dr. Zainab Vora"
         />
       </div>
 

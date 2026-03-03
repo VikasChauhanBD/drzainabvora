@@ -79,8 +79,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/btr" element={<BtrPage />} />
-          <Route path="/online-btr" element={<OnlineBtrPage />} />
-          <Route path="/offline-btr" element={<OfflineBtrPage />} />
+          <Route path="/btr-online" element={<OnlineBtrPage />} />
+          <Route path="/btr-offline" element={<OfflineBtrPage />} />
           <Route path="/bootcamp" element={<BootcampPage />} />
           <Route path="/conceptual-radiology" element={<CRPage />} />
           <Route path="/conceptual-radiology-books" element={<CRBooksPage />} />

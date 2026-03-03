@@ -81,18 +81,18 @@ function Navbar() {
               onMouseLeave={() => !showNav && setShowBTRMenu(false)}
             >
               <NavLink
-                to="/online-btr"
+                to="/btr-online"
                 onClick={handleCloseNav}
                 className="dropdown-link"
               >
-                Online BTR
+                BTR Online
               </NavLink>
               <NavLink
-                to="/offline-btr"
+                to="/btr-offline"
                 onClick={handleCloseNav}
                 className="dropdown-link"
               >
-                Offline BTR
+                BTR Offline
               </NavLink>
             </div>
           )}

@@ -8,11 +8,11 @@ function OfflineBtrPage() {
   return (
     <div>
       <Helmet>
-        <title>Offline BTR - Dr. Zainab Vora</title>
+        <title>BTR Offline - Dr. Zainab Vora</title>
 
         <meta
           name="description"
-          content="Offline BTR by Dr. Zainab Vora offers face to face crash revision, real time interaction & high yielding facts for NEET PG aspirant's exam readiness."
+          content="BTR Offline by Dr. Zainab Vora offers face to face crash revision, real time interaction & high yielding facts for NEET PG aspirant's exam readiness."
         />
       </Helmet>
 

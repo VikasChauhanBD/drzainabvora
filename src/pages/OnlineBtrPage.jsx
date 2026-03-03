@@ -9,11 +9,11 @@ function OnlineBtrPage() {
   return (
     <div>
       <Helmet>
-        <title>Online BTR - Dr. Zainab Vora</title>
+        <title>BTR Online - Dr. Zainab Vora</title>
 
         <meta
           name="description"
-          content="Online BTR by Dr. Zainab Vora offers exam-oriented learning approach with crisp concepts, smart revision tools & expert guidance for medical students."
+          content="BTR Online by Dr. Zainab Vora offers exam-oriented learning approach with crisp concepts, smart revision tools & expert guidance for medical students."
         />
       </Helmet>
 

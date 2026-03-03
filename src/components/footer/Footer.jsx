@@ -67,10 +67,10 @@ function Footer() {
           <h3 className="footer-title">Programs for NEET/INI CET</h3>
           <ul className="footer-links">
             <li>
-              <NavLink to="/online-btr">Online BTR</NavLink>
+              <NavLink to="/btr-online">BTR Online</NavLink>
             </li>
             <li>
-              <NavLink to="/offline-btr">Offline BTR</NavLink>
+              <NavLink to="/btr-offline">BTR Offline</NavLink>
             </li>
             <li>
               <NavLink to="/bootcamp">Bootcamp</NavLink>
