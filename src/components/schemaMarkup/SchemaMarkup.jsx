@@ -25,7 +25,7 @@ const SchemaMarkup = () => {
     },
     sameAs: [
       "https://www.instagram.com/drzainabvora/",
-      "https://www.youtube.com/@ConceptualRadiology/",
+      "https://www.youtube.com/@btrbyzainabvora",
     ],
   };
 
@@ -37,7 +37,7 @@ const SchemaMarkup = () => {
     logo: "https://drzainabvora.com/assets/ZV-logo-71QxKXJj.png",
     sameAs: [
       "https://www.instagram.com/drzainabvora/",
-      "https://www.youtube.com/@ConceptualRadiology/",
+      "https://www.youtube.com/@btrbyzainabvora",
     ],
   };
 
