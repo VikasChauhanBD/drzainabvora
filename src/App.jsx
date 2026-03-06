@@ -15,6 +15,7 @@ import CrispPage from "./pages/CrispPage";
 import BtrPage from "./pages/BtrPage";
 import BootcampPage from "./pages/BootcampPage";
 import GalleryPage from "./pages/GalleryPage";
+import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
 import NotFound from "./components/notFound/NotFound";
 
@@ -87,6 +88,7 @@ function App() {
           <Route path="/crisp" element={<CrispPage />} />
           <Route path="/students" element={<StudentsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/faqs" element={<Faqs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
