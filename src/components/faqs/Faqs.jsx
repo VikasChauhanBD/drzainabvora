@@ -6,7 +6,7 @@ const faqs = [
     id: 1,
     question: "What are the class timings of NEET PG Bootcamp?",
     answer:
-      "The facility will be open from 7AM to 8PM. The classes will be from 9AM and will usually go on till 3–4PM. Students are encouraged to utilise the facility for self study and revision post-class. On test days, the batch will be divided into slots and students will appear for tests in the respective slots. During the rest of the day, they should ideally study at the facility.",
+      "The facility will be open from 7AM to 8PM. The classes will be from 9AM and will usually go on till 3-4PM. Students are encouraged to utilise the facility for self study and revision post-class. On test days, the batch will be divided into slots and students will appear for tests in the respective slots. During the rest of the day, they should ideally study at the facility.",
   },
   {
     id: 2,
@@ -50,17 +50,17 @@ function FaqItem({ faq, index }) {
 
   return (
     <div
-      className={`faq-item ${open ? "faq-item--open" : ""}`}
+      className={`faq-item ${open ? "faq-item-open" : ""}`}
       style={{ "--i": index }}
       onClick={() => setOpen(!open)}
     >
-      <div className="faq-item__header">
-        <span className="faq-item__number">0{faq.id}</span>
-        <h3 className="faq-item__question">{faq.question}</h3>
-        <span className="faq-item__icon">{open ? "−" : "+"}</span>
+      <div className="faq-item-header">
+        <span className="faq-item-number">0{faq.id}</span>
+        <h3 className="faq-item-question">{faq.question}</h3>
+        <span className="faq-item-icon">{open ? "−" : "+"}</span>
       </div>
-      <div className="faq-item__body">
-        <p className="faq-item__answer">{faq.answer}</p>
+      <div className="faq-item-body">
+        <p className="faq-item-answer">{faq.answer}</p>
       </div>
     </div>
   );
@@ -73,7 +73,7 @@ function Faqs() {
         <div className="faq-label">Got Questions?</div>
         <h1 className="faq-heading">
           Frequently <br />
-          <span className="faq-heading--accent">Asked</span> <br />
+          <span className="faq-heading-accent">Asked</span> <br />
           Questions
         </h1>
         <p className="faq-subtext">
