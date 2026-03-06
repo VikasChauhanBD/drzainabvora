@@ -85,8 +85,8 @@ const faqs = [
 //   {
 //     id: 9,
 //     question:
-//       "Can a student purchase BTR notes from Cerebellum Academy App now?",
-//     answer: `Yes, BTR 2.0 notes can be purchased from the Cerebellum App <strong>until 31 March 2026</strong>. </br>However:
+//       "Can a student purchase BTR notes from Cerebellum Academy App now also?",
+//     answer: `Yes, BTR 2.0 notes can be purchased from the Cerebellum App until <strong>31st March 2026</strong> and new Notes from New App by Dr. Zainab Vora, shall be available from <strong>02nd April 2026</strong>. </br>However:
 // <ul>
 // <li>These notes are aligned with BTR 2.0 videos.</li>
 // <li>Students planning to follow the new BTR version should wait and purchase notes from the new platform after April.</li>
@@ -174,7 +174,7 @@ const faqs = [
 //   {
 //     id: 21,
 //     question: "What will be the procedure of transition to the new App?",
-//     answer: `Cerebellum mission and BTR subscribers need to give consent for sending necessary details to new platform for subscription. Option of this consent will be provided within the cerebellum academy App. before 20th March 2027. The students then need to download the new App of Dr Zainab whenever it will be launched and login using these credentials. The subscription will then be automatically activated.`,
+//     answer: `Cerebellum mission and BTR subscribers need to give consent for sending necessary details to new platform for subscription. Option of this consent will be provided within the cerebellum academy App. before <strong>20th March 2026</strong>. The students then need to download the new App of Dr Zainab whenever it will be launched and login using these credentials. The subscription will then be automatically activated.`,
 //   },
 //   {
 //     id: 22,

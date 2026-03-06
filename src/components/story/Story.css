@@ -29,11 +29,11 @@
 }
 
 .story-slide .story-item {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 50%;
-  transform: translate(25%, -50%);
+  transform: translate(25%, 40%);
   border-radius: 20px;
   box-shadow: 0 10px 20px #505050;
   display: inline-block;
@@ -166,8 +166,18 @@
   }
 
   .story-slide .story-item {
-    width: 180px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    transform: translate(-25%, 25%);
+  }
+
+  .story-button {
+    left: 5%;
+  }
+
+  .story-button button {
+    width: 50px;
+    height: 40px;
   }
 
   .story-item .story-content {
@@ -189,15 +199,13 @@
   }
 
   .story-card {
-    width: 90%;
-    height: 400px;
+    width: 95%;
+    height: 450px;
     margin-top: 320px;
   }
 
   .story-slide .story-item {
-    transform: translate(-110%, -50%);
-    width: 180px;
-    height: 180px;
+    transform: translate(-35%, 25%);
   }
 }
 
@@ -206,13 +214,20 @@
     font-size: 24px;
   }
 
-  .story-card {
-    width: 95%;
+  .story-slide .story-item {
+    width: 125px;
+    height: 110px;
+    transform: translate(-125%, 100%);
   }
 
-  .story-slide .story-item {
-    width: 120px;
-    height: 120px;
-    transform: translate(-150%, -50%);
+  .story-button {
+    left: 46%;
+    bottom: 10px;
+    gap: 15px;
+  }
+
+  .story-button button {
+    width: 35px;
+    height: 35px;
   }
 }
