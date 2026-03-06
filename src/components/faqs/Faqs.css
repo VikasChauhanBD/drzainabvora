@@ -185,8 +185,6 @@
   border-top: 1px solid rgba(99, 102, 241, 0.08);
 }
 
-/* ── Rich content inside answers ── */
-
 .faq-item-answer strong {
   font-weight: 700;
   color: #1e293b;

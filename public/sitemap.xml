@@ -71,4 +71,10 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://drzainabvora.com/faqs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
