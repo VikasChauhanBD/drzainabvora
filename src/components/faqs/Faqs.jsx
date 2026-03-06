@@ -4,8 +4,8 @@ import "./Faqs.css";
 const faqs = [
   {
     id: 1,
-    question: "FAQ's comming soon",
-    answer: `FAQ's comming soon.`,
+    question: "FAQ's coming soon",
+    answer: `FAQ's coming soon.`,
   },
 ];
 
