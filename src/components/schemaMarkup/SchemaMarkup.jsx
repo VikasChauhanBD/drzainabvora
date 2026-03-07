@@ -6,7 +6,7 @@ const SchemaMarkup = () => {
     "@type": "LocalBusiness",
     name: "Dr. Zainab Vora",
     description:
-      "NEET PG, FMGE & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success.",
+      "NEET PG & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success.",
     image: "https://drzainabvora.com/assets/ZV-logo-71QxKXJj.png",
     "@id": "https://drzainabvora.com/",
     url: "https://drzainabvora.com/",

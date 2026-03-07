@@ -60,6 +60,9 @@ function Footer() {
             <li>
               <NavLink to="/gallery">Gallery</NavLink>
             </li>
+            <li>
+              <NavLink to="/faqs">FAQ's</NavLink>
+            </li>
           </ul>
         </div>
 

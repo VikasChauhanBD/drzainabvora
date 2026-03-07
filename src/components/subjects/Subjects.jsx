@@ -8,12 +8,12 @@ function Subjects() {
     <div
       className="subjects-container"
       role="img"
-      aria-label="Medical entrance exam subjects background for NEET PG, FMGE and INICET preparation"
+      aria-label="Medical entrance exam subjects background for NEET PG and INICET preparation"
     >
       <div className="subjects-card">
         <h2>All 19 Subjects Under One Roof</h2>
         <p>
-          Complete preparations for NEET PG, FMGE, and INICET with comprehensive
+          Complete preparations for NEET PG and INICET with comprehensive
           coverage of every subject you need to master.
         </p>
 

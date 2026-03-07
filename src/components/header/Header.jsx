@@ -23,7 +23,7 @@ function Header() {
       <div className="upper-header">
         <h2>
           A renowned and respected educator, mentoring thousands of medical
-          students across India through BTR for FMGE, NEET PG & INICET.
+          students across India through BTR for NEET PG & INICET.
         </h2>
       </div>
 

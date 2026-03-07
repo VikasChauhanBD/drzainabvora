@@ -15,12 +15,12 @@ function HomePage() {
     <>
       <Helmet>
         <title>
-          Dr. Zainab Vora | NEET PG, FMGE & INICET Exam Preparation Platform
+          Dr. Zainab Vora | NEET PG & INICET Exam Preparation Platform
         </title>
 
         <meta
           name="description"
-          content="NEET PG, FMGE & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success."
+          content="NEET PG & INI CET exam preparation by Dr. Zainab Vora focuses on conceptual clarity, smart strategies, and high-yield learning for real exam success."
         />
       </Helmet>
 

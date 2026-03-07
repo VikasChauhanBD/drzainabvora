@@ -139,6 +139,9 @@ function Navbar() {
         <NavLink to="/gallery" onClick={handleCloseNav}>
           Gallery
         </NavLink>
+        <NavLink to="/faqs" onClick={handleCloseNav}>
+          FAQ's
+        </NavLink>
       </nav>
       <div className="hamburger">
         <button className="hamburger-btn" onClick={handleButtonToggle}>
