@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 
 const InstagramFeed = () => {
   useEffect(() => {
-    // Load Instagram embed script
     const script = document.createElement("script");
     script.async = true;
     script.src = "//www.instagram.com/embed.js";
@@ -35,6 +34,18 @@ const InstagramFeed = () => {
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
+            src="https://www.instagram.com/p/DVc-cRHCKsu/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+            title="Dr. Zainab Vora latest Instagram post"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
             src="https://www.instagram.com/p/DVaEoK1j14d/embed"
             width="100%"
             height="580"
@@ -48,18 +59,6 @@ const InstagramFeed = () => {
         <div className="instagram-post">
           <iframe
             src="https://www.instagram.com/p/DVY0Uu6COCY/embed"
-            width="100%"
-            height="580"
-            frameBorder="0"
-            scrolling="no"
-            allowTransparency="true"
-            title="Dr. Zainab Vora latest Instagram post"
-          ></iframe>
-        </div>
-
-        <div className="instagram-post">
-          <iframe
-            src="https://www.instagram.com/p/DVWQKUkE8C3/embed"
             width="100%"
             height="580"
             frameBorder="0"

@@ -31,12 +31,12 @@ function Bootcamp() {
           Bootcamp is built for serious aspirants targeting{" "}
           <b>NEET PG & INI-CET 2026.</b>
         </p>
-        <NavLink
+        {/* <NavLink
           to="https://www.cerebellumacademy.com/neet-pg-btr-bootcamp/"
           target="_blank"
         >
           Click Here For More
-        </NavLink>
+        </NavLink> */}
       </div>
 
       <div className="bootcamp-high">

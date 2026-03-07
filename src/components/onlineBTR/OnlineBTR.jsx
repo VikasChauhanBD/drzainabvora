@@ -24,17 +24,17 @@ function OnlineBTR() {
           instead of overwhelming students with excess content. With a proven
           track record and consistent results, BTR Online has emerged as one of
           the <b>most successful revision plans</b> for{" "}
-          <b>NEET PG, INI-CET, and FMGE aspirants.</b>
+          <b>NEET PG and INI-CET aspirants.</b>
           <br />
           The program is built to help students revise smarter, faster, and with
           clarity.
         </p>
-        <NavLink
+        {/* <NavLink
           to="https://dashboard.cerebellumacademy.com/plans"
           target="_blank"
         >
           Book Your Plan Online
-        </NavLink>
+        </NavLink> */}
       </div>
 
       <div className="online-btr-high">

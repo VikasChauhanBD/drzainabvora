@@ -11,16 +11,16 @@ function BtrWorkBook() {
           <h3>BTR Unannotated Workbook</h3>
           <p>
             A flexible workbook designed for self-made notes and active
-            revision. Ideal for NEET PG, INI-CET, and FMGE aspirants who want to
-            write, customise, and revise high-yield points in their own way
-            during the final phase.
+            revision. Ideal for NEET PG and INI-CET aspirants who want to write,
+            customise, and revise high-yield points in their own way during the
+            final phase.
           </p>
-          <NavLink
+          {/* <NavLink
             to="https://www.cerebellumacademy.com/btr-unannotated-workbook/"
             target="_blank"
           >
             Check BTR Unannotated Workbook
-          </NavLink>
+          </NavLink> */}
         </div>
 
         <div className="workbook-card">
@@ -31,12 +31,12 @@ function BtrWorkBook() {
             while perfectly complementing the unannotated workbook for effective
             last-minute preparation.
           </p>
-          <NavLink
+          {/* <NavLink
             to="https://www.cerebellumacademy.com/btr-annotated-workbook/"
             target="_blank"
           >
             Check BTR Annotated Workbook
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </div>
