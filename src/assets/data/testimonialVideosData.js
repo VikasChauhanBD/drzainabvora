@@ -1,13 +1,6 @@
 export const testimonialVideosData = [
   {
     image:
-      "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1773115722/reel-cover-48_qc7wys.jpg",
-    alt: "BTR Subscriber and Students with Dr. Zainab Vora Ma'am",
-    type: "video",
-    url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1773115759/reel-video-48_c16m34.mp4",
-  },
-  {
-    image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768016790/reel-cover-24_hdttom.jpg",
     alt: "Record class with Dr. Zainab Vora",
     type: "video",
