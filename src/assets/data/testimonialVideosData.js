@@ -1,5 +1,4 @@
 export const testimonialVideosData = [
-  // resolving error
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1768016790/reel-cover-24_hdttom.jpg",
@@ -10,28 +9,28 @@ export const testimonialVideosData = [
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1773115721/reel-cover-51_c4tfqj.jpg",
-    alt: "Test and Discussion with Dr. Zainab Vora",
+    alt: "BTR Subscriber wishing Women's Day to Dr. Zainab Vora",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1773115722/reel-video-51_o1l5i9.mp4",
   },
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1773115721/reel-cover-50_mvuivs.jpg",
-    alt: "Mini Test by Dr. Zainab Vora",
+    alt: "BTR Subscriber taking online session of Dr. Zainab Vora ",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1773115723/reel-video-50_ae51vl.mp4",
   },
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1773115721/reel-cover-49_j1uqz5.jpg",
-    alt: "BTR Subscriber and Students with Dr. Zainab Vora Ma'am",
+    alt: "Never Quit motivation by Dr. Zainab Vora Ma'am",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1773115723/reel-video-49_lu7gbz.mp4",
   },
   {
     image:
       "https://res.cloudinary.com/dc7y7ypmm/image/upload/v1773115722/reel-cover-47_e0dxzy.jpg",
-    alt: "Stay focused during long lectures with Dr. Zainab Vora",
+    alt: "Student studing by BTR notes provided by Dr. Zainab Vora",
     type: "video",
     url: "https://res.cloudinary.com/dc7y7ypmm/video/upload/v1773115725/reel-video-47_xocw3q.mp4",
   },
