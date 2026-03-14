@@ -10,7 +10,6 @@ const AboutHeader = () => {
 
   return (
     <section className="about-header">
-      {/* Background Video */}
       <div className="about-header-video-wrapper">
         {isLoading && (
           <div className="about-video-loading">
@@ -28,20 +27,14 @@ const AboutHeader = () => {
           preload="auto"
         >
           <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.mp4"
+            src="https://ik.imagekit.io/qqt7duc6p/home-video_qywvfx.mp4?updatedAt=1773472406874"
             type="video/mp4"
-          />
-          <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/q_auto,f_auto/home-video_qywvfx.webm"
-            type="video/webm"
           />
         </video>
       </div>
 
-      {/* Overlay */}
       <div className="about-header-overlay"></div>
 
-      {/* Content */}
       <div className="about-header-content">
         <div className="about-header-text">
           <h1>About Dr. Zainab Vora</h1>

@@ -27,12 +27,8 @@ function VideoHero() {
           preload="auto"
         >
           <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766139895/Dr._Zainab_Vora_Website_v9zucd.mp4"
+            src="https://ik.imagekit.io/qqt7duc6p/Dr._Zainab_Vora_Website_v9zucd.mp4?updatedAt=1773472409677"
             type="video/mp4"
-          />
-          <source
-            src="https://res.cloudinary.com/dc7y7ypmm/video/upload/v1766139895/Dr._Zainab_Vora_Website_v9zucd.webm"
-            type="video/webm"
           />
         </video>
         <div className="video-overlay"></div>
