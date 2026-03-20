@@ -18,6 +18,7 @@ import GalleryPage from "./pages/GalleryPage";
 import FaqsPage from "./pages/FaqsPage";
 import Footer from "./components/footer/Footer";
 import NotFound from "./components/notFound/NotFound";
+import DemoPage from "./pages/DemoPage";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
@@ -90,6 +91,7 @@ function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/demopage" element={<DemoPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
