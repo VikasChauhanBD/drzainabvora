@@ -67,10 +67,10 @@ function OnlineBTR() {
             <li>
               <b>In-app annotated PDFs</b> available as revision notes
             </li>
-            <li>
+            {/* <li>
               <b>FREE hardcopy BTR booklet/workbook</b> for note-making and
               last-minute revision
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
