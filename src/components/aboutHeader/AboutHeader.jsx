@@ -27,7 +27,7 @@ const AboutHeader = () => {
           preload="auto"
         >
           <source
-            src="https://ik.imagekit.io/qqt7duc6p/home-video_qywvfx.mp4?updatedAt=1773472406874"
+            src="https://ik.imagekit.io/qqt7duc6p/home-video_qywvfx.mp4?tr=orig&updatedAt=1773472406874"
             type="video/mp4"
           />
         </video>
