@@ -27,7 +27,7 @@ function VideoHero() {
           preload="auto"
         >
           <source
-            src="https://ik.imagekit.io/qqt7duc6p/Dr._Zainab_Vora_Website_v9zucd.mp4?updatedAt=1773472409677"
+            src="https://res.cloudinary.com/dyih24tl8/video/upload/v1774000617/Dr._Zainab_Vora_Website_v9zucd_tgmquk.mp4"
             type="video/mp4"
           />
         </video>
