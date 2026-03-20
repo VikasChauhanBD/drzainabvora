@@ -13,7 +13,7 @@ function IntroVideo({ onEnd }) {
         onEnded={onEnd}
       >
         <source
-          src="https://ik.imagekit.io/qqt7duc6p/intro-video_rh90eh.mp4"
+          src="https://res.cloudinary.com/dyih24tl8/video/upload/v1774000407/intro-video_rh90eh_znemoh.mp4"
           type="video/mp4"
         />
       </video>
