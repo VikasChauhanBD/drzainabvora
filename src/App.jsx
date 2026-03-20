@@ -19,7 +19,6 @@ import FaqsPage from "./pages/FaqsPage";
 import Footer from "./components/footer/Footer";
 import NotFound from "./components/notFound/NotFound";
 import DemoPage from "./pages/DemoPage";
-// import AppDownloadToggle from "./components/appDownloadToggle/AppDownloadToggle";
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
@@ -78,7 +77,6 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <ScrollToTop />
-        {/* <AppDownloadToggle /> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} />

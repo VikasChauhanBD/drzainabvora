@@ -179,6 +179,10 @@
     margin: 0 auto;
   }
 
+  .header-content h3 {
+    font-size: 40px;
+  }
+
   .header-content h3,
   .header-content h4,
   .header-typeWriter {
@@ -195,6 +199,10 @@
   .upper-header h2 {
     font-size: 22px;
     line-height: 28px;
+  }
+
+  .header-content h3 {
+    font-size: 32px;
   }
 
   .hero-img.active {
