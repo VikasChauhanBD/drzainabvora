@@ -25,41 +25,52 @@ function App() {
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
-    const CHANNEL_NAME = "Dr. Zainab Vora Intro Video";
-    let channel;
+    // Check if BroadcastChannel is supported
+    const useBroadcastChannel = typeof BroadcastChannel !== "undefined";
 
-    try {
-      channel = new BroadcastChannel(CHANNEL_NAME);
-      let otherTabExists = false;
+    if (useBroadcastChannel) {
+      const CHANNEL_NAME = "Dr. Zainab Vora Intro Video";
+      let channel;
 
-      const handleMessage = (event) => {
-        if (event.data.type === "tab_exists") {
-          otherTabExists = true;
-        } else if (event.data.type === "checking") {
-          channel.postMessage({ type: "tab_exists" });
-        }
-      };
+      try {
+        channel = new BroadcastChannel(CHANNEL_NAME);
+        let otherTabExists = false;
 
-      channel.addEventListener("message", handleMessage);
-      channel.postMessage({ type: "checking" });
-
-      const timeoutId = setTimeout(() => {
-        if (!otherTabExists) {
-          const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
-          if (!hasSeenVideo) {
-            setShowIntro(true);
+        const handleMessage = (event) => {
+          if (event.data.type === "tab_exists") {
+            otherTabExists = true;
+          } else if (event.data.type === "checking") {
+            channel.postMessage({ type: "tab_exists" });
           }
-        }
-      }, 100);
+        };
 
-      return () => {
-        clearTimeout(timeoutId);
-        if (channel) {
-          channel.removeEventListener("message", handleMessage);
-          channel.close();
+        channel.addEventListener("message", handleMessage);
+        channel.postMessage({ type: "checking" });
+
+        const timeoutId = setTimeout(() => {
+          if (!otherTabExists) {
+            const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
+            if (!hasSeenVideo) {
+              setShowIntro(true);
+            }
+          }
+        }, 100);
+
+        return () => {
+          clearTimeout(timeoutId);
+          if (channel) {
+            channel.removeEventListener("message", handleMessage);
+            channel.close();
+          }
+        };
+      } catch (error) {
+        const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
+        if (!hasSeenVideo) {
+          setShowIntro(true);
         }
-      };
-    } catch (error) {
+      }
+    } else {
+      // Fallback for browsers that don't support BroadcastChannel (like Safari)
       const hasSeenVideo = sessionStorage.getItem("hasSeenIntro");
       if (!hasSeenVideo) {
         setShowIntro(true);
