@@ -163,10 +163,17 @@ All other academic systems remain unchanged.`,
 <li><strong>From April 2, 2026:</strong> Remaining validity of BTR online shifts to new app.</li>
 </ul>`,
   },
+  // {
+  //   id: 21,
+  //   question: "What will be the procedure of transition to the new App?",
+  //   answer: `Cerebellum mission and BTR subscribers need to give consent for sending necessary details to new platform for subscription. Option of this consent will be provided within the cerebellum academy App. before <strong>20th March 2026</strong>. The students then need to download the new App of Dr Zainab whenever it will be launched and login using these credentials. The subscription will then be automatically activated.`,
+  // },
+
   {
     id: 21,
-    question: "What will be the procedure of transition to the new App?",
-    answer: `Cerebellum mission and BTR subscribers need to give consent for sending necessary details to new platform for subscription. Option of this consent will be provided within the cerebellum academy App. before <strong>20th March 2026</strong>. The students then need to download the new App of Dr Zainab whenever it will be launched and login using these credentials. The subscription will then be automatically activated.`,
+    question: "What will be the procedure of transition to the new app?",
+    answer: `Cerebellum Mission and BTR Subscribers need to give consent for sending necessary details to new platform for subscriptions. In order to provide consent, an option within the Cerebellum Academy app will come, where the student will need to give consent to share data for transition. This option will come in the application after 20th March.
+On 2nd April, the students will need to download the New App of Dr. Zainab and login using the same credentials. The subscription will be automatically activated.`,
   },
   {
     id: 22,
