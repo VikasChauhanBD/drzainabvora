@@ -173,6 +173,7 @@ All other academic systems remain unchanged.`,
     id: 21,
     question: "What will be the procedure of transition to the new app?",
     answer: `Cerebellum Mission and BTR Subscribers need to give consent for sending necessary details to new platform for subscriptions. In order to provide consent, an option within the Cerebellum Academy app will come, where the student will need to give consent to share data for transition. This option will come in the application after 20th March.
+<br>
 On 2nd April, the students will need to download the New App of Dr. Zainab and login using the same credentials. The subscription will be automatically activated.`,
   },
   {
