@@ -24,13 +24,13 @@
   </url>
 
   <url>
-    <loc>https://drzainabvora.com/online-btr</loc>
+    <loc>https://drzainabvora.com/btr-online</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://drzainabvora.com/offline-btr</loc>
+    <loc>https://drzainabvora.com/btr-offline</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
