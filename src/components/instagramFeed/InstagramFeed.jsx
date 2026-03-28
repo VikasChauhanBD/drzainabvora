@@ -34,7 +34,7 @@ const InstagramFeed = () => {
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DWLY-FEAdLL/embed"
+            src="https://www.instagram.com/p/DWaoWg7FDyv/embed"
             width="100%"
             height="580"
             frameBorder="0"
