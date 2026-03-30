@@ -30,11 +30,10 @@ const InstagramFeed = () => {
         </div>
         <p className="instagram-header-subtitle">Latest Instagram Posts</p>
       </div>
-
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DWaoWg7FDyv/embed"
+            src="https://www.instagram.com/p/DWd1x3iAV85/embed"
             width="100%"
             height="580"
             frameBorder="0"
@@ -46,7 +45,7 @@ const InstagramFeed = () => {
 
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DWOF6IZgQrv/embed"
+            src="https://www.instagram.com/p/DWa4SgaAakW/embed"
             width="100%"
             height="580"
             frameBorder="0"
@@ -55,9 +54,10 @@ const InstagramFeed = () => {
             title="Dr. Zainab Vora latest Instagram post"
           ></iframe>
         </div>
+
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DWMDWSHAa76/embed"
+            src="https://www.instagram.com/p/DWaoWg7FDyv/embed"
             width="100%"
             height="580"
             frameBorder="0"
