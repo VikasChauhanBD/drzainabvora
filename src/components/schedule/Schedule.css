@@ -53,15 +53,19 @@
 
 .btr-schedule-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-direction: column;
   gap: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); */
 }
 
 .btr-schedule-day {
   background-color: #e0daff;
   border-radius: 1rem;
+  width: 49%;
+  margin-top: 1rem;
   padding: 1.5rem;
   transition: box-shadow 0.3s ease;
 }
@@ -173,13 +177,13 @@
   }
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .btr-schedule-list {
     grid-template-columns: 1fr;
   }
-}
+} */
 
-@media (max-width: 800px) {
+@media (max-width: 868px) {
   .btr-schedule-title {
     font-size: 2rem;
   }
@@ -195,12 +199,17 @@
   .btr-schedule-day-content {
     flex-direction: column;
     align-items: start;
+    gap: 10px;
+    word-break: break-word;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 568px) {
   .btr-schedule-title {
     font-size: 1.75rem;
+  }
+  .btr-schedule-day {
+    width: 100%;
   }
 
   .btr-schedule-feature-cards {
