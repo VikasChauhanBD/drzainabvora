@@ -30,21 +30,20 @@ export default function Schedule() {
     { date: "2026-03-19", subject: "Microbiology Test-Discussion" },
     { date: "2026-03-22", subject: "Biochemistry" },
     { date: "2026-03-25", subject: "Biochemistry Test-Discussion (+Surgery)" },
-    { date: "2026-03-26", subject: "Radiology" },
+    { date: "2026-03-26", subject: "Ophthalmology" },
     {
       date: "2026-03-30",
-      subject: "Radiology Test-Discussion (+CVS/Hemat/renal/GI)",
+      subject: "Ophthal Test-Discussion (+CVS/Hemat/renal/GI)",
     },
-    { date: "2026-04-01", subject: "ENT" },
+    { date: "2026-04-01", subject: "Radiology" },
     {
       date: "2026-04-04",
       subject:
-        "ENT Test-Discussion (+neuro/endocrine/respiratory/rheumatology)",
+        "Radio Test-Discussion (+neuro/endocrine/respiratory/rheumatology)",
     },
-    { date: "2026-04-06", subject: "Ophthalmology" },
-    { date: "2026-04-12", subject: "Ophthalmology Test-Discussion" },
-    { date: "2026-04-14", subject: "FMT" },
-    { date: "2026-04-17", subject: "FMT Test-Discussion" },
+    { date: "2026-04-06", subject: "ENT" },
+    { date: "2026-04-08", subject: "FMT" },
+    { date: "2026-04-11", subject: "ENT + FMT Test-Discussion" },
     { date: "2026-04-19", subject: "Psychiatry" },
     { date: "2026-04-21", subject: "Dermatology" },
     { date: "2026-04-24", subject: "Psychi-Derma Test-Discussion" },
@@ -54,6 +53,8 @@ export default function Schedule() {
     { date: "2026-05-07", subject: "Mock-GT-1" },
     { date: "2026-05-09", subject: "Mock-GT-2" },
     { date: "2026-05-11", subject: "INICET Mock GT" },
+    // { date: "2026-05-09", subject: "Mock-GT-2" },
+    // { date: "2026-05-11", subject: "INICET Mock GT" },
     // { date: "2026-05-17", subject: "INICET" },
   ];
 
