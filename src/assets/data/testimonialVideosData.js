@@ -1,6 +1,34 @@
 export const testimonialVideosData = [
   {
     image:
+      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-14_zcniny.jpg",
+    alt: "Happy Woman's Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364892/reel-video-14_rxbh9h.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364888/reel-cover-13_vo4irh.jpg",
+    alt: "Life lession with Dr. Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364888/reel-video-13_mxumir.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-12_ybvbfv.jpg",
+    alt: "Focus session by Dr Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364889/reel-video-12_tdrpyv.mp4",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-11_jztuqr.jpg",
+    alt: "BTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364889/reel-video-11_duvovp.mp4",
+  },
+  {
+    image:
       "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021553/reel-cover-10_z4stq0.jpg",
     alt: "Happy Woman's Dr. Zainab Vora",
     type: "video",
