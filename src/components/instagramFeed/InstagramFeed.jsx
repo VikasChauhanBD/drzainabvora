@@ -33,31 +33,31 @@ const InstagramFeed = () => {
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
+            src="https://www.instagram.com/p/DWwabQdDPG7/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+            title="Dr. Zainab Vora latest Instagram post"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
+            src="https://www.instagram.com/p/DWvnyXviDWf/embed"
+            width="100%"
+            height="580"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+            title="Dr. Zainab Vora latest Instagram post"
+          ></iframe>
+        </div>
+
+        <div className="instagram-post">
+          <iframe
             src="https://www.instagram.com/p/DWt5lMKE-wS/embed"
-            width="100%"
-            height="580"
-            frameBorder="0"
-            scrolling="no"
-            allowTransparency="true"
-            title="Dr. Zainab Vora latest Instagram post"
-          ></iframe>
-        </div>
-
-        <div className="instagram-post">
-          <iframe
-            src="https://www.instagram.com/p/DWrLOj6CFxY/embed"
-            width="100%"
-            height="580"
-            frameBorder="0"
-            scrolling="no"
-            allowTransparency="true"
-            title="Dr. Zainab Vora latest Instagram post"
-          ></iframe>
-        </div>
-
-        <div className="instagram-post">
-          <iframe
-            src="https://www.instagram.com/p/DWq7-KyAS53/embed"
             width="100%"
             height="580"
             frameBorder="0"
