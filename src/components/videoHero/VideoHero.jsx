@@ -27,7 +27,7 @@ function VideoHero() {
           preload="auto"
         >
           <source
-            src="https://res.cloudinary.com/dyih24tl8/video/upload/v1774000617/Dr._Zainab_Vora_Website_v9zucd_tgmquk.mp4"
+            src="https://cdn.dribbble.com/userupload/47317464/file/86921485b5c9c3a81c0f0a91b214e6af.mp4"
             type="video/mp4"
           />
         </video>
