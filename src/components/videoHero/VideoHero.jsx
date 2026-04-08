@@ -27,7 +27,7 @@ function VideoHero() {
           preload="auto"
         >
           <source
-            src="https://cdn.dribbble.com/userupload/47317464/file/86921485b5c9c3a81c0f0a91b214e6af.mp4"
+            src="https://cdn.dribbble.com/userupload/47317562/file/0ff0dd203994256ab0224f06e34c8760.mp4"
             type="video/mp4"
           />
         </video>
