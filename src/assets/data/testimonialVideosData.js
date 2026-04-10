@@ -1,31 +1,31 @@
 export const testimonialVideosData = [
   {
     image:
-      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-14_zcniny.jpg",
+      "https://cdn.dribbble.com/userupload/47342784/file/c1378e358b68aed6d0a199d969dd870c.jpg",
     alt: "Happy Woman's Dr. Zainab Vora",
     type: "video",
-    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364892/reel-video-14_rxbh9h.mp4",
+    url: "https://cdn.dribbble.com/userupload/47342791/file/8a8b90ba474285415798aef7d993c7a2.mp4",
   },
   {
     image:
-      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364888/reel-cover-13_vo4irh.jpg",
+      "https://cdn.dribbble.com/userupload/47342785/file/4f978c5442654e0897449256954b68b5.jpg",
     alt: "Life lession with Dr. Zainab Vora",
     type: "video",
-    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364888/reel-video-13_mxumir.mp4",
+    url: "https://cdn.dribbble.com/userupload/47342789/file/53bee2de16f3b0babc5d2aaaf9ce0b6b.mp4",
   },
   {
     image:
-      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-12_ybvbfv.jpg",
+      "https://cdn.dribbble.com/userupload/47342787/file/10aec96f357efa26316ef9a8c041eebf.jpg",
     alt: "Focus session by Dr Zainab Vora",
     type: "video",
-    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364889/reel-video-12_tdrpyv.mp4",
+    url: "https://cdn.dribbble.com/userupload/47342788/file/c97b2ed8b5852fbd2a5b66a74cdfb6de.mp4",
   },
   {
     image:
-      "https://res.cloudinary.com/dyih24tl8/image/upload/v1775364887/reel-cover-11_jztuqr.jpg",
+      "https://cdn.dribbble.com/userupload/47342786/file/b350fbdd99fa107d9ee7fdc5f7bb37aa.jpg",
     alt: "BTR Subscriber exam preparation with Dr Zainab Vora",
     type: "video",
-    url: "https://res.cloudinary.com/dyih24tl8/video/upload/v1775364889/reel-video-11_duvovp.mp4",
+    url: "https://cdn.dribbble.com/userupload/47342790/file/de6b96ae2d410983b16ae60ca7377393.mp4",
   },
   {
     image:
