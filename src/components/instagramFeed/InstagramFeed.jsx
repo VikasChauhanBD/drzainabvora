@@ -33,7 +33,7 @@ const InstagramFeed = () => {
       <div className="instagram-grid">
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DXPg88OjXVX/embed"
+            src="https://www.instagram.com/p/DXR15VTmFRH/embed"
             width="100%"
             height="580"
             frameBorder="0"
@@ -45,7 +45,7 @@ const InstagramFeed = () => {
 
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DXPTNn6jDJ7/embed"
+            src="https://www.instagram.com/p/DXQ1MaEEScW/embed"
             width="100%"
             height="580"
             frameBorder="0"
@@ -57,7 +57,7 @@ const InstagramFeed = () => {
 
         <div className="instagram-post">
           <iframe
-            src="https://www.instagram.com/p/DXPPN1rD1US/embed"
+            src="https://www.instagram.com/p/DXPotNtEtEl/embed"
             width="100%"
             height="580"
             frameBorder="0"
