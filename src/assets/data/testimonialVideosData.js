@@ -1,6 +1,41 @@
 export const testimonialVideosData = [
   {
     image:
+      "https://cdn.dribbble.com/userupload/47463867/file/5b66d791453e2e4a8498f8527af8fc73.jpg",
+    alt: "CoreBTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://cdn.dribbble.com/userupload/47463875/file/large-b31309fd1c00e9ab3d19df1a038e9121.mp4",
+  },
+  {
+    image:
+      "https://cdn.dribbble.com/userupload/47463871/file/ed9759c211fc75476aac7a2856d17913.jpg",
+    alt: "CoreBTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://cdn.dribbble.com/userupload/47463876/file/large-49e28b176c3edfa771d4a9a7512cb9ea.mp4",
+  },
+  {
+    image:
+      "https://cdn.dribbble.com/userupload/47463870/file/4fa0b2a353c81fdda0fd975c32e29122.jpg",
+    alt: "CoreBTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://cdn.dribbble.com/userupload/47463874/file/large-5c92f531025821af6352c5ccea0c3940.mp4",
+  },
+  {
+    image:
+      "https://cdn.dribbble.com/userupload/47463868/file/76e75f13d811dd7c73b634dcb2c6d1f9.jpg",
+    alt: "CoreBTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://cdn.dribbble.com/userupload/47463872/file/large-40bf49c4d7f48cfb7aa777d00e8492a4.mp4",
+  },
+  {
+    image:
+      "https://cdn.dribbble.com/userupload/47463869/file/ba90a3c1c6d1b270654ac59b275b5da3.jpg",
+    alt: "CoreBTR Subscriber exam preparation with Dr Zainab Vora",
+    type: "video",
+    url: "https://cdn.dribbble.com/userupload/47463873/file/large-6d148637a13d77f0f2d0bfa71c05c466.mp4",
+  },
+  {
+    image:
       "https://cdn.dribbble.com/userupload/47342784/file/c1378e358b68aed6d0a199d969dd870c.jpg",
     alt: "Happy Woman's Dr. Zainab Vora",
     type: "video",
@@ -26,75 +61,5 @@ export const testimonialVideosData = [
     alt: "BTR Subscriber exam preparation with Dr Zainab Vora",
     type: "video",
     url: "https://cdn.dribbble.com/userupload/47342790/file/de6b96ae2d410983b16ae60ca7377393.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021553/reel-cover-10_z4stq0.jpg",
-    alt: "Happy Woman's Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021554/reel-video-10_srqhdm.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021553/reel-cover-9_xf38bp.jpg",
-    alt: "Life lession with Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021564/reel-video-9_nxeqsr.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021552/reel-cover-8_dlrdfv.jpg",
-    alt: "Focus session by Dr Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021552/reel-video-8_mtvk9v.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021552/reel-cover-7_lowqis.jpg",
-    alt: "BTR Subscriber exam preparation with Dr Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021553/reel-video-7_ksgvol.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021553/reel-cover-6_qrtrz0.jpg",
-    alt: "BTR Subscribers with Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021552/reel-video-6_l4yzsn.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021551/reel-cover-5_mpyyx4.jpg",
-    alt: "Dr. Zainab Vora with school students",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021557/reel-video-5_xxvb7u.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021551/reel-cover-4_ic6r90.jpg",
-    alt: "BTR Subscriber exam preparation with Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021558/reel-video-4_alsmfl.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021551/reel-cover-3_lzbh2b.jpg",
-    alt: "Motivation video by Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021555/reel-video-3_xbbkp8.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021551/reel-cover-2_gng6nr.jpg",
-    alt: "BTR Subscribers with Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021556/reel-video-2_rfmypq.mp4",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/de3kpjnei/image/upload/v1774021551/reel-cover-1_r3smeb.jpg",
-    alt: "Motivation video by Dr. Zainab Vora",
-    type: "video",
-    url: "https://res.cloudinary.com/de3kpjnei/video/upload/v1774021554/reel-video-1_fha5ng.mp4",
   },
 ];
