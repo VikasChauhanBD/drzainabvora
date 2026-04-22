@@ -31,7 +31,7 @@ function HomePage() {
       <AboutBtr />
       <WhatBTR />
       <Subjects />
-      <Schedule />
+      {/* <Schedule /> */}
       <Feedback />
       <InstagramFeed />
     </>
