@@ -29,12 +29,12 @@ function OnlineBTR() {
           The program is built to help students revise smarter, faster, and with
           clarity.
         </p>
-        {/* <NavLink
-          to="https://dashboard.cerebellumacademy.com/plans"
+        <NavLink
+          to="https://portal.corebtr.com/subscription/packages"
           target="_blank"
         >
           Book Your Plan Online
-        </NavLink> */}
+        </NavLink>
       </div>
 
       <div className="online-btr-high">

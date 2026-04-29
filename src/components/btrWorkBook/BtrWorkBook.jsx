@@ -15,12 +15,6 @@ function BtrWorkBook() {
             customise, and revise high-yield points in their own way during the
             final phase.
           </p>
-          {/* <NavLink
-            to="https://www.cerebellumacademy.com/btr-unannotated-workbook/"
-            target="_blank"
-          >
-            Check BTR Unannotated Workbook
-          </NavLink> */}
         </div>
 
         <div className="workbook-card">
@@ -31,13 +25,13 @@ function BtrWorkBook() {
             while perfectly complementing the unannotated workbook for effective
             last-minute preparation.
           </p>
-          {/* <NavLink
-            to="https://www.cerebellumacademy.com/btr-annotated-workbook/"
-            target="_blank"
-          >
-            Check BTR Annotated Workbook
-          </NavLink> */}
         </div>
+      </div>
+
+      <div className="workbook-btn">
+        <NavLink to="https://corebtr.com/workbooks" target="_blank">
+          Check Workbooks
+        </NavLink>
       </div>
     </div>
   );
